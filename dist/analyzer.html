@@ -41,6 +41,76 @@ body::before {
   display: none;
 }
 .q.active { display: block; }
+.q.q-sides.active { display: flex; flex-direction: column; align-items: center; max-width: 1400px; }
+
+/* Q1 side panels — image-driven */
+.side-panels {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3vw;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.side-panel {
+  position: relative;
+  background: transparent;
+  border: 4px solid #1a1a1a;
+  border-radius: 12px;
+  padding: 0;
+  overflow: hidden;
+  cursor: pointer;
+  height: 62vh;
+  min-height: 380px;
+  transition: all 250ms ease;
+  box-shadow: 0 12px 36px rgba(0,0,0,0.7);
+}
+.side-panel:hover { transform: translateY(-6px) scale(1.015); box-shadow: 0 20px 50px rgba(0,0,0,0.85); }
+.plymouth-panel:hover { border-color: #88b3e0; }
+.jamestown-panel:hover { border-color: #e6a360; }
+
+.side-img {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  filter: saturate(0.85);
+  transition: filter 300ms ease;
+}
+.side-panel:hover .side-img { filter: saturate(1.0); }
+
+.side-overlay {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.85) 60%);
+  padding: 6vh 3vw 3vh;
+  text-align: center;
+  color: #fff;
+}
+.side-label {
+  font-family: 'Bangers', sans-serif;
+  font-size: clamp(1.4rem, 2.8vw, 2.4rem);
+  letter-spacing: 5px;
+  margin-bottom: 1vh;
+  text-shadow: 3px 3px 0 #000;
+}
+.plymouth-panel .side-label { color: #88b3e0; }
+.jamestown-panel .side-label { color: #e6a360; }
+.side-cta {
+  font-family: 'Bangers', sans-serif;
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+  margin-bottom: 0.8vh;
+  letter-spacing: 1px;
+}
+.side-sub {
+  font-family: 'IM Fell English', serif;
+  font-style: italic;
+  font-size: clamp(0.85rem, 1.2vw, 1rem);
+  color: #d8d0b8;
+  max-width: 380px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
 
 .q-tag {
   font-family: 'IM Fell English SC', serif;
@@ -73,11 +143,11 @@ body::before {
 }
 
 button.opt {
-  background: rgba(255,255,255,0.78);
+  background: rgba(255,255,255,0.85);
   color: #0a0a1a;
   border: 3px solid #000;
   border-radius: 8px;
-  padding: 2.2vh 4vw;
+  padding: 1.4vh 3vw 1.4vh 16vh;
   font-family: 'Bangers', sans-serif;
   font-size: clamp(1.1rem, 2vw, 1.5rem);
   letter-spacing: 1px;
@@ -86,8 +156,19 @@ button.opt {
   transition: all 200ms ease;
   box-shadow: 0 6px 18px rgba(0,0,0,0.5);
   position: relative;
+  min-height: 14vh;
+  overflow: hidden;
 }
-button.opt:hover { background: #fff; transform: translateX(8px); }
+button.opt:hover { background: #fff; transform: translateX(8px); box-shadow: 0 8px 24px rgba(0,0,0,0.6); }
+button.opt .portrait {
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 14vh;
+  background-size: cover;
+  background-position: center top;
+  border-right: 2px solid #000;
+}
+button.opt:hover .portrait { filter: brightness(1.05); }
 button.opt .arrow {
   position: absolute;
   right: 3vw;
@@ -128,20 +209,26 @@ button.opt .sub {
 
 <button class="back-btn" onclick="location.href='index.html'">← Back to title</button>
 
-<!-- Q1: Why are you crossing the Atlantic? -->
-<div class="q active" id="q1">
+<!-- Q1: Why are you crossing the Atlantic? — IMAGE-DRIVEN SIDE PANELS -->
+<div class="q active q-sides" id="q1">
   <div class="q-tag">QUESTION ONE</div>
-  <h1>Are you here to practice your own religion,<br>or for riches and adventure?</h1>
-  <div class="options">
-    <button class="opt" data-side="plymouth">
-      To practice my own religion
-      <span class="sub">My church has been hunted in England. I am crossing for the right to pray as I choose.</span>
-      <span class="arrow">→</span>
+  <h1>Why are you crossing the Atlantic?</h1>
+  <div class="side-panels">
+    <button class="side-panel plymouth-panel" data-side="plymouth">
+      <div class="side-img" style="background-image: url('images/hub/plymouth_pilgrims.jpg'); background-position: center center;"></div>
+      <div class="side-overlay">
+        <div class="side-label">PLYMOUTH</div>
+        <div class="side-cta">To practice my own religion</div>
+        <div class="side-sub">My church has been hunted in England. I cross for the right to pray as I choose.</div>
+      </div>
     </button>
-    <button class="opt" data-side="jamestown">
-      For riches and adventure
-      <span class="sub">There is gold across the sea. There are tribes who do not yet know what an English ship can do. I am crossing for what I can take, build, or marry.</span>
-      <span class="arrow">→</span>
+    <button class="side-panel jamestown-panel" data-side="jamestown">
+      <div class="side-img" style="background-image: url('images/hub/jamestown_smith.jpg'); background-position: center top;"></div>
+      <div class="side-overlay">
+        <div class="side-label">JAMESTOWN</div>
+        <div class="side-cta">For riches and adventure</div>
+        <div class="side-sub">There is gold across the sea. I cross for what I can take, build, or marry.</div>
+      </div>
     </button>
   </div>
 </div>
@@ -152,18 +239,21 @@ button.opt .sub {
   <h1>What kind of person are you?</h1>
   <div class="options">
     <button class="opt" onclick="location.href='bradford.html'">
+      <span class="portrait" style="background-image: url('images/hub/plymouth_bradford.jpg');"></span>
       I am a leader. I will write what we did so my children remember.
-      <span class="sub">→ William Bradford, Plymouth governor + chronicler.</span>
+      <span class="sub">William Bradford, Plymouth governor + chronicler.</span>
       <span class="arrow">→</span>
     </button>
     <button class="opt" onclick="location.href='squanto.html'">
+      <span class="portrait" style="background-image: url('images/hub/plymouth_squanto.png');"></span>
       I have lost everything. The only road home is through someone else's road.
-      <span class="sub">→ Squanto (Tisquantum). Captured, sold to Spain, returned to a village of graves.</span>
+      <span class="sub">Squanto (Tisquantum). Captured, sold to Spain, returned to a village of graves.</span>
       <span class="arrow">→</span>
     </button>
     <button class="opt" onclick="location.href='massasoit.html'">
+      <span class="portrait" style="background-image: url('images/hub/plymouth_massasoit.jpg');"></span>
       I rule what is mine. I will choose who lives on my land.
-      <span class="sub">→ Massasoit, sachem of the Wampanoag. Kept the peace fifty years.</span>
+      <span class="sub">Massasoit, sachem of the Wampanoag. Kept the peace fifty years.</span>
       <span class="arrow">→</span>
     </button>
   </div>
@@ -175,18 +265,21 @@ button.opt .sub {
   <h1>What kind of person are you?</h1>
   <div class="options">
     <button class="opt" onclick="location.href='smith.html'">
+      <span class="portrait" style="background-image: url('images/hub/jamestown_smith.jpg');"></span>
       I am a fighter. I have killed men in Hungary for pay.
-      <span class="sub">→ John Smith. Soldier of fortune. Took food at gunpoint to keep the colony alive.</span>
+      <span class="sub">John Smith. Soldier of fortune. Took food at gunpoint to keep the colony alive.</span>
       <span class="arrow">→</span>
     </button>
     <button class="opt" onclick="location.href='rolfe.html'">
+      <span class="portrait" style="background-image: url('images/hub/jamestown_rolfe.jpg');"></span>
       I see opportunity in new things. I will plant something the world wants.
-      <span class="sub">→ John Rolfe. Tobacco entrepreneur. Husband of Pocahontas.</span>
+      <span class="sub">John Rolfe. Tobacco entrepreneur. Husband of Pocahontas.</span>
       <span class="arrow">→</span>
     </button>
     <button class="opt" onclick="location.href='powhatan.html'">
+      <span class="portrait" style="background-image: url('images/hub/jamestown_powhatan.jpg');"></span>
       This was my country before any English foot touched it.
-      <span class="sub">→ Powhatan. Paramount chief of thirty tribes. Watched the math arrive.</span>
+      <span class="sub">Powhatan. Paramount chief of thirty tribes. Watched the math arrive.</span>
       <span class="arrow">→</span>
     </button>
   </div>
@@ -194,7 +287,7 @@ button.opt .sub {
 
 <script>
 // Q1 click → show Q2 (correct side)
-document.querySelectorAll('#q1 .opt').forEach(btn => {
+document.querySelectorAll('#q1 .opt, #q1 .side-panel').forEach(btn => {
   btn.addEventListener('click', () => {
     const side = btn.dataset.side;
     document.getElementById('q1').classList.remove('active');

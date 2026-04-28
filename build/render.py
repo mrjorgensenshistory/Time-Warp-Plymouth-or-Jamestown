@@ -29,6 +29,8 @@ CHARACTERS = {
         "html": "tutorial.html",
         "side": "tutorial",
         "hub_href": "analyzer.html",  # tutorial hand-off goes to the side-quiz
+        # Tutorial uses the demo's existing per-slide images
+        "default_bg": None,
     },
     "smith_route": {
         "title": "John Smith — Jamestown",
@@ -37,6 +39,7 @@ CHARACTERS = {
         "html": "smith.html",
         "side": "jamestown",
         "hub_href": "index.html?back=1",
+        "default_bg": "images/hub/jamestown_smith.jpg",
     },
     "rolfe_route": {
         "title": "John Rolfe — Jamestown",
@@ -45,6 +48,7 @@ CHARACTERS = {
         "html": "rolfe.html",
         "side": "jamestown",
         "hub_href": "index.html?back=1",
+        "default_bg": "images/hub/jamestown_rolfe.jpg",
     },
     "powhatan_route": {
         "title": "Powhatan — Jamestown",
@@ -53,6 +57,7 @@ CHARACTERS = {
         "html": "powhatan.html",
         "side": "jamestown",
         "hub_href": "index.html?back=1",
+        "default_bg": "images/hub/jamestown_powhatan.jpg",
     },
     "bradford_route": {
         "title": "William Bradford — Plymouth",
@@ -61,6 +66,7 @@ CHARACTERS = {
         "html": "bradford.html",
         "side": "plymouth",
         "hub_href": "index.html?back=1",
+        "default_bg": "images/hub/plymouth_bradford.jpg",
     },
     "squanto_route": {
         "title": "Squanto — Plymouth",
@@ -69,6 +75,7 @@ CHARACTERS = {
         "html": "squanto.html",
         "side": "plymouth",
         "hub_href": "index.html?back=1",
+        "default_bg": "images/hub/plymouth_squanto.png",
     },
     "massasoit_route": {
         "title": "Massasoit — Plymouth",
@@ -77,6 +84,7 @@ CHARACTERS = {
         "html": "massasoit.html",
         "side": "plymouth",
         "hub_href": "index.html?back=1",
+        "default_bg": "images/hub/plymouth_massasoit.jpg",
     },
 }
 
@@ -492,6 +500,7 @@ button.choice:hover { background: #fff; transform: scale(1.03); }
 <script>
 const SLIDES = __SLIDES_JSON__;
 const HUB_HREF = "__HUB_HREF__";
+const DEFAULT_BG = "__DEFAULT_BG__";
 
 const stage = document.getElementById('stage');
 const counter = document.getElementById('counter');
@@ -502,6 +511,13 @@ function renderSlide(slide) {
   if (slide.type === 'gameover') cls += ' gameover-slide';
   div.className = cls;
   div.id = slide.id;
+
+  // Apply DEFAULT_BG (character portrait) for slides that have no explicit image
+  // and aren't gameovers (gameovers have their own dark bg + GIF)
+  if (DEFAULT_BG && slide.type !== 'gameover') {
+    div.classList.add('has-image');
+    div.style.backgroundImage = `url('${DEFAULT_BG}')`;
+  }
 
   if (slide.gif) {
     const gifImg = document.createElement('img');
@@ -685,6 +701,7 @@ def render_route(md_name, config):
     html_out = html_out.replace("__PLAYER_TICKS__", player_html.strip())
     html_out = html_out.replace("__SLIDES_JSON__", json.dumps(slides, ensure_ascii=False))
     html_out = html_out.replace("__HUB_HREF__", config["hub_href"])
+    html_out = html_out.replace("__DEFAULT_BG__", config.get("default_bg") or "")
 
     out_path = OUTPUT / config["html"]
     out_path.write_text(html_out, encoding="utf-8")

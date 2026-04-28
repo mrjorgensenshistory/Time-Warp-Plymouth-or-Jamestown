@@ -145,18 +145,34 @@ button.cta:hover { background: #fff; transform: scale(1.05); box-shadow: 0 8px 3
 }
 .cards { display: flex; flex-direction: column; gap: 1.5vh; }
 .card-link {
-  display: block;
-  background: rgba(255,255,255,0.78);
+  display: flex;
+  align-items: stretch;
+  background: rgba(255,255,255,0.85);
   color: #0a0a1a;
   text-decoration: none;
-  padding: 1.5vh 2vw;
   border: 2px solid #000;
   border-radius: 8px;
   font-family: 'Bangers', sans-serif;
-  font-size: clamp(1rem, 1.6vw, 1.3rem);
+  font-size: clamp(0.95rem, 1.5vw, 1.2rem);
   letter-spacing: 1px;
   transition: all 150ms ease;
   box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  overflow: hidden;
+  min-height: 12vh;
+}
+.card-link .portrait {
+  flex: 0 0 12vh;
+  background-size: cover;
+  background-position: center top;
+  border-right: 2px solid #000;
+}
+.card-link .text {
+  flex: 1;
+  padding: 1.4vh 1.5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
 }
 .card-link .role {
   display: block;
@@ -216,18 +232,36 @@ button.cta:hover { background: #fff; transform: scale(1.05); box-shadow: 0 8px 3
       <h2>JAMESTOWN</h2>
       <div class="blurb">Riches. Glory. Tobacco. The South.</div>
       <div class="cards">
-        <a class="card-link" href="smith.html">JOHN SMITH<span class="role">Soldier of fortune. Took food at gunpoint.</span></a>
-        <a class="card-link" href="rolfe.html">JOHN ROLFE<span class="role">Tobacco entrepreneur. Husband of Pocahontas.</span></a>
-        <a class="card-link" href="powhatan.html">POWHATAN<span class="role">Paramount chief. Watched it all arrive.</span></a>
+        <a class="card-link" href="smith.html">
+          <div class="portrait" style="background-image: url('images/hub/jamestown_smith.jpg');"></div>
+          <div class="text">JOHN SMITH<span class="role">Soldier of fortune. Took food at gunpoint.</span></div>
+        </a>
+        <a class="card-link" href="rolfe.html">
+          <div class="portrait" style="background-image: url('images/hub/jamestown_rolfe.jpg');"></div>
+          <div class="text">JOHN ROLFE<span class="role">Tobacco entrepreneur. Husband of Pocahontas.</span></div>
+        </a>
+        <a class="card-link" href="powhatan.html">
+          <div class="portrait" style="background-image: url('images/hub/jamestown_powhatan.jpg');"></div>
+          <div class="text">POWHATAN<span class="role">Paramount chief. Watched it all arrive.</span></div>
+        </a>
       </div>
     </div>
     <div class="side plymouth">
       <h2>PLYMOUTH</h2>
       <div class="blurb">Faith. Family. Corn. The North.</div>
       <div class="cards">
-        <a class="card-link" href="bradford.html">WILLIAM BRADFORD<span class="role">Pilgrim governor. Wrote it all down.</span></a>
-        <a class="card-link" href="squanto.html">SQUANTO<span class="role">Captured. Spain. Returned to ruins.</span></a>
-        <a class="card-link" href="massasoit.html">MASSASOIT<span class="role">Wampanoag sachem. Kept the peace 50 years.</span></a>
+        <a class="card-link" href="bradford.html">
+          <div class="portrait" style="background-image: url('images/hub/plymouth_bradford.jpg');"></div>
+          <div class="text">WILLIAM BRADFORD<span class="role">Pilgrim governor. Wrote it all down.</span></div>
+        </a>
+        <a class="card-link" href="squanto.html">
+          <div class="portrait" style="background-image: url('images/hub/plymouth_squanto.png');"></div>
+          <div class="text">SQUANTO<span class="role">Captured. Spain. Returned to ruins.</span></div>
+        </a>
+        <a class="card-link" href="massasoit.html">
+          <div class="portrait" style="background-image: url('images/hub/plymouth_massasoit.jpg');"></div>
+          <div class="text">MASSASOIT<span class="role">Wampanoag sachem. Kept the peace 50 years.</span></div>
+        </a>
       </div>
     </div>
   </div>
