@@ -1,0 +1,19 @@
+Tutorial — Roanoke onboarding audio
+====================================
+
+Track:    tutorial_main.mp3
+Composer: Kevin MacLeod (incompetech.com)
+Source:   https://incompetech.com/music/royalty-free/mp3-royaltyfree/Anguish.mp3
+License:  Creative Commons: By Attribution 4.0
+          https://creativecommons.org/licenses/by/4.0/
+
+Required attribution (must appear in credits.html):
+    "Anguish" Kevin MacLeod (incompetech.com)
+    Licensed under Creative Commons: By Attribution 4.0 License
+    http://creativecommons.org/licenses/by/4.0/
+
+Notes for downstream agents:
+- Loop point: track is sparse enough to loop cleanly. Crossfade 1s on loop.
+- Volume: 0.5 base. Engine fades in over 2s on first user click.
+- This track is the lone-flute / mystery bed for the Roanoke tutorial only.
+- DOES NOT use cedar drum (drum is reserved for Native-character leitmotifs).

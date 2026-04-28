@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Time Warp: Plymouth or Jamestown</title>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=IM+Fell+English&family=IM+Fell+English+SC&family=Share+Tech&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { height: 100%; width: 100%; overflow: hidden; background: #0a0f1a; color: #fff; font-family: 'Bangers', sans-serif; }
+
+body {
+  background:
+    radial-gradient(ellipse at 30% 20%, rgba(212,175,55,0.10) 0%, transparent 50%),
+    radial-gradient(ellipse at 70% 80%, rgba(50,80,120,0.30) 0%, transparent 60%),
+    linear-gradient(180deg, #0a0f1a 0%, #1a2535 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4vh 4vw;
+  position: relative;
+}
+
+/* Animated drifting fog */
+body::before {
+  content: '';
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(ellipse 800px 250px at 20% 60%, rgba(255,255,255,0.06) 0%, transparent 70%),
+    radial-gradient(ellipse 600px 200px at 80% 40%, rgba(255,255,255,0.04) 0%, transparent 70%);
+  animation: fogdrift 40s ease-in-out infinite alternate;
+  pointer-events: none;
+}
+@keyframes fogdrift {
+  0% { transform: translate(0,0); }
+  100% { transform: translate(60px,-30px); }
+}
+
+.title-screen, .character-grid {
+  position: relative;
+  z-index: 5;
+  text-align: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.character-grid { display: none; }
+body.show-grid .title-screen { display: none; }
+body.show-grid .character-grid { display: block; }
+
+h1 {
+  font-family: 'Bangers', sans-serif;
+  font-size: clamp(3rem, 9vw, 7rem);
+  letter-spacing: 4px;
+  color: #d4af37;
+  text-shadow: 4px 4px 0 #000, 6px 6px 16px rgba(0,0,0,0.8);
+  margin-bottom: 1vh;
+}
+.subtitle {
+  font-family: 'IM Fell English SC', serif;
+  font-size: clamp(1.2rem, 2.8vw, 2rem);
+  color: #f4d166;
+  letter-spacing: 6px;
+  margin-bottom: 4vh;
+  opacity: 0.9;
+}
+
+.tagline {
+  font-family: 'IM Fell English', serif;
+  font-style: italic;
+  color: #c8b88a;
+  font-size: clamp(1rem, 1.6vw, 1.3rem);
+  margin-bottom: 6vh;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+button.cta {
+  background: rgba(255,255,255,0.85);
+  color: #0a0a1a;
+  border: 4px solid #d4af37;
+  border-radius: 8px;
+  padding: 2vh 6vw;
+  font-family: 'Bangers', sans-serif;
+  font-size: clamp(1.3rem, 2.5vw, 2rem);
+  letter-spacing: 2px;
+  cursor: pointer;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.7), 0 0 24px rgba(212,175,55,0.4);
+  transition: all 200ms ease;
+}
+button.cta:hover { background: #fff; transform: scale(1.05); box-shadow: 0 8px 32px rgba(0,0,0,0.7), 0 0 32px rgba(212,175,55,0.7); }
+
+.replay-link {
+  display: block;
+  margin-top: 3vh;
+  color: #c8b88a;
+  font-family: 'Share Tech', sans-serif;
+  text-decoration: none;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  opacity: 0.6;
+}
+.replay-link:hover { opacity: 1; color: #f4d166; }
+
+/* Character grid */
+.grid-title {
+  font-family: 'Bangers', sans-serif;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  color: #d4af37;
+  margin-bottom: 1vh;
+  letter-spacing: 3px;
+}
+.grid-subtitle {
+  font-family: 'IM Fell English', serif;
+  color: #c8b88a;
+  margin-bottom: 4vh;
+  font-size: clamp(0.95rem, 1.4vw, 1.2rem);
+}
+.sides {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5vw;
+  margin-bottom: 3vh;
+}
+.side {
+  text-align: center;
+}
+.side h2 {
+  font-family: 'Bangers', sans-serif;
+  letter-spacing: 4px;
+  font-size: clamp(1.3rem, 2.5vw, 2rem);
+  margin-bottom: 1vh;
+  text-shadow: 2px 2px 0 #000;
+}
+.side.jamestown h2 { color: #e6a360; }
+.side.plymouth h2 { color: #88b3e0; }
+.side .blurb {
+  font-family: 'IM Fell English', serif;
+  font-style: italic;
+  font-size: 0.85rem;
+  color: #c8b88a;
+  margin-bottom: 2vh;
+  line-height: 1.5;
+}
+.cards { display: flex; flex-direction: column; gap: 1.5vh; }
+.card-link {
+  display: block;
+  background: rgba(255,255,255,0.78);
+  color: #0a0a1a;
+  text-decoration: none;
+  padding: 1.5vh 2vw;
+  border: 2px solid #000;
+  border-radius: 8px;
+  font-family: 'Bangers', sans-serif;
+  font-size: clamp(1rem, 1.6vw, 1.3rem);
+  letter-spacing: 1px;
+  transition: all 150ms ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+.card-link .role {
+  display: block;
+  font-family: 'IM Fell English', serif;
+  font-style: italic;
+  font-size: 0.75em;
+  color: #5a4a2e;
+  letter-spacing: 0;
+  margin-top: 4px;
+  text-transform: none;
+}
+.card-link:hover { background: #fff; transform: scale(1.03); }
+.side.jamestown .card-link:hover { border-color: #8b3a1a; }
+.side.plymouth .card-link:hover { border-color: #2a3e5a; }
+
+.tutorial-link {
+  display: inline-block;
+  margin-top: 2vh;
+  color: #888;
+  font-family: 'Share Tech', sans-serif;
+  font-size: 0.85rem;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+.tutorial-link:hover { color: #f4d166; }
+
+.footer {
+  position: fixed;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Share Tech', monospace;
+  font-size: 0.7rem;
+  color: rgba(255,255,255,0.4);
+  z-index: 10;
+}
+</style>
+</head>
+<body>
+
+<!-- TITLE SCREEN -->
+<div class="title-screen">
+  <h1>TIME WARP</h1>
+  <div class="subtitle">PLYMOUTH OR JAMESTOWN</div>
+  <p class="tagline">Two boats. Two reasons. Two endings.<br>
+    Pick a side. Pick a person. Live what they lived.</p>
+  <button class="cta" id="begin-btn">BEGIN YOUR VOYAGE</button>
+  <a class="replay-link" id="skip-link" href="analyzer.html" style="display:none;">Skip the tutorial — I've been here before</a>
+</div>
+
+<!-- CHARACTER GRID (shown after first play) -->
+<div class="character-grid">
+  <div class="grid-title">CHOOSE ANOTHER ROUTE</div>
+  <div class="grid-subtitle">Six lives crossing the Atlantic between 1607 and 1640.</div>
+  <div class="sides">
+    <div class="side jamestown">
+      <h2>JAMESTOWN</h2>
+      <div class="blurb">Riches. Glory. Tobacco. The South.</div>
+      <div class="cards">
+        <a class="card-link" href="smith.html">JOHN SMITH<span class="role">Soldier of fortune. Took food at gunpoint.</span></a>
+        <a class="card-link" href="rolfe.html">JOHN ROLFE<span class="role">Tobacco entrepreneur. Husband of Pocahontas.</span></a>
+        <a class="card-link" href="powhatan.html">POWHATAN<span class="role">Paramount chief. Watched it all arrive.</span></a>
+      </div>
+    </div>
+    <div class="side plymouth">
+      <h2>PLYMOUTH</h2>
+      <div class="blurb">Faith. Family. Corn. The North.</div>
+      <div class="cards">
+        <a class="card-link" href="bradford.html">WILLIAM BRADFORD<span class="role">Pilgrim governor. Wrote it all down.</span></a>
+        <a class="card-link" href="squanto.html">SQUANTO<span class="role">Captured. Spain. Returned to ruins.</span></a>
+        <a class="card-link" href="massasoit.html">MASSASOIT<span class="role">Wampanoag sachem. Kept the peace 50 years.</span></a>
+      </div>
+    </div>
+  </div>
+  <a class="tutorial-link" href="tutorial.html">↺ Replay Roanoke tutorial</a>
+</div>
+
+<div class="footer">A Time Warp by Mr. Jorgensen · 8th grade US History · ACE</div>
+
+<script>
+// First-run vs replay detection
+const params = new URLSearchParams(location.search);
+const isReturning = params.get('back') === '1' || localStorage.getItem('twpoj_played') === '1';
+
+if (isReturning) {
+  document.body.classList.add('show-grid');
+  // Show skip link on title screen for next time (if they nav back)
+  const skip = document.getElementById('skip-link');
+  if (skip) skip.style.display = 'inline-block';
+}
+
+// First-run begin button
+document.getElementById('begin-btn').addEventListener('click', () => {
+  localStorage.setItem('twpoj_played', '1');
+  location.href = 'tutorial.html';
+});
+</script>
+
+</body>
+</html>

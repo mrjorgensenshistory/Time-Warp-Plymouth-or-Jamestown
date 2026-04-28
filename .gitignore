@@ -1,0 +1,14 @@
+# Sub-agent transcripts
+.claude/agents/
+
+# Build artifacts that shouldn't be tracked
+build/__pycache__/
+
+# Working / scratch
+*.pyc
+*.tmp
+.DS_Store
+
+# Classroom-only Squanto variant (ALWAYS gitignored — copyrighted audio)
+squanto_classroom.html
+audio/squanto_classroom/

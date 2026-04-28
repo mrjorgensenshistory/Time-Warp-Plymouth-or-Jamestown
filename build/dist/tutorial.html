@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roanoke Tutorial — Time Warp: Plymouth or Jamestown</title>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=IM+Fell+English&family=IM+Fell+English+SC&family=Share+Tech&display=swap" rel="stylesheet">
+<style>
+:root {
+  --accent: #5b6770;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { height: 100%; width: 100%; overflow: hidden; background: #0a0a1a; color: #fff; font-family: 'Bangers', sans-serif; }
+.stage { position: absolute; inset: 0; overflow: hidden; }
+
+.slide {
+  position: absolute; inset: 0;
+  opacity: 0;
+  transition: opacity 700ms ease;
+  pointer-events: none;
+  background-size: cover;
+  background-position: center;
+  background-color: #1a1a28;
+}
+.slide.active { opacity: 1; pointer-events: auto; }
+.slide.has-image::after {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0.15) 40%, rgba(0,0,0,0.55) 100%);
+  z-index: 1; pointer-events: none;
+}
+
+/* Default no-image gradient using accent color */
+.slide:not(.has-image) {
+  background: radial-gradient(ellipse at 50% 30%, var(--accent) 0%, #0a0a1a 70%);
+}
+
+.card {
+  position: absolute;
+  top: 3vh; left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+  max-width: 60%;
+  background: rgba(255,255,255,0.78);
+  border: 2px solid #000;
+  border-radius: 8px;
+  padding: 2.2vh 2.6vw;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.5);
+  font-family: 'Bangers', 'Arial Black', sans-serif;
+  color: #000;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+.card h2 {
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  margin-bottom: 1.5vh;
+  color: #000;
+  letter-spacing: 1.2px;
+}
+.card .body p {
+  font-size: clamp(1.1rem, 2vw, 1.6rem);
+  margin-bottom: 1vh;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 600ms ease, transform 600ms ease;
+}
+.card .body p.shown { opacity: 1; transform: translateY(0); }
+
+.buttons {
+  position: absolute;
+  top: 60%; left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  z-index: 11;
+  align-items: center;
+  max-width: 80%;
+  opacity: 0;
+  transition: opacity 600ms ease;
+}
+.buttons.shown { opacity: 1; }
+
+button.choice {
+  background: rgba(255,255,255,0.85);
+  color: #000;
+  border: 3px solid #000;
+  border-radius: 6px;
+  padding: 1.8vh 4vw;
+  font-family: 'Bangers', sans-serif;
+  font-size: clamp(1.1rem, 2vw, 1.6rem);
+  cursor: pointer;
+  transition: all 150ms ease;
+  min-width: 32vw;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+button.choice:hover { background: #fff; transform: scale(1.03); }
+
+/* Gameover styling */
+.slide.gameover-slide { background: #1a0a0a !important; }
+.slide.gameover-slide::after { background: rgba(0,0,0,0.55) !important; }
+.slide.gameover-slide .card {
+  background: rgba(255,255,255,0.92);
+  border-color: #6a0000;
+}
+.slide.gameover-slide .card h2 {
+  color: #cc0000;
+  font-size: clamp(2rem, 4.5vw, 3.5rem);
+  letter-spacing: 3px;
+  animation: shake 0.5s ease;
+  text-shadow: 2px 2px 0 #6a0000;
+}
+@keyframes shake {
+  0%,100%{transform:translateX(0);}
+  20%{transform:translateX(-12px);}
+  40%{transform:translateX(12px);}
+  60%{transform:translateX(-6px);}
+  80%{transform:translateX(6px);}
+}
+.slide.gameover-slide button.choice {
+  background: #cc0000; color: #fff; border-color: #6a0000;
+}
+.slide.gameover-slide button.choice:hover { background: #ff3333; }
+.fullscreen-gif {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  max-width: 50vw; max-height: 40vh;
+  border: 3px solid #6a0000;
+  border-radius: 6px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.8);
+}
+
+/* Timeline bar */
+.timeline {
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  height: 64px;
+  background: linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.8) 100%);
+  border-top: 2px solid var(--accent);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+}
+.timeline-track {
+  position: relative;
+  width: min(1100px, 90%);
+  height: 2px;
+  background: #6a5a44;
+}
+.tick {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+.tick.revealed { visibility: visible; opacity: 1; }
+.tick .dot {
+  width: 14px; height: 14px;
+  border-radius: 50%;
+  background: #4a3a28;
+  border: 2px solid #6a5a44;
+  margin: 0 auto;
+}
+.tick .label {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 11px;
+  margin-top: 6px;
+  white-space: nowrap;
+  color: #f4d166;
+  opacity: 0.85;
+}
+.tick.history .dot {
+  background: #8a7a64;
+  border-color: #8a7a64;
+  width: 10px; height: 10px;
+}
+.tick.history .label { color: #8a7a64; opacity: 0.7; font-size: 10px; }
+.tick.active .dot {
+  background: #d4af37;
+  border-color: #f4d166;
+  box-shadow: 0 0 12px rgba(212,175,55,0.7);
+}
+.tick.pulsing .dot { animation: pulse 1.4s ease-in-out infinite; }
+@keyframes pulse {
+  0%,100%{box-shadow:0 0 8px rgba(212,175,55,0.5);}
+  50%{box-shadow:0 0 22px rgba(212,175,55,1.0);}
+}
+
+.header-tag {
+  position: fixed; top: 12px; left: 16px;
+  font-family: 'Bangers', sans-serif;
+  font-size: 14px;
+  color: rgba(255,255,255,0.5);
+  letter-spacing: 2px;
+  z-index: 11;
+}
+.counter {
+  position: fixed; top: 12px; right: 16px;
+  font-family: 'Share Tech', monospace;
+  font-size: 12px;
+  color: rgba(255,255,255,0.4);
+  z-index: 11;
+}
+.credits {
+  position: fixed; bottom: 70px; left: 10px;
+  font-size: 0.6rem; color: #888;
+  z-index: 11;
+}
+</style>
+</head>
+<body>
+
+<div class="header-tag">ROANOKE TUTORIAL</div>
+<div class="counter" id="counter"></div>
+<div class="credits">Music: Kevin MacLeod / incompetech.com (CC-BY 4.0) · Mr. Jorgensen 2026</div>
+
+<audio id="bg-music" loop preload="auto"><source src="../../audio/tutorial/tutorial_main.mp3" type="audio/mpeg"></audio>
+
+<div class="stage" id="stage"></div>
+
+<div class="timeline">
+  <div class="timeline-track" id="timeline-track">
+    <div class="tick history revealed" data-year="1492" style="left: 4%;"><div class="dot"></div><div class="label">1492 — Columbus</div></div>
+    <div class="tick history revealed" data-year="1513" style="left: 11%;"><div class="dot"></div><div class="label">1513 — Florida found</div></div>
+    <div class="tick history revealed" data-year="1521" style="left: 18%;"><div class="dot"></div><div class="label">1521 — Aztecs fall</div></div>
+    <div class="tick history revealed" data-year="1533" style="left: 25%;"><div class="dot"></div><div class="label">1533 — Incas fall</div></div>
+    <div class="tick history revealed" data-year="1565" style="left: 32%;"><div class="dot"></div><div class="label">1565 — St. Augustine</div></div>
+    <div class="tick" data-year="1587" style="left: 40.0%;"><div class="dot"></div><div class="label">1587</div></div>
+    <div class="tick" data-year="1588" style="left: 58.3%;"><div class="dot"></div><div class="label">1588</div></div>
+    <div class="tick" data-year="1590" style="left: 95.0%;"><div class="dot"></div><div class="label">1590</div></div>
+  </div>
+</div>
+
+<script>
+const SLIDES = [{"id": "slide_1", "type": "story", "title": "Title / Cold Open", "body": ["I stand at the rail of a small ship. The fog is thick, and the shore the English call Roanoke rises slowly out of it.", "My name is John White. I am the governor of this colony.", "Three years ago I left my people on this coast to sail home for supplies. Today I have come back."], "buttons": [{"text": "CONTINUE →", "target": "slide_2"}], "image_brief": "Foggy Outer Banks coastline at dawn. A small wooden ship anchored in shallow water, sails furled. Period-correct silhouette (no plastic-looking digital art). Low-saturation grays and pale greens. Wikimedia engraving aesthetic acceptable.", "timeline": {"active": ["1587", "1590", "1590", "1590"], "pulsing": []}, "gif": null}, {"id": "slide_2", "type": "story", "title": "Why We Came", "body": ["Sir Walter Raleigh sent us. He has the Queen's charter to plant an English colony in this new land.", "One hundred and fifteen of us came ashore in 1587. Men, women, children. Farmers, carpenters, my own daughter and her newborn girl.", "We are not the first English to try this coast. We are the second. The first attempt failed. We meant to do better."], "buttons": [{"text": "CONTINUE →", "target": "slide_3"}], "image_brief": "A period map of the Atlantic with a thin painted line from Plymouth, England across to the Outer Banks. Faded ink, slight tea-stain texture. A small portrait inset of Sir Walter Raleigh in the corner (Wikimedia public domain).", "timeline": {"active": ["1587"], "pulsing": ["1587"]}, "gif": null}, {"id": "slide_3", "type": "story", "title": "I Sail Home for Supplies", "body": ["The colony needs more than we brought. Seed, tools, salt, nails. The harvest will not be enough.", "The colonists choose me to sail back to England and return with what they need. My daughter and granddaughter stay behind.", "I expect to be gone a few months. I tell them I will come back before the next winter."], "buttons": [{"text": "CONTINUE →", "target": "slide_4"}], "image_brief": "A small ship under sail, cutting east across a gray sea. White and his crew on deck looking back over the stern at a shrinking shoreline. Painted-engraving style, low saturation.", "timeline": {"active": [], "pulsing": ["1587"]}, "gif": null}, {"id": "slide_4", "type": "story", "title": "The War That Held Me", "body": ["I reach England. The country is at war. Spain's Armada is sailing for our coast and the Queen needs every ship that floats.", "No vessel will carry me back to Roanoke. Not this season. Not the next.", "Three years pass before I find a ship willing to cross."], "buttons": [{"text": "CONTINUE →", "target": "slide_5"}], "image_brief": "A wide painted scene of the Spanish Armada — towering galleons, smoke, the English coast in the distance. Public-domain naval painting (there are several on Wikimedia: de Loutherbourg, etc.). Dark and busy after the empty seas of the previous slide.", "timeline": {"active": [], "pulsing": ["1588"]}, "gif": null}, {"id": "slide_5", "type": "story", "title": "The Empty Settlement", "body": ["I step off the boat. The wind smells of pine and salt and nothing else. No cookfire. No voices.", "I walk through the gate. The houses are still standing. The walls are still standing. The people are gone.", "No bodies lie in the paths. No graves are dug in the yard. Whatever happened here, it was not a slaughter."], "buttons": [{"text": "CONTINUE →", "target": "slide_6"}], "image_brief": "White and a small landing party stepping ashore. Foreground: an open wooden gate hanging crooked, no smoke from any chimney, weeds growing up through a path. Mid-ground: small huts, doors ajar, no movement. Background: low forest and fog. No bodies. No blood. No struggle.", "timeline": {"active": ["1590", "1587", "1590"], "pulsing": ["1590"]}, "gif": null}, {"id": "slide_6", "type": "decision", "title": "The Soft Decision (click-mechanic teach)", "body": ["I have to look. Before the daylight goes, I have to look somewhere.", "Do I search the shoreline first, where the boats would have been pulled up — or the treeline, where a path leads inland?"], "buttons": [{"text": "SEARCH THE SHORE →", "target": "slide_7"}, {"text": "SEARCH THE TREELINE →", "target": "slide_7"}], "image_brief": "Two paths through the abandoned settlement. Left frame: the shoreline, with sand and waves and the ship offshore. Right frame: the woods past the broken gate, dark with low pines. White stands at the center, looking back and forth.", "timeline": {"active": ["1587", "1590"], "pulsing": []}, "gif": null}, {"id": "slide_7", "type": "story", "title": "The Carving", "body": ["On a wooden post at the edge of the settlement, someone has carved a single word.", "Deep cuts. Steady hand. No panic in the lettering.", "**CROATOAN.**"], "buttons": [{"text": "CONTINUE →", "target": "slide_8"}], "image_brief": "A tall wooden post — a fence post or stripped tree — standing alone at the edge of the settlement. Carved into the bark in deep, deliberate letters: **CROATOAN**. Camera close, the rest of the world blurred out. Period-engraving style preferred (Wikimedia has several historical illustrations of the carving — public domain).", "timeline": {"active": ["1587", "1590"], "pulsing": []}, "gif": null}, {"id": "slide_8", "type": "story", "title": "What It Might Mean", "body": ["Croatoan is the name of an island south of here. It is also the name of a tribe who live on that island. We have spoken with them before. They have been friendly to us.", "The carving is not a cry for help. There is no cross beside it — and we agreed, before I sailed, that a cross would be the sign of distress.", "It is a destination. Or it is a place they were taken. I cannot yet tell which."], "buttons": [{"text": "CONTINUE →", "target": "slide_9"}], "image_brief": "A rough period-style map of the Outer Banks. Roanoke Island circled. A short distance south, Croatoan Island circled. Hand-drawn arrow between them. The map is sketched into the parchment overlay itself, like a journal page.", "timeline": {"active": [], "pulsing": []}, "gif": null}, {"id": "slide_9", "type": "story", "title": "The Storm, and the Mystery", "body": ["The weather turns hard against us before we can sail to Croatoan. The captain refuses the crossing. We are blown out to sea.", "I never reach the island. I never find my daughter. I never find my granddaughter.", "No one who came after has found them either. To this day, no one knows what happened to the colony at Roanoke."], "buttons": [{"text": "CONTINUE →", "target": "slide_10"}], "image_brief": "White's small ship pitching in heavy weather, sails reefed. Black sky, white spray. The Outer Banks shrink behind it through the rain.", "timeline": {"active": ["1590"], "pulsing": []}, "gif": null}, {"id": "slide_10", "type": "story", "title": "Hand-off to the Hub", "body": ["The colony is gone. Whatever happened here, England will try again.", "Three years later, no English settlement remains in North America.", "But ships keep sailing."], "buttons": [{"text": "CROSS THE ATLANTIC →", "target": "HOME"}], "image_brief": "The Outer Banks fading into fog behind the ship's stern. Above the horizon, a faint second silhouette — another ship, much larger, sailing the opposite direction toward the new world. A gull crosses between them. The frame transitions from White's small vessel to a hint of the larger ships to come (Mayflower / Susan Constant silhouettes — keep them faint, almost a ghost).", "timeline": {"active": ["1587"], "pulsing": ["1590"]}, "gif": null}];
+const HUB_HREF = "index.html";
+
+const stage = document.getElementById('stage');
+const counter = document.getElementById('counter');
+
+function renderSlide(slide) {
+  const div = document.createElement('div');
+  let cls = 'slide';
+  if (slide.type === 'gameover') cls += ' gameover-slide';
+  div.className = cls;
+  div.id = slide.id;
+
+  if (slide.gif) {
+    const gifImg = document.createElement('img');
+    gifImg.className = 'fullscreen-gif';
+    gifImg.src = slide.gif;
+    gifImg.alt = 'gameover';
+    div.appendChild(gifImg);
+  }
+
+  const card = document.createElement('div');
+  card.className = 'card';
+  const h2 = document.createElement('h2');
+  h2.textContent = slide.title || ' ';
+  card.appendChild(h2);
+  const body = document.createElement('div');
+  body.className = 'body';
+  slide.body.forEach(p => {
+    const para = document.createElement('p');
+    para.innerHTML = p;
+    body.appendChild(para);
+  });
+  card.appendChild(body);
+  div.appendChild(card);
+
+  const btnWrap = document.createElement('div');
+  btnWrap.className = 'buttons';
+  slide.buttons.forEach(b => {
+    const btn = document.createElement('button');
+    btn.className = 'choice';
+    btn.textContent = b.text;
+    btn.addEventListener('click', () => goToSlide(b.target));
+    btnWrap.appendChild(btn);
+  });
+  div.appendChild(btnWrap);
+
+  stage.appendChild(div);
+  return div;
+}
+
+function updateTimeline(state) {
+  document.querySelectorAll('.tick').forEach(tick => {
+    const year = tick.dataset.year;
+    const isHistory = tick.classList.contains('history');
+    tick.classList.remove('active', 'pulsing');
+    if (!isHistory) tick.classList.remove('revealed');
+    if (state.active && state.active.includes(year)) {
+      tick.classList.add('active', 'revealed');
+    }
+    if (state.pulsing && state.pulsing.includes(year)) {
+      tick.classList.add('active', 'pulsing', 'revealed');
+    }
+  });
+}
+
+function revealCard(slideEl) {
+  const paras = slideEl.querySelectorAll('.card .body p');
+  const buttons = slideEl.querySelector(':scope > .buttons');
+  paras.forEach((p, i) => setTimeout(() => p.classList.add('shown'), 250 + i * 600));
+  if (buttons) setTimeout(() => buttons.classList.add('shown'), 250 + paras.length * 600 + 200);
+}
+
+function showSlide(idx) {
+  document.querySelectorAll('.slide').forEach(s => s.classList.remove('active'));
+  const slide = SLIDES[idx];
+  if (!slide) return;
+  let el = document.getElementById(slide.id);
+  if (!el) el = renderSlide(slide);
+  el.querySelectorAll('.card .body p').forEach(p => p.classList.remove('shown'));
+  const bw = el.querySelector(':scope > .buttons');
+  if (bw) bw.classList.remove('shown');
+  el.classList.add('active');
+  updateTimeline(slide.timeline || {});
+  counter.textContent = `${idx + 1} / ${SLIDES.length}`;
+  setTimeout(() => revealCard(el), 200);
+}
+
+function goToSlide(target) {
+  if (target === 'HOME') { window.location.href = HUB_HREF; return; }
+  const idx = SLIDES.findIndex(s => s.id === target);
+  if (idx === -1) return;
+  showSlide(idx);
+}
+
+// Audio unlock + fade-in
+const bgMusic = document.getElementById('bg-music');
+let audioStarted = false;
+function startMusic() {
+  if (audioStarted || !bgMusic) return;
+  audioStarted = true;
+  bgMusic.volume = 0;
+  bgMusic.play().then(() => {
+    let v = 0;
+    const fade = setInterval(() => {
+      v += 0.03;
+      if (v >= 0.45) { bgMusic.volume = 0.45; clearInterval(fade); }
+      else bgMusic.volume = v;
+    }, 100);
+  }).catch(() => {});
+}
+document.addEventListener('click', startMusic, { once: true });
+document.addEventListener('keydown', startMusic, { once: true });
+
+showSlide(0);
+</script>
+</body>
+</html>

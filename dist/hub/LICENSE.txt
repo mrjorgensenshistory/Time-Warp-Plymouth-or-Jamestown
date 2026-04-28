@@ -1,0 +1,17 @@
+Hub — title screen + analyzer quiz audio
+=========================================
+
+Track:    main.mp3 (title screen + hub Q1)
+Composer: Kevin MacLeod (incompetech.com)
+Source:   https://incompetech.com/music/royalty-free/mp3-royaltyfree/Sneaky%20Adventure.mp3
+License:  Creative Commons: By Attribution 4.0
+
+Track:    quiz_bed.mp3 (hub Q2 — quieter "thinking" bed)
+Composer: Kevin MacLeod (incompetech.com)
+Source:   https://incompetech.com/music/royalty-free/mp3-royaltyfree/Long%20Note%20One.mp3
+License:  Creative Commons: By Attribution 4.0
+
+Required attribution (must appear in credits.html):
+    "Sneaky Adventure" / "Long Note One" Kevin MacLeod (incompetech.com)
+    Licensed under Creative Commons: By Attribution 4.0 License
+    http://creativecommons.org/licenses/by/4.0/

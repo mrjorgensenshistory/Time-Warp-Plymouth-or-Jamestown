@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Analyzer — Time Warp: Plymouth or Jamestown</title>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=IM+Fell+English&family=IM+Fell+English+SC&family=Share+Tech&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { height: 100%; width: 100%; overflow: hidden; background: #0a0f1a; color: #fff; font-family: 'Bangers', sans-serif; }
+
+body {
+  background:
+    radial-gradient(ellipse at 50% 30%, rgba(50,80,120,0.4) 0%, transparent 60%),
+    linear-gradient(180deg, #0a0f1a 0%, #1a2535 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4vh 4vw;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(ellipse 700px 200px at 30% 60%, rgba(255,255,255,0.04) 0%, transparent 70%),
+    radial-gradient(ellipse 500px 180px at 70% 40%, rgba(255,255,255,0.05) 0%, transparent 70%);
+  animation: fogdrift 35s ease-in-out infinite alternate;
+  pointer-events: none;
+}
+@keyframes fogdrift { 0%{transform:translate(0,0);} 100%{transform:translate(40px,-20px);} }
+
+.q {
+  position: relative;
+  z-index: 5;
+  text-align: center;
+  width: 100%;
+  max-width: 900px;
+  display: none;
+}
+.q.active { display: block; }
+
+.q-tag {
+  font-family: 'IM Fell English SC', serif;
+  letter-spacing: 6px;
+  color: #f4d166;
+  font-size: clamp(0.9rem, 1.3vw, 1.1rem);
+  opacity: 0.7;
+  margin-bottom: 1vh;
+}
+
+.q h1 {
+  font-family: 'Bangers', sans-serif;
+  color: #fff;
+  font-size: clamp(1.6rem, 4vw, 3rem);
+  letter-spacing: 2px;
+  line-height: 1.3;
+  margin-bottom: 5vh;
+  text-shadow: 3px 3px 0 #000, 5px 5px 12px rgba(0,0,0,0.7);
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+button.opt {
+  background: rgba(255,255,255,0.78);
+  color: #0a0a1a;
+  border: 3px solid #000;
+  border-radius: 8px;
+  padding: 2.2vh 4vw;
+  font-family: 'Bangers', sans-serif;
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-align: left;
+  transition: all 200ms ease;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+  position: relative;
+}
+button.opt:hover { background: #fff; transform: translateX(8px); }
+button.opt .arrow {
+  position: absolute;
+  right: 3vw;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999;
+  transition: color 150ms ease;
+}
+button.opt:hover .arrow { color: #d4af37; }
+button.opt .sub {
+  display: block;
+  font-family: 'IM Fell English', serif;
+  font-style: italic;
+  font-size: 0.7em;
+  color: #5a4a2e;
+  letter-spacing: 0;
+  margin-top: 6px;
+  text-transform: none;
+}
+
+.back-btn {
+  position: fixed;
+  top: 16px; left: 16px;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.3);
+  color: rgba(255,255,255,0.6);
+  padding: 8px 14px;
+  font-family: 'Share Tech', sans-serif;
+  font-size: 0.85rem;
+  cursor: pointer;
+  border-radius: 4px;
+  z-index: 10;
+}
+.back-btn:hover { color: #fff; border-color: #fff; }
+</style>
+</head>
+<body>
+
+<button class="back-btn" onclick="location.href='index.html'">← Back to title</button>
+
+<!-- Q1: Why are you crossing the Atlantic? -->
+<div class="q active" id="q1">
+  <div class="q-tag">QUESTION ONE</div>
+  <h1>Are you here to practice your own religion,<br>or for riches and adventure?</h1>
+  <div class="options">
+    <button class="opt" data-side="plymouth">
+      To practice my own religion
+      <span class="sub">My church has been hunted in England. I am crossing for the right to pray as I choose.</span>
+      <span class="arrow">→</span>
+    </button>
+    <button class="opt" data-side="jamestown">
+      For riches and adventure
+      <span class="sub">There is gold across the sea. There are tribes who do not yet know what an English ship can do. I am crossing for what I can take, build, or marry.</span>
+      <span class="arrow">→</span>
+    </button>
+  </div>
+</div>
+
+<!-- Q2 — Plymouth side -->
+<div class="q" id="q2-plymouth">
+  <div class="q-tag">QUESTION TWO &middot; PLYMOUTH</div>
+  <h1>What kind of person are you?</h1>
+  <div class="options">
+    <button class="opt" onclick="location.href='bradford.html'">
+      I am a leader. I will write what we did so my children remember.
+      <span class="sub">→ William Bradford, Plymouth governor + chronicler.</span>
+      <span class="arrow">→</span>
+    </button>
+    <button class="opt" onclick="location.href='squanto.html'">
+      I have lost everything. The only road home is through someone else's road.
+      <span class="sub">→ Squanto (Tisquantum). Captured, sold to Spain, returned to a village of graves.</span>
+      <span class="arrow">→</span>
+    </button>
+    <button class="opt" onclick="location.href='massasoit.html'">
+      I rule what is mine. I will choose who lives on my land.
+      <span class="sub">→ Massasoit, sachem of the Wampanoag. Kept the peace fifty years.</span>
+      <span class="arrow">→</span>
+    </button>
+  </div>
+</div>
+
+<!-- Q2 — Jamestown side -->
+<div class="q" id="q2-jamestown">
+  <div class="q-tag">QUESTION TWO &middot; JAMESTOWN</div>
+  <h1>What kind of person are you?</h1>
+  <div class="options">
+    <button class="opt" onclick="location.href='smith.html'">
+      I am a fighter. I have killed men in Hungary for pay.
+      <span class="sub">→ John Smith. Soldier of fortune. Took food at gunpoint to keep the colony alive.</span>
+      <span class="arrow">→</span>
+    </button>
+    <button class="opt" onclick="location.href='rolfe.html'">
+      I see opportunity in new things. I will plant something the world wants.
+      <span class="sub">→ John Rolfe. Tobacco entrepreneur. Husband of Pocahontas.</span>
+      <span class="arrow">→</span>
+    </button>
+    <button class="opt" onclick="location.href='powhatan.html'">
+      This was my country before any English foot touched it.
+      <span class="sub">→ Powhatan. Paramount chief of thirty tribes. Watched the math arrive.</span>
+      <span class="arrow">→</span>
+    </button>
+  </div>
+</div>
+
+<script>
+// Q1 click → show Q2 (correct side)
+document.querySelectorAll('#q1 .opt').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const side = btn.dataset.side;
+    document.getElementById('q1').classList.remove('active');
+    document.getElementById('q2-' + side).classList.add('active');
+  });
+});
+</script>
+
+</body>
+</html>
