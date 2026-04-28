@@ -1,0 +1,21 @@
+SFX anchors — five locked beat cues per THEME §1.6
+=====================================================
+
+These five SFX are non-negotiable beat cues per THEME spec.
+Hunted from Pixabay (CC0 — no attribution required, but
+encouraged) or Freesound (CC0/CC-BY).
+
+| File                    | Beat                       | Source candidate           |
+|-------------------------|----------------------------|----------------------------|
+| cannon_distant.mp3      | Jamestown landing          | Pixabay "cannon distant"   |
+| organ_chord.mp3         | Mayflower Compact signing  | Pixabay "low organ chord"  |
+| cedar_drum_3beats.mp3   | Powhatan war council       | Pixabay "ceremonial drum"  |
+| dinner_bell.mp3         | First Thanksgiving         | Pixabay "dinner bell ring" |
+| wind_howl.mp3           | Mayflower winter death-toll| Pixabay "low wind howl"    |
+
+Mix rule (per THEME §1.6): SFX sit ABOVE the music bed.
+Fire on slide reveal, do not loop.
+
+Pixabay license (CC0, current):
+https://pixabay.com/service/license-summary/
+"Free to use without attribution. No prior permission needed."

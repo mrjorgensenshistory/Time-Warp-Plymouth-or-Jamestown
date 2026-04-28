@@ -1,0 +1,82 @@
+{
+  "_meta": {
+    "generated": "2026-04-28",
+    "purpose": "Game-over cutscene GIF embeds for Time Warp: Plymouth or Jamestown.",
+    "embed_strategy": "Use Tenor direct media URLs in <img src=...> tags. Fair-use commentary in an educational classroom context (17 U.S.C. §107). Tenor handles its own licensing with rights-holders; embedding is safer than self-hosting.",
+    "verification_method": "Each URL fetched 2026-04-28 and confirmed to return Content-Type: image/gif with valid GIF89a header (not a 404 / not an HTML error page).",
+    "tone_rule_reminder": "Per THEME §4 dignity rule: NONE of these GIFs may appear on a Native-character TERMINAL endgame card (Powhatan / Squanto / Massasoit final fail). Those use period-art portraits + drum/flute tail only. Universal cast is fine on early-route minor wrong-choice fails."
+  },
+
+  "yzma_wrong_lever": {
+    "url": "https://media.tenor.com/mcS-PaTlDawAAAAM/pull-the-lever-wrong-lever.gif",
+    "alt": "Yzma yelling WRONG LEVERRRR after Kronk pulls the wrong lever",
+    "source": "The Emperor's New Groove (Disney, 2000)",
+    "license": "Fair use — educational commentary; embed via Tenor",
+    "use": "Universal dumb-choice gameover. THE most-used cutscene in this Time Warp — picked the obviously wrong button.",
+    "verified": true,
+    "verified_size_kb": 541,
+    "fallbacks": [
+      "https://media.tenor.com/Igzk420KijAAAAAM/pull-the-lever-kronk-wrong-lever.gif",
+      "https://media.tenor.com/P5Zh_A11uSEAAAAM/emperorsnewgroove-wronglever.gif"
+    ]
+  },
+
+  "bobby_boucher_tackle": {
+    "url": "https://media.tenor.com/Qqy__Lb6qIMAAAAM/tackle-running.gif",
+    "alt": "Bobby Boucher tackling someone at full sprint",
+    "source": "The Waterboy (Touchstone Pictures, 1998)",
+    "license": "Fair use — educational commentary; embed via Tenor",
+    "use": "Physical-confrontation fails: Smith ambush, mutiny, Bradford-attacks-Wampanoag, raid-loss. \"MAMA SAYS WINTER IS THE DEVIL!\"",
+    "verified": true,
+    "verified_size_kb": 543,
+    "fallbacks": [
+      "https://media.tenor.com/4sp3qRal9X4AAAAM/tackle-waterboy.gif",
+      "https://media.tenor.com/iodpOeOGEkkAAAAM/dropkick-waterboy.gif",
+      "https://media.tenor.com/FiMjpNy5VGEAAAAM/adam-sandler-tackle.gif"
+    ]
+  },
+
+  "terry_tate_linebacker": {
+    "url": "https://media.tenor.com/WhXm78qcw6wAAAAM/terry-tate-office-linebacker.gif",
+    "alt": "Terry Tate, the Office Linebacker, tackling an unsuspecting office worker",
+    "source": "Reebok Terry Tate: Office Linebacker (Super Bowl XXXVII commercial, 2003)",
+    "license": "Fair use — educational commentary; embed via Tenor",
+    "use": "Lazy / unprepared / skipped-the-prep fails. \"Didn't plant the corn,\" \"didn't post a sentry,\" \"skipped the work.\" Reskinned as the Colonial Enforcer. \"YOU CAN'T STARVE ON COMPANY TIME!\"",
+    "verified": true,
+    "verified_size_kb": 258,
+    "fallbacks": [
+      "https://media.tenor.com/T-dZPHRA8XkAAAAM/terry-tate-office-linebacker.gif",
+      "https://media.tenor.com/-fvQE1mHbEAAAAAM/terry-tate-office-linebacker.gif",
+      "https://media.tenor.com/rbm2dS2qjKAAAAAM/terry-tate-office-linebacker.gif"
+    ]
+  },
+
+  "tulio_miguel_conned": {
+    "url": "https://media.tenor.com/kfl9bhqP8I0AAAAM/tulio-miguel.gif",
+    "alt": "Tulio and Miguel together in a scheming/laughing moment",
+    "source": "The Road to El Dorado (DreamWorks, 2000)",
+    "license": "Fair use — educational commentary; embed via Tenor",
+    "use": "\"You got conned\" fails: Rolfe-believed-the-stranger, Powhatan-trusted-Smith-too-long, fake-gold-promises, broken-treaty fails. \"It's tough to be a god...\"",
+    "verified": true,
+    "verified_size_kb": 101,
+    "fallbacks": [
+      "https://media.tenor.com/8xO2i12dJ1QAAAAM/miguel-tulio.gif",
+      "https://media.tenor.com/RNocq0WPg5UAAAAM/miguel-tulio.gif",
+      "https://media.tenor.com/BMvs4HqFrgYAAAAM/miguel-tulio.gif"
+    ]
+  },
+
+  "rickroll_cherry": {
+    "url": "https://media.tenor.com/x8v1oNUOmg4AAAAM/rickroll-roll.gif",
+    "alt": "Rick Astley dancing in the iconic Never Gonna Give You Up music video",
+    "source": "Rick Astley — Never Gonna Give You Up music video (RCA, 1987)",
+    "license": "Fair use — educational commentary; embed via Tenor",
+    "use": "Universal cherry-on-top, final 3-second sting on every COMEDIC gameover. \"Never gonna give you up... to dysentery.\" PROHIBITED on Native-character TERMINAL endgame cards (Powhatan/Squanto/Massasoit final cards) per THEME §4 dignity rule — those get a clean cedar-drum tail instead.",
+    "verified": true,
+    "verified_size_kb": 86,
+    "fallbacks": [
+      "https://media.tenor.com/vhNAoPfKzCsAAAAM/rick-roll-rick-astley.gif",
+      "https://media.tenor.com/8c5f67DsgRYAAAAM/trade-offer-rickroll.gif"
+    ]
+  }
+}

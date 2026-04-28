@@ -1,0 +1,21 @@
+Massasoit — communal drum + fire-circle ambient
+=================================================
+
+Track:    massasoit_main.mp3
+Composer: Kevin MacLeod (incompetech.com)
+Source:   https://incompetech.com/music/royalty-free/mp3-royaltyfree/Long%20Note%20Four.mp3
+License:  Creative Commons: By Attribution 4.0
+
+Vibe: cedar drum (slightly deeper than Squanto's) + low flute +
+ambient forest. A leader's track — measured, watchful.
+Same dignity bar as Powhatan.
+
+NOTE: Kevin MacLeod's catalog does not contain authentic
+cedar-drum + flute tracks. "Long Note Four" is a sparse
+sustained bed used as a placeholder. RECOMMENDED: replace
+with a Pixabay or OpenGameArt cedar-drum track once a
+properly tagged CC0 source is sourced.
+
+Required attribution (must appear in credits.html):
+    "Long Note Four" Kevin MacLeod (incompetech.com)
+    Licensed under Creative Commons: By Attribution 4.0 License

@@ -1,0 +1,14 @@
+John Smith — Jamestown swashbuckling adventure
+================================================
+
+Track:    smith_main.mp3
+Composer: Kevin MacLeod (incompetech.com)
+Source:   https://incompetech.com/music/royalty-free/mp3-royaltyfree/Hitman.mp3
+License:  Creative Commons: By Attribution 4.0
+
+Vibe: soldier-of-fortune orchestral, Captain-with-a-musket energy.
+NEVER actual Master & Commander score — vibe-only.
+
+Required attribution (must appear in credits.html):
+    "Hitman" Kevin MacLeod (incompetech.com)
+    Licensed under Creative Commons: By Attribution 4.0 License

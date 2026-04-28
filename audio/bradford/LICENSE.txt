@@ -1,0 +1,14 @@
+William Bradford — jazz piano trio (Vince Guaraldi cousin)
+=============================================================
+
+Track:    bradford_main.mp3
+Composer: Kevin MacLeod (incompetech.com)
+Source:   https://incompetech.com/music/royalty-free/mp3-royaltyfree/Acid%20Jazz.mp3
+License:  Creative Commons: By Attribution 4.0
+
+Vibe: warm jazz piano trio, hearth-and-home, autumn afternoon,
+slightly melancholy. NEVER actual "Linus and Lucy" — vibe only.
+
+Required attribution (must appear in credits.html):
+    "Acid Jazz" Kevin MacLeod (incompetech.com)
+    Licensed under Creative Commons: By Attribution 4.0 License

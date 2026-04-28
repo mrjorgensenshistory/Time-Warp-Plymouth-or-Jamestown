@@ -1,0 +1,13 @@
+John Rolfe — Latin/Spanish guitar tobacco vibe
+================================================
+
+Track:    rolfe_main.mp3
+Composer: Kevin MacLeod (incompetech.com)
+Source:   https://incompetech.com/music/royalty-free/mp3-royaltyfree/Spanish%20Summer.mp3
+License:  Creative Commons: By Attribution 4.0
+
+Vibe: warm mercantile nylon-string guitar — tobacco came from Trinidad.
+
+Required attribution (must appear in credits.html):
+    "Spanish Summer" Kevin MacLeod (incompetech.com)
+    Licensed under Creative Commons: By Attribution 4.0 License
