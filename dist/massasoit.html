@@ -264,11 +264,14 @@ function renderSlide(slide) {
   div.className = cls;
   div.id = slide.id;
 
-  // Apply DEFAULT_BG (character portrait) for slides that have no explicit image
-  // and aren't gameovers (gameovers have their own dark bg + GIF)
-  if (DEFAULT_BG && slide.type !== 'gameover') {
-    div.classList.add('has-image');
-    div.style.backgroundImage = `url('${DEFAULT_BG}')`;
+  // Image priority: per-slide explicit image > DEFAULT_BG (character portrait) > gradient
+  // Gameovers skip bg image entirely (they have their own dark bg + GIF center)
+  if (slide.type !== 'gameover') {
+    const bgImg = slide.image || DEFAULT_BG;
+    if (bgImg) {
+      div.classList.add('has-image');
+      div.style.backgroundImage = `url('${bgImg}')`;
+    }
   }
 
   if (slide.gif) {

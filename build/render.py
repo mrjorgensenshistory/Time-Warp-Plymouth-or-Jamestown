@@ -29,8 +29,21 @@ CHARACTERS = {
         "html": "tutorial.html",
         "side": "tutorial",
         "hub_href": "analyzer.html",  # tutorial hand-off goes to the side-quiz
-        # Tutorial uses the demo's existing per-slide images
-        "default_bg": None,
+        "default_bg": "images/tutorial/01_white_arrives.jpg",
+        # Per-slide image overrides for the tutorial (matching the demo's image set)
+        "slide_images": {
+            "slide_1": "images/tutorial/01_white_arrives.jpg",
+            "slide_2": "images/tutorial/02_raleigh_charter.jpg",
+            "slide_3": "images/tutorial/10_dawn_ships.jpg",  # ship sailing east (Mayflower-at-sea reused as period ship)
+            "slide_4": "images/tutorial/04_spanish_armada.jpg",
+            "slide_5": "images/tutorial/04_spanish_armada.jpg",  # three years lost in war (reuse Armada)
+            "slide_6": "images/tutorial/01_white_arrives.jpg",  # empty settlement (reuse colonist scene)
+            "slide_7": "images/tutorial/08_outer_banks_map.jpg",  # where to look — map gives geography
+            "slide_8": "images/tutorial/07_croatoan_carving.jpg",
+            "slide_9": "images/tutorial/08_outer_banks_map.jpg",  # what it might mean — Croatoan map
+            "slide_10": "images/tutorial/04_spanish_armada.jpg",  # storm reused (chaotic ships)
+            "slide_11": "images/tutorial/10_dawn_ships.jpg",
+        },
     },
     "smith_route": {
         "title": "John Smith — Jamestown",
@@ -512,11 +525,14 @@ function renderSlide(slide) {
   div.className = cls;
   div.id = slide.id;
 
-  // Apply DEFAULT_BG (character portrait) for slides that have no explicit image
-  // and aren't gameovers (gameovers have their own dark bg + GIF)
-  if (DEFAULT_BG && slide.type !== 'gameover') {
-    div.classList.add('has-image');
-    div.style.backgroundImage = `url('${DEFAULT_BG}')`;
+  // Image priority: per-slide explicit image > DEFAULT_BG (character portrait) > gradient
+  // Gameovers skip bg image entirely (they have their own dark bg + GIF center)
+  if (slide.type !== 'gameover') {
+    const bgImg = slide.image || DEFAULT_BG;
+    if (bgImg) {
+      div.classList.add('has-image');
+      div.style.backgroundImage = `url('${bgImg}')`;
+    }
   }
 
   if (slide.gif) {
@@ -640,6 +656,12 @@ def render_route(md_name, config):
     if not slides:
         print(f"  [WARN] {md_name}: no slides parsed")
         return None
+
+    # Apply per-slide image overrides from config
+    slide_images = config.get("slide_images", {})
+    for s in slides:
+        if s["id"] in slide_images:
+            s["image"] = slide_images[s["id"]]
 
     # History ticks (always visible)
     history_html = ""

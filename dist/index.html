@@ -10,10 +10,7 @@
 html, body { height: 100%; width: 100%; overflow: hidden; background: #0a0f1a; color: #fff; font-family: 'Bangers', sans-serif; }
 
 body {
-  background:
-    radial-gradient(ellipse at 30% 20%, rgba(212,175,55,0.10) 0%, transparent 50%),
-    radial-gradient(ellipse at 70% 80%, rgba(50,80,120,0.30) 0%, transparent 60%),
-    linear-gradient(180deg, #0a0f1a 0%, #1a2535 100%);
+  background-color: #0a0f1a;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,6 +18,25 @@ body {
   padding: 4vh 4vw;
   position: relative;
 }
+
+/* Title-screen background image (Atlantic, dramatic, neutral) */
+.bg-img {
+  position: fixed; inset: 0;
+  background-image: url('images/hub/title_atlantic.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  filter: saturate(0.85) brightness(0.55);
+}
+.bg-overlay {
+  position: fixed; inset: 0;
+  background:
+    radial-gradient(ellipse at 50% 60%, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 80%),
+    linear-gradient(180deg, rgba(10,15,26,0.4) 0%, rgba(10,15,26,0.85) 100%);
+  z-index: 1;
+}
+body.show-grid .bg-img { filter: saturate(0.7) brightness(0.4); }
+body.show-grid .bg-overlay { background: rgba(10,15,26,0.85); }
 
 /* Animated drifting fog */
 body::before {
@@ -213,6 +229,12 @@ button.cta:hover { background: #fff; transform: scale(1.05); box-shadow: 0 8px 3
 </head>
 <body>
 
+<div class="bg-img"></div>
+<div class="bg-overlay"></div>
+
+<!-- Hub ambient music -->
+<audio id="bg-music" loop preload="auto"><source src="audio/hub/main.mp3" type="audio/mpeg"></audio>
+
 <!-- TITLE SCREEN -->
 <div class="title-screen">
   <h1>TIME WARP</h1>
@@ -242,7 +264,7 @@ button.cta:hover { background: #fff; transform: scale(1.05); box-shadow: 0 8px 3
         </a>
         <a class="card-link" href="powhatan.html">
           <div class="portrait" style="background-image: url('images/hub/jamestown_powhatan.jpg');"></div>
-          <div class="text">POWHATAN<span class="role">Paramount chief. Watched it all arrive.</span></div>
+          <div class="text">POWHATAN<span class="role">Paramount chief. Watched the English keep coming.</span></div>
         </a>
       </div>
     </div>
@@ -287,6 +309,25 @@ document.getElementById('begin-btn').addEventListener('click', () => {
   localStorage.setItem('twpoj_played', '1');
   location.href = 'tutorial.html';
 });
+
+// Audio unlock + fade-in
+const bgMusic = document.getElementById('bg-music');
+let audioStarted = false;
+function startMusic() {
+  if (audioStarted || !bgMusic) return;
+  audioStarted = true;
+  bgMusic.volume = 0;
+  bgMusic.play().then(() => {
+    let v = 0;
+    const fade = setInterval(() => {
+      v += 0.03;
+      if (v >= 0.4) { bgMusic.volume = 0.4; clearInterval(fade); }
+      else bgMusic.volume = v;
+    }, 100);
+  }).catch(() => {});
+}
+document.addEventListener('click', startMusic, { once: true });
+document.addEventListener('keydown', startMusic, { once: true });
 </script>
 
 </body>

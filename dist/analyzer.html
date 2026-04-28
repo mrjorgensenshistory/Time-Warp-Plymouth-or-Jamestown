@@ -143,9 +143,11 @@ body::before {
 }
 
 button.opt {
-  background: rgba(255,255,255,0.85);
+  background: rgba(255,255,255,0.55);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   color: #0a0a1a;
-  border: 3px solid #000;
+  border: 2px solid rgba(0,0,0,0.7);
   border-radius: 8px;
   padding: 1.4vh 3vw 1.4vh 16vh;
   font-family: 'Bangers', sans-serif;
@@ -159,7 +161,12 @@ button.opt {
   min-height: 14vh;
   overflow: hidden;
 }
-button.opt:hover { background: #fff; transform: translateX(8px); box-shadow: 0 8px 24px rgba(0,0,0,0.6); }
+button.opt:hover {
+  background: rgba(255,255,255,0.78);
+  transform: translateX(8px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.65);
+  border-color: #000;
+}
 button.opt .portrait {
   position: absolute;
   left: 0; top: 0; bottom: 0;
@@ -206,6 +213,9 @@ button.opt .sub {
 </style>
 </head>
 <body>
+
+<!-- Hub ambient music continues across analyzer for continuity -->
+<audio id="bg-music" loop preload="auto"><source src="audio/hub/main.mp3" type="audio/mpeg"></audio>
 
 <button class="back-btn" onclick="location.href='index.html'">← Back to title</button>
 
@@ -279,7 +289,7 @@ button.opt .sub {
     <button class="opt" onclick="location.href='powhatan.html'">
       <span class="portrait" style="background-image: url('images/hub/jamestown_powhatan.jpg');"></span>
       This was my country before any English foot touched it.
-      <span class="sub">Powhatan. Paramount chief of thirty tribes. Watched the math arrive.</span>
+      <span class="sub">Powhatan. Paramount chief of thirty tribes. Watched the English keep coming.</span>
       <span class="arrow">→</span>
     </button>
   </div>
@@ -294,6 +304,25 @@ document.querySelectorAll('#q1 .opt, #q1 .side-panel').forEach(btn => {
     document.getElementById('q2-' + side).classList.add('active');
   });
 });
+
+// Audio unlock + fade-in
+const bgMusic = document.getElementById('bg-music');
+let audioStarted = false;
+function startMusic() {
+  if (audioStarted || !bgMusic) return;
+  audioStarted = true;
+  bgMusic.volume = 0;
+  bgMusic.play().then(() => {
+    let v = 0;
+    const fade = setInterval(() => {
+      v += 0.03;
+      if (v >= 0.4) { bgMusic.volume = 0.4; clearInterval(fade); }
+      else bgMusic.volume = v;
+    }, 100);
+  }).catch(() => {});
+}
+document.addEventListener('click', startMusic, { once: true });
+document.addEventListener('keydown', startMusic, { once: true });
 </script>
 
 </body>
