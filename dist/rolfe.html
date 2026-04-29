@@ -34,48 +34,58 @@ html, body { height: 100%; width: 100%; overflow: hidden; background: #0a0a1a; c
   background: radial-gradient(ellipse at 50% 30%, var(--accent) 0%, #0a0a1a 70%);
 }
 
+/* Text card: top-RIGHT (Conquest engine pattern) — doesn't block the centered image */
 .card {
   position: absolute;
-  top: 3vh; left: 50%;
-  transform: translateX(-50%);
+  top: 3vh;
+  right: 3vw;
   z-index: 5;
-  max-width: 60%;
+  max-width: 44%;
+  max-height: calc(100vh - 220px); /* leave room for buttons + timeline */
+  overflow-y: auto;
   background: rgba(255,255,255,0.78);
   border: 2px solid #000;
   border-radius: 8px;
-  padding: 2.2vh 2.6vw;
-  box-shadow: 0 6px 24px rgba(0,0,0,0.5);
+  padding: 2vh 2.4vw;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.6);
   font-family: 'Bangers', 'Arial Black', sans-serif;
   color: #000;
-  line-height: 1.5;
+  line-height: 1.45;
   letter-spacing: 0.5px;
-  text-align: center;
+  text-align: left;
 }
 .card h2 {
-  font-size: clamp(1.5rem, 3vw, 2.2rem);
-  margin-bottom: 1.5vh;
+  font-size: clamp(1.2rem, 2.3vw, 1.7rem);
+  margin-bottom: 1vh;
   color: #000;
   letter-spacing: 1.2px;
+  text-align: center;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  padding-bottom: 0.7vh;
 }
 .card .body p {
-  font-size: clamp(1.1rem, 2vw, 1.6rem);
-  margin-bottom: 1vh;
+  font-size: clamp(0.95rem, 1.5vw, 1.2rem);
+  margin-bottom: 0.7vh;
   opacity: 0;
   transform: translateY(8px);
   transition: opacity 600ms ease, transform 600ms ease;
 }
 .card .body p.shown { opacity: 1; transform: translateY(0); }
+.card .body p:last-child { margin-bottom: 0; }
 
+/* Buttons: BOTTOM CENTER (Conquest engine pattern), above the 64px timeline */
 .buttons {
   position: absolute;
-  top: 60%; left: 50%;
-  transform: translate(-50%, -50%);
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 11;
   display: flex;
   flex-direction: column;
-  gap: 2vh;
-  z-index: 11;
+  gap: 1.2vh;
   align-items: center;
   max-width: 80%;
+  width: auto;
   opacity: 0;
   transition: opacity 600ms ease;
 }
@@ -86,9 +96,9 @@ button.choice {
   color: #000;
   border: 3px solid #000;
   border-radius: 6px;
-  padding: 1.8vh 4vw;
+  padding: 1.4vh 3.5vw;
   font-family: 'Bangers', sans-serif;
-  font-size: clamp(1.1rem, 2vw, 1.6rem);
+  font-size: clamp(1rem, 1.7vw, 1.4rem);
   cursor: pointer;
   transition: all 150ms ease;
   min-width: 32vw;
@@ -131,12 +141,17 @@ button.choice:hover { background: #fff; transform: scale(1.03); }
   50% { text-shadow: 4px 4px 0 #000, 6px 6px 18px rgba(180,30,30,0.9), 0 0 60px rgba(255,80,80,0.9); }
 }
 .slide.gameover-slide .card {
-  top: 18vh;
+  /* Center the card on gameover slides so the GAME OVER banner has room */
+  top: 16vh;
+  right: auto;
+  left: 50%;
+  transform: translateX(-50%);
   background: rgba(20,5,5,0.85);
   border-color: #6a0000;
   border-width: 3px;
   color: #fff8e0;
-  max-width: 56%;
+  max-width: 60%;
+  text-align: center;
 }
 .slide.gameover-slide .card h2 {
   color: #ff5555;
