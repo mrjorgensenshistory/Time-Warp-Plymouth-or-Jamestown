@@ -152,50 +152,139 @@ def slug_button_target(target_text, slide_id_for_self=None):
       'advances to Slide 5' → 'slide_5'
       'returns to Slide 12 (DECISION 2)' → 'slide_12'
       'advances to Slide GAMEOVER A' → 'slide_gameover_a'
+      'advances to Slide 14b' / 'Slide 13-FAIL-A' → 'slide_14b' / 'slide_13_fail_a' (resolved later by alias)
       'returns to HOME' / 'returns HOME' / 'HOME' → 'HOME'
     """
     t = target_text.strip().lower()
     if "home" in t or "title screen" in t or "another route" in t or "another character" in t:
         return "HOME"
-    # GAMEOVER X
+    # GAMEOVER X (dedicated gameover slide)
     m = re.search(r"slide\s+gameover\s+([a-z])", t)
     if m:
         return f"slide_gameover_{m.group(1)}"
-    # numbered slide
+    m = re.search(r"\bgameover\s+([a-z])\b", t)
+    if m:
+        return f"slide_gameover_{m.group(1)}"
+    # FAIL pattern (Powhatan: 11-FAIL, 13-FAIL-A) — check BEFORE plain numbered
+    m = re.search(r"slide[_\s]+(\d+)[-\s]*fail(?:[-\s]*([a-z]))?", t)
+    if m:
+        n, sub = m.group(1), m.group(2)
+        return f"slide_{n}_fail_{sub}" if sub else f"slide_{n}_fail"
+    # Hyphenated tag (Powhatan: 7-DELEGATION, 7-PEACE)
+    m = re.search(r"slide[_\s]+(\d+)-(\w+)", t)
+    if m:
+        return f"slide_{m.group(1)}_{m.group(2).lower()}"
+    # numbered slide with letter suffix (Bradford 3a, 6a; Massasoit 2b)
+    m = re.search(r"slide[_\s]+(\d+[a-z]+)\b", t)
+    if m:
+        return f"slide_{m.group(1)}"
+    # plain numbered slide
     m = re.search(r"slide[_\s]+(\d+)", t)
     if m:
         return f"slide_{m.group(1)}"
     # epilogue / closing card / final slide → keep as next slide if we can't tell
     if "epilogue" in t or "closing card" in t or "final" in t:
-        return "_NEXT_"  # resolved post-pass
+        return "_NEXT_"
     return "_NEXT_"
 
 
-def parse_slide_block(block_text, slide_index_in_file):
-    """Parse a single slide markdown block into a slide dict."""
-    # Extract header — `## Slide N — Title` OR `## Slide GAMEOVER X — Title`
-    header_match = re.match(r"##\s+Slide\s+(GAMEOVER\s+[A-Za-z]|[\dA-Za-z]+)\s*[—–-]?\s*(.*)", block_text)
-    if not header_match:
-        return None
-    raw_id = header_match.group(1).strip()
-    title = header_match.group(2).strip()
+def parse_slide_block(block_text, slide_index_in_file, gameover_alias_map=None):
+    """Parse a single slide markdown block into a slide dict.
 
-    if raw_id.upper().startswith("GAMEOVER"):
-        letter = raw_id.split()[-1].lower()
+    gameover_alias_map: dict mutated in-place. Maps "gameover_x" letter -> slide_id
+    for slides whose title contains GAMEOVER N pattern. Used so button targets
+    that reference 'GAMEOVER F' resolve to the actual slide_id.
+    """
+    # Extract header — accept many slide-ID conventions used by writers:
+    #  Slide 1 — title
+    #  Slide GAMEOVER A — title
+    #  Slide 6-FAIL — title
+    #  Slide 13-FAIL-A — title
+    #  Slide 7-DELEGATION — title
+    #  Slide 14b — title (Bradford / Massasoit)
+    #  GAMEOVER A1 — title (Squanto, no "Slide" prefix)
+    # Separator must be em-dash (—) or en-dash (–), NOT plain hyphen.
+    first_line = block_text.split("\n", 1)[0]
+
+    # Squanto-style: "## GAMEOVER A1 — title" (no "Slide" prefix)
+    standalone_go = re.match(r"##\s+GAMEOVER\s+([A-Za-z][\w]*)\s+[—–]\s+(.*)", first_line)
+    if standalone_go:
+        raw_id = "gameover_" + standalone_go.group(1).lower()
+        title = standalone_go.group(2).strip()
+    else:
+        header_match = re.match(r"##\s+Slide\s+(GAMEOVER\s+[A-Za-z]|[\w\-]+?)\s+[—–]\s+(.*)", block_text)
+        if not header_match:
+            # Fallback for headers without an em-dash separator
+            header_match = re.match(r"##\s+Slide\s+([\w\-]+)\s*$", first_line)
+            if not header_match:
+                return None
+            raw_id = header_match.group(1).strip()
+            title = ""
+        else:
+            raw_id = header_match.group(1).strip()
+            title = header_match.group(2).strip()
+
+    is_gameover = False
+    gameover_letter = None
+
+    # Sanitize slide ID: lowercase + hyphens to underscores
+    raw_id_norm = raw_id.lower().replace("-", "_")
+
+    if raw_id.upper().startswith("GAMEOVER") or raw_id.lower().startswith("gameover_"):
+        # Squanto: raw_id = "gameover_a1" → slide_id = "slide_gameover_a1"
+        # Smith: raw_id = "GAMEOVER A" → slide_id = "slide_gameover_a"
+        if raw_id.lower().startswith("gameover_"):
+            letter = raw_id[len("gameover_"):].lower()
+        else:
+            letter = raw_id.split()[-1].lower()
         slide_id = f"slide_gameover_{letter}"
-        slide_type = "gameover"
-        # Override gameover title to consistent series stinger
+        is_gameover = True
+        gameover_letter = letter
         title = "WRONG LEVERRRR!"
     else:
-        slide_id = f"slide_{raw_id}"
-        slide_type = "story"
+        slide_id = f"slide_{raw_id_norm}"
+        # FAIL pattern in slide ID (Powhatan: 6_fail, 13_fail_a)
+        fail_in_id = re.search(r"_fail(?:_([a-z]))?$", raw_id_norm)
+        # Title check for "GAMEOVER X"
+        title_go_match = re.search(r"GAMEOVER\s+([A-Za-z])\b", title, re.IGNORECASE)
+        # Title says "(gameover, ...)" — Powhatan style
+        title_paren_go = re.search(r"\(gameover[,)]", title, re.IGNORECASE)
+
+        if fail_in_id or title_go_match or title_paren_go:
+            is_gameover = True
+            if fail_in_id:
+                suffix = fail_in_id.group(1)
+                gameover_letter = f"{raw_id_norm}" if not suffix else f"{raw_id_norm}"
+            elif title_go_match:
+                gameover_letter = title_go_match.group(1).lower()
+            else:
+                gameover_letter = raw_id_norm
+            title = "WRONG LEVERRRR!"
+        # Bradford/Massasoit: slide IDs like 3a, 6a, 8a where title says "DECISION", "Off-Ramp",
+        # or contains gameover-like content. Don't auto-flag these as gameovers anymore — let
+        # the title content (or the writer's explicit decision marker) decide.
+        elif re.match(r"^\d+[a-z]+$", raw_id_norm):
+            # Treat as story unless title explicitly says gameover/fail/wrong-lever
+            if re.search(r"\b(gameover|wrong\s+lever|fail|the\s+\w+\s+kills?)\b", title, re.IGNORECASE):
+                is_gameover = True
+                gameover_letter = raw_id_norm
+                title = "WRONG LEVERRRR!"
+
+    slide_type = "gameover" if is_gameover else "story"
+    if not is_gameover:
         if "DECISION" in title.upper():
             slide_type = "decision"
         # Strip writer's organizational prefixes from displayed title
-        title = re.sub(r"^DECISION\s+\d+:\s*", "", title, flags=re.IGNORECASE)
+        title = re.sub(r"^DECISION\s+\d+:?\s*", "", title, flags=re.IGNORECASE)
+        title = re.sub(r"\s*\(Decision\s+\d+\)\s*$", "", title, flags=re.IGNORECASE)
         # Hide stage-direction titles ("Title / Cold Open", "Cold Open", etc.)
         if re.match(r"^(title\s*/?\s*cold\s+open|cold\s+open|title)$", title, re.IGNORECASE):
             title = ""
+
+    # Register alias so "GAMEOVER F" button-targets resolve to this slide_id
+    if is_gameover and gameover_alias_map is not None and gameover_letter:
+        gameover_alias_map[gameover_letter] = slide_id
+        gameover_alias_map[f"slide_gameover_{gameover_letter}"] = slide_id
 
     # Body text — paragraphs starting with `> `
     body_section = re.search(r"\*\*Body text:\*\*\s*\n((?:>\s.*\n?)+)", block_text)
@@ -231,8 +320,9 @@ def parse_slide_block(block_text, slide_index_in_file):
             active_years.append(year)
 
     # Buttons — `- \`[TEXT]\` — target prose`
+    # Accept "**Buttons:**" or "**Buttons (with anything):**" headers
     buttons = []
-    button_section = re.search(r"\*\*Buttons:\*\*\s*\n((?:[-*]\s+`?\[.*\n?)+)", block_text)
+    button_section = re.search(r"\*\*Buttons[^*]*\*\*\s*\n((?:[-*]\s+.*\n?)+)", block_text)
     if button_section:
         for line in button_section.group(1).split("\n"):
             line = line.strip()
@@ -243,6 +333,8 @@ def parse_slide_block(block_text, slide_index_in_file):
             if not txt_match:
                 continue
             btn_text = txt_match.group(1).strip()
+            # Trim trailing arrows that some writers added inside brackets
+            btn_text = re.sub(r"\s*[→←↺]+\s*$", "", btn_text)
             # Find target prose (after the closing bracket / em-dash)
             after = line[txt_match.end():]
             target = slug_button_target(after, slide_id)
@@ -272,22 +364,50 @@ def parse_slide_block(block_text, slide_index_in_file):
 def parse_markdown(md_path):
     """Parse a route markdown into an ordered list of slide dicts."""
     text = md_path.read_text(encoding="utf-8")
-    # Split on `## Slide` boundaries
-    blocks = re.split(r"\n(?=##\s+Slide)", text)
+    # Split on `## Slide` OR `## GAMEOVER` boundaries (Squanto uses standalone GAMEOVER headers)
+    blocks = re.split(r"\n(?=##\s+(?:Slide|GAMEOVER)\b)", text)
     slides = []
+    gameover_alias_map = {}
     for i, block in enumerate(blocks):
-        if not block.strip().startswith("## Slide"):
+        stripped = block.strip()
+        if not (stripped.startswith("## Slide") or stripped.startswith("## GAMEOVER")):
             continue
-        slide = parse_slide_block(block, i)
+        slide = parse_slide_block(block, i, gameover_alias_map)
         if slide:
             slides.append(slide)
+    # After all slides parsed, resolve any button targets that reference gameover aliases
+    all_ids = {s["id"] for s in slides}
+    for s in slides:
+        for btn in s["buttons"]:
+            t = btn["target"]
+            if t in all_ids or t in ("HOME", "_NEXT_"):
+                continue
+            # Try gameover alias map (lookup by alias key, e.g., "slide_gameover_f" or just "f")
+            if t in gameover_alias_map:
+                btn["target"] = gameover_alias_map[t]
+                continue
+            # Try lowercase letter alias
+            letter = t.replace("slide_gameover_", "").replace("slide_", "").lower()
+            if letter in gameover_alias_map:
+                btn["target"] = gameover_alias_map[letter]
+                continue
     return slides
 
 
 def resolve_next_targets(slides):
-    """Resolve any '_NEXT_' button targets to the next non-gameover slide_id."""
-    # Build ordered list of story-type IDs only (gameovers are jump targets, not in the chain)
+    """Resolve _NEXT_ targets and auto-skip story-slide CONTINUE buttons over gameovers.
+
+    Critical fix: writers sometimes write 'advances to Slide 5' from a story slide
+    where Slide 5 is actually the next-numbered slide — but that slide may be a
+    gameover (because the wrong-choice gameover sits between two narrative slides).
+    For STORY slides with single-button or CONTINUE-style buttons, if the target
+    is a gameover, advance past gameover slides to find the next narrative slide.
+    """
     story_ids = [s["id"] for s in slides if s["type"] != "gameover"]
+    all_slides_by_id = {s["id"]: s for s in slides}
+    all_ids = set(all_slides_by_id)
+
+    # Pass 1: resolve _NEXT_ targets
     for i, s in enumerate(slides):
         for btn in s["buttons"]:
             if btn["target"] == "_NEXT_":
@@ -299,12 +419,83 @@ def resolve_next_targets(slides):
                         btn["target"] = "HOME"
                 else:
                     btn["target"] = "HOME"
-    # Also: if any button target is a slide ID that doesn't exist in this file, point to HOME
-    all_ids = {s["id"] for s in slides}
+
+    # Pass 2: drop button targets that don't exist
     for s in slides:
         for btn in s["buttons"]:
             if btn["target"] not in all_ids and btn["target"] != "HOME":
                 btn["target"] = "HOME"
+
+    # Pass 3: STORY-slide CONTINUE buttons that land on a gameover →
+    # auto-skip past gameovers to next narrative slide
+    # Heuristic: if a story slide has exactly ONE button AND that button targets
+    # a gameover slide, the writer meant "next narrative slide" not "the gameover"
+    for s in slides:
+        if s["type"] == "gameover":
+            continue
+        if len(s["buttons"]) != 1:
+            continue  # multi-button = real branching, leave alone
+        btn = s["buttons"][0]
+        if btn["target"] == "HOME":
+            continue
+        target_slide = all_slides_by_id.get(btn["target"])
+        if target_slide and target_slide["type"] == "gameover":
+            # Walk forward in slide order until we find a non-gameover slide
+            target_idx = next((i for i, x in enumerate(slides) if x["id"] == btn["target"]), -1)
+            if target_idx >= 0:
+                for j in range(target_idx + 1, len(slides)):
+                    if slides[j]["type"] != "gameover":
+                        btn["target"] = slides[j]["id"]
+                        break
+                else:
+                    btn["target"] = "HOME"
+
+    # Pass 4: gameover slides should never have HOME as their first/only button
+    # if they have a "TRY AGAIN" button that should target a real slide. The parser
+    # may have failed to catch the Try Again target — in that case set the first
+    # button to point back to the previous decision slide if we can find one.
+    for i, s in enumerate(slides):
+        if s["type"] != "gameover":
+            continue
+        # If the gameover has only "HOME" buttons, try to back-link to nearest preceding decision
+        if all(btn["target"] == "HOME" for btn in s["buttons"]):
+            for j in range(i - 1, -1, -1):
+                if slides[j]["type"] == "decision" or len(slides[j]["buttons"]) >= 2:
+                    # Insert a "Try Again" button back to that decision
+                    s["buttons"].insert(0, {"text": "↺ Try Again", "target": slides[j]["id"]})
+                    break
+
+    # Pass 5: decision slides with NO button leading forward (all buttons → gameover or HOME)
+    # are dead ends in narrative flow. Auto-redirect the FIRST gameover-targeted button
+    # to the next narrative slide so the route is at least playable.
+    for i, s in enumerate(slides):
+        if s["type"] == "gameover":
+            continue
+        if len(s["buttons"]) < 2:
+            continue
+        # Are any buttons leading to a non-gameover, non-HOME slide?
+        forward_btns = [
+            btn for btn in s["buttons"]
+            if btn["target"] != "HOME"
+            and btn["target"] in all_slides_by_id
+            and all_slides_by_id[btn["target"]]["type"] != "gameover"
+        ]
+        if forward_btns:
+            continue  # has at least one forward path, OK
+        # Find next narrative slide after this one
+        next_narrative_id = None
+        for j in range(i + 1, len(slides)):
+            if slides[j]["type"] != "gameover":
+                next_narrative_id = slides[j]["id"]
+                break
+        if not next_narrative_id:
+            continue
+        # Redirect the first gameover-targeted button (the writer's intended "good" choice)
+        for btn in s["buttons"]:
+            if btn["target"] in all_slides_by_id and all_slides_by_id[btn["target"]]["type"] == "gameover":
+                btn["target"] = next_narrative_id
+                break
+
     return slides
 
 
