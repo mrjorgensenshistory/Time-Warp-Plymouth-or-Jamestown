@@ -1,10 +1,11 @@
 # Powhatan Route — Time Warp: Plymouth or Jamestown
 
-> Character route. 30 slides. 5 decision points. 3 gameovers (2 strategic-terminal dignified + 1 early-route comedic).
+> Character route. ~40 slides. **10 decision points.** 8 gameovers (6 strategic-terminal dignified period-art cards + 2 early-route comedic universal-cast cards).
 > Voice: strict first-person, present tense, immersion HARD RULE per §1.5 of the THEME spec.
 > Tone: dignified political leader. Plain. Unsentimental. Dryly observant. Patient until he can't be.
 > NO noble-savage. NO magical-Indian. NO cartoon villain. NO victim. He is a man doing survival math.
 > Music: cedar drum + low wood flute, sovereign and slow (per §3, treat with the same gravity Conquest gives Magellan).
+> **Native-character TERMINAL strategic-failure cards: NO Rickroll, NO Yzma, NO Bobby Boucher.** Period-art still + flute tail. Yzma OK on early-route minor (impatience/snap-judgment) fails only.
 
 ---
 
@@ -84,38 +85,115 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> Spring of 1607. My scouts run to me from the river. Three ships. About a hundred men. They are building a fort on a marsh island.
-> They picked the worst ground in the country. The water there is brackish. The mosquitoes will eat them alive in summer. The ground floods.
-> I do not say this out loud. I let them dig.
+> Spring of 1607. My scouts run to me from the river. Three ships. About a hundred men. They are coming ashore on a marsh island.
+> They have not asked. They have not paid tribute. They are landing on land that belongs to one of my werowances.
+> The runners are looking at me. They want orders before the English finish unloading.
 
 **Buttons:**
 - `[CONTINUE →]`
 
 ---
 
-## Slide 6 — Decision: How Do I Greet Them?
+## Slide 6 — Decision: The First Landing
 
-**Image brief:** A council fire in a longhouse. Several werowances — sub-chiefs — seated in a circle. The viewer is in Powhatan's seat, looking across the fire at the faces of the men waiting for him to speak. Firelight on copper, on faces, on hide-painted walls.
-**Audio:** Drum drops to almost silence — one beat every few seconds. SFX: **Cedar drum council anchor** per §1.6 — three slow ceremonial beats on slide load. Then quiet.
+**Image brief:** A scout's POV from the treeline at the edge of the river. The English are wading ashore from longboats with crates and pikes. Sun on the water. The viewer is crouched in the foreground brush. The shot is *waiting* for an order.
+**Audio:** Drum quiet. A held flute note. SFX: faint surf, low voices in a foreign language drifting up from the water.
 **Timeline bar:** Holds at `1607`.
 **Slide text overlay:** Standard slide-textbox. **DECISION POINT 1.**
 
 **Body text:**
-> The werowances are looking at me. The English have been on our river for two months. They have not asked permission. They have not paid tribute.
+> I have minutes, not hours. They are unloading right now.
+> I can send the warriors who are with me down through the brush and drive them back into the boats before they put a tool in the dirt. We have surprise. We have the numbers on this stretch of bank.
+> I can hold my men back and watch from the trees. Learn what they brought. See if they leave on their own when the food runs out.
+> Or I can send a small delegation under a peace sign — corn, copper, a werowance to speak for me — and find out what they are here for before I decide what they are.
+> What do I do?
+
+**Buttons:**
+- `[SEND THE WARRIORS. DRIVE THEM OFF NOW. →]` — advances to **Slide 6-FAIL** (gameover, comedic universal cast — impatience/snap-judgment fail)
+- `[WATCH FROM THE TREES. LEARN FIRST. →]` — advances to Slide 7 (main path)
+- `[SEND A PEACE DELEGATION. →]` — advances to Slide 7-DELEGATION (off-ramp, rejoins main at Slide 7)
+
+---
+
+## Slide 6-FAIL — The First Volley (gameover, early-route comedic)
+
+**Image brief:** A muddy English longboat half-pulled onto the bank. Pikes and a single small swivel-gun pointed up the slope into the brush. Smoke. From the brush POV — Powhatan's warriors caught mid-charge. Painted-engraving style. NO bodies.
+**Audio:** Music drops. Fail-sting cue (per §4 universal). **Yzma "WRONG LEVERRR"** GIF — this is an EARLY-route minor wrong-choice fail per §4. Universal cast permitted. Rickroll cherry tail OK on this card.
+**Timeline bar:** `1607` glows red. Fail-marker: "First-day attack. Confederation reputation: belligerent."
+**Slide text overlay:** Bangers headline at top.
+
+**Body text:**
+> **HEADLINE: WRONG LEVERRRRR!**
+>
+> I send the warriors before the English have even finished unloading. We hit them at the boats.
+> They have a small swivel-gun on the longboat I did not see. Three of my men go down before we close. The English fall back to the ships and sail upriver to a worse, swampier site, and dig in there.
+> The first thing the English ever write home about my confederation is that we attack on sight. Every captain that comes after lands with his musket cocked.
+> I moved before I looked. The price for that comes due for forty years.
+
+**Buttons:**
+- `[TRY AGAIN]` — returns to Slide 1
+- `[SELECT ANOTHER CHARACTER]` — returns to HOME
+
+---
+
+## Slide 7-DELEGATION — Off-Ramp: The Peace Sign
+
+**Image brief:** A small group of Powhatan emissaries — three men, baskets of corn, a copper plate — walking out onto the open bank toward the English with hands open. The English freeze, lower their pikes a fraction, raise them again. A long, careful moment. Painted style.
+**Audio:** Drum thin. Flute holds.
+**Timeline bar:** Holds at `1607`.
+**Slide text overlay:** Standard slide-textbox.
+
+**Body text:**
+> I send a werowance with three men, baskets of corn, a copper plate. They stand on the bank with hands open.
+> The English do not shoot. They do not bow either. They take the corn and they keep digging.
+> My emissary comes back and tells me the English say they are here in the name of someone called King James. They claim my country is now part of his country. They claim it politely.
+> The first conversation is on their terms. I will need to take it back later.
+
+**Buttons:**
+- `[CONTINUE →]` — rejoins main at Slide 7
+
+---
+
+## Slide 7 — They Pick Bad Ground
+
+**Image brief:** The James River from a high bank, weeks later. The English have moved upriver and are building a small palisade on a low marshy island. Mosquitoes thick in the foreground brush. Painted style.
+**Audio:** Drum returns slow. Flute thin.
+**Timeline bar:** Holds at `1607`.
+**Slide text overlay:** Standard slide-textbox.
+
+**Body text:**
+> They pick the worst ground in the country. The water there is brackish. The mosquitoes will eat them alive in summer. The ground floods.
+> I do not say this out loud. I let them dig.
+> A chief who explains his enemies' mistakes to them is not a chief for long.
+
+**Buttons:**
+- `[CONTINUE →]`
+
+---
+
+## Slide 8 — Decision: How Do I Greet Them?
+
+**Image brief:** A council fire in a longhouse. Several werowances — sub-chiefs — seated in a circle. The viewer is in Powhatan's seat, looking across the fire at the faces of the men waiting for him to speak. Firelight on copper, on faces, on hide-painted walls.
+**Audio:** Drum drops to almost silence — one beat every few seconds. SFX: **Cedar drum council anchor** per §1.6 — three slow ceremonial beats on slide load. Then quiet.
+**Timeline bar:** Holds at `1607`.
+**Slide text overlay:** Standard slide-textbox. **DECISION POINT 2.**
+
+**Body text:**
+> The werowances are looking at me. The English have been on our river for two months. They have not left.
 > I have three choices. I can attack them now, before they put down roots. I can ignore them and let the swamp kill them. Or I can watch, and trade, and learn what they want.
 > What do I do?
 
 **Buttons:**
-- `[ATTACK NOW. CRUSH THEM IN THE MARSH. →]` — advances to Slide 7-FAIL (gameover, comedic universal cast — impatience/snap-judgment fail)
-- `[IGNORE THEM. THE SWAMP WILL FINISH THEM. →]` — advances to Slide 8 (off-ramp; survives but loses leverage; rejoins main path)
-- `[WATCH. TRADE. LEARN WHAT THEY WANT. →]` — advances to Slide 9 (main path)
+- `[ATTACK NOW. CRUSH THEM IN THE MARSH. →]` — advances to **Slide 8-FAIL** (gameover, comedic universal — impatience fail; cousin to Slide 6-FAIL but later in the route, deeper consequence)
+- `[IGNORE THEM. THE SWAMP WILL FINISH THEM. →]` — advances to Slide 9 (off-ramp; survives but loses leverage; rejoins main path)
+- `[WATCH. TRADE. LEARN WHAT THEY WANT. →]` — advances to Slide 10 (main path)
 
 ---
 
-## Slide 7-FAIL — The Fleet Comes Back (gameover, early-route comedic)
+## Slide 8-FAIL — The Fleet Comes Back (gameover, early-route comedic)
 
 **Image brief:** A larger English fleet — six ships, then ten — coming up the James in formation. Cannon ports open. From a treeline POV. This is what England sends after a confederation attacks one of its colonies.
-**Audio:** Music drops. Fail-sting cue (per §4 universal). Then **Yzma "WRONG LEVERRR"** GIF on the cutscene panel — this is an EARLY-route minor wrong-choice fail per §4, not a terminal card. Universal cast is permitted here. Rickroll cherry tail OK on this card.
+**Audio:** Music drops. Fail-sting cue (per §4 universal). Then **Yzma "WRONG LEVERRR"** GIF on the cutscene panel — EARLY-route minor wrong-choice fail. Universal cast permitted. Rickroll cherry tail OK.
 **Timeline bar:** `1607` glows red. Below it, a fail-marker: "Confederation crushed. 1609."
 **Slide text overlay:** Bangers headline at top.
 
@@ -128,12 +206,12 @@
 > I moved too soon.
 
 **Buttons:**
-- `[TRY AGAIN]` — returns to Slide 1 (per engine rule, slide_0 of current character)
-- `[SELECT ANOTHER CHARACTER]` — returns to HOME (title screen)
+- `[TRY AGAIN]` — returns to Slide 1
+- `[SELECT ANOTHER CHARACTER]` — returns to HOME
 
 ---
 
-## Slide 8 — Off-Ramp: The Swamp Doesn't Finish Them Fast Enough
+## Slide 9 — Off-Ramp: The Swamp Doesn't Finish Them Fast Enough
 
 **Image brief:** Looking down on the Jamestown fort from the treeline weeks later. Smoke from cookfires still rising. Men still moving. Thinner than before, but standing.
 **Audio:** Drum returns, slower. Flute thin underneath.
@@ -147,11 +225,11 @@
 > I waited too long to take their measure. Now I have to learn them anyway.
 
 **Buttons:**
-- `[CONTINUE →]` — rejoins main path at Slide 9
+- `[CONTINUE →]` — rejoins main path at Slide 10
 
 ---
 
-## Slide 9 — Trade Begins
+## Slide 10 — Trade Begins
 
 **Image brief:** A meeting at the edge of the forest. A few of Powhatan's men hand baskets of corn across to English soldiers. The English hand back copper sheets, glass beads, iron knives. Both sides watching each other carefully. No smiles.
 **Audio:** Drum steady. Flute lifts a fraction — first warmth.
@@ -159,16 +237,56 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> My people bring them corn. They give us copper, which we value, and iron knives, which we value more.
+> My people bring them corn. They have things we do not make.
 > The trade is good for both sides. They cannot eat their muskets. We cannot make iron from clay.
-> I tell my werowances: the English are useful. Useful is not the same as friend. Watch what they take, and what they ask for next.
+> But what they offer is not all the same thing. Copper is wealth. Iron tools are useful. Iron *weapons* are something else.
 
 **Buttons:**
 - `[CONTINUE →]`
 
 ---
 
-## Slide 10 — A Captain in the Woods
+## Slide 11 — Decision: What Do I Trade For?
+
+**Image brief:** A trade table at the forest edge. Powhatan's emissary studying three things laid out by an English officer: a stack of copper sheets, a bundle of iron axes and knives, and a row of muskets and powder horns. The viewer is at the emissary's shoulder. The choice is in front of you.
+**Audio:** Drum quiet. SFX: cedar drum council anchor — three beats on slide load.
+**Timeline bar:** Holds, edges into early `1608`.
+**Slide text overlay:** Standard slide-textbox. **DECISION POINT 3.**
+
+**Body text:**
+> The English will trade corn for whatever I ask. They are hungry. They will offer almost anything.
+> Copper is what my people value. It is wealth. Every werowance who carries my copper carries my authority.
+> Iron tools — axes, knives, hoes — make the work go faster. They make my warriors better hunters and my women better farmers.
+> Iron weapons — muskets, powder, lead — would make my warriors a match for theirs. The English know this. They are watching to see if I ask.
+> What do I trade for?
+
+**Buttons:**
+- `[CORN FOR COPPER. WEALTH AND AUTHORITY. →]` — advances to Slide 12 (main path)
+- `[CORN FOR IRON WEAPONS. MATCH THEM IN THE FIELD. →]` — advances to **Slide 11-FAIL** (gameover, terminal dignified — strategic failure / armed-the-rivals)
+- `[REFUSE TRADE ENTIRELY. STARVE THEM OUT. →]` — advances to Slide 9 (re-routes to the swamp off-ramp logic; the fort survives anyway, leverage lost, rejoins main)
+
+---
+
+## Slide 11-FAIL — The Muskets Come Home (gameover, terminal dignified)
+
+**Image brief:** Period engraving — a long row of English muskets stacked outside a longhouse. A single werowance standing beside them, looking at them, not picking one up. Behind him, the longhouse door is open and dark. NO comedic cast. NO Yzma. NO Bobby. NO Rickroll.
+**Audio:** Drum drops to a single slow beat. Flute holds a long, quiet line. **NO Rickroll cherry per §7.** Clean cedar-drum tail, full stop.
+**Timeline bar:** `1608` glows red. Fail-marker: "Powhatan warriors armed with English muskets. Confederation factions split along weapon lines."
+**Slide text overlay:** Standard slide-textbox.
+
+**Body text:**
+> I trade corn for muskets and powder. My warriors learn to fire them.
+> Within a year, the werowances who hold the most muskets stop sending tribute. They do not need my authority anymore — they have their own thunder. The Pamunkey arm against the Chickahominy. The Chickahominy arm against the Pamunkey.
+> The English watch my confederation come apart on a weapon they sold us, and they do not have to fire a shot themselves.
+> Wealth holds men together. Weapons split them apart. I knew that yesterday. I forgot it for one trade.
+
+**Buttons:**
+- `[TRY AGAIN]` — returns to Slide 1
+- `[SELECT ANOTHER CHARACTER]` — returns to HOME
+
+---
+
+## Slide 12 — A Captain in the Woods
 
 **Image brief:** A bound English soldier — Captain John Smith — being marched through the forest by Powhatan's men. He is muddy, bleeding from the leg, but holding his head up. Small, painted-engraving style. He is being brought toward the camera.
 **Audio:** Drum picks up tempo, then settles. Flute drops out for the slide.
@@ -185,26 +303,28 @@
 
 ---
 
-## Slide 11 — Decision: What Do I Do With Smith?
+## Slide 13 — Decision: What Do I Do With Smith?
 
 **Image brief:** The longhouse interior. Smith kneeling between two warriors, hands bound. Powhatan seated on the platform across the fire. The werowances behind him. The viewer is in Powhatan's seat. Smith is small in the frame.
 **Audio:** Drum quiet. SFX: **cedar drum council** three-beat anchor on slide load.
 **Timeline bar:** Holds.
-**Slide text overlay:** Standard slide-textbox. **DECISION POINT 2.**
+**Slide text overlay:** Standard slide-textbox. **DECISION POINT 4.**
 
 **Body text:**
+> I have him. The other English do not know he is alive.
 > I can kill him. He is in my hands. The other English will be afraid for a season, and the season after that they will come back stronger.
-> Or I can use him. There is a ceremony — a man can be killed in his old life and reborn into mine, as my son, as a tributary werowance. He would owe me corn, copper, loyalty, and his men's service.
-> The English will not understand the ceremony. That is the point.
+> I can use him. There is a ceremony — a man can be killed in his old life and reborn into mine, as my son, as a tributary werowance. He would owe me corn, copper, loyalty, and his men's service.
+> Or I can hold him. Send a runner to the fort with one of his boots and a price — prisoners, muskets, powder, food — and trade him back when the English have paid enough.
 > What do I do?
 
 **Buttons:**
-- `[ADOPT HIM. MAKE HIM MY TRIBUTARY. →]` — advances to Slide 12 (main path)
-- `[KILL HIM. SEND THE BODY BACK. →]` — advances to Slide 11-FAIL (gameover, terminal dignified — strategic failure)
+- `[ADOPT HIM. MAKE HIM MY TRIBUTARY. →]` — advances to Slide 14 (main path)
+- `[KILL HIM. SEND THE BODY BACK. →]` — advances to **Slide 13-FAIL-A** (gameover, terminal dignified — strategic failure)
+- `[HOLD HIM HOSTAGE FOR RANSOM. →]` — advances to **Slide 13-FAIL-B** (gameover, terminal dignified — strategic failure / treats-him-like-cargo)
 
 ---
 
-## Slide 11-FAIL — The Reprisal (gameover, terminal dignified)
+## Slide 13-FAIL-A — The Reprisal (gameover, terminal dignified)
 
 **Image brief:** Period engraving — empty Powhatan village at dawn, longhouses standing, no people. A wood flute laid on a mat in the foreground. NO comedic cast. NO Yzma. NO Bobby. Per §4 of the theme spec: Powhatan's TERMINAL cards are dignity-only.
 **Audio:** Drum drops to a single slow beat. Flute holds a long, quiet line. **NO Rickroll cherry per §7** — clean cedar-drum tail, full stop.
@@ -222,7 +342,26 @@
 
 ---
 
-## Slide 12 — The Ceremony (Pocahontas, factual frame)
+## Slide 13-FAIL-B — A Captain Is Not Cargo (gameover, terminal dignified)
+
+**Image brief:** Period engraving — a single boot on a forest trail. Footprints leading away. The longhouse in the deep background, small. NO body. NO comedic cast. NO Yzma. NO Bobby. NO Rickroll.
+**Audio:** Drum drops to a single slow beat. Flute holds. **NO Rickroll cherry.** Clean cedar-drum tail, full stop.
+**Timeline bar:** `1608` glows red. Fail-marker: "Smith ransomed. Powhatan branded a kidnapper. Trade collapses."
+**Slide text overlay:** Standard slide-textbox.
+
+**Body text:**
+> I send a boot and a price to the fort.
+> The English pay. They pay slowly, and badly, and with worse goods than they promised. When Smith goes back to them, he tells the story his way — that he was held for ransom by a chief who wanted muskets.
+> The next ship from London does not bring traders. It brings a charter and a governor. A man who takes hostages is a man you do not trade with — you remove him.
+> A captain is not cargo. I treated him like cargo. The English answer was to treat me like a problem.
+
+**Buttons:**
+- `[TRY AGAIN]` — returns to Slide 1
+- `[SELECT ANOTHER CHARACTER]` — returns to HOME
+
+---
+
+## Slide 14 — The Ceremony (Pocahontas, factual frame)
 
 **Image brief:** The longhouse, fire bright. Smith's head being held against a flat stone. A young girl — Pocahontas, about eleven years old — stepping between him and the warriors with the war-clubs raised. Her father — Powhatan — watching from the platform, deliberate. The whole scene staged. Painted-engraving style. The girl is dignified, not romanticized.
 **Audio:** Drum lifts to a ceremonial pattern, then back to baseline.
@@ -240,7 +379,7 @@
 
 ---
 
-## Slide 13 — Smith Goes Back
+## Slide 15 — Smith Goes Back
 
 **Image brief:** Smith walking out of the longhouse, escorted to the river by Powhatan's men. He still looks shaken, still favoring the leg. Behind him, the longhouse door is open. The viewer is in Powhatan's seat watching him leave.
 **Audio:** Drum steady. Flute lifts.
@@ -257,7 +396,7 @@
 
 ---
 
-## Slide 14 — Smith Comes Back Different
+## Slide 16 — Smith Comes Back Different
 
 **Image brief:** Smith at the edge of a Powhatan village, this time with a squad of armored soldiers, muskets leveled. He is pointing at a corn store. The villagers — women, mostly — are stepping back, hands empty. Painted-engraving style.
 **Audio:** Drum drops. A single tense flute note holds.
@@ -275,26 +414,46 @@
 
 ---
 
-## Slide 15 — Decision: How Do I Answer the Musket?
+## Slide 17 — Decision: How Do I Answer the Musket?
 
 **Image brief:** A council fire again, fewer men around it. The werowances are angry. One has a bandaged arm. The viewer is in Powhatan's seat, the faces lit from below by the flames.
 **Audio:** SFX: cedar drum council anchor — three beats. Then quiet.
 **Timeline bar:** Holds.
-**Slide text overlay:** Standard slide-textbox. **DECISION POINT 3.**
+**Slide text overlay:** Standard slide-textbox. **DECISION POINT 5.**
 
 **Body text:**
 > I have to answer this. If I do nothing, every werowance under me will know I let an Englishman take corn from one of my villages by force. I will not be paramount chief much longer.
-> I can keep feeding them on my own terms — set a fixed tribute, draw a line. I can stop feeding them entirely and let the winter do what the muskets cannot. Or I can feed them everything they ask for and hope the next ship from England takes them home.
+> I can keep feeding them on my own terms — set a fixed tribute, draw a line. I can stop feeding them entirely and let the winter do what the muskets cannot. I can burn our own corn caches before they can take any more — leave them nothing to raid. Or I can feed them everything they ask for and hope the next ship from England takes them home.
 > What do I do?
 
 **Buttons:**
-- `[FEED THEM ON MY TERMS. SET A LIMIT. →]` — advances to Slide 16 (main path; survival math)
-- `[STOP FEEDING THEM. LET THE WINTER WORK. →]` — advances to Slide 17 (main path; the Starving Time, factual)
-- `[FEED THEM EVERYTHING. APPEASE. →]` — advances to Slide 15-FAIL (gameover, comedic universal — appeasement / "Both is good" indecision fail)
+- `[FEED THEM ON MY TERMS. SET A LIMIT. →]` — advances to Slide 18 (off-ramp; rejoins main)
+- `[STOP FEEDING THEM. LET THE WINTER WORK. →]` — advances to Slide 19 (main path; the Starving Time, factual)
+- `[BURN OUR OWN CACHES. LEAVE THEM NOTHING. →]` — advances to **Slide 17-FAIL-A** (gameover, terminal dignified — strategic failure / scorched-earth on your own people)
+- `[FEED THEM EVERYTHING. APPEASE. →]` — advances to **Slide 17-FAIL-B** (gameover, comedic universal — appeasement / "Both is good" indecision fail)
 
 ---
 
-## Slide 15-FAIL — My Own People Starve (gameover, early-route comedic)
+## Slide 17-FAIL-A — Scorched Earth Cuts Both Ways (gameover, terminal dignified)
+
+**Image brief:** Period engraving — a Powhatan corn-crib reduced to a low, smoking pile. Ash on the snow. A single woman in the foreground walking away with an empty basket. NO comedic cast. NO Yzma. NO Rickroll.
+**Audio:** Drum drops to a single slow beat. Flute long, low. **NO Rickroll cherry.** Clean cedar-drum tail, full stop.
+**Timeline bar:** `1609` glows red. Fail-marker: "Powhatan caches burned. Powhatan villages starve before the English do."
+**Slide text overlay:** Standard slide-textbox.
+
+**Body text:**
+> I order the caches burned. Every village. Leave the English nothing to raid.
+> The English do not eat my corn that winter. Neither do my people.
+> The fort is resupplied from England in the spring. My villages are not. A chief who burns his own people's food to spite a stranger is a chief who has confused his enemy with his country.
+> I held the line and lost the country behind it.
+
+**Buttons:**
+- `[TRY AGAIN]` — returns to Slide 1
+- `[SELECT ANOTHER CHARACTER]` — returns to HOME
+
+---
+
+## Slide 17-FAIL-B — My Own People Starve (gameover, early-route comedic)
 
 **Image brief:** A Powhatan village in winter. Empty corn-cribs. Children huddled by a low fire. Snow on longhouse roofs. The Jamestown fort in the background, smoke rising thick from its chimneys — they are eating well. Painted, low-saturation.
 **Audio:** Music drops. Fail-sting. **"Both? Both. Both is good."** Tulio & Miguel cutscene per §4 — indecision fail. This is an EARLY-route minor fail; comedic universal cast is permitted. Rickroll cherry tail OK.
@@ -315,7 +474,7 @@
 
 ---
 
-## Slide 16 — Off-Ramp: The Limit (re-converges)
+## Slide 18 — Off-Ramp: The Limit (re-converges)
 
 **Image brief:** A Powhatan werowance handing a measured basket of corn to an English soldier at the edge of a village. The werowance's hand is on the basket, holding it. The exchange is formal, cold, finite.
 **Audio:** Drum steady. Flute thin.
@@ -328,11 +487,11 @@
 > Then a powder bag explodes on his leg and he sails back to England. The next governor is worse. The line I drew is the line they cross.
 
 **Buttons:**
-- `[CONTINUE →]` — rejoins main path at Slide 18
+- `[CONTINUE →]` — rejoins main path at Slide 20
 
 ---
 
-## Slide 17 — The Starving Time (factual, dignified)
+## Slide 19 — The Starving Time (factual, dignified)
 
 **Image brief:** The Jamestown fort viewed from the treeline at dusk. No smoke from the chimneys. A single thin man on the parapet. Snow on the palisades. No bodies on screen. Painted, low-saturation. The horror is in what is NOT shown.
 **Audio:** Drum drops to a single slow beat. Flute long and low. Wind underneath.
@@ -350,11 +509,11 @@
 
 ---
 
-## Slide 18 — More Ships
+## Slide 20 — More Ships, and a Burning
 
-**Image brief:** A fresh English fleet entering the James in spring. New ships, fuller, soldiers in armor on the decks. From the treeline POV. The fort is repopulated within weeks.
+**Image brief:** A fresh English fleet entering the James in spring. New ships, fuller, soldiers in armor on the decks. From the treeline POV. In the middle distance: a Powhatan village in flames, smoke rising into a low gray sky. NO bodies on screen.
 **Audio:** Drum picks up tempo. Flute drops. SFX: faint distant cannon (anchor) on slide load.
-**Timeline bar:** `1610` solid. Label updates: "1610 — English reinforcements arrive. War begins."
+**Timeline bar:** `1610` solid. Label updates: "1610 — English reinforcements arrive. Paspahegh village burned. War begins."
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
@@ -368,7 +527,64 @@
 
 ---
 
-## Slide 19 — The First Anglo-Powhatan War
+## Slide 21 — Decision: How Do I Answer the Burning?
+
+**Image brief:** A war council, smaller than the others. Four werowances, faces tight. One holds a piece of charred wood from Paspahegh on his lap. The viewer is in Powhatan's seat. The fire is low. The decision is not.
+**Audio:** SFX: cedar drum council — three beats. Hold. The drum stays present underneath the slide rather than dropping out.
+**Timeline bar:** Holds at `1610`.
+**Slide text overlay:** Standard slide-textbox. **DECISION POINT 6.**
+
+**Body text:**
+> Paspahegh is gone. The werowance's wife is at the bottom of the river.
+> I can counterstrike now — coordinate a single morning's raids on every English settlement on the James. We have the numbers. We do not have the muskets, and the fort has new soldiers from the Irish wars. If we do not break them on the first day, they break us on the second.
+> I can pull every village deeper inland — past the falls, away from the rivers the English ships can sail. We lose the salt water. We lose the weirs. We keep our people.
+> Or I can negotiate from this position — bad ground, bad timing, but the English will trade a paused war for a winter of corn.
+> What do I do?
+
+**Buttons:**
+- `[COUNTERSTRIKE NOW. ALL VILLAGES, ONE MORNING. →]` — advances to **Slide 21-FAIL** (gameover, terminal dignified — strategic failure / pre-empts Opechancanough's later strike, badly timed)
+- `[WITHDRAW DEEPER INLAND. SAVE THE PEOPLE. →]` — advances to Slide 22 (off-ramp, rejoins main at Slide 23)
+- `[NEGOTIATE FROM WEAKNESS. BUY A WINTER. →]` — advances to Slide 23 (main path)
+
+---
+
+## Slide 21-FAIL — The Morning Strike, Twelve Years Early (gameover, terminal dignified)
+
+**Image brief:** Period engraving — a single empty war canoe drifting on a wide river at dawn. Mist on the water. NO bodies. NO comedic cast. NO Yzma. NO Bobby. NO Rickroll.
+**Audio:** Drum drops to a single slow beat. Flute long. **NO Rickroll cherry.** Clean cedar-drum tail, full stop.
+**Timeline bar:** `1610` glows red. Fail-marker: "Coordinated strike attempted. Confederation broken. The 1622 uprising never comes — there is no one left to lead it."
+**Slide text overlay:** Standard slide-textbox.
+
+**Body text:**
+> I order the strike. Every village hits an English settlement at dawn on the same morning.
+> We kill many of them. Not enough. The new soldiers are veterans of the Irish wars. The fort holds. The reprisal lasts three years and burns from the falls to the salt water.
+> My brother Opechancanough would have planned this strike for ten years. He would have planned it for muskets we did not yet have. I planned it in two weeks because I was angry.
+> The right strike at the wrong time is the wrong strike.
+
+**Buttons:**
+- `[TRY AGAIN]` — returns to Slide 1
+- `[SELECT ANOTHER CHARACTER]` — returns to HOME
+
+---
+
+## Slide 22 — Off-Ramp: We Move Inland
+
+**Image brief:** A line of Powhatan families moving along a forest trail toward the falls of the river. Bundles, children, dogs. Looking back over their shoulders at the smoke from a coastal village. Painted, low-saturation.
+**Audio:** Drum slow. Flute long.
+**Timeline bar:** Holds.
+**Slide text overlay:** Standard slide-textbox.
+
+**Body text:**
+> I move every village I still command past the falls. We give up the weirs and the salt water and the fishing the English ships can reach.
+> We keep our people. We keep our corn. The English have the coast they wanted in the first place.
+> A werowance who keeps his people alive and loses half his country is still a werowance. A werowance who keeps the country and loses his people is not.
+
+**Buttons:**
+- `[CONTINUE →]` — rejoins main path at Slide 23
+
+---
+
+## Slide 23 — The First Anglo-Powhatan War (main path)
 
 **Image brief:** Three small painted vignettes stacked: an English raid on a longhouse village (smoke, no bodies); a Powhatan ambush on an English supply boat (arrows in the hull); a war-council fire with Powhatan and his werowances. Painted-engraving style, low-saturation.
 **Audio:** Drum lifts to a war-tempo for one phrase, then settles. Flute returns underneath.
@@ -386,7 +602,7 @@
 
 ---
 
-## Slide 20 — They Take My Daughter
+## Slide 24 — They Take My Daughter
 
 **Image brief:** Pocahontas — a young woman now, about seventeen — being escorted onto an English ship by soldiers. Her hands are not bound but her face is set. The viewer is in Powhatan's seat, far from the river, hearing the news from a runner.
 **Audio:** Drum drops to almost silence. Flute alone, a single long note that bends down.
@@ -404,12 +620,12 @@
 
 ---
 
-## Slide 21 — Decision: How Do I Answer the Captive?
+## Slide 25 — Decision: How Do I Answer the Captive?
 
 **Image brief:** The council fire one more time. The werowances waiting. The viewer in Powhatan's seat. Outside the longhouse door, faintly visible, a runner has just arrived from the fort with a sealed letter.
 **Audio:** SFX: cedar drum council — three beats. Hold.
 **Timeline bar:** Holds.
-**Slide text overlay:** Standard slide-textbox. **DECISION POINT 4.**
+**Slide text overlay:** Standard slide-textbox. **DECISION POINT 7.**
 
 **Body text:**
 > I have to answer. The English want a ransom — prisoners, weapons, corn.
@@ -419,13 +635,13 @@
 > What do I do?
 
 **Buttons:**
-- `[REFUSE TO NEGOTIATE. DAUGHTERS ARE NOT TRADED. →]` — advances to Slide 21-FAIL (gameover, terminal dignified — strategic failure / personal cost)
-- `[PAY EVERYTHING. PAY NOW. →]` — advances to Slide 22-PAID (off-ramp — leverage lost, rejoins main)
-- `[NEGOTIATE SLOWLY. LET THEM TIRE. →]` — advances to Slide 22 (main path)
+- `[REFUSE TO NEGOTIATE. DAUGHTERS ARE NOT TRADED. →]` — advances to **Slide 25-FAIL** (gameover, terminal dignified — strategic failure / personal cost)
+- `[PAY EVERYTHING. PAY NOW. →]` — advances to Slide 26-PAID (off-ramp — leverage lost, rejoins main)
+- `[NEGOTIATE SLOWLY. LET THEM TIRE. →]` — advances to Slide 26 (main path)
 
 ---
 
-## Slide 21-FAIL — She Does Not Come Home (gameover, terminal dignified)
+## Slide 25-FAIL — She Does Not Come Home (gameover, terminal dignified)
 
 **Image brief:** Period engraving of a longhouse interior, fire low. A single empty mat where a person used to sit. A copper hair ornament on the mat. No portrait of Pocahontas. The grief is in the absence. NO comedic cast. NO Yzma. NO Bobby.
 **Audio:** Drum drops to a single beat every five seconds. Flute holds one long note, falling. **NO Rickroll cherry per §7** — clean cedar-drum tail, full stop.
@@ -444,7 +660,7 @@
 
 ---
 
-## Slide 22-PAID — Off-Ramp: The Ransom (re-converges)
+## Slide 26-PAID — Off-Ramp: The Ransom (re-converges)
 
 **Image brief:** Powhatan's men loading baskets of corn and bundles of furs onto a longboat under English guard. The transaction is large, public, humiliating. The werowances watch from the riverbank.
 **Audio:** Drum thin. Flute holds.
@@ -457,11 +673,11 @@
 > I gave them my leverage. They kept hers. I am older than I was last spring, and tired.
 
 **Buttons:**
-- `[CONTINUE →]` — rejoins main path at Slide 23
+- `[CONTINUE →]` — rejoins main path at Slide 27
 
 ---
 
-## Slide 22 — Slow Negotiation (main path)
+## Slide 26 — Slow Negotiation (main path)
 
 **Image brief:** A messenger from the fort speaking with Powhatan's emissary at the edge of a clearing. Both men formal. A single basket of corn between them, much smaller than what the English first demanded. Painted style.
 **Audio:** Drum steady. Flute warmer.
@@ -474,11 +690,11 @@
 > I can wait. The fort cannot. This is the kind of negotiation I am good at.
 
 **Buttons:**
-- `[CONTINUE →]` — advances to Slide 23
+- `[CONTINUE →]` — advances to Slide 27
 
 ---
 
-## Slide 23 — Pocahontas Chooses
+## Slide 27 — Pocahontas Chooses
 
 **Image brief:** Pocahontas, in English clothes now — a high-collared dress, hair tied back — speaking with a quiet Englishman in a plain coat. John Rolfe. They are at a window inside the fort. She is not bound. She is not afraid. She is making a decision. Painted style, dignified.
 **Audio:** Flute lifts. Drum quiet.
@@ -487,19 +703,75 @@
 
 **Body text:**
 > A runner comes. My daughter has decided to stay at the fort.
-> She has taken the English religion. She has taken the English name — Rebecca. She is going to marry one of them. A planter named Rolfe.
-> I do not know what happened to her in those months that she does not want to come home. I will not learn. She is seventeen and she has made a decision.
-> I send a string of pearls and one of her uncles to stand for me at the wedding. I do not go.
+> She has taken the English religion. She has taken the English name — Rebecca. She wants to marry one of them. A planter named Rolfe.
+> The runner has a letter. The Englishman has asked, through her, for my blessing on the marriage.
 
 **Buttons:**
 - `[CONTINUE →]`
 
 ---
 
-## Slide 24 — The Peace
+## Slide 28 — Decision: The Marriage Proposal
+
+**Image brief:** The longhouse, the runner kneeling at the platform with a sealed letter held out. The werowances behind. A string of pearls — my pearls — laid across my knee. The viewer is in Powhatan's seat. The decision is not just hers.
+**Audio:** SFX: cedar drum council — three beats. Drum stays low underneath.
+**Timeline bar:** Holds.
+**Slide text overlay:** Standard slide-textbox. **DECISION POINT 8.**
+
+**Body text:**
+> A marriage between her and Rolfe is not just a marriage. It is a treaty in a dress.
+> I can bless the marriage as a peace — send pearls, send a brother to stand for me, end the war on her wedding day.
+> I can demand more before I bless it — land returned, prisoners returned, a written limit on English settlement past the falls. The English are tired. They might pay it.
+> Or I can forbid it. She is my daughter. The chief's daughter does not marry the captain who held her.
+> What do I do?
+
+**Buttons:**
+- `[BLESS THE MARRIAGE AS A PEACE. →]` — advances to Slide 29 (main path)
+- `[DEMAND MORE CONCESSIONS FIRST. →]` — advances to Slide 29-HARD (off-ramp — secures a harder peace, slightly different epilogue framing, rejoins main at Slide 30)
+- `[FORBID IT. THE CHIEF'S DAUGHTER DOES NOT MARRY HER CAPTOR. →]` — advances to **Slide 28-FAIL** (gameover, terminal dignified — strategic failure / chose pride over leverage)
+
+---
+
+## Slide 28-FAIL — She Stays Anyway (gameover, terminal dignified)
+
+**Image brief:** Period engraving — a longhouse doorway from the inside, looking out. A single figure walking away across an English-cleared field. No face shown. NO comedic cast. NO Yzma. NO Rickroll.
+**Audio:** Drum drops to a single beat every five seconds. Flute long, low. **NO Rickroll cherry.** Clean cedar-drum tail, full stop.
+**Timeline bar:** `1614` glows red. Fail-marker: "War continues past 1614. No Peace of Pocahontas. Confederation bleeds another five years."
+**Slide text overlay:** Standard slide-textbox.
+
+**Body text:**
+> I refuse. I send word she is not to marry. The runner returns alone.
+> She marries him anyway. The English do not need my permission. The war does not end. The marriage that should have bought five years of quiet buys nothing.
+> I held my pride. I lost the peace. The cost is paid by every werowance whose village is burned in the years I bought myself the dignity of saying no.
+> A chief's pride is the most expensive thing in the country.
+
+**Buttons:**
+- `[TRY AGAIN]` — returns to Slide 1
+- `[SELECT ANOTHER CHARACTER]` — returns to HOME
+
+---
+
+## Slide 29-HARD — Off-Ramp: A Harder Peace
+
+**Image brief:** A formal exchange on the riverbank. A larger, colder gathering than the historical one. A document being read out by an English officer with two of Powhatan's werowances watching. Painted style.
+**Audio:** Drum measured. Flute thin.
+**Timeline bar:** Holds.
+**Slide text overlay:** Standard slide-textbox.
+
+**Body text:**
+> I send word: she may marry him when the English release the prisoners they still hold and agree in writing not to settle past the falls of the James.
+> They take a season to argue. They give me half of it. The prisoners come home. The line at the falls is written but never enforced.
+> The marriage happens. The peace happens. It is a colder peace than it would have been. I am a colder chief than I was a year ago.
+
+**Buttons:**
+- `[CONTINUE →]` — rejoins main at Slide 30
+
+---
+
+## Slide 29 — The Peace (main path)
 
 **Image brief:** A formal exchange between Powhatan's emissaries and English officers at the riverbank. No weapons drawn. A document being passed across. The river behind them quiet. Painted style.
-**Audio:** Drum steady. Flute long, calm. The first real warmth in the score since Slide 13.
+**Audio:** Drum steady. Flute long, calm. The first real warmth in the score since Slide 14.
 **Timeline bar:** `1614` solid. Label: "1614 — Pocahontas marries Rolfe. First Anglo-Powhatan War ends."
 **Slide text overlay:** Standard slide-textbox.
 
@@ -513,7 +785,7 @@
 
 ---
 
-## Slide 25 — She Sails to England
+## Slide 30 — She Sails to England
 
 **Image brief:** A small ship under sail, leaving the river-mouth, bound for England. A single figure at the rail in English dress. From a distance — Powhatan's POV from the high bank.
 **Audio:** Flute high, thin, alone. Drum silent for the slide.
@@ -531,7 +803,7 @@
 
 ---
 
-## Slide 26 — Word from England
+## Slide 31 — Word from England
 
 **Image brief:** A runner with a sealed letter in hand, kneeling at the longhouse door. Powhatan on the platform. The light is gray. Painted style.
 **Audio:** Drum drops to a single slow beat. Flute holds one note.
@@ -549,12 +821,12 @@
 
 ---
 
-## Slide 27 — Decision: Who Comes After Me?
+## Slide 32 — Decision: Who Comes After Me?
 
 **Image brief:** The platform at the longhouse. Powhatan seated. Across from him, two men: a younger werowance (his named successor, Opitchapam) and his half-brother Opechancanough — older, hard-eyed, scarred. The viewer is in Powhatan's seat looking at the two men.
 **Audio:** SFX: cedar drum council — three beats. Then quiet.
 **Timeline bar:** `1618` ticks faint, anticipating.
-**Slide text overlay:** Standard slide-textbox. **DECISION POINT 5.**
+**Slide text overlay:** Standard slide-textbox. **DECISION POINT 9.**
 
 **Body text:**
 > I am tired. My legs ache in the cold. The runners say I do not have many more winters.
@@ -565,12 +837,12 @@
 > What do I do?
 
 **Buttons:**
-- `[FOLLOW CUSTOM. OPITCHAPAM, THEN OPECHANCANOUGH. →]` — advances to Slide 28 (main path / historical)
-- `[LEAD THE STRIKE MYSELF, NOW. →]` — advances to Slide 27-FAIL (gameover, terminal dignified — vanity / break-of-custom failure)
+- `[FOLLOW CUSTOM. OPITCHAPAM, THEN OPECHANCANOUGH. →]` — advances to Slide 33 (main path / historical)
+- `[LEAD THE STRIKE MYSELF, NOW. →]` — advances to **Slide 32-FAIL** (gameover, terminal dignified — vanity / break-of-custom failure)
 
 ---
 
-## Slide 27-FAIL — I Die in the Field (gameover, terminal dignified)
+## Slide 32-FAIL — I Die in the Field (gameover, terminal dignified)
 
 **Image brief:** Period engraving — an empty Powhatan war-camp at dawn. A copper gorget on the ground beside an extinguished fire. NO body. NO comedic cast.
 **Audio:** Drum drops to nothing. Flute holds a single long note, falling. **NO Rickroll cherry.** Clean cedar-drum tail, full stop.
@@ -589,25 +861,46 @@
 
 ---
 
-## Slide 28 — I Die in My Own Time
+## Slide 33 — On My Last Mat
 
-**Image brief:** Powhatan on a low platform inside the longhouse, surrounded by his werowances and family. Quiet, dignified, fire low. Painted-engraving style. No graphic detail. The frame is wide — this is a man dying in his bed at sixty-eight, the way he wanted.
+**Image brief:** Powhatan on a low platform inside the longhouse, surrounded by his werowances and family. Quiet, dignified, fire low. Painted-engraving style. No graphic detail. The frame is wide — this is a man on his last mat at sixty-eight, the way he wanted.
 **Audio:** Drum slow and clear. Flute long. The fullest the score has been since Slide 1, and the slowest.
-**Timeline bar:** `1618` solid. Label: "1618 — Powhatan dies. Succession passes to Opitchapam, then Opechancanough."
+**Timeline bar:** `1618` solid. Label: "1618 — Powhatan dies."
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> I die in 1618. In my own longhouse. With my brothers' hands on my shoulders.
+> I am dying in my own longhouse. My brothers' hands are on my shoulders. The runners are at the door.
 > I held this confederation for forty years. I kept the English from swallowing us in my lifetime. I did not keep them out forever. No one was going to do that.
-> Opitchapam takes the platform after me. Opechancanough is at his shoulder. The English at the fort do not yet know what is coming for them.
-> I am done. The story is not.
+> Opitchapam will take the platform when I close my eyes. Opechancanough is at his shoulder. The English at the fort do not yet know what is coming for them.
+> Opechancanough leans down. He asks me what I want him to do.
 
 **Buttons:**
 - `[CONTINUE →]`
 
 ---
 
-## Slide 29 — Epilogue: 1622
+## Slide 34 — Decision: My Last Words to Opechancanough
+
+**Image brief:** The same scene, tighter shot. Just Opechancanough's face above mine — scarred, hard, listening. The fire is gold on the side of his face. The viewer is on the mat, looking up. This is the last decision of the route.
+**Audio:** Drum drops to a single beat. Flute thin, alone.
+**Timeline bar:** Holds at `1618`.
+**Slide text overlay:** Standard slide-textbox. **DECISION POINT 10.** *(No fail branch. The advice you leave Opechancanough reframes the epilogue card you receive.)*
+
+**Body text:**
+> He is waiting. He will outlive me. What he does to the English over the next twenty years will be my voice as much as his.
+> I can tell him: keep the peace I bought. Trade. Wait. Let the English break themselves on their own crops and their own quarrels.
+> I can tell him: strike, when the time is right and the muskets are ours and the villages are ready. Hit them once, hard, on a single morning. Not before.
+> I can tell him: this is your country now. You will know what I cannot know from this mat. Decide for yourself.
+> What do I tell him?
+
+**Buttons:**
+- `[KEEP THE PEACE. WAIT THEM OUT. →]` — advances to Slide 35-PEACE (epilogue framing A)
+- `[STRIKE, BUT ONLY WHEN READY. ONE MORNING. →]` — advances to Slide 35-STRIKE (epilogue framing B — the historical 1622 framing)
+- `[DECIDE FOR YOURSELF. →]` — advances to Slide 35-OPEN (epilogue framing C — the most honest, hands-it-to-Opechancanough framing)
+
+---
+
+## Slide 35-PEACE — Epilogue: The Patience He Did Not Keep
 
 **Image brief:** A still period engraving — a wide painted view of the James River with several small English plantations along the banks, smoke rising from cookfires at dawn. No violence on screen. The narrative beat is what is *about* to happen, not what happens. Dignified, factual.
 **Audio:** Drum picks up to a measured tempo. Flute thin. No fail-sting. The slide reads as historical record, not as a gameover.
@@ -615,17 +908,53 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> Four years after my death, my brother Opechancanough does what I would not.
-> On a single morning in March, his runners reach every English plantation along the James at the same hour. About three hundred and forty-seven settlers die before noon. A coordinated strike, planned for years.
-> The English answer is not measured. They burn villages. They poison parley. They make a new policy: extermination, not coexistence.
+> I tell him to keep the peace.
+> Four years after my death, my brother does not. On a single morning in March, his runners reach every English plantation along the James at the same hour. About three hundred and forty-seven settlers die before noon.
+> He does not listen to me. He listens to the next twenty burned villages. I would have done the same in his place. I told him otherwise because I was dying and it was the kinder thing to say.
 > The confederation I built does not survive thirty more years.
 
 **Buttons:**
-- `[CONTINUE →]`
+- `[CONTINUE →]` — advances to Slide 36
 
 ---
 
-## Slide 30 — Epilogue: The Math
+## Slide 35-STRIKE — Epilogue: The Strike He Inherited
+
+**Image brief:** Same wide painted view of the James River, plantations, dawn. Same composition.
+**Audio:** Drum measured. Flute thin. No fail-sting. Historical-record tone.
+**Timeline bar:** `1622` illuminates dim. Label: "1622 — Opechancanough's coordinated uprising."
+**Slide text overlay:** Standard slide-textbox.
+
+**Body text:**
+> I tell him: strike when the time is right. Not before.
+> Four years after my death, he does. On a single morning in March, his runners reach every English plantation along the James at the same hour. About three hundred and forty-seven settlers die before noon. A coordinated strike, planned for years.
+> He waited as I told him. He chose the morning. He chose the targets.
+> The English answer is not measured. The confederation I built does not survive thirty more years. The strike was right. The math was always going to be wrong.
+
+**Buttons:**
+- `[CONTINUE →]` — advances to Slide 36
+
+---
+
+## Slide 35-OPEN — Epilogue: The Country I Handed Him
+
+**Image brief:** Same wide painted view of the James River, plantations, dawn. Same composition.
+**Audio:** Drum measured. Flute thin. No fail-sting.
+**Timeline bar:** `1622` illuminates dim. Label: "1622 — Opechancanough's coordinated uprising."
+**Slide text overlay:** Standard slide-textbox.
+
+**Body text:**
+> I tell him: this is your country now.
+> Four years after my death, he chooses. On a single morning in March, his runners reach every English plantation along the James at the same hour. About three hundred and forty-seven settlers die before noon. A coordinated strike, planned for years.
+> I do not know if I would have done the same. I am not in his seat. The man on the mat does not get to second-guess the man on the platform.
+> The confederation I built does not survive thirty more years. He decided. I cannot tell you he was wrong.
+
+**Buttons:**
+- `[CONTINUE →]` — advances to Slide 36
+
+---
+
+## Slide 36 — Epilogue: The Math
 
 **Image brief:** A wide quiet shot of the same river, now decades later. A few small native fishing weirs still standing among many English farm-fields. The land has not stopped existing; the people have not stopped existing; the proportions have changed. Painted style, low-saturation, calm.
 **Audio:** Drum holds the slowest steady beat. Flute long, full, calm. The track resolves rather than fading. **NO Rickroll cherry.** Clean tail.

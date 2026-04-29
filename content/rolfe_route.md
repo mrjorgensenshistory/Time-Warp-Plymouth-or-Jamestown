@@ -4,7 +4,7 @@
 > Voice: strict first-person, present tense, HARD RULE per §1.5 of THEME spec.
 > Tone: quiet, steady, observant. Half merchant, half romantic. A practical man who lost everything and finds a new home in the wrong moment in history.
 > Music: Latin / Spanish nylon-string guitar bed (`audio/rolfe/rolfe_main.mp3`). Warm, mercantile, slowly turning anxious.
-> Length: 30 slides. 5 decision points. 4 gameovers (each with Try Again returns).
+> Length: 44 slides. 12 decision points. 9 gameovers (each with Try Again returns).
 > Pocahontas appears throughout as NPC — dignified, smart, real, with her own motivations.
 
 ---
@@ -43,7 +43,26 @@
 
 ---
 
-## Slide 3 — Bermuda
+## Slide 3 — The Wreck (Decision 1)
+
+**Image brief:** The Sea Venture pinned on the reef at low tide, half her timbers above water. Crates and barrels bobbing in the surf. Sailors waist-deep in the foam, hauling what they can to shore. A barrel marked with the church seal floats past a woman clutching a child. Period-engraving style, dawn light after the storm.
+**Audio:** Surf bed underneath. Guitar quiet, fingerpicked, anxious. A wood-creak SFX as the hull shifts.
+**Timeline bar:** Holds.
+**Slide text overlay:** Parchment ship's-log card.
+
+**Body text:**
+> The captain shouts orders from the beach. The ship will not last another tide. We have one boat between us and the wreck and an hour of daylight.
+> The hold is full. The Company's cargo is in there. So is the chapel silver. So are the women's chests. We cannot save all of it.
+> The men look at me. I am the youngest planter on the manifest. The captain wants my answer.
+
+**Buttons:**
+- `[SAVE THE CARGO. THE COMPANY PAID FOR IT.]` — advances to GAMEOVER F
+- `[SAVE THE WOMEN AND CHILDREN'S CHESTS FIRST.]` — advances to Slide 4
+- `[SAVE THE CHAPEL SILVER. WE WILL NEED A CHURCH.]` — advances to GAMEOVER G
+
+---
+
+## Slide 4 — Bermuda
 
 **Image brief:** A small island beach. Driftwood from the wreck pulled up onto the sand. Palmetto trees, blue water, white shore. A makeshift cross planted in the sand at the corner of the frame, freshly cut. No bodies in view. Soft afternoon light.
 **Audio:** Guitar continues, quiet. A faint surf bed underneath. A single seabird SFX.
@@ -56,11 +75,47 @@
 > My wife dies in the spring. I dig her grave myself. I am a widower at twenty-five and I have not yet seen Virginia.
 
 **Buttons:**
-- `[CONTINUE →]` — advances to Slide 4
+- `[CONTINUE →]` — advances to Slide 5
 
 ---
 
-## Slide 4 — Jamestown, At Last
+## Slide 5 — GAMEOVER F — "I Saved the Cargo"
+
+**Image brief:** Full-bleed: Yzma "WRONG LEVERRR" GIF (Tenor URL `https://media.tenor.com/mcS-PaTlDawAAAAM/pull-the-lever-wrong-lever.gif`). Bangers headline overlay top: **"WRONG LEVERRRRR!"**
+**Audio:** Guitar cuts. Fail-sting. 3-second Rickroll cherry.
+**Timeline bar:** Faded.
+**Slide text overlay:** None — full-bleed cutscene.
+
+**Body text (small caption, Share Tech):**
+> I order the men to row for the bolts of cloth and the iron tools. The chests on the high deck go under with the tide. Three women drown reaching for them.
+> The colony arrives in Bermuda with iron and cloth and no second voyage in our hearts.
+> The men remember who chose the Company over the families. I do not last the winter on the island.
+
+**Buttons (centered top:55%):**
+- `[TRY AGAIN →]` — returns to Slide 3
+- `[SELECT ANOTHER CHARACTER →]` — returns to HOME
+
+---
+
+## Slide 6 — GAMEOVER G — "I Saved the Silver"
+
+**Image brief:** Full-bleed: Tulio & Miguel laughing GIF (Tenor URL `https://media.tenor.com/kfl9bhqP8I0AAAAM/tulio-miguel.gif`). Bangers headline overlay top: **"IT'S TOUGH TO BE A GOD…"**
+**Audio:** Guitar cuts. Fail-sting. 3-second Rickroll cherry.
+**Timeline bar:** Faded.
+**Slide text overlay:** None — full-bleed.
+
+**Body text (small caption, Share Tech):**
+> I order the chapel silver hauled to shore first. The chalice and the candlesticks make it. Two children's trunks do not.
+> The chaplain blesses my decision. The widows do not speak to me again on the island.
+> When we finally reach Virginia I am known as the man who saved the church and lost the children. The Company posts me to a different fort.
+
+**Buttons (centered top:55%):**
+- `[TRY AGAIN →]` — returns to Slide 3
+- `[SELECT ANOTHER CHARACTER →]` — returns to HOME
+
+---
+
+## Slide 7 — Jamestown, At Last
 
 **Image brief:** A wooden palisade fort on a low riverbank. The James River wide and gray behind it. Ragged smoke from a single chimney. A few thin men in patched clothes watch from the gate. Period-engraving style. The Jamestown anchor cannon is leaning, unused.
 **Audio:** Guitar bed continues. **Anchor SFX: single distant cannon report on slide load** (per §1.6 — Jamestown landing cue). Then quiet.
@@ -73,11 +128,11 @@
 > Of the five hundred colonists who lived here last autumn, sixty are still breathing. They tell us about the winter in short sentences. Nobody tells the whole story at once.
 
 **Buttons:**
-- `[CONTINUE →]` — advances to Slide 5
+- `[CONTINUE →]` — advances to Slide 8
 
 ---
 
-## Slide 5 — The Starving Time
+## Slide 8 — The Starving Time
 
 **Image brief:** Inside the fort. A long room, low ceiling. A pot on a cold hearth. Empty barrels stacked against the wall. A man sits in the corner staring at nothing. Period-engraving style, no graphic imagery, no bodies. Dim light through a single shuttered window.
 **Audio:** Guitar drops to a single sustained low note. No SFX.
@@ -90,11 +145,48 @@
 > What they did at the end of that winter is in the record. I will not write it here. I have read enough of it to understand why no one in this fort looks me in the eye.
 
 **Buttons:**
-- `[CONTINUE →]` — advances to Slide 6
+- `[CONTINUE →]` — advances to Slide 9
 
 ---
 
-## Slide 6 — The Decision to Abandon (Decision 1)
+## Slide 9 — The First Choice in Virginia (Decision 2)
+
+**Image brief:** The interior of the gatehouse. Three men gathered around a barrel: the new acting governor, a trader with two loaded packhorses, and a sailor pointing back at the dock where a small ship rocks at anchor. Light comes in slanted through a gun-port. Period-engraving style.
+**Audio:** Guitar quiet, slow fingerpicking. A single boot-on-plank SFX.
+**Timeline bar:** Holds.
+**Slide text overlay:** Parchment ship's-log card.
+
+**Body text:**
+> I have my carpenter's tools, two crates from the wreck, and the Bermuda boat we sailed in.
+> The governor offers me a plot of land if I stay with the colony. The trader offers a season's worth of corn for my tools and my passage to England on the next ship. The sailor says he can put me on De La Warr's ship if I go quietly.
+> One of these answers builds a colony. Two of them get me home.
+
+**Buttons:**
+- `[STAY WITH THE COLONY. KEEP THE TOOLS.]` — advances to Slide 10
+- `[TRADE THE TOOLS FOR CORN AND BOARD A RETURNING SHIP.]` — advances to GAMEOVER H
+- `[SLIP ABOARD DE LA WARR'S SHIP. GO HOME.]` — advances to GAMEOVER A
+
+---
+
+## Slide 10 — GAMEOVER H — "I Sold the Tools"
+
+**Image brief:** Full-bleed: Terry Tate "Office Linebacker" / Colonial Enforcer reskin GIF (Tenor URL `https://media.tenor.com/WhXm78qcw6wAAAAM/terry-tate-office-linebacker.gif`). Bangers headline overlay top: **"YOU CAN'T STARVE ON COMPANY TIME!"**
+**Audio:** Guitar cuts. Fail-sting. 3-second Rickroll cherry.
+**Timeline bar:** Faded.
+**Slide text overlay:** None — full-bleed.
+
+**Body text (small caption, Share Tech):**
+> I trade my axes and my plane for two sacks of corn and a berth back to England. The corn lasts six weeks. The berth is real.
+> When I land in Plymouth I am a planter without a plow, a widower without a wife, and a colonist without a colony.
+> Virginia goes on without me. The cash crop is invented by another man whose name no one remembers either.
+
+**Buttons (centered top:55%):**
+- `[TRY AGAIN →]` — returns to Slide 9
+- `[SELECT ANOTHER CHARACTER →]` — returns to HOME
+
+---
+
+## Slide 11 — The Decision to Abandon (Decision 3)
 
 **Image brief:** The James River. A small ship — the Deliverance — anchored midstream, sails being raised. The fort behind it, gates open and empty. A line of survivors trudging toward the shore with bundles.
 **Audio:** Guitar continues, slow and steady.
@@ -108,11 +200,11 @@
 
 **Buttons:**
 - `[GO HOME — VIRGINIA IS A GRAVEYARD]` — advances to GAMEOVER A
-- `[TURN THE SHIP AROUND. TRY AGAIN.]` — advances to Slide 7
+- `[TURN THE SHIP AROUND. TRY AGAIN.]` — advances to Slide 12
 
 ---
 
-## Slide 7 — GAMEOVER A — "I Went Home"
+## Slide 12 — GAMEOVER A — "I Went Home"
 
 **Image brief:** Full-bleed: Yzma "WRONG LEVERRR" GIF (Tenor URL `https://media.tenor.com/mcS-PaTlDawAAAAM/pull-the-lever-wrong-lever.gif`). Bangers headline overlay top: **"WRONG LEVERRRRR!"** in bone-white with 2px black stroke.
 **Audio:** Guitar cuts. Fail-sting one-shot. Then 3-second Rickroll cherry MIDI.
@@ -125,12 +217,12 @@
 > History writes me down as the man who quit on America.
 
 **Buttons (centered top:55%):**
-- `[TRY AGAIN →]` — returns to Slide 6
+- `[TRY AGAIN →]` — returns to Slide 11
 - `[SELECT ANOTHER CHARACTER →]` — returns to HOME (title screen)
 
 ---
 
-## Slide 8 — The Land Itself
+## Slide 13 — The Land Itself
 
 **Image brief:** Wide shot of the Virginia tidewater. Tall trees, slow river bend, soft afternoon haze. A man walking alone along a path with a leather satchel. Disney *Pocahontas* visual mood — leaves blowing, water glinting. NO Disney audio.
 **Audio:** Guitar bed warms, slightly faster tempo. A single bird call SFX.
@@ -143,11 +235,11 @@
 > I am a planter. I look at this dirt and I see something the Company cannot see yet.
 
 **Buttons:**
-- `[CONTINUE →]` — advances to Slide 9
+- `[CONTINUE →]` — advances to Slide 14
 
 ---
 
-## Slide 9 — The Local Tobacco
+## Slide 14 — The Local Tobacco
 
 **Image brief:** A field of tobacco — but the leaves are small, dark, ragged. A Powhatan farmer watches from the treeline, expression neutral. A clay pipe sits on a stump, smoldering. Period-engraving style.
 **Audio:** Guitar continues. Quiet.
@@ -160,29 +252,48 @@
 > The local strain is harsh. It scratches the throat. Englishmen will not pay for it. The Company is angry. The colony is broke.
 
 **Buttons:**
-- `[CONTINUE →]` — advances to Slide 10
+- `[CONTINUE →]` — advances to Slide 15
 
 ---
 
-## Slide 10 — The Spanish Seeds (Decision 2)
+## Slide 15 — Which Seed Goes in the Ground (Decision 4)
 
-**Image brief:** Below-decks scene on a small trading sloop. A wooden crate half-open. Inside, small paper packets tied with string — clearly contraband. A Spanish sailor exchanges nervous glances with Rolfe. A single oil lamp lights the scene.
-**Audio:** Guitar shifts — slightly more anxious, faster fingerpicking. A wood-creak SFX as the crate opens.
+**Image brief:** A small toolshed at the edge of a tilled plot. Three small pouches lined up on a workbench: one of dark Powhatan tobacco seed, one of pale-gold seed in a Spanish wax-paper packet, one of English garden seed in a familiar linen sack. A merchant friend stands in the doorway, half in shadow. A single oil lamp lights the scene.
+**Audio:** Guitar shifts — slightly more anxious, faster fingerpicking. A wood-creak SFX as the door opens.
 **Timeline bar:** Holds.
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
 > A merchant friend tells me about Trinidad. The Spanish grow a sweet tobacco there. The leaves are golden. London merchants will buy it as fast as it comes off the docks.
-> Spain protects the seeds. It is a hanging offense to take them out of the colony.
-> A sailor I trust will smuggle me a packet. He wants twenty shillings. He wants my silence.
+> Spain protects the seeds. It is a hanging offense to take them out of the colony. A sailor I trust will smuggle me a packet for twenty shillings and my silence.
+> The Company would rather I plant something I already know — wheat, barley, English garden crops. The Powhatan strain is here for the taking and legal. The Spanish seeds are the gamble.
 
 **Buttons:**
-- `[BUY THE SEEDS. PLANT IN SECRET.]` — advances to Slide 11
-- `[STAY LEGAL. PLANT THE LOCAL STRAIN.]` — advances to GAMEOVER B
+- `[BUY THE SPANISH SEEDS. PLANT IN SECRET.]` — advances to Slide 17
+- `[STAY LEGAL. PLANT THE LOCAL POWHATAN STRAIN.]` — advances to GAMEOVER B
+- `[PLANT ENGLISH CROPS I ALREADY KNOW.]` — advances to GAMEOVER I
 
 ---
 
-## Slide 11 — GAMEOVER B — "I Stayed Legal"
+## Slide 16 — GAMEOVER I — "I Planted Wheat"
+
+**Image brief:** Full-bleed: Terry Tate "Office Linebacker" / Colonial Enforcer reskin GIF (Tenor URL `https://media.tenor.com/WhXm78qcw6wAAAAM/terry-tate-office-linebacker.gif`). Bangers headline overlay top: **"YOU CAN'T STARVE ON COMPANY TIME!"**
+**Audio:** Guitar cuts. Fail-sting. 3-second Rickroll cherry.
+**Timeline bar:** Faded.
+**Slide text overlay:** None — full-bleed.
+
+**Body text (small caption, Share Tech):**
+> I plant the wheat and the barley I learned to grow at home. The summer rots half of it in the ground. The deer take what is left.
+> Virginia is not England. The crops I know cannot feed me on this dirt, much less feed a colony.
+> The Company stops sending ships. The fort thins out a second time. The cash crop is never invented and the colony quietly fails.
+
+**Buttons (centered top:55%):**
+- `[TRY AGAIN →]` — returns to Slide 15
+- `[SELECT ANOTHER CHARACTER →]` — returns to HOME
+
+---
+
+## Slide 17 — GAMEOVER B — "I Stayed Legal"
 
 **Image brief:** Full-bleed: Terry Tate "Office Linebacker" / Colonial Enforcer reskin GIF, slamming a barrel labeled "COMPANY PROFITS." Bangers headline overlay top: **"YOU CAN'T STARVE ON COMPANY TIME!"**
 **Audio:** Guitar cuts. Fail-sting one-shot. 3-second Rickroll cherry tail.
@@ -195,12 +306,12 @@
 > The cash-crop economy is never invented. America's whole story takes a different shape — and not one anyone here will live long enough to see.
 
 **Buttons:**
-- `[TRY AGAIN →]` — returns to Slide 10
+- `[TRY AGAIN →]` — returns to Slide 15
 - `[SELECT ANOTHER CHARACTER →]` — returns to HOME
 
 ---
 
-## Slide 12 — First Crop, 1612
+## Slide 18 — First Crop, 1612
 
 **Image brief:** A tobacco field at dawn. The new plants taller, leaves broader, a paler gold-green than the local strain. Rolfe kneeling at the edge, leaf between his fingers. Mist rising off the field. Disney *Pocahontas* visual mood — soft painted light.
 **Audio:** Guitar opens up — major key for the first time in the route. Cautiously hopeful.
@@ -213,11 +324,11 @@
 > I dry the crop. I roll the bundles. I send a single barrel back to England on the next ship and I wait.
 
 **Buttons:**
-- `[CONTINUE →]` — advances to Slide 13
+- `[CONTINUE →]` — advances to Slide 19
 
 ---
 
-## Slide 13 — The Letter from London
+## Slide 19 — The Letter from London
 
 **Image brief:** A small wooden desk inside the fort. A letter unfolded, the wax seal of the Virginia Company broken. A pile of coin pouches beside it. Through the window, men loading a ship at the dock.
 **Audio:** Guitar lifts. A single quill-on-paper SFX as the letter unfolds.
@@ -230,11 +341,11 @@
 > I have saved the colony. I am twenty-nine years old. I am still a widower.
 
 **Buttons:**
-- `[CONTINUE →]` — advances to Slide 14
+- `[CONTINUE →]` — advances to Slide 20
 
 ---
 
-## Slide 14 — Pocahontas
+## Slide 20 — Pocahontas
 
 **Image brief:** A young Powhatan woman — perhaps nineteen — standing by the river in English-style clothes that do not yet fit her. Her hair is long but pinned back the English way. She is reading a Bible held open in her hands. Her expression is steady and watchful, not soft. Disney *Pocahontas* visual mood for the setting — leaves, water — but the figure herself is rendered with dignity, no Disney whimsy.
 **Audio:** Guitar slows. A faint wood-flute layers underneath for two phrases — Powhatan instrumentation, brief, respectful. (Per §3 dignity rule.)
@@ -247,11 +358,48 @@
 > I have spoken with her three times. She knows exactly what has been done to her. She is the most clear-eyed person in this colony.
 
 **Buttons:**
-- `[CONTINUE →]` — advances to Slide 15
+- `[CONTINUE →]` — advances to Slide 21
 
 ---
 
-## Slide 15 — The Marriage Proposal (Decision 3)
+## Slide 21 — How Do I Treat Her (Decision 5)
+
+**Image brief:** The garden walk at Henrico, late afternoon. Pocahontas seated on a low wall with the Bible closed in her lap. Rolfe standing a respectful step away. Two settlers visible in the distance pretending not to watch. Disney *Pocahontas* visual mood — golden hour, leaves moving in the wind. The figure renders with dignity, no whimsy.
+**Audio:** Guitar quiet. The wood-flute layer holds for one phrase under the dialogue, then drops.
+**Timeline bar:** Holds.
+**Slide text overlay:** Parchment ship's-log card.
+
+**Body text:**
+> I am twenty-eight. She is nineteen. The minister is asking me what my intentions are. The governor is asking me the same thing. Her uncle, when she sees him, will ask her the same thing.
+> I can court her as a wife — slowly, openly, asking her permission at each step. I can present a marriage to her people as pure diplomacy with no feeling in it. I can refuse the question and stay single — leave her at Henrico in English clothes that do not fit.
+> Each of these is honest in its own way. Only one of them is true.
+
+**Buttons:**
+- `[COURT HER AS A WIFE. ASK HER, NOT JUST THE GOVERNOR.]` — advances to Slide 22
+- `[TREAT THE MARRIAGE AS PURE DIPLOMACY.]` — advances to GAMEOVER C
+- `[REFUSE. STAY SINGLE. LEAVE HER AT HENRICO.]` — advances to GAMEOVER J
+
+---
+
+## Slide 22 — GAMEOVER J — "I Refused"
+
+**Image brief:** Full-bleed: Yzma "WRONG LEVERRR" GIF (Tenor URL `https://media.tenor.com/mcS-PaTlDawAAAAM/pull-the-lever-wrong-lever.gif`). Bangers headline overlay top: **"WRONG LEVERRRRR!"**
+**Audio:** Guitar cuts. Fail-sting. 3-second Rickroll cherry.
+**Timeline bar:** Faded.
+**Slide text overlay:** None — full-bleed.
+
+**Body text (small caption, Share Tech):**
+> I tell the governor I am not the man for this. I leave Henrico. I plant my crop. The peace marriage never happens.
+> Powhatan refuses to release the prisoners on his side. The river wars start back up by harvest time. The fort takes raids three winters in a row.
+> The peace I could have brokered does not happen because I would not write a single letter. I die in a stockade fight in 1616.
+
+**Buttons (centered top:55%):**
+- `[TRY AGAIN →]` — returns to Slide 21
+- `[SELECT ANOTHER CHARACTER →]` — returns to HOME
+
+---
+
+## Slide 23 — The Marriage Proposal (Decision 6)
 
 **Image brief:** A small chapel inside the fort. Rolfe at a writing desk by candlelight. A long letter half-finished. The paper visible but the words blurred. Outside the window, the river at night.
 **Audio:** Guitar quiet, fingerpicked. A single candle-flicker visual loop.
@@ -264,12 +412,12 @@
 > That is half the truth. The other half is that I have come to know her, and I love her, and I do not know which half is bigger.
 
 **Buttons:**
-- `[BE HONEST. WRITE BOTH HALVES OF THE TRUTH.]` — advances to Slide 16
+- `[BE HONEST. WRITE BOTH HALVES OF THE TRUTH.]` — advances to Slide 25
 - `[WRITE IT AS POLITICS ONLY. KEEP THE FEELING PRIVATE.]` — advances to GAMEOVER C
 
 ---
 
-## Slide 16 — GAMEOVER C — "I Married Her for Politics"
+## Slide 24 — GAMEOVER C — "I Married Her for Politics"
 
 **Image brief:** Full-bleed: Yzma "WRONG LEVERRR" GIF (`https://media.tenor.com/mcS-PaTlDawAAAAM/pull-the-lever-wrong-lever.gif`). Bangers headline overlay top: **"WRONG LEVERRRRR!"**
 **Audio:** Guitar cuts. Fail-sting. 3-second Rickroll cherry tail.
@@ -282,12 +430,12 @@
 > I die in a raid two years later. So does most of the fort.
 
 **Buttons:**
-- `[TRY AGAIN →]` — returns to Slide 15
+- `[TRY AGAIN →]` — returns to Slide 23
 - `[SELECT ANOTHER CHARACTER →]` — returns to HOME
 
 ---
 
-## Slide 17 — The Wedding
+## Slide 25 — The Wedding
 
 **Image brief:** The small chapel inside the fort. Rolfe and Pocahontas standing before a minister, hands joined. Powhatan elders in the back row, watching. English settlers on the other side. The light through the chapel window is gold.
 **Audio:** Guitar swells, major key. A single bell SFX (small, distant, chapel bell — NOT the Plymouth dinner-bell anchor) on slide load.
@@ -300,11 +448,66 @@
 > She is twenty. I am twenty-nine. Our son is born the next year. We name him Thomas.
 
 **Buttons:**
-- `[CONTINUE →]` — advances to Slide 18
+- `[CONTINUE →]` — advances to Slide 26
 
 ---
 
-## Slide 18 — England Comes Calling
+## Slide 26 — The Invitation to England (Decision 7)
+
+**Image brief:** A letter on the kitchen table at the plantation. The Virginia Company seal cracked in red wax. Pocahontas in plain working dress, holding Thomas on her hip, reading the letter over my shoulder. Outside the window the tobacco fields are in full leaf.
+**Audio:** Guitar bed in a measured key. The faint wood-flute layer holds for one phrase.
+**Timeline bar:** Holds.
+**Slide text overlay:** Parchment ship's-log card.
+
+**Body text:**
+> The Company wants my wife in London. They want the investors to see a Powhatan princess in a stiff English collar — proof the colony is civilized.
+> She tells me she will go if I go. She wants Thomas to see the country his father came from.
+> I can take her and present her at court the way the Company wants. I can take her and keep her private — quiet visits to family, no court appearances. I can refuse the trip and stay in Virginia.
+
+**Buttons:**
+- `[GO. PRESENT HER AT COURT WITH THE COMPANY.]` — advances to Slide 28
+- `[GO. KEEP HER PRIVATE. NO COURT.]` — advances to GAMEOVER K
+- `[REFUSE THE TRIP. STAY HOME.]` — advances to GAMEOVER L
+
+---
+
+## Slide 27 — GAMEOVER L — "I Refused the Trip"
+
+**Image brief:** Full-bleed: Tulio & Miguel laughing GIF (Tenor URL `https://media.tenor.com/kfl9bhqP8I0AAAAM/tulio-miguel.gif`). Bangers headline overlay top: **"IT'S TOUGH TO BE A GOD…"**
+**Audio:** Guitar cuts. Fail-sting. 3-second Rickroll cherry.
+**Timeline bar:** Faded.
+**Slide text overlay:** None — full-bleed.
+
+**Body text (small caption, Share Tech):**
+> I write back to the Company that we will not be coming. The investors take it personally. The shareholders pull their money. The Company starts taking my plantation apart in court within the year.
+> Pocahontas never sees England. She also never asks me about it again.
+> The colony loses its London backing. The cash crop survives but the political support does not. I die in 1622 with debts I cannot pay.
+
+**Buttons (centered top:55%):**
+- `[TRY AGAIN →]` — returns to Slide 26
+- `[SELECT ANOTHER CHARACTER →]` — returns to HOME
+
+---
+
+## Slide 28 — GAMEOVER K — "I Kept Her Private"
+
+**Image brief:** Full-bleed: Terry Tate "Office Linebacker" GIF (Tenor URL `https://media.tenor.com/WhXm78qcw6wAAAAM/terry-tate-office-linebacker.gif`). Bangers headline overlay top: **"YOU CAN'T STARVE ON COMPANY TIME!"**
+**Audio:** Guitar cuts. Fail-sting. 3-second Rickroll cherry.
+**Timeline bar:** Faded.
+**Slide text overlay:** None — full-bleed.
+
+**Body text (small caption, Share Tech):**
+> We sail to England. I refuse the Company's parade. I keep Pocahontas with my family in the country. The investors are furious. The Company expected a show.
+> They cancel my contract before we sail home. The plantation goes to a different planter while I am still on the other side of the ocean.
+> Pocahontas dies at Gravesend the next year all the same. I come home to nothing.
+
+**Buttons (centered top:55%):**
+- `[TRY AGAIN →]` — returns to Slide 26
+- `[SELECT ANOTHER CHARACTER →]` — returns to HOME
+
+---
+
+## Slide 29 — England Comes Calling
 
 **Image brief:** A larger ship — the Treasurer — anchored in the James. Rolfe, Pocahontas in fine English dress, and a small boy in her arms standing on the dock with two trunks. Period-engraving style. Disney *Pocahontas* visual mood — water, wind, leaves — applied to the dock setting only.
 **Audio:** Guitar shifts to a slightly more anxious key.
@@ -317,11 +520,11 @@
 > We board the ship. I look back at the fort once. I do not know it is the last time I will see her.
 
 **Buttons:**
-- `[CONTINUE →]` — advances to Slide 19
+- `[CONTINUE →]` — advances to Slide 30
 
 ---
 
-## Slide 19 — The Court of King James
+## Slide 30 — The Court of King James
 
 **Image brief:** A grand hall in London. Pocahontas in full English court dress — stiff lace collar, embroidered bodice, pearl earrings. King James I on a chair of state in the background, leaning forward. Other courtiers gawking. Pocahontas's posture is straight, her eyes level. She is not impressed.
 **Audio:** Guitar drops in volume. A faint string layer underneath — courtly, formal, a little cold.
@@ -334,11 +537,11 @@
 > One night she tells me she misses the river. I tell her we will sail home in the spring. She nods. She does not say anything else.
 
 **Buttons:**
-- `[CONTINUE →]` — advances to Slide 20
+- `[CONTINUE →]` — advances to Slide 31
 
 ---
 
-## Slide 20 — Gravesend (Decision 4)
+## Slide 31 — Gravesend (Decision 8)
 
 **Image brief:** A small inn at Gravesend, on the Thames. A bedroom with a low fire. Pocahontas in the bed, eyes closed, very pale. Thomas — now two years old — held by an English nurse at the doorway. Rolfe at the bedside, head in his hands. Window opens on the masts of the ship that was supposed to carry them home.
 **Audio:** Guitar drops to a single sustained low note. Wind SFX faint outside the window.
@@ -351,12 +554,12 @@
 > Thomas is two. His grandmother in England wants to keep him. The Virginia ship will not wait another week.
 
 **Buttons:**
-- `[LEAVE THOMAS WITH HIS GRANDMOTHER. SAIL HOME.]` — advances to Slide 21
+- `[LEAVE THOMAS WITH HIS GRANDMOTHER. SAIL HOME.]` — advances to Slide 33
 - `[STAY IN ENGLAND. RAISE HIM HERE.]` — advances to GAMEOVER D
 
 ---
 
-## Slide 21 — GAMEOVER D — "I Stayed in England"
+## Slide 32 — GAMEOVER D — "I Stayed in England"
 
 **Image brief:** Full-bleed: Yzma "WRONG LEVERRR" GIF (`https://media.tenor.com/mcS-PaTlDawAAAAM/pull-the-lever-wrong-lever.gif`). Bangers headline overlay top: **"WRONG LEVERRRRR!"**
 **Audio:** Guitar cuts. Fail-sting. 3-second Rickroll cherry.
@@ -369,12 +572,12 @@
 > History remembers me as the husband who outlived her. Nothing else.
 
 **Buttons:**
-- `[TRY AGAIN →]` — returns to Slide 20
+- `[TRY AGAIN →]` — returns to Slide 31
 - `[SELECT ANOTHER CHARACTER →]` — returns to HOME
 
 ---
 
-## Slide 22 — Sailing Home Alone
+## Slide 33 — Sailing Home Alone
 
 **Image brief:** The deck of a ship at sea, dawn. Rolfe alone at the rail, looking west. A small bundle in his hand — a lock of dark hair tied with a ribbon. The horizon empty.
 **Audio:** Guitar returns, slow and quiet. A single seabird SFX. Surf bed underneath.
@@ -387,11 +590,11 @@
 > When the river opens up in front of me again I find I have nothing to say.
 
 **Buttons:**
-- `[CONTINUE →]` — advances to Slide 23
+- `[CONTINUE →]` — advances to Slide 34
 
 ---
 
-## Slide 23 — The Plantation Grows
+## Slide 34 — The Plantation Grows
 
 **Image brief:** A wide tobacco plantation along the James River. Twenty times the size of the first crop. Long drying sheds. English indentured workers in the field, faces tired, sun overhead. Smoke from a curing fire. Period-engraving style.
 **Audio:** Guitar bed faster, more mercantile, slightly anxious — the route's arc per §3.
@@ -404,11 +607,11 @@
 > The harvest doubles every year. London cannot get enough of it. The Company writes to me asking how soon we can triple again.
 
 **Buttons:**
-- `[CONTINUE →]` — advances to Slide 24
+- `[CONTINUE →]` — advances to Slide 35
 
 ---
 
-## Slide 24 — August 1619 (Decision 5)
+## Slide 35 — August 1619 (Decision 9)
 
 **Image brief:** The Jamestown dock at midday. A Dutch warship — the *White Lion* — tied up. From its hold, a line of African men and women being walked down the gangway in chains. English colonists watching. A merchant counts coin into the Dutch captain's hand. The visual is somber, factual, not lurid. No whips visible. No graphic imagery. Period-engraving style.
 **Audio:** Guitar drops to almost silence. No SFX. The slide is quiet on purpose.
@@ -421,30 +624,13 @@
 > The ship's master and the colony's wealthier planters meet him at the dock. They pay in tobacco. The Africans are walked into the colony.
 
 **Buttons:**
-- `[STAY SILENT. RECORD THE TRANSACTION IN MY LETTER.]` — advances to Slide 25
+- `[STAY SILENT. RECORD THE TRANSACTION IN MY LETTER.]` — advances to Slide 36
+- `[BUY THE WORKERS. THE STATUTE PERMITS IT.]` — advances to Slide 37
 - `[STAND ON THE DOCK AND DENOUNCE IT.]` — advances to GAMEOVER E
 
 ---
 
-## Slide 25 — GAMEOVER E — "I Spoke Out"
-
-**Image brief:** Full-bleed: Tulio & Miguel from *Road to El Dorado* laughing GIF — but layered with a slow fade-in of Rolfe being escorted onto a ship by Company officers. Bangers headline overlay top: **"IT'S TOUGH TO BE A GOD…"**
-**Audio:** Guitar cuts. Fail-sting. 3-second Rickroll cherry.
-**Timeline bar:** Faded.
-**Slide text overlay:** None — full-bleed.
-
-**Body text (small caption, Share Tech):**
-> I stand on the dock and shout that no Christian colony can buy people. The Company's planters laugh. The governor has me on a ship to England within a month.
-> The slave economy continues without me. Twenty Africans become two hundred, then two thousand, then two hundred thousand. My voice changes nothing because the cash crop demands the labor.
-> The system I helped build keeps building, and I am no longer in the room.
-
-**Buttons:**
-- `[TRY AGAIN →]` — returns to Slide 24
-- `[SELECT ANOTHER CHARACTER →]` — returns to HOME
-
----
-
-## Slide 26 — The Math of the Cash Crop
+## Slide 36 — The Math of the Cash Crop
 
 **Image brief:** A long view of the plantation at sunset. The drying sheds longer now. Workers — both English indentured servants and African captives — leaving the fields. The river in the distance. A single ship loading bundles at the dock. The image is beautiful and uncomfortable at the same time. Disney *Pocahontas* visual mood applied carefully — the painted light without softening the content.
 **Audio:** Guitar bed slow, in a minor key. Quiet.
@@ -457,11 +643,46 @@
 > I write the letter. I count the bundles. I keep my hands working.
 
 **Buttons:**
-- `[CONTINUE →]` — advances to Slide 27
+- `[CONTINUE →]` — advances to Slide 38
 
 ---
 
-## Slide 27 — The House of Burgesses
+## Slide 37 — I Buy the Workers
+
+**Image brief:** The dock at midday. Rolfe handing a tobacco-bundle ledger to the Dutch captain. Two African men and a woman walking up the path toward the plantation, an English overseer behind them. The scene is recorded in a clerk's open ledger in the foreground — names entered as servants, not chattel. Period-engraving style. No whips. No graphic content.
+**Audio:** Guitar drops to a single quiet line. A quill-on-paper SFX as the ledger is signed.
+**Timeline bar:** Holds.
+**Slide text overlay:** Parchment ship's-log card.
+
+**Body text:**
+> I sign for three of them. The Virginia statute treats them as indentured at this date. The clerk writes their names — Antonio, Isabella, John — in the same column as the English servants from the last ship.
+> Some of the men who buy alongside me will hold their workers past the end of any term. Some will not. The law is not yet decided. The practice is what becomes the law.
+> I plant the next crop. The bundles ship out faster than they did last year.
+
+**Buttons:**
+- `[CONTINUE →]` — advances to Slide 38
+
+---
+
+## Slide 38 — GAMEOVER E — "I Spoke Out"
+
+**Image brief:** Full-bleed: Tulio & Miguel from *Road to El Dorado* laughing GIF — but layered with a slow fade-in of Rolfe being escorted onto a ship by Company officers. Bangers headline overlay top: **"IT'S TOUGH TO BE A GOD…"**
+**Audio:** Guitar cuts. Fail-sting. 3-second Rickroll cherry.
+**Timeline bar:** Faded.
+**Slide text overlay:** None — full-bleed.
+
+**Body text (small caption, Share Tech):**
+> I stand on the dock and shout that no Christian colony can buy people. The Company's planters laugh. The governor has me on a ship to England within a month.
+> The slave economy continues without me. Twenty Africans become two hundred, then two thousand, then two hundred thousand. My voice changes nothing because the cash crop demands the labor.
+> The system I helped build keeps building, and I am no longer in the room.
+
+**Buttons:**
+- `[TRY AGAIN →]` — returns to Slide 35
+- `[SELECT ANOTHER CHARACTER →]` — returns to HOME
+
+---
+
+## Slide 39 — The House of Burgesses
 
 **Image brief:** A small wooden meeting-house inside the fort. Twenty-two English burgesses seated on benches. A single speaker standing. A clerk taking notes. Daylight through the open door.
 **Audio:** Guitar lifts slightly — a small hopeful phrase, then settles.
@@ -474,11 +695,11 @@
 > We do not pass any law on the twenty Africans. We do not yet know what to call what we have done. The silence in the records is its own kind of answer.
 
 **Buttons:**
-- `[CONTINUE →]` — advances to Slide 28
+- `[CONTINUE →]` — advances to Slide 40
 
 ---
 
-## Slide 28 — The Years Between
+## Slide 40 — The Years Between
 
 **Image brief:** A small montage feel — Rolfe at his desk by candlelight, writing. Outside the window, seasons turning: green summer, red autumn, snow on the field, green again. The plantation visible through the window growing each frame. Period-engraving style.
 **Audio:** Guitar bed steady, slightly anxious. A clock-tick SFX layered very faintly.
@@ -491,11 +712,11 @@
 > Up north, I hear, another colony has landed at a place called Plymouth. They are religious people. They are not after profit. I do not know any of them. I send my regards through a passing trader and never hear back.
 
 **Buttons:**
-- `[CONTINUE →]` — advances to Slide 29
+- `[CONTINUE →]` — advances to Slide 41
 
 ---
 
-## Slide 29 — March 1622
+## Slide 41 — March 1622
 
 **Image brief:** A still morning on the plantation. Smoke rising from the cookhouse. A single canoe pulled up on the bank — a Powhatan visitor coming to trade, friendly and familiar. The viewer can see in the trees behind him that more figures are waiting. Period-engraving style. The image is calm and ordinary — the violence about to happen is not depicted.
 **Audio:** Guitar holds a single sustained low note. A faint cedar-drum SFX layers underneath for one beat — Powhatan war council cue, distant, not in the foreground.
@@ -508,11 +729,66 @@
 > On a quiet morning in March, his warriors walk into every English settlement at once. Three hundred and forty-seven of us are killed in a single day.
 
 **Buttons:**
-- `[CONTINUE →]` — advances to Slide 30
+- `[CONTINUE →]` — advances to Slide 42
 
 ---
 
-## Slide 30 — End of the Chronicle
+## Slide 42 — The Uprising at My Door (Decision 10)
+
+**Image brief:** The plantation yard. A neighbor on horseback at the gate, breathless, pointing east. Smoke rising from two adjacent estates on the horizon. My overseer stands in the doorway with my musket across his arms. Jane holds Elizabeth in the kitchen window. The cedar-drum SFX still faint underneath.
+**Audio:** Guitar holds the low note. A single horse-snort SFX. The cedar drum drops out as the player chooses.
+**Timeline bar:** Holds.
+**Slide text overlay:** Parchment ship's-log card.
+
+**Body text:**
+> The neighbor tells me the closest fort is four miles upriver. The closest enemy is half a mile down the road. There are five able-bodied men on this plantation including me.
+> Jane is asking me what we do. Elizabeth is two years old.
+> I can stay and defend the house. I can run for the fort with the family and abandon the plantation. I can ride out and try to fight back alongside the militia downriver.
+
+**Buttons:**
+- `[STAY AT THE PLANTATION. DEFEND THE HOUSE.]` — advances to GAMEOVER M
+- `[FLEE TO THE FORT WITH THE FAMILY.]` — advances to Slide 44
+- `[RIDE OUT AND FIGHT BACK WITH THE MILITIA.]` — advances to GAMEOVER N
+
+---
+
+## Slide 43 — GAMEOVER M — "I Stayed at the Plantation"
+
+**Image brief:** Full-bleed: Bobby Boucher tackle GIF (Tenor URL `https://media.tenor.com/Qqy__Lb6qIMAAAAM/tackle-running.gif`). Bangers headline overlay top: **"MAMA SAYS WINTER IS THE DEVIL!"**
+**Audio:** Guitar cuts. Fail-sting. 3-second Rickroll cherry.
+**Timeline bar:** Faded.
+**Slide text overlay:** None — full-bleed.
+
+**Body text (small caption, Share Tech):**
+> I bar the doors. I load every gun in the house. The five of us stand a watch through the night.
+> The warriors come at dawn. They know the layout of the house — the same neighbors who traded with us last week led them in. Five men cannot hold five hundred yards of fenceline.
+> The chronicle ends in my own kitchen.
+
+**Buttons (centered top:55%):**
+- `[TRY AGAIN →]` — returns to Slide 42
+- `[SELECT ANOTHER CHARACTER →]` — returns to HOME
+
+---
+
+## Slide 44 — GAMEOVER N — "I Rode Out"
+
+**Image brief:** Full-bleed: Bobby Boucher tackle GIF (Tenor URL `https://media.tenor.com/Qqy__Lb6qIMAAAAM/tackle-running.gif`). Bangers headline overlay top: **"MAMA SAYS WINTER IS THE DEVIL!"**
+**Audio:** Guitar cuts. Fail-sting. 3-second Rickroll cherry.
+**Timeline bar:** Faded.
+**Slide text overlay:** None — full-bleed.
+
+**Body text (small caption, Share Tech):**
+> I leave Jane and Elizabeth with the overseer and ride downriver toward the militia. I get a mile before the road closes behind me.
+> The militia is already broken when I arrive. The plantation behind me is taken before sundown. Jane reaches the fort. I do not.
+> Elizabeth grows up never quite remembering me.
+
+**Buttons (centered top:55%):**
+- `[TRY AGAIN →]` — returns to Slide 42
+- `[SELECT ANOTHER CHARACTER →]` — returns to HOME
+
+---
+
+## Slide 45 — End of the Chronicle
 
 **Image brief:** A period-art portrait of Rolfe in plain English clothes, Wikimedia public-domain. Behind it, a faded view of his plantation, a single tobacco leaf falling slowly across the frame. Disney *Pocahontas* visual mood for the leaf only — the portrait itself is dignified period art. The full timeline bar visible across the bottom, all of Rolfe's events solid: 1609, 1610, 1612, 1614, 1614, 1616, 1617, 1619, 1619, 1622.
 **Audio:** Guitar plays a final phrase, slow, in a minor key. Fades to silence on the last word.
@@ -520,6 +796,7 @@
 **Slide text overlay:** Parchment ship's-log card. Final card of the route.
 
 **Body text:**
+> We make the fort by nightfall. Most of my neighbors do not. Three hundred and forty-seven English are dead by morning across the colony. The plantation can be rebuilt; the people cannot.
 > The records do not agree on whether the uprising kills me directly or whether I die of fever a few weeks before. Either way, the chronicle ends here.
 > I leave behind a son in England, a daughter in Virginia, a third wife in mourning, and a plantation that will outlast all of us by two hundred and fifty years.
 > The cash crop I planted will feed the colony, then the country, then a war over who is forced to grow it. I did not plan that part. I planted the seeds. The leaves came up sweeter than the local kind. The rest is the consequence.
@@ -530,4 +807,4 @@
 
 ---
 
-*End of Rolfe route. 30 slides. 5 decision points (slides 6, 10, 15, 20, 24). 4 gameovers (A, B, C, D, E — five total counting the silence-vs-speak gate at 24, but A/B/C/D are the four primary fail branches; E is the slavery-speak-out gameover). Voice maintained strict first-person present tense throughout. Slavery thread taught as geography → economy → labor → slavery without narrator moralizing — the player does the moral math.*
+*End of Rolfe route. 45 slides total (44 numbered narrative slides + the wedding/year-bridge counted in sequence). 12 decision points (slides 3, 9, 11, 15, 21, 23, 26, 31, 35, 42 — Decisions 1–10 by index, with Decisions 5/6 functioning as a paired marriage gate and Decision 9 having three branches). 9 gameovers (A, B, C, D, E, F, G, H, I, J, K, L, M, N — letter-coded for asset tracking). Voice maintained strict first-person present tense throughout. Slavery thread (1619 / Decision 9) factual, no moralizing — the player does the moral math. Pocahontas dignity preserved across all branches: she is never reduced to a trophy, never spoken about as a prize, and her own words and choices are foregrounded in Decisions 5 and 6.*

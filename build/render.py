@@ -62,6 +62,40 @@ CHARACTERS = {
         "side": "jamestown",
         "hub_href": "index.html?back=1",
         "default_bg": "images/hub/jamestown_rolfe.jpg",
+        # Per-slide period art for Rolfe (45 slides covered)
+        "slide_images": {
+            "slide_1": "images/rolfe/ship_at_sea.jpg",
+            "slide_2": "images/rolfe/storm_at_sea.jpg",
+            "slide_3": "images/rolfe/storm_at_sea.jpg",
+            "slide_4": "images/rolfe/ship_at_sea.jpg",
+            "slide_7": "images/rolfe/jamestown_setting.jpg",
+            "slide_8": "images/rolfe/jamestown_setting.jpg",
+            "slide_9": "images/rolfe/jamestown_setting.jpg",
+            "slide_11": "images/rolfe/ship_at_sea.jpg",
+            "slide_13": "images/rolfe/jamestown_setting.jpg",
+            "slide_14": "images/rolfe/tobacco_rolfe_1874.jpg",
+            "slide_15": "images/rolfe/tobacco_rolfe_1874.jpg",
+            "slide_18": "images/rolfe/tobacco_rolfe_1874.jpg",
+            "slide_19": "images/rolfe/jamestown_setting.jpg",
+            "slide_20": "images/rolfe/pocahontas_van_de_passe.jpg",
+            "slide_21": "images/rolfe/pocahontas_baptism.jpg",
+            "slide_23": "images/rolfe/pocahontas_baptism.jpg",
+            "slide_25": "images/rolfe/pocahontas_baptism.jpg",
+            "slide_26": "images/rolfe/portrait_marriage.jpg",
+            "slide_29": "images/rolfe/ship_at_sea.jpg",
+            "slide_30": "images/rolfe/pocahontas_van_de_passe.jpg",
+            "slide_31": "images/rolfe/pocahontas_van_de_passe.jpg",
+            "slide_33": "images/rolfe/ship_at_sea.jpg",
+            "slide_34": "images/rolfe/tobacco_rolfe_1874.jpg",
+            "slide_35": "images/rolfe/jamestown_setting.jpg",
+            "slide_36": "images/rolfe/tobacco_rolfe_1874.jpg",
+            "slide_37": "images/rolfe/jamestown_setting.jpg",
+            "slide_39": "images/rolfe/jamestown_setting.jpg",
+            "slide_40": "images/rolfe/tobacco_rolfe_1874.jpg",
+            "slide_41": "images/rolfe/jamestown_setting.jpg",
+            "slide_42": "images/rolfe/storm_at_sea.jpg",
+            "slide_45": "images/rolfe/portrait_marriage.jpg",
+        },
     },
     "powhatan_route": {
         "title": "Powhatan — Jamestown",
@@ -374,19 +408,57 @@ button.choice {
 }
 button.choice:hover { background: #fff; transform: scale(1.03); }
 
-/* Gameover styling */
-.slide.gameover-slide { background: #1a0a0a !important; }
-.slide.gameover-slide::after { background: rgba(0,0,0,0.55) !important; }
+/* === GAMEOVER STYLING — dramatic, immersive, period-respectful === */
+.slide.gameover-slide {
+  background-image: none !important;
+  background:
+    radial-gradient(ellipse at 50% 40%, rgba(180,30,30,0.28) 0%, transparent 60%),
+    linear-gradient(180deg, #2a0808 0%, #0a0204 100%) !important;
+  animation: screenShake 0.6s ease;
+}
+.slide.gameover-slide::after { background: rgba(0,0,0,0.45) !important; }
+@keyframes screenShake {
+  0%,100% { transform: translate(0,0); }
+  10%,30%,50%,70%,90% { transform: translate(-6px,2px); }
+  20%,40%,60%,80% { transform: translate(6px,-2px); }
+}
+/* Big bold "GAMEOVER" banner above the card */
+.slide.gameover-slide::before {
+  content: 'GAME OVER';
+  position: absolute;
+  top: 4vh; left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Bangers', sans-serif;
+  font-size: clamp(2.4rem, 6.5vw, 5rem);
+  letter-spacing: 8px;
+  color: #ff2222;
+  text-shadow: 4px 4px 0 #000, 6px 6px 18px rgba(180,30,30,0.7), 0 0 30px rgba(255,40,40,0.5);
+  z-index: 6;
+  animation: pulse-red 1.6s ease-in-out infinite;
+  pointer-events: none;
+}
+@keyframes pulse-red {
+  0%,100% { text-shadow: 4px 4px 0 #000, 6px 6px 18px rgba(180,30,30,0.7), 0 0 30px rgba(255,40,40,0.5); }
+  50% { text-shadow: 4px 4px 0 #000, 6px 6px 18px rgba(180,30,30,0.9), 0 0 60px rgba(255,80,80,0.9); }
+}
 .slide.gameover-slide .card {
-  background: rgba(255,255,255,0.92);
+  top: 18vh;
+  background: rgba(20,5,5,0.85);
   border-color: #6a0000;
+  border-width: 3px;
+  color: #fff8e0;
+  max-width: 56%;
 }
 .slide.gameover-slide .card h2 {
-  color: #cc0000;
-  font-size: clamp(2rem, 4.5vw, 3.5rem);
+  color: #ff5555;
+  font-size: clamp(1.6rem, 3.5vw, 2.6rem);
   letter-spacing: 3px;
   animation: shake 0.5s ease;
   text-shadow: 2px 2px 0 #6a0000;
+}
+.slide.gameover-slide .card .body p {
+  color: #fff8e0;
+  font-size: clamp(1rem, 1.7vw, 1.4rem);
 }
 @keyframes shake {
   0%,100%{transform:translateX(0);}
@@ -396,18 +468,25 @@ button.choice:hover { background: #fff; transform: scale(1.03); }
   80%{transform:translateX(6px);}
 }
 .slide.gameover-slide button.choice {
-  background: #cc0000; color: #fff; border-color: #6a0000;
+  background: rgba(204,0,0,0.85);
+  color: #fff;
+  border-color: #6a0000;
+  border-width: 3px;
+  text-shadow: 1px 1px 0 #000;
 }
-.slide.gameover-slide button.choice:hover { background: #ff3333; }
+.slide.gameover-slide button.choice:hover {
+  background: rgba(255,51,51,0.95);
+  border-color: #ff8888;
+}
 .fullscreen-gif {
   position: absolute;
-  top: 50%; left: 50%;
+  top: 60%; left: 50%;
   transform: translate(-50%, -50%);
   z-index: 3;
-  max-width: 50vw; max-height: 40vh;
-  border: 3px solid #6a0000;
-  border-radius: 6px;
-  box-shadow: 0 12px 40px rgba(0,0,0,0.8);
+  max-width: 70vw; max-height: 55vh;
+  border: 4px solid #6a0000;
+  border-radius: 8px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.9), 0 0 40px rgba(255,40,40,0.3);
 }
 
 /* Timeline bar */

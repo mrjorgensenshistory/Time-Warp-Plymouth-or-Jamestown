@@ -7,6 +7,21 @@
 > Anchor SFX: cedar drum (council), dinner-bell (Thanksgiving).
 > Terminal endgame card: NO Rickroll, NO meme cast — period art + flute tail per §4 / §6.
 
+> **DECISION DENSITY (post-patch):** This route runs **11 player decisions**, matching Time-Warp-IV-Civil-War depth. The decisions are:
+> 1. Plague-survivor strategy (mourn / re-tribalize / seek allies) — Slide 2b
+> 2. Strangers at Patuxet first contact (drive out / watch / approach) — Slide 3b
+> 3. What to tell Squanto to say to the English — Slide 4b
+> 4. The original three-way council (attack / wait / sign) — Slide 5
+> 5. Treaty terms — how hard to push — Slide 11
+> 6. Thanksgiving invite — what size party to send — Slide 14b
+> 7. Squanto's death — investigate / neutral / leverage — Slide 15b
+> 8. The Pequot War — three-way (join Pequot / neutral / aid English) — Slide 17
+> 9. The land pressure — refuse / sell carefully / demand reparations — Slide 20
+> 10. Wamsutta's mysterious death — what I tell Metacom — Slide 23b
+> 11. Last counsel to my sons (three options) — Slide 24
+>
+> New gameovers added in this patch: **GAMEOVER E** (re-tribalize too aggressively, Slide 2c), **GAMEOVER F** (drive Pilgrims out, Slide 3c — collapses into A's logic), **GAMEOVER G** (Squanto-as-spy, Slide 4c), **GAMEOVER H** (refuse Thanksgiving, Slide 14c), **GAMEOVER I** (avenge Wamsutta now, Slide 23c), **GAMEOVER J** (demand reparations, Slide 20b).
+
 ---
 
 ## Slide 1 — Title / Cold Open
@@ -43,6 +58,67 @@
 
 ---
 
+## Slide 2b — DECISION 1: The Survivors of the Plague
+
+**Image brief:** Massasoit standing in a clearing where a half-empty village is being merged into one. Survivors from three different Wampanoag villages — children, women, a few young men — carrying bundles of belongings to a single longhouse. Smoke from one fire where there used to be ten. Spring mud. Massasoit watches. His arms are crossed.
+**Audio:** Cedar drum SFX anchor — three slow ceremonial beats on slide load (council cue). Flute holds underneath after the drum.
+**Timeline bar:** New small annotation under the plague tick: `1619 — survivor consolidation.`
+**Slide text overlay:** Bone-white card.
+
+**Body text:**
+> The villages that lost the most cannot stand alone. Patuxet is gone. Nemasket is half. Pokanoket — my own — has lost a third.
+> My counselors push me three ways.
+> The first says: let each village mourn for a year. We owe the dead that much before we move them.
+> The second says: pull every survivor to one place under one roof. Re-tribalize. We are one people now, not forty.
+> The third says: send messengers west. Find allies. The Pocasset, the Sakonnet, the smaller bands — bring them in before the Narragansett take them.
+>
+> *What do I do?*
+
+**Buttons:**
+- `[LET EACH VILLAGE MOURN FOR A YEAR. RESPECT THE DEAD. →]` — GAMEOVER E (Slide 2c)
+- `[CONSOLIDATE EVERYONE UNDER ONE ROOF NOW. →]` — Slide 2d (continue, harsher path)
+- `[SEND MESSENGERS WEST. BUILD ALLIANCES BEFORE THE NARRAGANSETT DO. →]` — Slide 3 (continue, the path the historical Massasoit took)
+
+---
+
+## Slide 2c — GAMEOVER E: A Year of Mourning
+
+**Image brief:** Yzma at the wrong-lever moment, full-bleed. (Universal cast OK on early-route minor wrong-choice fails per §4. Slow-decision fail, not terminal.)
+**Audio:** Fail trombone sting. Then the Rickroll cherry tail (3 sec, per series signature). Music drops to gameover bed.
+**Timeline bar:** Hidden on gameover.
+**Slide text overlay:** Bangers headline overlay top.
+
+**Headline:** "WRONG LEVERRRRR!"
+
+**Body text:**
+> I tell my people we will mourn for a year. The dead have earned that.
+> While we mourn, the Narragansett move. They take three of my western villages without a fight — the survivors there had no chief left to refuse them.
+> When my year of mourning ends, I have fewer warriors and fewer villages than when it began. I gave my people respect, and the Narragansett gave themselves my territory.
+> A chief mourns by leading. Not by waiting.
+
+**Buttons:**
+- `[TRY AGAIN ←]` — back to Slide 1
+- `[CHOOSE ANOTHER ROUTE]` — HOME
+
+---
+
+## Slide 2d — Consolidation (continue)
+
+**Image brief:** A compressed village, visibly crowded. Three families per longhouse where one used to live. The mood is sober but steady. Massasoit walks the perimeter with two of his counselors.
+**Audio:** Flute holds. Cedar drum, single slow beat.
+**Timeline bar:** Small annotation hardens: `1619 — survivor consolidation.`
+**Slide text overlay:** Bone-white card.
+
+**Body text:**
+> I pull everyone in. One roof per three families. Less food per mouth. More eyes in every direction.
+> It is not what my people wanted. It is what my people needed.
+> My counselors are split on whether to seek allies west. I tell them to wait. The Narragansett will hear about a strong consolidated village faster than they will hear about a network of weak ones.
+
+**Buttons:**
+- `[CONTINUE →]` — Slide 3
+
+---
+
 ## Slide 3 — The Strangers at Patuxet
 
 **Image brief:** The view from a wooded ridge, looking down at the bay. A small English settlement — half-built palisade, a few smoking cookfires, a ship at anchor. Winter is breaking; mud, not snow. The houses look thin and badly placed.
@@ -57,6 +133,29 @@
 
 **Buttons:**
 - `[CONTINUE →]`
+
+---
+
+## Slide 3b — DECISION 2: First Contact
+
+**Image brief:** Massasoit on the wooded ridge with three scouts. They are pointing at the Plymouth palisade below. One scout's hand rests on his bow but the bow is not drawn. The mood: a chief weighing options before any of his men move.
+**Audio:** Cedar drum, three soft beats. Flute. Forest ambient.
+**Timeline bar:** Holds.
+**Slide text overlay:** Bone-white card.
+
+**Body text:**
+> The strangers are weak now. They will not be weak in the spring. I have a window, and the window is closing.
+> My scouts ask me what to do.
+> I can drive them out. Burn the palisade tonight while half of them are sick. End it before more ships come.
+> I can keep watching. Let the winter and the sickness do the work for me. I have already lost enough warriors to a season.
+> Or I can approach them. Show myself. Bring Squanto, who knows their tongue, and make terms.
+>
+> *What do I do?*
+
+**Buttons:**
+- `[BURN THE PALISADE TONIGHT. END IT NOW. →]` — GAMEOVER A (Slide 6)
+- `[KEEP WATCHING. LET WINTER FINISH IT. →]` — GAMEOVER B (Slide 8)
+- `[APPROACH WITH SQUANTO. MAKE TERMS. →]` — Slide 4
 
 ---
 
@@ -78,7 +177,50 @@
 
 ---
 
-## Slide 5 — DECISION 1: What Do I Do With These Strangers?
+## Slide 4b — DECISION 3: What I Tell Squanto to Say
+
+**Image brief:** Same firelit setting as Slide 4. Squanto leans forward. Massasoit's hand traces a pattern in the dirt — a council circle. The third man at the fire is one of Massasoit's senior counselors, watching both men.
+**Audio:** Flute alone. Cedar drum, one beat per long pause. Fire crackle low.
+**Timeline bar:** Holds.
+**Slide text overlay:** Bone-white card.
+
+**Body text:**
+> Squanto is useful. Squanto is also a man who has been owned by Englishmen and Spanish friars and now sits at my fire. I do not yet know whose interests he carries with him.
+> I can tell him to walk into the palisade as my voice — say what I tell him, and only what I tell him.
+> I can tell him to walk in as a free man and report back. Let him sound them out as he sees fit, and then come tell me what he has learned.
+> I can tell him to be my eyes inside their fort — feed them what they need to live, but tell me everything they say when they think no Wampanoag is listening.
+>
+> *What do I tell him?*
+
+**Buttons:**
+- `[BE MY VOICE. SAY ONLY WHAT I SAY. →]` — Slide 5
+- `[BE A FREE MAN. SOUND THEM OUT. REPORT BACK. →]` — Slide 5 (same outcome — Squanto plays both sides anyway, history shows he did)
+- `[BE MY SPY. FEED THEM, AND FEED ME EVERYTHING THEY SAY. →]` — GAMEOVER G (Slide 4c)
+
+---
+
+## Slide 4c — GAMEOVER G: Squanto as My Spy
+
+**Image brief:** Period-art static card. A Wampanoag man (Squanto) standing alone in a clearing, both Wampanoag and English figures behind him in the middle distance, neither group looking at him. He is between the two camps, with neither. Subdued color, late autumn. (Strategic-betrayal fail edges toward dignity territory but is still mid-route — light meme cast acceptable.)
+**Audio:** Fail sting. Rickroll cherry tail. Gameover bed.
+**Timeline bar:** Hidden on gameover.
+**Slide text overlay:** Bangers headline overlay.
+
+**Headline:** "I MADE HIM PICK BOTH."
+
+**Body text:**
+> I send Squanto in as my spy. He plays the part well. Too well.
+> Within a year the English have caught him passing them my councils, and I have caught him passing me their plans, and neither side trusts him enough to use him anymore. Bradford asks me to hand him over for execution. I refuse — but I cannot use him either.
+> I lose my translator before I have a treaty. The English deal directly with my western neighbors instead, who have never met Squanto and who do not know what I would have offered.
+> I asked too much of the only man who could speak both tongues. I broke him before I needed him.
+
+**Buttons:**
+- `[TRY AGAIN ←]` — back to Slide 1
+- `[CHOOSE ANOTHER ROUTE]` — HOME
+
+---
+
+## Slide 5 — DECISION 4: What Do I Do With These Strangers?
 
 **Image brief:** A war council scene — a circle of Wampanoag men around a fire. Massasoit at the center, looking at Squanto. The faces are serious, watchful, divided. No theatrical anger. This is a meeting, not a war dance.
 **Audio:** Cedar drum SFX anchor — three slow ceremonial beats on slide load (per §1.6 rule 3, council cue). Flute holds underneath after the drum.
@@ -168,7 +310,7 @@
 
 ---
 
-## Slide 11 — DECISION 2: How Hard Do I Push?
+## Slide 11 — DECISION 5: How Hard Do I Push?
 
 **Image brief:** Inside Plymouth's main building — a long plank table. William Bradford on one side, Massasoit on the other. Squanto stands between them, translating. A document on the table. Bradford's face is exhausted, hopeful. Massasoit's face is unreadable. Period-art interior.
 **Audio:** Cedar drum drops to a single beat per phrase. Flute thin. Quill-on-paper SFX one-shot when the slide loads.
@@ -186,6 +328,7 @@
 **Buttons:**
 - `[DEMAND TRIBUTE. THEY ARE WEAK. PUSH HARDER. →]` — GAMEOVER C (Slide 12)
 - `[SIGN THE TERMS AS WRITTEN. MUTUAL DEFENSE. →]` — Slide 13
+- `[SIGN, BUT ADD TWO CONDITIONS — NO GUNS AT MEETINGS, NO LAND SALES WITHOUT MY MARK. →]` — Slide 13 (same outcome historically; Bradford accepted minor conditions)
 
 ---
 
@@ -227,7 +370,81 @@
 
 ---
 
-## Slide 14 — Autumn 1621: The Harvest Feast
+## Slide 14 — Autumn 1621: The Harvest Feast Invitation
+
+**Image brief:** A messenger from Plymouth — a young English man — at the edge of the Wampanoag village, hat in hand, speaking through a translator (not Squanto this time, a younger interpreter). Massasoit listening with two counselors. Late summer light, leaves just starting to turn.
+**Audio:** Cedar drum, two soft beats. Flute. A single distant church-bell from Plymouth direction, very faint.
+**Timeline bar:** `1621 — First Thanksgiving (autumn ahead)` pre-tick still pulsing.
+**Slide text overlay:** Bone-white card.
+
+**Body text:**
+> Bradford sends a runner. His harvest came in. Not large. He invites me to a feast — three days, food shared, no business.
+> My counselors do the math out loud.
+> If I send no one, the alliance reads as cold. The Narragansett will hear about it and read it the same way.
+> If I send a small party, I look polite. Fed but not committed.
+> If I send a war-band's worth, I look like a chief honoring the treaty with the strength behind it.
+
+**Buttons:**
+- `[CONTINUE →]`
+
+---
+
+## Slide 14b — DECISION 6: How Many Men Do I Send?
+
+**Image brief:** The same village setting; Massasoit has stepped aside with his counselors. Behind them, men of fighting age stand in groups, ready to be told. The runner from Plymouth waits at a distance, unsure.
+**Audio:** Cedar drum, three measured beats (council cue). Flute holds.
+**Timeline bar:** Pre-tick still pulses.
+**Slide text overlay:** Bone-white card.
+
+**Body text:**
+> *What do I do?*
+
+**Buttons:**
+- `[REFUSE THE INVITATION. THE ALLIANCE IS A PAPER, NOT A FRIENDSHIP. →]` — GAMEOVER H (Slide 14c)
+- `[SEND A SMALL PARTY. TEN MEN. POLITE BUT MEASURED. →]` — Slide 14d (continue, weaker outcome)
+- `[SEND NINETY MEN. AND BRING FIVE DEER. →]` — Slide 14e (continue, the historical path)
+
+---
+
+## Slide 14c — GAMEOVER H: I Refused the Feast
+
+**Image brief:** Period-art still — empty path through autumn forest, no figures. A single hat (English, a Pilgrim runner's) lies where it was set down. (Cool, somber. Light meme cast okay; this is a relationship-fail, not the terminal card.)
+**Audio:** Fail sting (subdued — no trombone, just one low cedar-drum hit and flute tail). Rickroll cherry, low volume.
+**Timeline bar:** Hidden.
+**Slide text overlay:** Bangers headline.
+
+**Headline:** "I LET THE TABLE GO COLD."
+
+**Body text:**
+> I refuse the feast. I tell the runner the alliance is enough. Food is for friends; we are allies. There is a difference.
+> Bradford remembers the refusal. So does the next governor after him, and the next.
+> When the Narragansett come courting Plymouth twenty years later — offering land, offering Pequot scalps — Plymouth listens, because the only language Plymouth and I ever spoke was a treaty. We never sat at a table.
+> A chief signs a paper to start a peace. He shares food to keep it.
+
+**Buttons:**
+- `[TRY AGAIN ←]` — back to Slide 1
+- `[CHOOSE ANOTHER ROUTE]` — HOME
+
+---
+
+## Slide 14d — A Small Party (continue)
+
+**Image brief:** Ten Wampanoag men in a clearing, packing for the walk to Plymouth. Two carry one deer between them. Massasoit is not with them — they go without him.
+**Audio:** Drum sparse. Flute. Forest ambient.
+**Timeline bar:** Holds.
+**Slide text overlay:** Bone-white card.
+
+**Body text:**
+> I send ten men. I do not go myself.
+> They eat with the English for a day, return on the second. Bradford writes about it briefly in his log.
+> The alliance holds. But Plymouth remembers, in years to come, that I did not come to the first feast. The math under the alliance is correct, but the warmth is thin. Trust grows slower this way.
+
+**Buttons:**
+- `[CONTINUE →]` — Slide 15
+
+---
+
+## Slide 14e — Ninety Men and Five Deer (the historical path)
 
 **Image brief:** A long outdoor table — rough-hewn boards on trestles — with English Pilgrims and Wampanoag men sharing a meal. Five deer carcasses dressed and roasting on spits in the background. Ninety Wampanoag men in the scene. Children of the English colony among them. Autumn leaves, late afternoon golden light. Painted-engraving aesthetic, NOT the "kindergarten coloring book" version.
 **Audio:** Dinner-bell SFX anchor — one bright tone on slide load (per §1.6 rule 3). Cedar drum re-enters underneath, slow, warm. Flute over it. Distant laughter ambient bed, quiet.
@@ -240,7 +457,7 @@
 > Three days we ate. Three days we did not fight, and we did not negotiate. We ate. Their children ran among my men. My men did not flinch. This was the alliance, in the only language that lasts — food shared and weapons set aside.
 
 **Buttons:**
-- `[CONTINUE →]`
+- `[CONTINUE →]` — Slide 15
 
 ---
 
@@ -262,6 +479,30 @@
 
 ---
 
+## Slide 15b — DECISION 7: How Squanto Died
+
+**Image brief:** A council fire at night. Three of Massasoit's senior men present. One of them — the oldest — has a hand on a wooden cup, a pause, the kind of pause that says he knows something. The accusation in the air: was Squanto poisoned?
+**Audio:** Cedar drum, one beat. Flute. Fire crackle. The forest behind is quieter than usual.
+**Timeline bar:** Holds.
+**Slide text overlay:** Bone-white card.
+
+**Body text:**
+> My counselors come to me with a question that should not be asked aloud.
+> Squanto died fast. Healthy men do not die that fast on a calm bay. There are rumors in my own camp — that one of my own men, jealous of Squanto's place between two chiefs, may have given him something at his last meal.
+> Bradford does not know the rumors. He is grieving, in his way, and writing about it.
+> I can investigate. Quietly, but seriously. If a Wampanoag killed Squanto, it changes what I owe the English in honor.
+> I can stay neutral. Squanto is dead. Investigations divide councils. The alliance is the priority.
+> I can use it. I can point Bradford toward the Narragansett — let the English suspicion land on my rivals, not my own house. The English will not know the difference.
+>
+> *What do I do?*
+
+**Buttons:**
+- `[INVESTIGATE QUIETLY. KNOW THE TRUTH IN MY OWN COUNCIL. →]` — Slide 16 (continue, no penalty)
+- `[STAY NEUTRAL. LET THE DEAD STAY DEAD. →]` — Slide 16 (continue, no penalty)
+- `[POINT BRADFORD AT THE NARRAGANSETT. USE THE DEATH. →]` — Slide 16, with timeline annotation `1622 — Plymouth–Narragansett tension begins.` (continue, but adds risk for the Pequot decision later)
+
+---
+
 ## Slide 16 — More Ships, Every Year
 
 **Image brief:** A panoramic painted view of Massachusetts Bay over a decade — multiple English ships at anchor, new settlements visible along the coast, smoke from many chimneys, fields cleared from forest. A Wampanoag figure (Massasoit) watches from a wooded hill, smaller in the frame than he was in earlier slides. The composition makes the point: he is being out-scaled.
@@ -280,7 +521,7 @@
 
 ---
 
-## Slide 17 — DECISION 3: The Pequot War
+## Slide 17 — DECISION 8: The Pequot War
 
 **Image brief:** A war council, this time tenser than 1621. Massasoit at the center, his sons sitting near him now (older boys, not yet men). Messengers from the Pequot stand to one side; messengers from the English to the other. Two messengers, one war.
 **Audio:** Cedar drum SFX anchor — three beats on slide load (council cue). Flute holds. The drum is harder than at the alliance signing.
@@ -298,6 +539,7 @@
 **Buttons:**
 - `[JOIN THE PEQUOT. FIGHT THE ENGLISH BEFORE IT IS TOO LATE. →]` — GAMEOVER D (Slide 18)
 - `[STAY NEUTRAL. WATCH WHAT THE ENGLISH DO TO THE PEQUOT. →]` — Slide 19
+- `[SEND TWENTY WARRIORS TO AID THE ENGLISH. EARN CREDIT FOR LATER. →]` — Slide 19 (continue, with timeline annotation `1637 — Wampanoag aid the English at Mystic.` Same gameplay outcome — but slide 19's body text shifts subtly. See note in Slide 19.)
 
 ---
 
@@ -322,14 +564,14 @@
 
 ---
 
-## Slide 19 — Neutral
+## Slide 19 — Neutral (or Aiding the English)
 
 **Image brief:** Massasoit sitting alone at a low fire. The smoke rising. He is older here, threads of gray in his hair. Behind him, in the background, very small in the frame, a faint orange glow on the southern horizon — Mystic burning, miles away. He does not turn toward it. He is looking into his fire.
 **Audio:** Drum silent. Flute alone, very long sustained notes. Forest ambient very quiet. A faint distant cracking — fire from far away — once, low in the mix.
-**Timeline bar:** `1637 — Pequot War` solidifies. `1637 — Wampanoag stay neutral` annotation appears beneath it (smaller text).
+**Timeline bar:** `1637 — Pequot War` solidifies. Annotation appears beneath it: either `1637 — Wampanoag stay neutral` (neutral path) or `1637 — Wampanoag aid the English at Mystic` (aid path).
 **Slide text overlay:** Bone-white card.
 
-**Body text:**
+**Body text (neutral path):**
 > I stay out. I send no warriors south. I send no messengers in either direction.
 > The English destroy the Pequot. Six hundred die at Mystic in one night. The Narragansett walk away with English praise and Pequot land.
 > I learn three things from watching this fire burn from a distance.
@@ -337,12 +579,18 @@
 > Two: the Narragansett will always stand with the strongest side.
 > Three: my sons will live in a country where this is now how arguments are settled.
 
+**Body text (aid path — replaces the above when player chose to aid):**
+> I sent twenty men south. They fought beside the English at Mystic. Four did not come home.
+> The English now owe me a debt. Bradford's successors say my name with respect for a season.
+> But I count what it cost. Four warriors I cannot replace, and a memory my sons will carry — that their father's men stood at the burning of a village whose people screamed in a language close to ours.
+> I bought credit. I am not yet sure what the credit will buy.
+
 **Buttons:**
 - `[CONTINUE →]`
 
 ---
 
-## Slide 20 — DECISION 4: The Land Pressure
+## Slide 20 — DECISION 9: The Land Pressure
 
 **Image brief:** Massasoit and an English colonist at the edge of a clearing. The colonist holds a paper — a deed. Behind them, a cleared field where pines used to stand; beyond that, more pines being marked for cutting. Another English man is measuring with rope. Massasoit's face is patient, but his hand rests on a tree trunk like a man steadying himself.
 **Audio:** Drum sparse. Flute. The sound of an axe far off, repeating, rhythmic.
@@ -353,12 +601,35 @@
 > The English are running out of land for their children. Their children are many, and ours are few, and the math has not changed.
 > They come to me with papers. They want the meadow at the bend. They want the fishing weir at the river-mouth. They will pay in iron tools, in wampum strings, in muskets.
 > If I sell, my people get tools they need. If I do not sell, the English will settle the land anyway over time, and I will have gotten nothing for it.
+> I could also push back the other direction — demand reparations for the corn their pigs have eaten, the trees their axes have taken without asking, the fishing weirs their boats have broken.
 >
 > *What do I do?*
 
 **Buttons:**
 - `[REFUSE. NO MORE LAND. →]` — Slide 21
 - `[SELL CAREFULLY. TAKE THE TOOLS. WALK THE BORDERS EVERY YEAR. →]` — Slide 22
+- `[DEMAND REPARATIONS. THEY OWE ME FOR EVERY ENCROACHMENT. →]` — GAMEOVER J (Slide 20b)
+
+---
+
+## Slide 20b — GAMEOVER J: I Demanded Reparations
+
+**Image brief:** Yzma at the wrong-lever moment, full-bleed. (Greedy / over-reaching → Yzma per §4 mapping. Overreach by an aging chief.)
+**Audio:** Fail trombone sting. Rickroll cherry tail. Gameover bed.
+**Timeline bar:** Hidden.
+**Slide text overlay:** Bangers headline.
+
+**Headline:** "WRONG LEVERRRRR!"
+
+**Body text:**
+> I demand reparations. I list every pig in every cornfield, every fence-post past the line, every tree taken without my mark.
+> The English court at Plymouth listens. They write down my list. They smile. Then they tell me, politely, that under English law a free-roaming animal is no man's responsibility, and that the line was always *their* line, not mine, because the deed I signed in 1621 used English words.
+> They settle nothing. They settle more. Within a decade my own warriors are working English fields for English wages because the Wampanoag fields cannot feed us anymore.
+> A chief asks for what the other side can give. He does not ask for what the other side will laugh at.
+
+**Buttons:**
+- `[TRY AGAIN ←]` — back to Slide 1
+- `[CHOOSE ANOTHER ROUTE]` — HOME
 
 ---
 
@@ -416,9 +687,53 @@
 
 ---
 
-## Slide 24 — DECISION 5: My Last Counsel
+## Slide 23b — DECISION 10: Wamsutta Comes Home Sick
 
-**Image brief:** Massasoit indoors, in a longhouse, very old now. A low fire. Wamsutta and Metacom kneel near him. He is speaking softly. The light is failing.
+**Image brief:** A Wampanoag longhouse, mid-day. Wamsutta — Massasoit's elder son, now in his thirties — lies on a bed of furs, drenched in fever-sweat. He has just been returned from an English questioning at Plymouth. Metacom stands beside him, fists clenched. Massasoit, very old, kneels at his son's head. (NOTE: Historically this happens in 1662, after Massasoit's death — but Michael's spec asked for a Wamsutta-death decision branch in the Massasoit route. We frame it as Massasoit, in his final year, hearing the news while still alive. Slight historical compression for the sake of the player choice; the epilogue reflects this.)
+**Audio:** Drum gone. Flute alone, very low. A Wampanoag woman wails once, off-camera, then is quiet.
+**Timeline bar:** New tick pulsing: `1660 — Wamsutta returns from Plymouth, dies.`
+**Slide text overlay:** Bone-white card.
+
+**Body text:**
+> The English summoned my elder son to Plymouth. They wanted him questioned about land sales he had made without their permission. They held him a week. He came home in a fever. He died in two days.
+> Metacom stands over him and asks me — with his eyes, not his mouth — what I want him to do.
+> The English say it was sickness. The Wampanoag say it was poison. I cannot prove either.
+> My counselors urge me three ways.
+>
+> *What do I tell Metacom?*
+
+**Buttons:**
+- `["AVENGE YOUR BROTHER. RAISE THE WARRIORS. NOW." →]` — GAMEOVER I (Slide 23c)
+- `["WAIT. INVESTIGATE. DO NOT MOVE WITHOUT PROOF." →]` — Slide 24 (continue)
+- `["BURY YOUR BROTHER. KEEP THE TREATY. THE FIGHT IS NOT YET." →]` — Slide 24 (continue)
+
+---
+
+## Slide 23c — GAMEOVER I: Avenge Wamsutta Now
+
+**Image brief:** Period-art static card. A burning English farmstead at dusk, painted in the restrained Mystic-style composition — at distance, no foreground bodies. Smoke against a slate-blue sky. (Approaching terminal-card territory; tone shifts to dignity.)
+**Audio:** Single low cedar-drum hit, then silence, then flute tail. NO Rickroll cherry per §6 (strategic terminal failure → period-art card with flute tail).
+**Timeline bar:** Visible but frozen — no pulses.
+**Slide text overlay:** Bone-white card. Bangers headline above.
+
+**Headline:** "I STARTED THE WAR EARLY."
+
+**Body text:**
+> I tell Metacom: avenge your brother. Raise the warriors.
+> He does. Within a season, the war that should have come in 1675 comes in 1660 instead. Metacom is twenty-two and has not yet learned what his father knew about counting men.
+> The English have ten times the population they had in 1621 and four times the muskets. The Wampanoag are broken in three years instead of three. Metacom is killed at twenty-five. The Narragansett, again, walk away with English praise.
+> I gave my son a war he could not win, and I gave it to him fifteen years before he was ready to lose it.
+> A chief does not start his sons' war for them. A chief teaches his sons when not to start it.
+
+**Buttons:**
+- `[TRY AGAIN ←]` — back to Slide 1
+- `[CHOOSE ANOTHER ROUTE]` — HOME
+
+---
+
+## Slide 24 — DECISION 11: My Last Counsel
+
+**Image brief:** Massasoit indoors, in a longhouse, very old now. A low fire. Wamsutta and Metacom kneel near him. He is speaking softly. The light is failing. (If the player chose to bury Wamsutta in 23b, only Metacom kneels here. The image brief has a flag for the build engine — single-son or two-son version.)
 **Audio:** Drum gone. Flute alone, single sustained tones. Fire crackle. Wind faint.
 **Timeline bar:** New tick pulsing: `1661 — Massasoit dies.`
 **Slide text overlay:** Bone-white card.
@@ -511,9 +826,9 @@
 
 ## Slide 29 — Stacking Review (TENTATIVE — flag for QC per §1.6)
 
-**Image brief:** A vertical stack of five small panels showing the player's journey through the route — each panel a small period-art thumbnail of one decision: (1) walking into Plymouth with sixty men, (2) signing the alliance, (3) staying neutral in the Pequot War, (4) the land-pressure choice, (5) the last counsel to his sons. Beneath the stack, the timeline bar runs the length of the slide, all ticks solid. Background: a dim painted forest at twilight, restful.
+**Image brief:** A vertical stack of small panels showing the player's journey through the route — each panel a small period-art thumbnail of one decision. The 11 decisions condense visually into 6–7 panels: (1) the survivor consolidation, (2) walking into Plymouth with sixty men, (3) signing the alliance, (4) the ninety-men feast, (5) staying neutral in the Pequot War, (6) the land-pressure choice, (7) the last counsel to his sons. Beneath the stack, the timeline bar runs the length of the slide, all ticks solid. Background: a dim painted forest at twilight, restful.
 **Audio:** Cedar drum returns very softly, one slow beat per panel as the stack assembles. Flute over it. No fail bed, no celebration bed — this is the chronicle, not a victory.
-**Timeline bar:** Full Massasoit timeline, all ticks solid: `1616–1619 plague`, `1620 Mayflower`, `1621 alliance + Thanksgiving`, `1622 Squanto dies`, `1630 Massachusetts Bay`, `1637 Pequot War (neutral)`, `1640s land pressure`, `1661 Massasoit dies`, ghosted `1675 King Philip's War`.
+**Timeline bar:** Full Massasoit timeline, all ticks solid: `1616–1619 plague`, `1619 survivor consolidation`, `1620 Mayflower`, `1621 alliance + Thanksgiving`, `1622 Squanto dies`, `1630 Massachusetts Bay`, `1637 Pequot War (neutral OR aided)`, `1640s land pressure`, `1660 Wamsutta dies`, `1661 Massasoit dies`, ghosted `1675 King Philip's War`.
 **Slide text overlay:** Bone-white card, Share Tech body. Header in Bangers.
 
 **Headline:** "MY CHRONICLE."
@@ -531,4 +846,4 @@
 
 *End of Massasoit route.*
 
-*Educational disclaimer (engine rule, bottom-left of every slide): "This game uses comedic cutscenes to teach historical events. All deaths and conflicts depicted occurred. Sources on Credits page." NOTE: per §4 lock, Massasoit's terminal endgame card (Slide 28) does NOT use comedic cutscenes — period art + flute tail only. The disclaimer remains for engine consistency, but the route's late slides earn their dignity.*
+*Educational disclaimer (engine rule, bottom-left of every slide): "This game uses comedic cutscenes to teach historical events. All deaths and conflicts depicted occurred. Sources on Credits page." NOTE: per §4 lock, Massasoit's terminal endgame card (Slide 28), the Pequot-War strategic-failure card (Slide 18), and the Wamsutta avenge-now card (Slide 23c) do NOT use comedic cutscenes — period art + flute tail only. The disclaimer remains for engine consistency, but the route's late slides earn their dignity.*
