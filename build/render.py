@@ -136,46 +136,63 @@ CHARACTERS = {
         "hub_href": "index.html?back=1",
         "default_bg": "images/hub/jamestown_powhatan.jpg",
         "slide_images": {
-            # Cold open + setup (chief, country, history)
+            # Cold open + setup
             "slide_1": "images/powhatan/chief_herowan_white.jpg",
             "slide_2": "images/powhatan/powhatan_smith_map.jpg",
             "slide_3": "images/powhatan/coronation_powhatan.jpg",
             "slide_4": "images/powhatan/village_secoton.jpg",
             "slide_5": "images/powhatan/jamestown_ships.jpg",
-            # First contact decisions + consequences
-            "slide_6": "images/powhatan/jamestown_ships.jpg",
+            # First contact
+            "slide_6": "images/powhatan/english_ships_fleet.jpg",
+            "slide_6_fail": "images/powhatan/smith_taking_pamunkey.jpg",
+            "slide_7_delegation": "images/powhatan/praying_around_fire.jpg",
             "slide_7": "images/powhatan/algonquin_village_debry.jpg",
-            "slide_7_delegation": "images/powhatan/coronation_powhatan.jpg",
-            "slide_8": "images/powhatan/smith_taking_pamunkey.jpg",
-            "slide_9": "images/powhatan/algonquin_village_debry.jpg",
-            "slide_10": "images/powhatan/village_secoton.jpg",
-            # Trade + Smith captured
-            "slide_11": "images/powhatan/smith_taking_pamunkey.jpg",
-            "slide_12": "images/powhatan/smith_taking_pamunkey.jpg",
-            "slide_13": "images/powhatan/powhatan_smith_map.jpg",
-            "slide_14": "images/powhatan/abduction_pocahontas.jpg",
-            # War + Pocahontas captive + marriage
+            "slide_8": "images/powhatan/indians_dancing_white.jpg",
+            "slide_8_fail": "images/powhatan/smith_taking_pamunkey.jpg",
+            "slide_9": "images/powhatan/village_secoton.jpg",
+            # Trade
+            "slide_10": "images/powhatan/cooking_fish_white.jpg",
+            "slide_11": "images/powhatan/indians_fishing_white.jpg",
+            "slide_11_fail": "images/powhatan/chief_herowan_white.jpg",
+            # Smith captured
+            "slide_12": "images/powhatan/smith_captured_vaughan.jpg",
+            "slide_13": "images/powhatan/smith_before_powhatan.jpg",
+            "slide_13_fail_a": "images/powhatan/algonquin_village_debry.jpg",
+            "slide_13_fail_b": "images/powhatan/how_they_build_boats.jpg",
+            "slide_14": "images/powhatan/pocahontas_saves_smith.jpg",
+            # War + escalation
             "slide_15": "images/powhatan/smith_taking_pamunkey.jpg",
-            "slide_16": "images/powhatan/algonquin_village_debry.jpg",
-            "slide_17": "images/powhatan/chief_herowan_white.jpg",
-            "slide_18": "images/powhatan/village_secoton.jpg",
+            "slide_16": "images/powhatan/herowans_wife_white.jpg",
+            "slide_17": "images/powhatan/indians_dancing_white.jpg",
+            "slide_17_fail_a": "images/powhatan/algonquin_village_debry.jpg",
+            "slide_17_fail_b": "images/powhatan/village_secoton.jpg",
+            "slide_18": "images/powhatan/cooking_fish_white.jpg",
             "slide_19": "images/powhatan/jamestown_ships.jpg",
-            "slide_20": "images/powhatan/massacre_1622_merian.jpg",
-            "slide_21": "images/powhatan/jamestown_ships.jpg",
-            "slide_22": "images/powhatan/village_secoton.jpg",
+            "slide_20": "images/powhatan/english_ships_fleet.jpg",
+            "slide_21": "images/powhatan/massacre_1622_merian.jpg",
+            "slide_21_fail": "images/powhatan/herowans_wife_white.jpg",
+            "slide_22": "images/powhatan/indians_fishing_white.jpg",
             "slide_23": "images/powhatan/massacre_1622_merian.jpg",
+            # Pocahontas captured + marriage
             "slide_24": "images/powhatan/abduction_pocahontas.jpg",
-            "slide_25": "images/powhatan/coronation_powhatan.jpg",
+            "slide_25": "images/powhatan/praying_around_fire.jpg",
+            "slide_25_fail": "images/powhatan/herowans_wife_white.jpg",
             "slide_26": "images/powhatan/abduction_pocahontas.jpg",
-            "slide_27": "images/rolfe/pocahontas_van_de_passe.jpg",
+            "slide_27": "images/powhatan/pocahontas_van_de_passe.jpg",
             "slide_28": "images/powhatan/marriage_pocahontas.jpg",
+            "slide_28_fail": "images/powhatan/village_secoton.jpg",
             "slide_29": "images/powhatan/marriage_pocahontas.jpg",
-            # England trip + death + Opechancanough
-            "slide_30": "images/rolfe/pocahontas_van_de_passe.jpg",
+            "slide_29_hard": "images/powhatan/marriage_pocahontas.jpg",
+            # England + death + succession
+            "slide_30": "images/powhatan/pocahontas_van_de_passe.jpg",
             "slide_31": "images/rolfe/pocahontas_baptism.jpg",
             "slide_32": "images/powhatan/chief_herowan_white.jpg",
+            "slide_32_fail": "images/powhatan/massacre_1622_merian.jpg",
             "slide_33": "images/powhatan/coronation_powhatan.jpg",
-            "slide_34": "images/powhatan/coronation_powhatan.jpg",
+            "slide_34": "images/powhatan/chief_herowan_white.jpg",
+            "slide_35_peace": "images/powhatan/massacre_1622_merian.jpg",
+            "slide_35_strike": "images/powhatan/massacre_1622_merian.jpg",
+            "slide_35_open": "images/powhatan/massacre_1622_merian.jpg",
             "slide_36": "images/powhatan/powhatan_smith_map.jpg",
         },
     },
@@ -194,20 +211,20 @@ CHARACTERS = {
             "slide_3": "images/bradford/embarkation_pilgrims_weir.jpg",
             # Holland (1608-19)
             "slide_4": "images/hub/plymouth_pilgrims.jpg",
-            "slide_5": "images/bradford/embarkation_pilgrims_weir.jpg",
-            "slide_6": "images/hub/plymouth_pilgrims.jpg",
+            "slide_5": "images/hub/plymouth_pilgrims.jpg",
+            "slide_6": "images/bradford/king_james_i_decritz.jpg",
             "slide_7": "images/bradford/king_james_i_decritz.jpg",
             # Departure (1620)
             "slide_8": "images/bradford/delfshaven_willaerts.jpg",
             "slide_9": "images/bradford/embarkation_pilgrims_weir.jpg",
             "slide_10": "images/bradford/mayflower_at_sea.jpg",
             "slide_11": "images/bradford/mayflower_at_sea.jpg",
-            "slide_12": "images/plymouth_shared/landing_pilgrims_bacon.jpg",
+            "slide_12": "images/bradford/mayflower_in_plymouth_harbor_halsall.jpg",
             # Compact + landing
             "slide_13": "images/plymouth_shared/landing_pilgrims_bacon.jpg",
             "slide_14": "images/plymouth_shared/mayflower_compact_period.jpg",
             "slide_15": "images/plymouth_shared/mayflower_compact_period.jpg",
-            "slide_16": "images/plymouth_shared/mayflower_compact_period.jpg",
+            "slide_16": "images/bradford/compact_signing_ferris.jpg",
             # First winter
             "slide_17": "images/plymouth_shared/landing_pilgrims_bacon.jpg",
             "slide_18": "images/bradford/bradford_portrait.jpg",
@@ -218,7 +235,7 @@ CHARACTERS = {
             "slide_22": "images/bradford/squanto_teaching_corn.jpg",
             "slide_23": "images/bradford/squanto_teaching_corn.jpg",
             "slide_24": "images/bradford/squanto_teaching_corn.jpg",
-            "slide_25": "images/hub/plymouth_massasoit.jpg",
+            "slide_25": "images/bradford/massasoit_carver_meeting.jpg",
             # First Thanksgiving
             "slide_26": "images/plymouth_shared/thanksgiving_brownscombe.jpg",
             "slide_27": "images/plymouth_shared/thanksgiving_brownscombe.jpg",
@@ -226,11 +243,12 @@ CHARACTERS = {
             "slide_29": "images/hub/plymouth_squanto.png",
             # Governance + chronicle (1622-57)
             "slide_30": "images/bradford/bradford_portrait.jpg",
-            "slide_31": "images/bradford/bradford_portrait.jpg",
+            "slide_31": "images/bradford/of_plymouth_plantation_manuscript.jpg",
             "slide_32": "images/bradford/king_james_i_decritz.jpg",
-            "slide_33": "images/bradford/bradford_portrait.jpg",
+            "slide_33": "images/bradford/of_plymouth_plantation_manuscript.jpg",
             "slide_34": "images/bradford/bradford_portrait.jpg",
-            "slide_36": "images/bradford/bradford_portrait.jpg",
+            "slide_35": "images/bradford/of_plymouth_plantation_manuscript.jpg",
+            "slide_36": "images/bradford/of_plymouth_plantation_manuscript.jpg",
             "slide_38": "images/bradford/embarkation_pilgrims_weir.jpg",
         },
     },
@@ -247,29 +265,29 @@ CHARACTERS = {
             "slide_1": "images/squanto/patuxet-village-life.jpg",
             "slide_2": "images/squanto/champlain-plymouth-1605.jpg",
             "slide_3": "images/squanto/weymouth-captain.jpg",
-            # 1614 capture
-            "slide_4": "images/squanto/weymouth-captain.jpg",
+            # 1614 Hunt capture
+            "slide_4": "images/squanto/algonquian-canoe-build.jpg",
             "slide_5": "images/squanto/caravel-armada.jpg",
             "slide_6": "images/squanto/caravel-armada.jpg",
-            # Spain (1614-15)
+            # Spain (Málaga friars)
             "slide_7": "images/squanto/malaga-1572.jpg",
             "slide_8": "images/squanto/malaga-1572.jpg",
             "slide_9": "images/squanto/malaga-1572.jpg",
-            "slide_10": "images/squanto/malaga-1572.jpg",
-            # London + crossing (1615-19)
+            "slide_10": "images/squanto/algonquian-dress.jpg",
+            # London + crossing
             "slide_11": "images/squanto/thames-london-17c.jpg",
             "slide_12": "images/squanto/thames-london-17c.jpg",
             "slide_13": "images/squanto/algonquian-fishing.jpg",
-            # Empty Patuxet (1619)
+            # Empty Patuxet 1619
             "slide_14": "images/squanto/pomeiock-town.jpg",
-            "slide_15": "images/squanto/pomeiock-town.jpg",
+            "slide_15": "images/squanto/pomeiock-village-bry.jpg",
             "slide_16": "images/squanto/secoton-village.jpg",
             "slide_17": "images/hub/plymouth_massasoit.jpg",
-            "slide_18": "images/squanto/patuxet-village-life.jpg",
-            # Mayflower / first contact
+            "slide_18": "images/squanto/algonquian-cookfish.jpg",
+            # Mayflower 1620
             "slide_19": "images/bradford/mayflower_at_sea.jpg",
-            "slide_20": "images/bradford/mayflower_at_sea.jpg",
-            "slide_21": "images/hub/plymouth_massasoit.jpg",
+            "slide_20": "images/bradford/mayflower_in_plymouth_harbor_halsall.jpg",
+            "slide_21": "images/squanto/algonquian-dress.jpg",
             "slide_22": "images/squanto/samoset-interview.jpg",
             "slide_23": "images/squanto/samoset-interview.jpg",
             # Teaching corn
@@ -277,15 +295,20 @@ CHARACTERS = {
             "slide_25": "images/squanto/squanto-teaching.png",
             "slide_26": "images/hub/plymouth_massasoit.jpg",
             # Thanksgiving
-            "slide_27": "images/squanto/squanto-teaching.png",
-            "slide_28": "images/plymouth_shared/thanksgiving_brownscombe.jpg",
+            "slide_27": "images/squanto/algonquian-cookfish.jpg",
+            "slide_28": "images/squanto/thanksgiving-brownscombe.jpg",
             "slide_29": "images/squanto/champlain-plymouth-1605.jpg",
             # 1622 expedition + death
-            "slide_30": "images/squanto/champlain-plymouth-1605.jpg",
+            "slide_30": "images/squanto/algonquian-fishing.jpg",
             "slide_31": "images/squanto/squanto-billington-1922.jpg",
             "slide_32": "images/squanto/squanto-billington-1922.jpg",
             # Epilogues
             "slide_33": "images/squanto/new-england-smith-1614.jpg",
+            "slide_34": "images/squanto/purchas-new-england-map.jpg",
+            "slide_35": "images/squanto/purchas-new-england-map.jpg",
+            "slide_36": "images/squanto/pomeiock-town.jpg",
+            "slide_37": "images/squanto/new-england-smith-1614.jpg",
+            "slide_38": "images/squanto/pomeiock-village-bry.jpg",
         },
     },
     "massasoit_route": {
@@ -299,39 +322,53 @@ CHARACTERS = {
         "slide_images": {
             # Pre-Plymouth (plague + consolidation)
             "slide_1": "images/massasoit/massasoit-relief.jpg",
-            "slide_2": "images/massasoit/indian-history-1919.jpg",
-            "slide_3": "images/bradford/mayflower_at_sea.jpg",
-            # First contact (1620-21)
+            "slide_2": "images/massasoit/debry-secoton-village.jpg",
+            "slide_2b": "images/massasoit/debry-pomeiooc-village.jpg",
+            "slide_2c": "images/massasoit/sowams-1908.jpg",
+            "slide_2d": "images/massasoit/debry-three-sisters.jpg",
+            # First contact 1620
+            "slide_3": "images/massasoit/mayflower-halsall.jpg",
+            "slide_3b": "images/massasoit/debry-pomeiooc-village.jpg",
+            "slide_3c": "images/massasoit/night-attack-waldron.jpg",
             "slide_4": "images/massasoit/squanto-teaching.png",
-            "slide_5": "images/massasoit/carver-massasoit.jpg",
+            "slide_4b": "images/massasoit/squanto-teaching.png",
+            "slide_4c": "images/massasoit/sowams-1908.jpg",
+            "slide_5": "images/massasoit/massasoit-palace-1857.jpg",
+            # Decisions + alliance
             "slide_6": "images/massasoit/massasoit-warriors.jpg",
-            "slide_7": "images/massasoit/carver-massasoit.jpg",
-            "slide_8": "images/massasoit/carver-massasoit.jpg",
-            "slide_9": "images/massasoit/carver-massasoit.jpg",
-            # Alliance signing
+            "slide_8": "images/massasoit/debry-secoton-village.jpg",
             "slide_10": "images/massasoit/massasoit-warriors.jpg",
             "slide_11": "images/massasoit/bradford-portrait.jpg",
-            "slide_12": "images/massasoit/carver-massasoit.jpg",
-            "slide_13": "images/hub/plymouth_massasoit.jpg",
-            # First Thanksgiving
+            "slide_13": "images/massasoit/carver-massasoit.jpg",
+            # Thanksgiving
             "slide_14": "images/massasoit/thanksgiving-brownscombe.jpg",
+            "slide_14b": "images/massasoit/massasoit-palace-1857.jpg",
+            "slide_14c": "images/massasoit/sowams-1908.jpg",
+            "slide_14d": "images/massasoit/debry-indian-fishing.jpg",
+            "slide_14e": "images/massasoit/thanksgiving-ferris.jpg",
+            # Squanto death + decade
             "slide_15": "images/massasoit/squanto-teaching.png",
-            "slide_16": "images/massasoit/indian-history-1919.jpg",
-            # Pequot War (1637)
-            "slide_17": "images/massasoit/mystic-massacre.jpg",
+            "slide_15b": "images/massasoit/massasoit-palace-1857.jpg",
+            "slide_16": "images/massasoit/sowams-1908.jpg",
+            # Pequot War 1637
+            "slide_17": "images/massasoit/mystic-massacre-19c.jpg",
             "slide_18": "images/massasoit/mystic-massacre.jpg",
             "slide_19": "images/massasoit/indian-history-1919.jpg",
-            # Land pressure + sons growing up
-            "slide_20": "images/massasoit/indian-history-1919.jpg",
-            "slide_21": "images/massasoit/massasoit-warriors.jpg",
-            "slide_22": "images/massasoit/carver-massasoit.jpg",
+            # Land pressure
+            "slide_20": "images/massasoit/debry-three-sisters.jpg",
+            "slide_20b": "images/massasoit/sowams-1908.jpg",
+            "slide_21": "images/massasoit/debry-corn-prosper.jpg",
+            "slide_22": "images/massasoit/debry-three-sisters.jpg",
+            # Sons + Wamsutta
             "slide_23": "images/massasoit/philip-church-1827.jpg",
+            "slide_23b": "images/massasoit/massasoit-palace-1857.jpg",
+            "slide_23c": "images/massasoit/night-attack-waldron.jpg",
             "slide_24": "images/massasoit/philip-appleton.jpg",
             "slide_25": "images/massasoit/philip-appleton.jpg",
-            # Last counsel + epilogue
+            "slide_26": "images/massasoit/philip-church-1827.jpg",
             "slide_27": "images/massasoit/massasoit-relief.jpg",
             "slide_28": "images/massasoit/philip-revere.jpg",
-            "slide_29": "images/massasoit/massasoit-relief.jpg",
+            "slide_29": "images/massasoit/massasoit-palace-1857.jpg",
         },
     },
 }
