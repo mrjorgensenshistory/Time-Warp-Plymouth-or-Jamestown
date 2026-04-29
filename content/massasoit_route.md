@@ -32,9 +32,8 @@
 **Slide text overlay:** Bone-white slide-textbox card, Share Tech body. No parchment on this card — parchment is reserved for English ship's-log and Compact slides.
 
 **Body text:**
-> I am Ousamequin. The English will write my title where my name should be — Massasoit, "great chief." Sachem of the Wampanoag confederation. Forty villages answer to me, or did.
-> Three winters ago a sickness came. It came off an English fishing ship, though we did not know that yet.
-> Ten thousand of my people are dead. The bay where Patuxet stood is empty. The bones are still in the houses.
+> I am Ousamequin — Massasoit, "great chief." Sachem of the Wampanoag confederation. Forty villages answer to me, or did.
+> Three winters ago a sickness came off an English fishing ship. Ten thousand of my people are dead. The bones are still in the houses.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -49,9 +48,9 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> Before the sickness, I had warriors enough to push back any rival on this coast.
-> Now I count what is left. Fewer fighters than the Narragansett to the west. The Narragansett did not get the sickness. They are stronger than they were a year ago. I am weaker than I was in my grandfather's time.
-> A chief who cannot count his men cannot lead his people. So I count. The numbers do not improve when I count them again.
+> Before the sickness, I had warriors enough to push back any rival on this coast. Now I count what is left.
+> Fewer fighters than the Narragansett. They did not get the sickness. They are stronger than a year ago. I am weaker than in my grandfather's time.
+> A chief who cannot count his men cannot lead his people. The numbers do not improve when I count them again.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -66,11 +65,8 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> The villages that lost the most cannot stand alone. Patuxet is gone. Nemasket is half. Pokanoket — my own — has lost a third.
-> My counselors push me three ways.
-> The first says: let each village mourn for a year. We owe the dead that much before we move them.
-> The second says: pull every survivor to one place under one roof. Re-tribalize. We are one people now, not forty.
-> The third says: send messengers west. Find allies. The Pocasset, the Sakonnet, the smaller bands — bring them in before the Narragansett take them.
+> Patuxet is gone. Nemasket is half. Pokanoket — my own — has lost a third. My counselors push me three ways.
+> Mourn a year, owe the dead that much. Or pull every survivor under one roof — re-tribalize. Or send messengers west and find allies before the Narragansett take them.
 >
 > *What do I do?*
 
@@ -91,10 +87,8 @@
 **Headline:** "WRONG LEVERRRRR!"
 
 **Body text:**
-> I tell my people we will mourn for a year. The dead have earned that.
-> While we mourn, the Narragansett move. They take three of my western villages without a fight — the survivors there had no chief left to refuse them.
-> When my year of mourning ends, I have fewer warriors and fewer villages than when it began. I gave my people respect, and the Narragansett gave themselves my territory.
-> A chief mourns by leading. Not by waiting.
+> I tell my people we will mourn for a year. While we mourn, the Narragansett take three of my western villages without a fight.
+> I gave my people respect, and the Narragansett gave themselves my territory. A chief mourns by leading. Not by waiting.
 
 **Buttons:**
 - `[TRY AGAIN ←]` — back to Slide 1
@@ -110,9 +104,8 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> I pull everyone in. One roof per three families. Less food per mouth. More eyes in every direction.
+> I pull everyone in. One roof per three families. Less food per mouth, more eyes in every direction.
 > It is not what my people wanted. It is what my people needed.
-> My counselors are split on whether to seek allies west. I tell them to wait. The Narragansett will hear about a strong consolidated village faster than they will hear about a network of weak ones.
 
 **Buttons:**
 - `[CONTINUE →]` — Slide 3
@@ -127,9 +120,8 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> Strangers landed at Patuxet four moons ago. They came in winter, which is the way only fools or desperate men travel.
-> Half of them are already dead. My scouts watched them bury bodies at night so the others would not see how few they were.
-> I have not yet shown myself to them. I am watching. A chief who shows himself before he counts is a chief who loses his people twice.
+> Strangers landed at Patuxet four moons ago — in winter, the way only fools or desperate men travel. Half are already dead; my scouts watched them bury bodies at night.
+> I have not yet shown myself. A chief who shows himself before he counts is a chief who loses his people twice.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -144,11 +136,8 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> The strangers are weak now. They will not be weak in the spring. I have a window, and the window is closing.
-> My scouts ask me what to do.
-> I can drive them out. Burn the palisade tonight while half of them are sick. End it before more ships come.
-> I can keep watching. Let the winter and the sickness do the work for me. I have already lost enough warriors to a season.
-> Or I can approach them. Show myself. Bring Squanto, who knows their tongue, and make terms.
+> The strangers are weak now. They will not be weak in the spring. The window is closing.
+> I can drive them out tonight while half of them are sick. I can keep watching and let winter finish them. Or I can approach with Squanto and make terms.
 >
 > *What do I do?*
 
@@ -167,10 +156,8 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> A man returns to my camp who should be dead. His name is Tisquantum. The English call him Squanto.
-> He was stolen from Patuxet years ago by an English captain who shook his hand and put him in chains. He was sold in Spain. He learned the strangers' tongue. He worked his way home across two oceans.
-> He came back to find his village empty. He has been living in my territory because there is no one left in his own.
-> He tells me the strangers at Patuxet are starving. He tells me he can speak to them. He asks me what I want him to say.
+> A man returns to my camp who should be dead — Tisquantum. The English call him Squanto. Stolen from Patuxet years ago, sold in Spain, he learned the strangers' tongue and worked his way home across two oceans.
+> He came back to find his village empty. He tells me the strangers are starving, that he can speak to them, and asks what I want him to say.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -185,10 +172,8 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> Squanto is useful. Squanto is also a man who has been owned by Englishmen and Spanish friars and now sits at my fire. I do not yet know whose interests he carries with him.
-> I can tell him to walk into the palisade as my voice — say what I tell him, and only what I tell him.
-> I can tell him to walk in as a free man and report back. Let him sound them out as he sees fit, and then come tell me what he has learned.
-> I can tell him to be my eyes inside their fort — feed them what they need to live, but tell me everything they say when they think no Wampanoag is listening.
+> Squanto is useful. He has also been owned by Englishmen and Spanish friars. I do not yet know whose interests he carries.
+> I can send him as my voice — saying only what I tell him. As a free man — sounding them out and reporting back. Or as my spy inside their fort.
 >
 > *What do I tell him?*
 
@@ -209,9 +194,8 @@
 **Headline:** "I MADE HIM PICK BOTH."
 
 **Body text:**
-> I send Squanto in as my spy. He plays the part well. Too well.
-> Within a year the English have caught him passing them my councils, and I have caught him passing me their plans, and neither side trusts him enough to use him anymore. Bradford asks me to hand him over for execution. I refuse — but I cannot use him either.
-> I lose my translator before I have a treaty. The English deal directly with my western neighbors instead, who have never met Squanto and who do not know what I would have offered.
+> I send Squanto in as my spy. He plays the part too well. Within a year both sides have caught him passing the other's secrets, and neither trusts him enough to use him.
+> I lose my translator before I have a treaty. The English deal directly with my western neighbors instead.
 > I asked too much of the only man who could speak both tongues. I broke him before I needed him.
 
 **Buttons:**
@@ -228,11 +212,8 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> The men in my council are split.
-> Some say: drive them out now. They are starving and sick. We have the numbers. The land at Patuxet is ours. Push them into the sea before more ships come.
-> Others say: leave them be, they will die on their own. Winter will finish what the sea began.
-> I think on what Squanto said. The strangers have iron tools. Long guns that kill at a distance. If they live, they will trade.
-> The Narragansett are watching all of this from the west.
+> My council is split. Some say drive them into the sea before more ships come. Others say leave them — winter will finish them.
+> The strangers have iron tools and long guns. If they live, they will trade. And the Narragansett are watching from the west.
 >
 > *What do I do?*
 
@@ -253,9 +234,8 @@
 **Headline:** "WRONG LEVERRRRR!"
 
 **Body text:**
-> I throw my warriors at the palisade. We win. The strangers die in the surf or run for their ship.
-> One year passes. Another English ship comes anyway. Then another. They land where they please now, because there is no English settlement to negotiate through.
-> The Narragansett see I have spent my warriors on a small fight. They press west. By 1630, the Wampanoag answer to Narragansett sachems. My grandchildren will not know my name as a free people's chief.
+> I throw my warriors at the palisade. We win. The strangers die in the surf. But more ships come anyway, and now there is no English settlement to negotiate through.
+> The Narragansett see I have spent my warriors. By 1630, the Wampanoag answer to Narragansett sachems.
 > I spent the small problem to make the big problem worse.
 
 **Buttons:**
@@ -278,9 +258,8 @@
 **Headline:** "YOU CAN'T STAY HIDDEN ON COMPANY TIME!"
 
 **Body text:**
-> I do nothing. Winter does not finish them — Squanto helps them anyway, on his own, because he has nowhere else to go.
-> They live. Spring comes. More ships come. They make their own deal with the Narragansett to the west, who are happy to have iron tools and guns delivered to their door.
-> Now the strangers and the Narragansett are friends. The Wampanoag are between them, with no allies and no leverage. I am a chief who chose nothing, and so the choice was made for me.
+> I do nothing. Winter does not finish them — Squanto helps them anyway. They live. Spring brings more ships, and they make their own deal with the Narragansett.
+> Now the strangers and the Narragansett are friends. The Wampanoag are between them, with no allies and no leverage.
 > A leader who waits for the world to decide is a leader who has already lost.
 
 **Buttons:**
@@ -301,9 +280,8 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> I walk into the English fort with sixty of my men. I do not bring weapons drawn. I bring deer, smoked, four of them, slung on poles.
-> I do this for two reasons. The first is that you do not begin a treaty with a closed fist if you want the treaty to last past the first winter.
-> The second is that I want their leader to count my men, and I want him to know I could have brought twice as many.
+> I walk into the English fort with sixty of my men. No weapons drawn. Four smoked deer slung on poles.
+> You do not begin a treaty with a closed fist if you want it to last. And I want their leader to count my men, and to know I could have brought twice as many.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -318,10 +296,8 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> Their governor is named Bradford. He is younger than I expected. He has buried half his people this winter and he knows it.
-> Squanto translates. The terms come from both sides — mutual defense. My warriors will help if Plymouth is attacked. Plymouth's guns will help if I am attacked. We will not harm each other's people. We will trade.
-> I could push for more. I could demand tribute. I could demand they leave their guns at the door of every meeting.
-> Or I could sign what is on the table.
+> Their governor is Bradford — younger than I expected, and he has buried half his people this winter.
+> The terms: mutual defense, no harm to each other's people, trade. I could push for more — demand tribute, demand they leave their guns at the door. Or I could sign what is on the table.
 >
 > *What do I do?*
 
@@ -342,9 +318,8 @@
 **Headline:** "WRONG LEVERRRRR!"
 
 **Body text:**
-> I press for tribute. Bradford's face closes. He stands up from the table. He says, in Squanto's translation, that he has not crossed an ocean to pay a tax to a man who has not yet decided if they are friends.
-> He withdraws. The talks end. Within a season Plymouth has signed instead with one of my western neighbors who took the deal I refused.
-> I traded a fifty-year alliance for a year of pride. My sons will pay for that trade.
+> I press for tribute. Bradford's face closes. He says he has not crossed an ocean to pay a tax to a man who has not yet decided if they are friends. The talks end.
+> Within a season Plymouth signs with one of my western neighbors instead. I traded a fifty-year alliance for a year of pride.
 > A chief negotiates from his weakest point. He does not pretend it is his strongest.
 
 **Buttons:**
@@ -361,9 +336,8 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> We sign. Mutual defense. I have allies with guns now, against the Narragansett, who do not.
-> Bradford has allies with warriors, against any tribe that would have pushed his fort into the sea this spring.
-> Neither of us trusts the other yet. That is fine. Trust comes later, if it comes at all. The treaty does not require trust. The treaty requires that we both still need each other in the morning.
+> We sign. Mutual defense. I have allies with guns against the Narragansett. Bradford has warriors against any tribe that would have pushed his fort into the sea.
+> Neither of us trusts the other yet. The treaty does not require trust. It requires that we both still need each other in the morning.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -378,11 +352,8 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> Bradford sends a runner. His harvest came in. Not large. He invites me to a feast — three days, food shared, no business.
-> My counselors do the math out loud.
-> If I send no one, the alliance reads as cold. The Narragansett will hear about it and read it the same way.
-> If I send a small party, I look polite. Fed but not committed.
-> If I send a war-band's worth, I look like a chief honoring the treaty with the strength behind it.
+> Bradford sends a runner. His harvest came in — not large. He invites me to a feast: three days, food shared, no business.
+> Send no one and the alliance reads as cold. Send a small party and I look polite but uncommitted. Send a war-band and I honor the treaty with strength behind it.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -416,9 +387,8 @@
 **Headline:** "I LET THE TABLE GO COLD."
 
 **Body text:**
-> I refuse the feast. I tell the runner the alliance is enough. Food is for friends; we are allies. There is a difference.
-> Bradford remembers the refusal. So does the next governor after him, and the next.
-> When the Narragansett come courting Plymouth twenty years later — offering land, offering Pequot scalps — Plymouth listens, because the only language Plymouth and I ever spoke was a treaty. We never sat at a table.
+> I refuse the feast. The alliance is enough. Food is for friends; we are allies.
+> Bradford remembers the refusal. So does the next governor, and the next. When the Narragansett come courting Plymouth twenty years later, Plymouth listens.
 > A chief signs a paper to start a peace. He shares food to keep it.
 
 **Buttons:**

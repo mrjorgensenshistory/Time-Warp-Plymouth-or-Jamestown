@@ -536,38 +536,54 @@ html, body { height: 100%; width: 100%; overflow: hidden; background: #0a0a1a; c
   background: radial-gradient(ellipse at 50% 30%, var(--accent) 0%, #0a0a1a 70%);
 }
 
-/* Text card: top-RIGHT (Conquest engine pattern) — doesn't block the centered image */
-.card {
+/* Right-side panel — wraps card + buttons in a flex column so they always stack */
+.panel {
   position: absolute;
-  top: 3vh;
-  right: 3vw;
+  top: 2vh;
+  right: 2vw;
+  bottom: 76px; /* clear timeline */
+  width: 42%;
+  max-width: 480px;
   z-index: 5;
-  max-width: 44%;
-  max-height: calc(100vh - 220px); /* leave room for buttons + timeline */
-  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1.5vh;
+  pointer-events: none;
+}
+.panel > * { pointer-events: auto; }
+
+/* Text card: now lives inside .panel, top of column */
+.card {
+  position: relative;
+  z-index: 5;
+  width: 100%;
   background: rgba(255,255,255,0.78);
   border: 2px solid #000;
   border-radius: 8px;
-  padding: 2vh 2.4vw;
+  padding: 1.2vh 1.6vw;
   box-shadow: 0 6px 24px rgba(0,0,0,0.6);
   font-family: 'Bangers', 'Arial Black', sans-serif;
   color: #000;
-  line-height: 1.45;
+  line-height: 1.3;
   letter-spacing: 0.5px;
   text-align: left;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: hidden;
 }
 .card h2 {
-  font-size: clamp(1.2rem, 2.3vw, 1.7rem);
-  margin-bottom: 1vh;
+  font-size: clamp(0.9rem, 1.6vw, 1.2rem);
+  margin-bottom: 0.5vh;
   color: #000;
-  letter-spacing: 1.2px;
+  letter-spacing: 1px;
   text-align: center;
   border-bottom: 1px solid rgba(0,0,0,0.2);
-  padding-bottom: 0.7vh;
+  padding-bottom: 0.4vh;
 }
 .card .body p {
-  font-size: clamp(0.95rem, 1.5vw, 1.2rem);
-  margin-bottom: 0.7vh;
+  font-size: clamp(0.72rem, 1.05vw, 0.95rem);
+  margin-bottom: 0.35vh;
   opacity: 0;
   transform: translateY(8px);
   transition: opacity 600ms ease, transform 600ms ease;
@@ -575,19 +591,16 @@ html, body { height: 100%; width: 100%; overflow: hidden; background: #0a0a1a; c
 .card .body p.shown { opacity: 1; transform: translateY(0); }
 .card .body p:last-child { margin-bottom: 0; }
 
-/* Buttons: BOTTOM CENTER (Conquest engine pattern), above the 64px timeline */
+/* Buttons: bottom of the right-side panel column */
 .buttons {
-  position: absolute;
-  bottom: 80px;
-  left: 50%;
-  transform: translateX(-50%);
+  position: relative;
   z-index: 11;
   display: flex;
   flex-direction: column;
-  gap: 1.2vh;
-  align-items: center;
-  max-width: 80%;
-  width: auto;
+  gap: 1vh;
+  align-items: stretch;
+  width: 100%;
+  flex: 0 0 auto;
   opacity: 0;
   transition: opacity 600ms ease;
 }
@@ -596,16 +609,18 @@ html, body { height: 100%; width: 100%; overflow: hidden; background: #0a0a1a; c
 button.choice {
   background: rgba(255,255,255,0.85);
   color: #000;
-  border: 3px solid #000;
+  border: 2px solid #000;
   border-radius: 6px;
-  padding: 1.4vh 3.5vw;
+  padding: 0.9vh 1.2vw;
   font-family: 'Bangers', sans-serif;
-  font-size: clamp(1rem, 1.7vw, 1.4rem);
+  font-size: clamp(0.78rem, 1.15vw, 1rem);
   cursor: pointer;
   transition: all 150ms ease;
-  min-width: 32vw;
+  min-width: 0;
+  width: 100%;
   text-align: center;
   box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  line-height: 1.2;
 }
 button.choice:hover { background: #fff; transform: scale(1.03); }
 
@@ -642,18 +657,25 @@ button.choice:hover { background: #fff; transform: scale(1.03); }
   0%,100% { text-shadow: 4px 4px 0 #000, 6px 6px 18px rgba(180,30,30,0.7), 0 0 30px rgba(255,40,40,0.5); }
   50% { text-shadow: 4px 4px 0 #000, 6px 6px 18px rgba(180,30,30,0.9), 0 0 60px rgba(255,80,80,0.9); }
 }
-.slide.gameover-slide .card {
-  /* Center the card on gameover slides so the GAME OVER banner has room */
+.slide.gameover-slide .panel {
+  /* Center the gameover panel under the GAME OVER banner */
   top: 16vh;
   right: auto;
   left: 50%;
   transform: translateX(-50%);
+  width: 60%;
+  max-width: 700px;
+  bottom: 100px;
+  align-items: center;
+  text-align: center;
+}
+.slide.gameover-slide .card {
   background: rgba(20,5,5,0.85);
   border-color: #6a0000;
   border-width: 3px;
   color: #fff8e0;
-  max-width: 60%;
   text-align: center;
+  width: 100%;
 }
 .slide.gameover-slide .card h2 {
   color: #ff5555;
@@ -828,6 +850,10 @@ function renderSlide(slide) {
     div.appendChild(gifImg);
   }
 
+  // Right-side panel wraps card + buttons in a flex column so they never overlap
+  const panel = document.createElement('div');
+  panel.className = 'panel';
+
   const card = document.createElement('div');
   card.className = 'card';
   if (slide.title && slide.title.trim()) {
@@ -843,7 +869,7 @@ function renderSlide(slide) {
     body.appendChild(para);
   });
   card.appendChild(body);
-  div.appendChild(card);
+  panel.appendChild(card);
 
   const btnWrap = document.createElement('div');
   btnWrap.className = 'buttons';
@@ -854,7 +880,9 @@ function renderSlide(slide) {
     btn.addEventListener('click', () => goToSlide(b.target));
     btnWrap.appendChild(btn);
   });
-  div.appendChild(btnWrap);
+  panel.appendChild(btnWrap);
+
+  div.appendChild(panel);
 
   stage.appendChild(div);
   return div;
@@ -877,7 +905,7 @@ function updateTimeline(state) {
 
 function revealCard(slideEl) {
   const paras = slideEl.querySelectorAll('.card .body p');
-  const buttons = slideEl.querySelector(':scope > .buttons');
+  const buttons = slideEl.querySelector('.panel > .buttons');
   paras.forEach((p, i) => setTimeout(() => p.classList.add('shown'), 250 + i * 600));
   if (buttons) setTimeout(() => buttons.classList.add('shown'), 250 + paras.length * 600 + 200);
 }
@@ -889,7 +917,7 @@ function showSlide(idx) {
   let el = document.getElementById(slide.id);
   if (!el) el = renderSlide(slide);
   el.querySelectorAll('.card .body p').forEach(p => p.classList.remove('shown'));
-  const bw = el.querySelector(':scope > .buttons');
+  const bw = el.querySelector('.panel > .buttons');
   if (bw) bw.classList.remove('shown');
   el.classList.add('active');
   updateTimeline(slide.timeline || {});

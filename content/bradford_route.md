@@ -16,8 +16,7 @@
 **Slide text overlay:** Slide-textbox card, `Share Tech` body.
 
 **Body text:**
-> My name is William Bradford. I am sixteen years old. My father is dead. My uncles want me to be a farmer.
-> Tonight I walk to a barn outside the village. Inside, men and women I know are reading from a Bible in English. They are not reading the prayers the King's church tells us to read.
+> My name is William Bradford. I am sixteen, and tonight I slip out to a barn where men and women read a Bible in English — not the prayers the King's church commands.
 > The law calls this treason. I call it the only honest hour of my week.
 
 **Buttons:**
@@ -33,8 +32,7 @@
 **Slide text overlay:** Slide-textbox card.
 
 **Body text:**
-> The Church of England says only the King's bishops may decide how God is worshipped. We Separatists believe the Bible alone tells us how.
-> We have separated from the King's church. That is the word we use. Separatists.
+> The King's bishops say only they may decide how God is worshipped. We Separatists believe the Bible alone tells us how — and so we have separated from the King's church.
 > The penalty for this in England is prison. Or worse.
 
 **Buttons:**
@@ -50,8 +48,8 @@
 **Slide text overlay:** Slide-textbox card. Soft branching decision — both paths advance, but one is wrong.
 
 **Body text:**
-> The King's officers know about our barn meetings. Brewster says it is time to leave England. The Dutch let people pray as they please.
-> But I am eighteen. I have an inheritance coming. England is my home.
+> The King's officers know about our meetings. Brewster says we must flee to Holland, where men may pray as they please.
+> But I am eighteen, with an inheritance coming. England is my home.
 >
 > What do I do?
 
@@ -69,8 +67,8 @@
 **Slide text overlay:** Cutscene card centered at top:55%.
 
 **Body text (small, beneath headline):**
-> I stay. The King's officers come for Brewster within the year. Then they come for the rest of us.
-> No barn meeting. No Mayflower. No Plymouth. No compact. No chronicle. England forgets the boy who chose his fields over his faith.
+> I stay. The King's officers come for Brewster within the year, then for the rest of us.
+> No Mayflower. No Plymouth. No compact. England forgets the boy who chose his fields over his faith.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 3
@@ -86,9 +84,8 @@
 **Slide text overlay:** Slide-textbox card.
 
 **Body text:**
-> Holland lets us worship as we please. For that, I will be grateful all my life.
-> I am twelve years in this city. I learn the wool trade. I marry Dorothy May. We have a son, John.
-> The Dutch are kind. The Dutch are tolerant. The Dutch are also slowly, quietly, taking my children away from me.
+> Holland lets us worship as we please, and for that I will be grateful all my life. Twelve years pass: I learn the wool trade, marry Dorothy May, and we have a son, John.
+> The Dutch are kind. The Dutch are also slowly, quietly, taking my children away from me.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 5
@@ -103,9 +100,8 @@
 **Slide text overlay:** Slide-textbox card.
 
 **Body text:**
-> My son speaks Dutch better than English. He plays Dutch games. He prays in Dutch when he forgets I am listening.
-> Our young men are taking jobs in the Dutch militia. Our young women are marrying Dutch boys. Our church is fading.
-> We came here for our faith. If we stay, our grandchildren will not be English Separatists. They will be Dutchmen who happened to have an English grandfather.
+> My son speaks Dutch better than English. He prays in Dutch when he forgets I am listening. Our young men join Dutch militias; our young women marry Dutch boys; our church is fading.
+> We came here for our faith. If we stay, our grandchildren will be Dutchmen who happened to have an English grandfather.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 6
@@ -120,7 +116,7 @@
 **Slide text overlay:** Slide-textbox card. Soft branching decision — wrong-end advances to gameover.
 
 **Body text:**
-> Brewster says we cannot stay another generation. Some elders say we should move to Amsterdam — bigger, more English, more steady work. A handful of younger men whisper about slipping back to England. King James has a new archbishop. They say maybe the heat has died down.
+> Brewster says we cannot stay another generation. Some elders push for Amsterdam; some young men whisper that the heat in England may have died down.
 >
 > What do I do?
 
@@ -139,8 +135,8 @@
 **Slide text overlay:** Cutscene card centered at top:55%.
 
 **Body text (small, beneath headline):**
-> The English church at Amsterdam is large, quarrelsome, and already splintering into three rival factions. Within a year, our small Scrooby congregation is folded into someone else's argument and stops being our own.
-> No Mayflower. No Plymouth. No compact. The chronicle ends in a Dutch courtyard.
+> The English church at Amsterdam is already splintering into rival factions. Within a year our Scrooby congregation is folded into someone else's argument and stops being our own.
+> No Mayflower. No Plymouth. The chronicle ends in a Dutch courtyard.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 6
@@ -156,9 +152,8 @@
 **Slide text overlay:** Cutscene card centered at top:55%.
 
 **Body text (small, beneath headline):**
-> The new archbishop is named William Laud. The heat has not died down. The heat has been waiting.
-> Brewster is arrested at the Yorkshire dock. I am arrested at my mother's gate. The congregation scatters.
-> No Mayflower. No Plymouth. No compact. No chronicle.
+> The new archbishop is William Laud. The heat has not died down — it has been waiting.
+> Brewster is arrested at the dock; I am arrested at my mother's gate. No Mayflower. No Plymouth.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 6
@@ -174,9 +169,8 @@
 **Slide text overlay:** Slide-textbox card.
 
 **Body text:**
-> We will go to the New World. The Virginia Company has granted us a charter to settle on the northern edge of their land — near the mouth of the Hudson River.
-> The company offers us a deal. They will not pay our way. We must put ourselves in debt to a group of London merchants — the Adventurers — and pay them back over seven years out of whatever we send home.
-> The terms are hard. The terms are also the only terms there are.
+> We will go to the New World. The Virginia Company has granted us a charter near the mouth of the Hudson, but we must pay our way by going into debt to London merchants — the Adventurers — for seven years.
+> The terms are hard. The terms are the only terms there are.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 8
@@ -191,8 +185,7 @@
 **Slide text overlay:** Slide-textbox card. Hard branching decision.
 
 **Body text:**
-> The Adventurers say the manifest must be full or no ship sails. They have rounded up another forty English passengers — adventurers, servants of the Company, men chasing land. Strangers, not Saints.
-> Brewster is uneasy. Half a ship of our people, half a ship of theirs, all bound by the same charter.
+> The manifest must be full or no ship sails. The Adventurers have rounded up forty more passengers — Strangers, not Saints — and Brewster is uneasy at sharing a charter with them.
 >
 > What do I do?
 
@@ -211,8 +204,8 @@
 **Slide text overlay:** Cutscene card centered at top:55%.
 
 **Body text (small, beneath headline):**
-> We charter a second ship, the Speedwell. She leaks all the way out of Southampton harbor. Twice we put back. By the third return our money is gone, the season is gone, and the Atlantic is closed for the winter.
-> Half our families wait for spring in a port town that does not want them. Half lose heart and go home.
+> We charter a second ship, the Speedwell. She leaks; twice we put back. By the third return our money is gone and the Atlantic is closed for winter.
+> Half our families lose heart and go home.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 8
@@ -228,8 +221,8 @@
 **Slide text overlay:** Cutscene card centered at top:55%.
 
 **Body text (small, beneath headline):**
-> By spring of 1620 the Adventurers have lost patience and given our charter to a different congregation. By 1621 the Massachusetts Bay men begin organizing their own fleet. By 1623 the elders of our church are old and tired.
-> We are still in Leiden. We are still arguing about terms. The world sails without us.
+> By spring 1620 the Adventurers give our charter to another congregation. By 1623 our elders are old and tired.
+> We are still in Leiden, still arguing terms. The world sails without us.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 8
@@ -245,9 +238,8 @@
 **Slide text overlay:** Slide-textbox card.
 
 **Body text:**
-> September, 1620. We board the Mayflower at Plymouth, on the south coast of England.
-> One hundred two passengers. Saints and Strangers, mixed. About half of us are women and children. We are families. This is the difference, I think, that will matter most.
-> The captain's name is Christopher Jones. The crossing should take six weeks.
+> September, 1620. We board the Mayflower at Plymouth, England — one hundred two passengers, Saints and Strangers mixed, half of us women and children.
+> We are families. That, I think, is the difference that will matter most.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 10
@@ -262,9 +254,8 @@
 **Slide text overlay:** Slide-textbox card.
 
 **Body text:**
-> Six weeks becomes nine. The Atlantic is colder and meaner than the books said.
-> A main beam cracks halfway across. The crew braces it with an iron screw one of our passengers brought from Holland. Without that screw, we would not be writing this.
-> One man falls overboard and is hauled back by a trailing rope. One baby is born — Oceanus Hopkins, born at sea. One man dies of fever. The math, so far, is not unkind.
+> Six weeks becomes nine. A main beam cracks midway across; the crew braces it with an iron screw one of our passengers brought from Holland. Without that screw, we would not be writing this.
+> One man falls overboard and is hauled back. One baby — Oceanus Hopkins — is born at sea. One man dies. The math, so far, is not unkind.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 11
@@ -279,9 +270,8 @@
 **Slide text overlay:** Slide-textbox card.
 
 **Body text:**
-> November ninth. Land. But the captain says we are far north of where the charter sent us. The Hudson is two days south, and the shoals between here and there have already broken better ships than ours.
-> We will have to settle here. On a coast that is not Virginia. On land the Virginia Company has no charter for.
-> I do not yet know what that means. The Strangers know exactly what it means.
+> November ninth. Land — but far north of our charter, and the shoals between here and the Hudson have broken better ships than ours.
+> We will have to settle here, on land the Virginia Company has no charter for. I do not yet know what that means. The Strangers know exactly.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 12
@@ -296,7 +286,7 @@
 **Slide text overlay:** Slide-textbox card. Hard branching decision — three buttons, two wrong.
 
 **Body text:**
-> The captain wants to drop anchor here at the Cape and put us ashore. Some of our young men want him to keep sailing south to the Hudson, charter or no charter — that was where we paid to go. A few Strangers are talking about taking the helm by force.
+> The captain wants to drop anchor here. Some of our men want to push south to the Hudson; a few Strangers talk of taking the helm by force.
 >
 > What do I do?
 
@@ -315,8 +305,8 @@
 **Slide text overlay:** Cutscene card centered at top:55%.
 
 **Body text (small, beneath headline):**
-> We round Cape Cod's elbow and run straight into the Pollock Rip — shoals the captain warned us about and the chart called by another name. The Mayflower grounds at low tide. The keel breaks before the next sunrise.
-> Half drown. Half wash up on a coast none of us survive the winter on. No Plymouth.
+> We run straight into the Pollock Rip. The Mayflower grounds at low tide; the keel breaks before sunrise.
+> Half drown. The rest do not survive the winter. No Plymouth.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 12
@@ -332,8 +322,8 @@
 **Slide text overlay:** Cutscene card centered at top:55%.
 
 **Body text (small, beneath headline):**
-> The Strangers take the deck. Captain Jones is locked in his own cabin. Three of his crew are knifed in the scuffle. The remaining sailors will not work the ship for us when they cut the captain loose, and they cut the captain loose.
-> The Mayflower turns home in disgrace. We arrive in England in chains.
+> The Strangers take the deck. Three crewmen are knifed in the scuffle, and the rest will not work the ship for us.
+> The Mayflower turns home. We arrive in England in chains.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 12
@@ -349,9 +339,9 @@
 **Slide text overlay:** Slide-textbox card.
 
 **Body text:**
-> A Stranger named Stephen Hopkins stands on the deck and says the words I was afraid he would say:
-> "We are not in Virginia. The Virginia Company's laws do not reach this coast. When we step ashore, every man does as he pleases."
-> Other Strangers nod. Some Saints reach for what we brought from Holland. The sun is setting. We will be ashore tomorrow, and tomorrow there will be no King and no governor and no church.
+> A Stranger named Stephen Hopkins stands on the deck and says the words I feared:
+> "We are not in Virginia. The Company's laws do not reach this coast. When we step ashore, every man does as he pleases."
+> Tomorrow we will be ashore, and tomorrow there will be no King and no governor and no church.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 14
@@ -385,7 +375,7 @@
 
 **Body text (small, beneath headline):**
 > Saints take the beach. Strangers storm it. Muskets fire on the sand before the second day is out.
-> Half the colony is killed by the other half before winter even arrives. The survivors limp back to the ship and beg the captain to take them home. There is no Compact. There is no Plymouth.
+> Half the colony is killed by the other half before winter arrives. There is no Compact. There is no Plymouth.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 14
@@ -401,8 +391,7 @@
 **Slide text overlay:** Cutscene card centered at top:55%.
 
 **Body text (small, beneath headline):**
-> I order the captain to turn the Mayflower home. Some Saints weep. Some Strangers cheer.
-> We sail back into the Atlantic in November weather. Twelve years in Holland for nothing. No compact. No colony. No chronicle.
+> I order the Mayflower home. Twelve years in Holland for nothing. No compact. No colony.
 > History writes us off as the second Roanoke. England tries again with someone else.
 
 **Buttons:**
@@ -419,8 +408,8 @@
 **Slide text overlay:** Slide-textbox card. Soft branching decision — wrong-end advances to a gameover.
 
 **Body text:**
-> The words on the page matter more than I ever thought words could matter. If I write this too narrow, the Strangers will not sign. If I write this too broad, the Saints will not sign.
-> Hopkins is at the door. He wants to read it before tomorrow.
+> The words on this page matter more than I ever thought words could. Too narrow and the Strangers will not sign; too broad and the Saints will not.
+> Hopkins is at the door, waiting.
 >
 > What do I do?
 

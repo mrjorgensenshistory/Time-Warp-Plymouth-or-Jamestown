@@ -17,9 +17,9 @@
 **Slide text overlay:** White slide-textbox, `Share Tech` body. NOT parchment — parchment is for English ship's-log voice. Squanto's slides use a clean text card.
 
 **Body text:**
-> My name is Tisquantum. The English will write it Squanto, when they meet me, because their mouths cannot find the rest.
-> I am born here. The water is full of cod. The marsh is full of clams. My people are the Patuxet, of the Wampanoag.
-> This place has no other name yet. The English will name it Plymouth, later, when there is no one left to argue.
+> My name is Tisquantum. The English will write it Squanto, because their mouths cannot find the rest.
+> I am born here. My people are the Patuxet, of the Wampanoag.
+> The English will name this place Plymouth, later, when there is no one left to argue.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 2
@@ -33,9 +33,9 @@
 **Timeline bar:** New tick: `1605 — English ships, first contact.`
 
 **Body text:**
-> The first English come when I am about twenty. They are not the first strangers our coast has seen. The Spanish have been south of here for a hundred years. The French come north for furs.
-> They want fish, fresh water, beaver pelts. They give iron pots, glass beads, knives that hold an edge.
-> One captain takes a few of us across the sea, briefly, then returns us. It is not yet what they will become. Not yet.
+> The first English come when I am about twenty. The Spanish have been south of here for a hundred years; the French come north for furs.
+> They want fish and beaver pelts. They give iron pots, glass beads, knives.
+> One captain takes a few of us across the sea, briefly, then returns us. It is not yet what they will become.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 3
@@ -49,8 +49,8 @@
 **Timeline bar:** Holds.
 
 **Body text:**
-> 1614. A captain named Thomas Hunt comes ashore. He says he is here for fish. He says he is here for trade.
-> Twenty-six of us walk down to his ship. Patuxet men. Nauset men. My friends. My cousins.
+> 1614. A captain named Thomas Hunt comes ashore. He says he is here for fish, for trade.
+> Twenty-six of us walk down to his ship. My friends. My cousins.
 > He shakes our hands. Then he puts us in chains.
 
 **Buttons:**
@@ -66,7 +66,7 @@
 
 **Body text:**
 > The first chain falls on the man beside me. I have a knife at my belt and three uncles still on the path behind me.
-> I can fight. I can drop and submit and watch what they do to the others. I can shout up the path — *RUN. RUN. RUN.* — and trade my body for the warning.
+> I can fight. I can submit and watch. I can shout up the path — *RUN* — and trade my body for the warning.
 > The decision is one breath wide.
 
 **Buttons:**
@@ -85,7 +85,7 @@
 **Headline:** "WRONG LEVERRRRR!"
 
 **Body text:**
-> A knife against twelve cutlasses. The story ends in the sand at Patuxet, three steps from the canoe that will not save me.
+> A knife against twelve cutlasses. The story ends in the sand, three steps from the canoe that will not save me.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 4 (decision 1)
@@ -103,8 +103,8 @@
 
 **Body text:**
 > Three of my uncles hear me and run. Three out of twenty-six is not nothing.
-> Hunt's men hear me too. They do not bring me to Spain quietly. They bring me to Spain in pieces.
-> A man who cannot reach Spain cannot reach back from Spain. The story I lived is not the story I am about to live.
+> Hunt's men hear me too. They do not bring me to Spain quietly.
+> A man who cannot reach Spain cannot reach back from Spain.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 4 (decision 1)
@@ -120,8 +120,8 @@
 
 **Body text:**
 > The hold is dark. The ship is moving and we cannot see the shore.
-> The other men talk. Some say we should rush the next time the grate opens. We have nothing but our hands, but we have our hands.
-> Some say wait. Listen. Learn the shape of the cage.
+> Some men say we should rush the next time the grate opens. We have nothing but our hands.
+> Some say wait. Learn the shape of the cage.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 6 (decision)
@@ -135,9 +135,9 @@
 **Timeline bar:** Holds.
 
 **Body text:**
-> Six days at sea. The grate opens. A bucket comes down. The sailor above does not look at us; we are cargo.
+> Six days at sea. The grate opens. The sailor above does not look at us; we are cargo.
 > The man beside me whispers: *now.*
-> I think of how few of us would clear the deck. I think of how far the shore is. I think of my mother, who still believes I am at the cod racks.
+> I think of how far the shore is. I think of my mother, who still believes I am at the cod racks.
 
 **Buttons:**
 - `[NOW. WHILE THE GRATE IS OPEN.]` — GAMEOVER B (minor / Yzma-eligible)
@@ -169,9 +169,9 @@
 **Timeline bar:** New tick: `1614–15 — Sold in Málaga, Spain.`
 
 **Body text:**
-> The ship makes port in Málaga. They sell us in a market. Twenty pounds a man, the talk says. The price of a horse.
-> Friars in brown robes come to the block. They argue with Hunt's men in a language I do not yet have. They are angry. They take some of us away.
-> They tell me, slowly, in signs: *we will not enslave a baptized soul.* They take me into their house.
+> The ship makes port in Málaga. They sell us in a market. Twenty pounds a man — the price of a horse.
+> Friars in brown robes come to the block. They argue with Hunt's men, angry, in a language I do not yet have.
+> They tell me, in signs: *we will not enslave a baptized soul.* They take me into their house.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 8 (decision)
@@ -185,8 +185,8 @@
 **Timeline bar:** Holds.
 
 **Body text:**
-> The friar at the edge of the crowd lifts a small wooden cross. Eye to eye. He is asking, without words, if I will let him buy me.
-> The trader on the block shouts a price. My cousin is being walked away across the square — toward a buyer who is not a friar.
+> The friar at the edge of the crowd lifts a small wooden cross. He is asking, without words, if I will let him buy me.
+> The trader shouts a price. My cousin is being walked away across the square — toward a buyer who is not a friar.
 > I have one breath to choose where I look.
 
 **Buttons:**
@@ -205,9 +205,9 @@
 **Headline (Bangers, restrained):** "Pride sold me to the galleys."
 
 **Body text:**
-> If you will not look up, the friar cannot buy you. If the friar cannot buy you, a galley captain can.
+> If you will not look up, the friar cannot buy you. A galley captain can.
 > The galley does not return men to their coast. The galley is where men's stories end at the oars.
-> A man who refuses every buyer still gets bought. He only loses the buyer who would have let him go.
+> A man who refuses every buyer still gets bought. He only loses the one who would have let him go.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 8 (decision 3)
@@ -239,9 +239,9 @@
 **Timeline bar:** Holds.
 
 **Body text:**
-> The friars say I am free in their house. They want to teach me their religion. They want me to learn their language.
-> I am thousands of miles from Patuxet. I do not know the way home. Every man I came with is somewhere I cannot find.
-> They ask only three things of me. Each one is a road or a wall.
+> The friars say I am free in their house. They want to teach me their religion and their language.
+> I am thousands of miles from Patuxet. I do not know the way home.
+> They ask three things of me. Each one is a road or a wall.
 
 **Buttons:**
 - `[REFUSE THE BAPTISM. THEY ARE STILL THE PEOPLE WHO BOUGHT ME.]` — GAMEOVER E (terminal / dignified)
@@ -261,8 +261,8 @@
 **Headline (Bangers, restrained):** "I never see Patuxet again."
 
 **Body text:**
-> The friars do not force the lesson. Without their tongue I cannot ask my way to a port.
-> Without a port I cannot ask my way to a ship. The years pass. I am not freed. I am not killed. I am simply not home.
+> The friars do not force the lesson. Without their tongue I cannot ask my way to a port, or a ship.
+> The years pass. I am not freed. I am not killed. I am simply not home.
 > A man who refuses every road still arrives nowhere.
 
 **Buttons:**
@@ -278,9 +278,9 @@
 **Timeline bar:** Holds.
 
 **Body text:**
-> The friars say I have a place under their roof for the rest of my life if I want one. They say it warmly, and they mean it warmly, and they are still the people who bought me.
+> The friars offer me a place under their roof for life. They mean it warmly, and they are still the people who bought me.
 > They offer a passage, by mule, to a Spanish port. They cannot promise it sails north.
-> Or I can leave their house with no patron, and find my own ship out.
+> Or I can leave with no patron, and find my own ship out.
 
 **Buttons:**
 - `[STAY. THE WARM ROOF IS A ROOF.]` — GAMEOVER F (terminal / dignified)
@@ -298,8 +298,8 @@
 **Headline (Bangers, restrained):** "The roof was warm. The shore was farther."
 
 **Body text:**
-> The friars are kind. The cell is dry. The bread is regular. The years go by quietly.
-> Patuxet, in the years I am still alive, is dying without me. I do not know it. I only know that the road I did not take got longer every winter I stayed.
+> The friars are kind. The cell is dry. The years go by quietly.
+> Patuxet is dying without me. I do not know it. The road I did not take grew longer every winter I stayed.
 > A bridge that never crosses is just a board.
 
 **Buttons:**
@@ -315,10 +315,9 @@
 **Timeline bar:** New tick: `1615–19 — Spain, then London. I learn English.`
 
 **Body text:**
-> London is wet. The Thames is full of ships. Three of them could carry me west.
-> The first leaves in three days. Cheap, fast, captained by a man who has not crossed before.
-> The second leaves in a year. Better food. Slower hands.
-> The third is not a ship — it is a merchant who wants a guide to my coast more than he wants a deckhand. He will pay me in lessons. He will pay me in time.
+> London is wet. Three ships could carry me west.
+> The first leaves in three days, captained by a man who has not crossed before. The second leaves in a year — better food, slower hands.
+> The third is not a ship: a merchant named Slany who wants a guide to my coast. He will pay me in lessons, in time.
 
 **Buttons:**
 - `[TAKE THE FIRST SHIP. GO NOW.]` — GAMEOVER G (terminal / dignified)
@@ -336,8 +335,8 @@
 **Headline (Bangers, restrained):** "He had not crossed before. Now he never will."
 
 **Body text:**
-> The North Atlantic in winter does not care that the captain wanted a faster crossing. It does not care that the passenger had been in chains and was finally so close.
-> The pinnace breaks up off Newfoundland. There is no warm friar to argue for me. There is no shore I know.
+> The North Atlantic in winter does not care that the passenger had been in chains and was finally so close.
+> The pinnace breaks up off Newfoundland. There is no shore I know.
 > Some passages are cheap because the passage is cheap.
 
 **Buttons:**
@@ -353,7 +352,7 @@
 **Timeline bar:** Holds.
 
 **Body text:**
-> I learn English the way I learned Spanish — by needing it. Slany pays me to draw the New England coast on his ledger pages. I pay Slany by listening to his English until I can sell it back to him in his own accent.
+> I learn English the way I learned Spanish — by needing it. Slany pays me to draw the New England coast on his ledger pages.
 > When I came across the sea I had one tongue. Now I have three. They will all be useful. I do not yet know how.
 
 **Buttons:**
@@ -368,9 +367,9 @@
 **Timeline bar:** Holds.
 
 **Body text:**
-> I work passage on a fishing ship to Newfoundland. From Newfoundland a captain named Dermer says he is sailing south along the coast. To trade. To map.
-> I tell him I will guide him, if he carries me to Patuxet.
-> He agrees. We sail south. The coast becomes familiar. The trees are the right trees. The bay is the right bay.
+> I work passage on a fishing ship to Newfoundland. A captain named Dermer is sailing south along the coast to trade and map.
+> I tell him I will guide him, if he carries me to Patuxet. He agrees.
+> We sail south. The trees are the right trees. The bay is the right bay.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 14
@@ -384,9 +383,9 @@
 **Timeline bar:** New tick illuminates slowly: `1619 — I return to Patuxet. It is empty.`
 
 **Body text:**
-> I walk up the path I walked as a boy. The path is still here. The houses are still standing. The fish racks are still standing.
+> I walk up the path I walked as a boy. The houses are still standing. The fish racks are still standing.
 > The people are gone.
-> The wind moves the grass where the houses used to be. I know this wind. I do not know this silence.
+> I know this wind. I do not know this silence.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 15 (decision)
@@ -400,10 +399,9 @@
 **Timeline bar:** Holds.
 
 **Body text:**
-> The houses are still standing. They will not stand forever. Rain will take the bark. Snow will take the frames.
-> I can search for survivors — walk inland, ask the Pokanoket, ask the Massachusett, ask anyone.
-> I can burn it. Salt the ground in the way our dead are honored. Leave nothing for strangers to walk into.
-> I can simply walk away. There is nothing here to do. The grief is mine and the grief is alone.
+> The houses will not stand forever. Rain will take the bark. Snow will take the frames.
+> I can search inland for survivors. I can burn it, salt the ground the way our dead are honored. I can walk away.
+> The grief is mine and the grief is alone.
 
 **Buttons:**
 - `[SEARCH FOR SURVIVORS.]` — advances to Slide 16 (canonical — leads him to Massasoit)
@@ -421,8 +419,8 @@
 **Headline (Bangers, restrained):** "I burned the houses. The ships came anyway."
 
 **Body text:**
-> The bark was old. It burned easily. The frames came down by morning. I salted the ground the way our dead are honored. I left nothing for strangers to walk into.
-> The Mayflower comes the next winter and anchors anyway. The strangers do not need a house. They build one. They build on the ash.
+> The bark burns easily. The frames come down by morning. I leave nothing for strangers to walk into.
+> The Mayflower comes the next winter and anchors anyway. The strangers do not need a house — they build on the ash.
 > A man who burns a path behind him is still a man on a road.
 
 **Buttons:**

@@ -18,8 +18,8 @@
 
 **Body text:**
 > My name is John Rolfe. I am twenty-four years old. I am sailing for Virginia.
-> My wife is with me. Our daughter is six months old and asleep in her arms.
-> The Virginia Company has paid our passage. England needs men who can plant. I have read every book on tobacco I could find in London.
+> My wife is with me. Our daughter is six months old.
+> The Virginia Company has paid our passage. I have read every book on tobacco I could find in London.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 2
@@ -34,8 +34,7 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> Eight weeks out from Plymouth, the sky turns black.
-> The hurricane lasts four days. Water comes in faster than we can bail. The captain runs the ship aground on a reef in Bermuda to keep her from sinking under us.
+> Eight weeks out from Plymouth, a hurricane hits. It lasts four days. The captain runs the ship aground on a reef in Bermuda to keep her from sinking.
 > We are alive. The ship is broken in pieces on the rocks.
 
 **Buttons:**
@@ -51,9 +50,8 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> The captain shouts orders from the beach. The ship will not last another tide. We have one boat between us and the wreck and an hour of daylight.
-> The hold is full. The Company's cargo is in there. So is the chapel silver. So are the women's chests. We cannot save all of it.
-> The men look at me. I am the youngest planter on the manifest. The captain wants my answer.
+> The ship will not last another tide. One boat, one hour of daylight. We cannot save everything in the hold.
+> The Company's cargo, the chapel silver, and the women's chests — I have to choose. The captain wants my answer.
 
 **Buttons:**
 - `[SAVE THE CARGO. THE COMPANY PAID FOR IT.]` — advances to GAMEOVER F
@@ -70,9 +68,9 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> Bermuda is empty of people. The food is strange but it grows. We build a smaller boat from the wreck of the larger one. We are going to make it.
-> My daughter dies first. The fever takes her in a week. We name her Bermuda, after the place. We bury her under the palmettos.
-> My wife dies in the spring. I dig her grave myself. I am a widower at twenty-five and I have not yet seen Virginia.
+> Bermuda is empty of people. We build a smaller boat from the wreck of the larger one.
+> My daughter dies first. Fever takes her in a week. We bury her under the palmettos.
+> My wife dies in the spring. I am a widower at twenty-five and I have not yet seen Virginia.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 5
@@ -87,8 +85,7 @@
 **Slide text overlay:** None — full-bleed cutscene.
 
 **Body text (small caption, Share Tech):**
-> I order the men to row for the bolts of cloth and the iron tools. The chests on the high deck go under with the tide. Three women drown reaching for them.
-> The colony arrives in Bermuda with iron and cloth and no second voyage in our hearts.
+> I order the men to row for the bolts of cloth and the iron tools. Three women drown reaching for the chests.
 > The men remember who chose the Company over the families. I do not last the winter on the island.
 
 **Buttons (centered top:55%):**
@@ -105,9 +102,8 @@
 **Slide text overlay:** None — full-bleed.
 
 **Body text (small caption, Share Tech):**
-> I order the chapel silver hauled to shore first. The chalice and the candlesticks make it. Two children's trunks do not.
-> The chaplain blesses my decision. The widows do not speak to me again on the island.
-> When we finally reach Virginia I am known as the man who saved the church and lost the children. The Company posts me to a different fort.
+> I order the chapel silver hauled to shore first. Two children's trunks do not make it.
+> When we reach Virginia I am known as the man who saved the church and lost the children. The Company posts me to a different fort.
 
 **Buttons (centered top:55%):**
 - `[TRY AGAIN →]` — returns to Slide 3
@@ -123,9 +119,8 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> We finish our small boat after ten months. We sail the last six hundred miles to Virginia in it.
-> Jamestown is not what the Company promised. It is a starved fort on a swamp.
-> Of the five hundred colonists who lived here last autumn, sixty are still breathing. They tell us about the winter in short sentences. Nobody tells the whole story at once.
+> We finish our small boat after ten months and sail the last six hundred miles to Virginia.
+> Jamestown is a starved fort on a swamp. Of the five hundred colonists who lived here last autumn, sixty are still breathing.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 8
@@ -142,7 +137,7 @@
 **Body text:**
 > They call it the Starving Time. Eighty out of every hundred dead between October and March.
 > They ate the horses first. Then the dogs. Then the rats. Then the leather of their own boots.
-> What they did at the end of that winter is in the record. I will not write it here. I have read enough of it to understand why no one in this fort looks me in the eye.
+> What they did at the end of that winter is why no one in this fort looks me in the eye.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 9
@@ -157,8 +152,7 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> I have my carpenter's tools, two crates from the wreck, and the Bermuda boat we sailed in.
-> The governor offers me a plot of land if I stay with the colony. The trader offers a season's worth of corn for my tools and my passage to England on the next ship. The sailor says he can put me on De La Warr's ship if I go quietly.
+> The governor offers me a plot of land if I stay. The trader offers corn for my tools and passage to England. The sailor can put me on De La Warr's ship if I go quietly.
 > One of these answers builds a colony. Two of them get me home.
 
 **Buttons:**
@@ -176,9 +170,9 @@
 **Slide text overlay:** None — full-bleed.
 
 **Body text (small caption, Share Tech):**
-> I trade my axes and my plane for two sacks of corn and a berth back to England. The corn lasts six weeks. The berth is real.
+> I trade my tools for corn and a berth back to England.
 > When I land in Plymouth I am a planter without a plow, a widower without a wife, and a colonist without a colony.
-> Virginia goes on without me. The cash crop is invented by another man whose name no one remembers either.
+> The cash crop is invented by another man whose name no one remembers either.
 
 **Buttons (centered top:55%):**
 - `[TRY AGAIN →]` — returns to Slide 9
@@ -194,9 +188,8 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> The new governor takes one look at us and orders the colony abandoned. We pack what we can carry. We board the ship. The fort is left to rot.
-> We sail downriver toward the open sea. Toward home.
-> Three miles before we reach the bay, a ship is coming the other way. It is Lord De La Warr with three hundred fresh men and a hold full of food. He turns us around.
+> The new governor orders the colony abandoned. We board the ship and sail downriver toward home.
+> Three miles before the bay, a ship comes the other way. It is Lord De La Warr with three hundred fresh men and a hold full of food. He turns us around.
 
 **Buttons:**
 - `[GO HOME — VIRGINIA IS A GRAVEYARD]` — advances to GAMEOVER A
@@ -212,8 +205,8 @@
 **Slide text overlay:** None — full-bleed cutscene.
 
 **Body text (small caption under the GIF, Share Tech):**
-> I refuse to turn the ship around. We sail past Lord De La Warr's relief fleet and keep going east.
-> Virginia is abandoned. The Company gives up on the colony. England loses the continent for another generation.
+> I refuse to turn around. We sail past De La Warr's relief fleet and keep going east.
+> Virginia is abandoned. England loses the continent for another generation.
 > History writes me down as the man who quit on America.
 
 **Buttons (centered top:55%):**
@@ -230,8 +223,8 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> The Company expects gold. There is no gold here. There is no silver. There are no Aztec cities to plunder.
-> What there is, is land. Black soil along the river bottoms, deep enough to push a stick into up to your wrist.
+> The Company expects gold. There is no gold here, no silver, no Aztec cities to plunder.
+> What there is, is land. Black soil along the river bottoms.
 > I am a planter. I look at this dirt and I see something the Company cannot see yet.
 
 **Buttons:**
@@ -247,9 +240,8 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> The Powhatan grow tobacco. They have grown it for centuries. They smoke it in council, in mourning, in greeting.
-> Captain Smith shipped some of it back to London before he left. The merchants tasted it once and refused a second crate.
-> The local strain is harsh. It scratches the throat. Englishmen will not pay for it. The Company is angry. The colony is broke.
+> The Powhatan have grown tobacco for centuries. Captain Smith shipped some back to London. The merchants tasted it once and refused a second crate.
+> The local strain is harsh. Englishmen will not pay for it. The Company is angry. The colony is broke.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 15
@@ -264,9 +256,9 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> A merchant friend tells me about Trinidad. The Spanish grow a sweet tobacco there. The leaves are golden. London merchants will buy it as fast as it comes off the docks.
-> Spain protects the seeds. It is a hanging offense to take them out of the colony. A sailor I trust will smuggle me a packet for twenty shillings and my silence.
-> The Company would rather I plant something I already know — wheat, barley, English garden crops. The Powhatan strain is here for the taking and legal. The Spanish seeds are the gamble.
+> A merchant tells me about Trinidad. The Spanish grow a sweet tobacco there. London merchants will buy it as fast as it comes off the docks.
+> Spain protects the seeds — it is a hanging offense to smuggle them. A sailor will get me a packet for twenty shillings.
+> The Company would rather I plant wheat or barley. The Powhatan strain is legal. The Spanish seeds are the gamble.
 
 **Buttons:**
 - `[BUY THE SPANISH SEEDS. PLANT IN SECRET.]` — advances to Slide 17
@@ -283,9 +275,8 @@
 **Slide text overlay:** None — full-bleed.
 
 **Body text (small caption, Share Tech):**
-> I plant the wheat and the barley I learned to grow at home. The summer rots half of it in the ground. The deer take what is left.
-> Virginia is not England. The crops I know cannot feed me on this dirt, much less feed a colony.
-> The Company stops sending ships. The fort thins out a second time. The cash crop is never invented and the colony quietly fails.
+> I plant the wheat and barley I learned at home. The summer rots half of it. The deer take what is left.
+> Virginia is not England. The Company stops sending ships. The cash crop is never invented and the colony quietly fails.
 
 **Buttons (centered top:55%):**
 - `[TRY AGAIN →]` — returns to Slide 15
@@ -301,9 +292,8 @@
 **Slide text overlay:** None — full-bleed.
 
 **Body text (small caption, Share Tech):**
-> I plant the local tobacco the Company tells me to plant. The harvest is large. The leaves are bitter. London refuses the shipment.
-> The Virginia Company runs out of money. The colony is dissolved. I am sent home in disgrace.
-> The cash-crop economy is never invented. America's whole story takes a different shape — and not one anyone here will live long enough to see.
+> I plant the local tobacco. The leaves are bitter. London refuses the shipment.
+> The Virginia Company runs out of money. The colony is dissolved. The cash-crop economy is never invented.
 
 **Buttons:**
 - `[TRY AGAIN →]` — returns to Slide 15
@@ -319,9 +309,9 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> I plant the Spanish seeds in a small plot at the edge of the field. I crossbreed them with the local strain — the local plants are hardier in this soil; the Spanish leaves are sweeter on the tongue.
-> The first harvest comes in. I roll a leaf in my hands. It smells like sugar and pine.
-> I dry the crop. I roll the bundles. I send a single barrel back to England on the next ship and I wait.
+> I plant the Spanish seeds and crossbreed them with the local strain — local plants are hardier in this soil; Spanish leaves are sweeter on the tongue.
+> The first harvest comes in. It smells like sugar and pine.
+> I send a single barrel back to England on the next ship and I wait.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 19
@@ -336,8 +326,8 @@
 **Slide text overlay:** Parchment ship's-log card with the letter visible.
 
 **Body text:**
-> The reply comes back the next year. London has paid three shillings a pound. They want every leaf we can grow.
-> The fort is loud for the first time since I arrived. Men are laughing. The Company is sending more ships, more men, more seed.
+> The reply comes back the next year. London paid three shillings a pound. They want every leaf we can grow.
+> The Company is sending more ships, more men, more seed.
 > I have saved the colony. I am twenty-nine years old. I am still a widower.
 
 **Buttons:**
@@ -354,8 +344,8 @@
 
 **Body text:**
 > Her name is Matoaka. The English call her Pocahontas. She is the daughter of the chief of the Powhatan Confederacy.
-> Last year the colonists kidnapped her to use as a bargaining chip against her father. She has been a captive at Henrico for over a year. They have taught her English. They have baptized her Rebecca.
-> I have spoken with her three times. She knows exactly what has been done to her. She is the most clear-eyed person in this colony.
+> Last year the colonists kidnapped her as a bargaining chip against her father. They have taught her English and baptized her Rebecca.
+> I have spoken with her three times. She knows exactly what has been done to her.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 21
@@ -370,9 +360,9 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> I am twenty-eight. She is nineteen. The minister is asking me what my intentions are. The governor is asking me the same thing. Her uncle, when she sees him, will ask her the same thing.
-> I can court her as a wife — slowly, openly, asking her permission at each step. I can present a marriage to her people as pure diplomacy with no feeling in it. I can refuse the question and stay single — leave her at Henrico in English clothes that do not fit.
-> Each of these is honest in its own way. Only one of them is true.
+> I am twenty-eight. She is nineteen. The minister and the governor are both asking me what my intentions are.
+> I can court her as a wife, asking her permission at each step. I can present a marriage as pure diplomacy. I can refuse and leave her at Henrico.
+> Only one of these is true.
 
 **Buttons:**
 - `[COURT HER AS A WIFE. ASK HER, NOT JUST THE GOVERNOR.]` — advances to Slide 22
@@ -389,9 +379,9 @@
 **Slide text overlay:** None — full-bleed.
 
 **Body text (small caption, Share Tech):**
-> I tell the governor I am not the man for this. I leave Henrico. I plant my crop. The peace marriage never happens.
-> Powhatan refuses to release the prisoners on his side. The river wars start back up by harvest time. The fort takes raids three winters in a row.
-> The peace I could have brokered does not happen because I would not write a single letter. I die in a stockade fight in 1616.
+> I tell the governor I am not the man for this. The peace marriage never happens.
+> The river wars start back up by harvest time. The fort takes raids three winters in a row.
+> I die in a stockade fight in 1616.
 
 **Buttons (centered top:55%):**
 - `[TRY AGAIN →]` — returns to Slide 21
@@ -407,8 +397,8 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> I am writing the governor a letter. I am asking permission to marry her.
-> I tell him this is a peace settlement — a marriage between our peoples will end the wars on the river. I tell him I am acting for the colony.
+> I am writing the governor to ask permission to marry her.
+> I tell him this is a peace settlement — a marriage between our peoples will end the wars on the river.
 > That is half the truth. The other half is that I have come to know her, and I love her, and I do not know which half is bigger.
 
 **Buttons:**
@@ -425,9 +415,8 @@
 **Slide text overlay:** None — full-bleed.
 
 **Body text (small caption, Share Tech):**
-> I write the marriage as cold strategy. The wedding happens. Powhatan attends. Within the year he sees through it — his daughter is treated as a trophy, not a wife.
-> The peace settlement collapses. The Powhatan war returns. The colony is back where it started, only now the chief has personal grief on top of it.
-> I die in a raid two years later. So does most of the fort.
+> I write the marriage as cold strategy. Within the year Powhatan sees through it — his daughter is treated as a trophy, not a wife.
+> The peace collapses. The war returns. I die in a raid two years later. So does most of the fort.
 
 **Buttons:**
 - `[TRY AGAIN →]` — returns to Slide 23
@@ -443,9 +432,9 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> We are married in April. She wears a white dress and her own woven belt over it. The minister reads in English. Her uncle stands witness for her side.
-> The wars on the river stop. Trade opens up. The tobacco harvest doubles. They call it the Peace of Pocahontas.
-> She is twenty. I am twenty-nine. Our son is born the next year. We name him Thomas.
+> We are married in April. She wears a white dress and her own woven belt. Her uncle stands witness for her side.
+> The wars on the river stop. The tobacco harvest doubles. They call it the Peace of Pocahontas.
+> Our son is born the next year. We name him Thomas.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 26
@@ -460,9 +449,9 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> The Company wants my wife in London. They want the investors to see a Powhatan princess in a stiff English collar — proof the colony is civilized.
-> She tells me she will go if I go. She wants Thomas to see the country his father came from.
-> I can take her and present her at court the way the Company wants. I can take her and keep her private — quiet visits to family, no court appearances. I can refuse the trip and stay in Virginia.
+> The Company wants my wife in London — proof to the investors that the colony is civilized.
+> She will go if I go. She wants Thomas to see the country his father came from.
+> I can present her at court, keep her private, or refuse the trip entirely.
 
 **Buttons:**
 - `[GO. PRESENT HER AT COURT WITH THE COMPANY.]` — advances to Slide 28

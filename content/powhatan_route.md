@@ -17,9 +17,8 @@
 **Slide text overlay:** Standard slide-textbox, `Share Tech` font, white fill on the painted background.
 
 **Body text:**
-> My name is Wahunsenacah. The English will call me Powhatan, after the village where I was born. They will not learn the difference between the man and the place.
-> I am the paramount chief of about thirty tribes along these rivers. Some of the people I lead were given to me by my father. Most of them I won.
-> I am sixty years old. I have ruled longer than most of these English have been alive.
+> My name is Wahunsenacah. The English will call me Powhatan, after the village where I was born.
+> I am paramount chief of about thirty tribes along these rivers. I am sixty years old, and I have ruled longer than most of these English have been alive.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -34,8 +33,7 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> My country is called Tsenacommacah. It runs from the salt water inland to the falls of the rivers. Maybe fourteen thousand of my people live in it. Maybe twenty.
-> We grow corn and beans and squash in the summer. We hunt deer in the winter. The rivers feed us all year.
+> My country is called Tsenacommacah. It runs from the salt water inland to the falls of the rivers, and maybe twenty thousand of my people live in it.
 > The land is good. Other tribes know it is good. That is why I keep an army.
 
 **Buttons:**
@@ -51,9 +49,8 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> Six tribes came to me from my father. The other twenty-four I added myself. Some sent corn and copper to my fires because I asked. Some sent corn and copper to my fires because I sent warriors first.
-> I am not a king the way the English understand kings. I am a man other men listen to because I have given them reason to listen.
-> The English will write that I rule a "savage empire." I rule a confederation. There is a difference. They will not learn it.
+> Six tribes came to me from my father. The other twenty-four I added myself — some by asking, some by sending warriors first.
+> I am not a king the way the English understand kings. I rule a confederation, and they will not learn the difference.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -68,9 +65,8 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> I have seen ships before. The Spanish came up our rivers when I was younger. They left missionaries. The missionaries did not last.
-> Twenty years ago, I heard about the English colony to the south, on Roanoke. They disappeared. No one I sent to look ever found them.
-> Strangers come. Strangers go. I have learned to watch first.
+> I have seen ships before. The Spanish came up our rivers when I was younger and left missionaries who did not last.
+> Twenty years ago the English colony at Roanoke disappeared. Strangers come. Strangers go. I have learned to watch first.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -85,9 +81,8 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> Spring of 1607. My scouts run to me from the river. Three ships. About a hundred men. They are coming ashore on a marsh island.
-> They have not asked. They have not paid tribute. They are landing on land that belongs to one of my werowances.
-> The runners are looking at me. They want orders before the English finish unloading.
+> Spring of 1607. My scouts run to me from the river — three ships, about a hundred men, coming ashore on a marsh island.
+> They have not asked. They have not paid tribute. The runners want orders before the English finish unloading.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -102,10 +97,8 @@
 **Slide text overlay:** Standard slide-textbox. **DECISION POINT 1.**
 
 **Body text:**
-> I have minutes, not hours. They are unloading right now.
-> I can send the warriors who are with me down through the brush and drive them back into the boats before they put a tool in the dirt. We have surprise. We have the numbers on this stretch of bank.
-> I can hold my men back and watch from the trees. Learn what they brought. See if they leave on their own when the food runs out.
-> Or I can send a small delegation under a peace sign — corn, copper, a werowance to speak for me — and find out what they are here for before I decide what they are.
+> I have minutes, not hours. I can drive them back into the boats now while we have surprise and numbers.
+> I can hold my men in the trees and learn what they brought. Or I can send a peace delegation — corn, copper, a werowance — and find out what they are here for.
 > What do I do?
 
 **Buttons:**
@@ -125,10 +118,8 @@
 **Body text:**
 > **HEADLINE: WRONG LEVERRRRR!**
 >
-> I send the warriors before the English have even finished unloading. We hit them at the boats.
-> They have a small swivel-gun on the longboat I did not see. Three of my men go down before we close. The English fall back to the ships and sail upriver to a worse, swampier site, and dig in there.
-> The first thing the English ever write home about my confederation is that we attack on sight. Every captain that comes after lands with his musket cocked.
-> I moved before I looked. The price for that comes due for forty years.
+> I send the warriors before the English finish unloading. They have a swivel-gun on the longboat I did not see — three of my men go down before we close.
+> The first thing the English ever write home about my confederation is that we attack on sight. Every captain that comes after lands with his musket cocked. I moved before I looked.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 1
@@ -144,10 +135,8 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> I send a werowance with three men, baskets of corn, a copper plate. They stand on the bank with hands open.
-> The English do not shoot. They do not bow either. They take the corn and they keep digging.
-> My emissary comes back and tells me the English say they are here in the name of someone called King James. They claim my country is now part of his country. They claim it politely.
-> The first conversation is on their terms. I will need to take it back later.
+> I send a werowance with three men, baskets of corn, a copper plate. The English do not shoot — they take the corn and keep digging.
+> My emissary returns: the English say they are here in the name of King James, and claim my country is now part of his. The first conversation is on their terms. I will need to take it back later.
 
 **Buttons:**
 - `[CONTINUE →]` — rejoins main at Slide 7
@@ -162,9 +151,8 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> They pick the worst ground in the country. The water there is brackish. The mosquitoes will eat them alive in summer. The ground floods.
-> I do not say this out loud. I let them dig.
-> A chief who explains his enemies' mistakes to them is not a chief for long.
+> They pick the worst ground in the country — brackish water, mosquitoes, ground that floods.
+> I do not say this out loud. A chief who explains his enemies' mistakes to them is not a chief for long.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -179,8 +167,8 @@
 **Slide text overlay:** Standard slide-textbox. **DECISION POINT 2.**
 
 **Body text:**
-> The werowances are looking at me. The English have been on our river for two months. They have not left.
-> I have three choices. I can attack them now, before they put down roots. I can ignore them and let the swamp kill them. Or I can watch, and trade, and learn what they want.
+> Two months in, the English have not left. The werowances are looking at me.
+> I can attack now before they put down roots, ignore them and let the swamp kill them, or watch and trade and learn what they want.
 > What do I do?
 
 **Buttons:**
@@ -200,10 +188,8 @@
 **Body text:**
 > **HEADLINE: WRONG LEVERRRRR!**
 >
-> I send my warriors against the fort before the corn is in. We burn it. We kill most of them.
-> Then more ships come. And more. The English do not forget when one of their forts is burned.
-> They bring soldiers from the wars in Ireland. They bring cannon. My confederation breaks in two seasons instead of two generations.
-> I moved too soon.
+> I burn the fort and kill most of them. Then more ships come, and more — soldiers from the wars in Ireland, with cannon.
+> My confederation breaks in two seasons instead of two generations. I moved too soon.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 1
@@ -219,10 +205,8 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> I tell my werowances to wait. The swamp will do the work for us.
-> The swamp does some of the work. Most of them die that summer. Disease, bad water, hunger. But not all.
-> A supply ship comes from England in the fall. They bring food. They bring more men.
-> I waited too long to take their measure. Now I have to learn them anyway.
+> I tell my werowances to wait. The swamp does some of the work — most of them die that summer — but not all.
+> A supply ship comes from England in the fall with food and more men. I waited too long to take their measure.
 
 **Buttons:**
 - `[CONTINUE →]` — rejoins main path at Slide 10
@@ -237,8 +221,7 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> My people bring them corn. They have things we do not make.
-> The trade is good for both sides. They cannot eat their muskets. We cannot make iron from clay.
+> My people bring them corn. They cannot eat their muskets; we cannot make iron from clay.
 > But what they offer is not all the same thing. Copper is wealth. Iron tools are useful. Iron *weapons* are something else.
 
 **Buttons:**
@@ -254,10 +237,8 @@
 **Slide text overlay:** Standard slide-textbox. **DECISION POINT 3.**
 
 **Body text:**
-> The English will trade corn for whatever I ask. They are hungry. They will offer almost anything.
-> Copper is what my people value. It is wealth. Every werowance who carries my copper carries my authority.
-> Iron tools — axes, knives, hoes — make the work go faster. They make my warriors better hunters and my women better farmers.
-> Iron weapons — muskets, powder, lead — would make my warriors a match for theirs. The English know this. They are watching to see if I ask.
+> The English are hungry and will trade for whatever I ask. Copper is wealth — it carries my authority. Iron tools speed the work.
+> Iron weapons would make my warriors a match for theirs. The English are watching to see if I ask.
 > What do I trade for?
 
 **Buttons:**
@@ -275,10 +256,8 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> I trade corn for muskets and powder. My warriors learn to fire them.
-> Within a year, the werowances who hold the most muskets stop sending tribute. They do not need my authority anymore — they have their own thunder. The Pamunkey arm against the Chickahominy. The Chickahominy arm against the Pamunkey.
-> The English watch my confederation come apart on a weapon they sold us, and they do not have to fire a shot themselves.
-> Wealth holds men together. Weapons split them apart. I knew that yesterday. I forgot it for one trade.
+> I trade corn for muskets. Within a year the werowances who hold the most stop sending tribute — they have their own thunder. The Pamunkey arm against the Chickahominy.
+> The English watch my confederation come apart on a weapon they sold us. Wealth holds men together. Weapons split them apart. I knew that yesterday.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 1
@@ -294,8 +273,7 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> Winter of 1608. My warriors bring me an English captain they caught hunting on the Chickahominy.
-> His name is John Smith. He is short, loud, and he does not stop talking even with a bow at his back.
+> Winter of 1608. My warriors bring me an English captain caught hunting on the Chickahominy — a man named John Smith.
 > He has been counting our villages and drawing them on a map. That is not the act of a trader. That is the act of a man planning a war.
 
 **Buttons:**
@@ -312,9 +290,7 @@
 
 **Body text:**
 > I have him. The other English do not know he is alive.
-> I can kill him. He is in my hands. The other English will be afraid for a season, and the season after that they will come back stronger.
-> I can use him. There is a ceremony — a man can be killed in his old life and reborn into mine, as my son, as a tributary werowance. He would owe me corn, copper, loyalty, and his men's service.
-> Or I can hold him. Send a runner to the fort with one of his boots and a price — prisoners, muskets, powder, food — and trade him back when the English have paid enough.
+> I can kill him — they will be afraid one season and back stronger the next. I can adopt him through ceremony as my tributary werowance, owing me corn and loyalty. Or I can hold him for ransom — prisoners, muskets, food.
 > What do I do?
 
 **Buttons:**
@@ -332,9 +308,8 @@
 **Slide text overlay:** Standard slide-textbox. Calm, factual, no scolding.
 
 **Body text:**
-> I have his body returned to the fort.
-> The English do not negotiate after that. The next ship brings soldiers, not traders. They burn the closest village in the spring. They burn three more before the leaves turn.
-> I do not see my confederation hold past the next year. Some things you do because they feel right in the moment, and the cost is not paid by you. The cost is paid by the children of the men in this room.
+> I have his body returned to the fort. The English do not negotiate after that — the next ship brings soldiers, not traders, and they burn the closest village in the spring.
+> My confederation does not hold past the next year. The cost is paid by the children of the men in this room.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 1
@@ -350,10 +325,8 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> I send a boot and a price to the fort.
-> The English pay. They pay slowly, and badly, and with worse goods than they promised. When Smith goes back to them, he tells the story his way — that he was held for ransom by a chief who wanted muskets.
-> The next ship from London does not bring traders. It brings a charter and a governor. A man who takes hostages is a man you do not trade with — you remove him.
-> A captain is not cargo. I treated him like cargo. The English answer was to treat me like a problem.
+> I send a boot and a price to the fort. The English pay slowly and badly, and when Smith goes back he tells the story his way — that he was held by a chief who wanted muskets.
+> The next ship from London brings a charter and a governor. A captain is not cargo. I treated him like cargo, and the English answer was to treat me like a problem.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 1
@@ -369,10 +342,8 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> The ceremony goes the way I told it to go. Smith is held down. The clubs are raised. My daughter Matoaka — the one we call Pocahontas, the playful one — comes forward and shields his head.
-> He is symbolically killed. He is symbolically reborn. He is now my son, and a werowance under me. He owes me corn and loyalty.
-> Smith does not understand a word of what just happened. He thinks an eleven-year-old girl saved his life out of love for him.
-> I let him think that. It is useful that he thinks that.
+> The ceremony goes the way I told it to go. Smith is held down, the clubs are raised, my daughter Matoaka steps forward and shields his head. He is symbolically killed and reborn as my son and werowance, owing me corn and loyalty.
+> Smith does not understand a word of what just happened. He thinks an eleven-year-old girl saved his life out of love for him. I let him think that. It is useful.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -387,9 +358,8 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> I send him back to his fort with corn and a message: I am a great chief. He is my son now. The English at Jamestown are under my protection — and under my expectations.
-> He thanks me. He calls me father. He goes back to the fort and immediately writes a letter to England that he is the one in command of the local tribes.
-> Both of us think we won. One of us is wrong. We will not learn which one for a year.
+> I send him back with corn and a message: I am a great chief, he is my son now, the English at Jamestown are under my protection and my expectations.
+> He thanks me, calls me father, and writes home that he is the one in command of the local tribes. Both of us think we won. One of us is wrong.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -404,10 +374,8 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> The fort is hungry. They did not plant in time. Their supplies from England are late.
-> Smith comes back to my villages. Not as a guest this time. He comes with soldiers and muskets and demands corn at gunpoint.
-> The first time, he asks. The second time, he takes. The third time, he burns a store-house when the werowance does not load his boats fast enough.
-> My son the werowance. My tributary. The one who owes me corn.
+> The fort is hungry. Smith comes back to my villages, not as a guest — with soldiers and muskets, demanding corn at gunpoint.
+> The first time he asks. The second time he takes. The third time he burns a store-house. My son the werowance. My tributary.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -422,8 +390,8 @@
 **Slide text overlay:** Standard slide-textbox. **DECISION POINT 5.**
 
 **Body text:**
-> I have to answer this. If I do nothing, every werowance under me will know I let an Englishman take corn from one of my villages by force. I will not be paramount chief much longer.
-> I can keep feeding them on my own terms — set a fixed tribute, draw a line. I can stop feeding them entirely and let the winter do what the muskets cannot. I can burn our own corn caches before they can take any more — leave them nothing to raid. Or I can feed them everything they ask for and hope the next ship from England takes them home.
+> If I do nothing, I will not be paramount chief much longer.
+> I can feed them on my own terms with a fixed tribute. I can stop feeding them and let winter work. I can burn our own caches so they get nothing. Or I can feed them everything and hope the next ship takes them home.
 > What do I do?
 
 **Buttons:**
@@ -442,10 +410,8 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> I order the caches burned. Every village. Leave the English nothing to raid.
-> The English do not eat my corn that winter. Neither do my people.
-> The fort is resupplied from England in the spring. My villages are not. A chief who burns his own people's food to spite a stranger is a chief who has confused his enemy with his country.
-> I held the line and lost the country behind it.
+> I order every cache burned. The English do not eat my corn that winter. Neither do my people.
+> The fort is resupplied from England in the spring; my villages are not. A chief who burns his own people's food has confused his enemy with his country.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 1
@@ -463,10 +429,8 @@
 **Body text:**
 > **HEADLINE: BOTH? BOTH IS GOOD. (No, it isn't.)**
 >
-> I send the English everything they ask for. They ask for more. I send that too. I tell my werowances we will survive on what we have left.
-> What we have left is not enough.
-> My children go hungry that winter. The English children do not. When my werowances ask why I let this happen, I do not have a good answer.
-> A chief who feeds the strangers before his own people is not a chief for long.
+> I send the English everything they ask for. They ask for more. I send that too. What we have left is not enough.
+> My children go hungry that winter. The English children do not. A chief who feeds the strangers before his own people is not a chief for long.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 1
@@ -482,9 +446,8 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> I send word to every werowance: this much corn, and no more. If the English ask for more, the answer is no. If they take more, the answer is the bow.
-> Smith does not like the limit. He raids one of my villages anyway. My warriors kill three of his men. He stops raiding for a season.
-> Then a powder bag explodes on his leg and he sails back to England. The next governor is worse. The line I drew is the line they cross.
+> I send word to every werowance: this much corn, no more. If they take more, the answer is the bow.
+> Smith raids one village anyway, my warriors kill three of his men, and a powder bag explodes on his leg — he sails back to England. The next governor is worse.
 
 **Buttons:**
 - `[CONTINUE →]` — rejoins main path at Slide 20
@@ -499,10 +462,9 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> I send word to every werowance: no more corn for the English. Not by trade. Not by force. Nothing.
-> They have ships. They have a river that runs to the sea. They can leave any time they choose.
-> They do not leave. They eat their horses, then their dogs, then their boots. By the spring, four out of five of them are dead. What they did at the end of that winter, to each other, I will not say in this longhouse.
-> I did not kill them. I stopped feeding them. They could have gone home. They chose what they chose. The math is not on my hands.
+> I send word to every werowance: no more corn for the English. Not by trade. Not by force.
+> They have ships and a river to the sea. They do not leave. By spring, four out of five of them are dead.
+> I did not kill them. I stopped feeding them. They could have gone home. The math is not on my hands.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -517,10 +479,8 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> I should have known. England does not let a colony die. They send more.
-> The new governor is named De La Warr. He does not want to trade. He wants the river, and the corn, and the land.
-> They burn the village at Paspahegh. They take the werowance's wife and children to the boats. The children do not arrive at the fort.
-> This is the war I wanted to avoid. It is here anyway.
+> I should have known. England does not let a colony die. The new governor, De La Warr, wants the river, the corn, the land.
+> They burn the village at Paspahegh and take the werowance's wife and children to the boats. The children do not arrive at the fort. This is the war I wanted to avoid.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -536,9 +496,7 @@
 
 **Body text:**
 > Paspahegh is gone. The werowance's wife is at the bottom of the river.
-> I can counterstrike now — coordinate a single morning's raids on every English settlement on the James. We have the numbers. We do not have the muskets, and the fort has new soldiers from the Irish wars. If we do not break them on the first day, they break us on the second.
-> I can pull every village deeper inland — past the falls, away from the rivers the English ships can sail. We lose the salt water. We lose the weirs. We keep our people.
-> Or I can negotiate from this position — bad ground, bad timing, but the English will trade a paused war for a winter of corn.
+> I can counterstrike now — every settlement on the James in one morning, but we lack the muskets and the fort has Irish-war veterans. I can pull every village past the falls, away from the ships. Or I can negotiate from weakness — bad ground, but the English will trade a paused war for a winter of corn.
 > What do I do?
 
 **Buttons:**
@@ -556,10 +514,8 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> I order the strike. Every village hits an English settlement at dawn on the same morning.
-> We kill many of them. Not enough. The new soldiers are veterans of the Irish wars. The fort holds. The reprisal lasts three years and burns from the falls to the salt water.
-> My brother Opechancanough would have planned this strike for ten years. He would have planned it for muskets we did not yet have. I planned it in two weeks because I was angry.
-> The right strike at the wrong time is the wrong strike.
+> Every village hits an English settlement at dawn the same morning. We kill many — not enough. The fort holds, and the reprisal burns from the falls to the salt water.
+> My brother Opechancanough would have planned this for ten years. I planned it in two weeks because I was angry. The right strike at the wrong time is the wrong strike.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 1
@@ -575,9 +531,8 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> I move every village I still command past the falls. We give up the weirs and the salt water and the fishing the English ships can reach.
-> We keep our people. We keep our corn. The English have the coast they wanted in the first place.
-> A werowance who keeps his people alive and loses half his country is still a werowance. A werowance who keeps the country and loses his people is not.
+> I move every village past the falls. We give up the weirs, the salt water, the fishing the English ships can reach.
+> A werowance who keeps his people alive and loses half his country is still a werowance. One who keeps the country and loses his people is not.
 
 **Buttons:**
 - `[CONTINUE →]` — rejoins main path at Slide 23
@@ -592,10 +547,8 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> Three years of war. They burn villages. We burn boats. They take captives. We take captives.
-> They have iron and gunpowder. We have the woods and the rivers and patience.
-> Neither side wins outright. Neither side stops. My warriors are tired. Their soldiers are tired. The corn does not get planted on either bank.
-> A war that nobody wins is the most expensive kind.
+> Three years of war. They burn villages, we burn boats. They have iron and gunpowder; we have the woods and the rivers and patience.
+> Neither side wins outright. Neither side stops. A war that nobody wins is the most expensive kind.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -610,10 +563,8 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> A captain named Argall lures my daughter onto his ship and sails away with her.
-> They will hold her at the fort. They will demand prisoners back. They will demand corn. They will demand land.
-> Matoaka is my favorite child. The English know this. That is why they took her and not another.
-> I sit on my platform and I do not speak for two days. The werowances wait. The runners wait. I am a chief. Chiefs do not show grief in front of the council.
+> A captain named Argall lures my daughter onto his ship and sails away with her. They will demand prisoners, corn, land.
+> Matoaka is my favorite child. The English know this. I sit on my platform and I do not speak for two days. Chiefs do not show grief in front of the council.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -628,10 +579,8 @@
 **Slide text overlay:** Standard slide-textbox. **DECISION POINT 7.**
 
 **Body text:**
-> I have to answer. The English want a ransom — prisoners, weapons, corn.
-> I can refuse to negotiate. They are bluffing about hurting her. They want her alive because she is leverage.
-> I can pay the ransom in full and hope they return her.
-> Or I can negotiate slowly, send some of what they ask for, and let the English convince themselves that holding her costs more than returning her.
+> The English want a ransom — prisoners, weapons, corn.
+> I can refuse — they want her alive because she is leverage. I can pay everything now and hope. Or I can negotiate slowly and let them tire of holding her.
 > What do I do?
 
 **Buttons:**
@@ -649,10 +598,8 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> I refuse them. A daughter is not a prisoner-trade.
-> The war goes on. The English do not release her. She falls ill at the fort the second winter she is held.
-> A runner brings me word that she is dead. He does not say of what.
-> I refused because I was a chief and chiefs do not show weakness. The cost was not paid by me. It was paid by her. Not every right answer is a right answer.
+> I refuse them. A daughter is not a prisoner-trade. The war goes on. She falls ill at the fort the second winter she is held.
+> A runner brings me word that she is dead. I refused because chiefs do not show weakness. The cost was not paid by me. Not every right answer is a right answer.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 1
@@ -669,8 +616,7 @@
 
 **Body text:**
 > I send everything they asked for. Corn, furs, the prisoners I held.
-> They keep her anyway. They say she has not yet decided to come home.
-> I gave them my leverage. They kept hers. I am older than I was last spring, and tired.
+> They keep her anyway. They say she has not yet decided to come home. I gave them my leverage. They kept hers.
 
 **Buttons:**
 - `[CONTINUE →]` — rejoins main path at Slide 27
@@ -685,9 +631,8 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> I send a small portion of what they ask for. I send word that I will send more when she is returned.
-> Months pass. The English get hungrier. The corn I send is the only corn they have, and it is never enough.
-> I can wait. The fort cannot. This is the kind of negotiation I am good at.
+> I send a small portion of what they ask for, with word that more comes when she is returned.
+> The English get hungrier. The corn I send is the only corn they have, and it is never enough. I can wait. The fort cannot.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 27
@@ -702,9 +647,8 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> A runner comes. My daughter has decided to stay at the fort.
-> She has taken the English religion. She has taken the English name — Rebecca. She wants to marry one of them. A planter named Rolfe.
-> The runner has a letter. The Englishman has asked, through her, for my blessing on the marriage.
+> A runner comes. My daughter has decided to stay at the fort — taken the English religion, taken the name Rebecca, and means to marry a planter named Rolfe.
+> The Englishman has asked, through her, for my blessing on the marriage.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -719,10 +663,8 @@
 **Slide text overlay:** Standard slide-textbox. **DECISION POINT 8.**
 
 **Body text:**
-> A marriage between her and Rolfe is not just a marriage. It is a treaty in a dress.
-> I can bless the marriage as a peace — send pearls, send a brother to stand for me, end the war on her wedding day.
-> I can demand more before I bless it — land returned, prisoners returned, a written limit on English settlement past the falls. The English are tired. They might pay it.
-> Or I can forbid it. She is my daughter. The chief's daughter does not marry the captain who held her.
+> A marriage between her and Rolfe is a treaty in a dress.
+> I can bless it as a peace and end the war on her wedding day. I can demand more first — land, prisoners, a written limit at the falls. Or I can forbid it: the chief's daughter does not marry her captor.
 > What do I do?
 
 **Buttons:**
@@ -740,10 +682,8 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> I refuse. I send word she is not to marry. The runner returns alone.
-> She marries him anyway. The English do not need my permission. The war does not end. The marriage that should have bought five years of quiet buys nothing.
-> I held my pride. I lost the peace. The cost is paid by every werowance whose village is burned in the years I bought myself the dignity of saying no.
-> A chief's pride is the most expensive thing in the country.
+> I refuse. She marries him anyway — the English do not need my permission. The marriage that should have bought five years of quiet buys nothing.
+> I held my pride and lost the peace. A chief's pride is the most expensive thing in the country.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 1
@@ -759,9 +699,8 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> I send word: she may marry him when the English release the prisoners they still hold and agree in writing not to settle past the falls of the James.
-> They take a season to argue. They give me half of it. The prisoners come home. The line at the falls is written but never enforced.
-> The marriage happens. The peace happens. It is a colder peace than it would have been. I am a colder chief than I was a year ago.
+> I send word: she may marry him when the English release the prisoners they still hold and agree in writing not to settle past the falls.
+> They take a season to argue and give me half. The prisoners come home; the line at the falls is written but never enforced. I am a colder chief than I was a year ago.
 
 **Buttons:**
 - `[CONTINUE →]` — rejoins main at Slide 30
@@ -776,9 +715,8 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> The marriage ends the war. Both sides are tired. Both sides need the corn to get planted.
-> We call it the Peace of Pocahontas. The English call it the same thing. For once, we use the same name for something.
-> It is not a good peace. It is a quiet one. I will take a quiet one. I am old.
+> The marriage ends the war. Both sides are tired. Both sides need the corn planted.
+> We call it the Peace of Pocahontas. It is not a good peace, but it is a quiet one. I will take a quiet one. I am old.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -793,10 +731,8 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> Two years after the wedding, she sails to England with Rolfe. She has a son now. A grandson I have never met.
-> The English want to show her to their queen. They want to prove a Powhatan can be made into an Englishwoman.
-> I stand on the bank and watch the ship until it is gone.
-> I will not see her again.
+> Two years after the wedding she sails to England with Rolfe and a son I have never met. The English want to show her to their queen.
+> I stand on the bank and watch the ship until it is gone. I will not see her again.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -811,9 +747,7 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> A letter comes the next year, traveling slow across the sea.
-> She fell ill in a town called Gravesend, on her way back to the ship. She died there. She is twenty-one.
-> Her son lives. Her husband lives. She does not.
+> A letter comes the next year. She fell ill in a town called Gravesend on her way back to the ship. She is twenty-one.
 > I have outlived a daughter. That is not the order things are supposed to go in.
 
 **Buttons:**
@@ -829,11 +763,8 @@
 **Slide text overlay:** Standard slide-textbox. **DECISION POINT 9.**
 
 **Body text:**
-> I am tired. My legs ache in the cold. The runners say I do not have many more winters.
-> The succession is mine to set. By custom it should go through my brothers in order — first Opitchapam, then Opechancanough.
-> Opitchapam is patient. He will keep the peace I bought with my daughter's marriage.
-> Opechancanough has watched the English longer than I have. He will not keep the peace. He will wait one season, two, then he will strike.
-> Or I can break custom and lead the strike myself, before I die, while my warriors still know my voice.
+> The runners say I do not have many more winters. By custom the succession goes through my brothers — first Opitchapam, then Opechancanough.
+> Opitchapam is patient and will keep the peace I bought. Opechancanough will not — he will wait one season, two, then strike. Or I can break custom and lead the strike myself, while my warriors still know my voice.
 > What do I do?
 
 **Buttons:**
@@ -850,10 +781,8 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> I lead the strike myself. My warriors follow me because they have always followed me.
-> I am sixty-eight years old. The English have a soldier with a musket who is twenty-two.
-> I do not see the second day of the campaign. My werowances fight over the succession in the field, while the English regroup. The confederation breaks faster than it would have under either of my brothers.
-> A chief should know when to be the chief, and when to be the ancestor. I picked the wrong one.
+> I lead the strike myself. I am sixty-eight years old; the English have a soldier with a musket who is twenty-two.
+> I do not see the second day of the campaign. My werowances fight over the succession in the field while the English regroup. A chief should know when to be the chief and when to be the ancestor.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 1
@@ -869,10 +798,8 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> I am dying in my own longhouse. My brothers' hands are on my shoulders. The runners are at the door.
-> I held this confederation for forty years. I kept the English from swallowing us in my lifetime. I did not keep them out forever. No one was going to do that.
-> Opitchapam will take the platform when I close my eyes. Opechancanough is at his shoulder. The English at the fort do not yet know what is coming for them.
-> Opechancanough leans down. He asks me what I want him to do.
+> I held this confederation for forty years. I kept the English from swallowing us in my lifetime — no one was going to do that forever.
+> Opitchapam will take the platform when I close my eyes. Opechancanough is at his shoulder, leaning down. He asks me what I want him to do.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -887,10 +814,8 @@
 **Slide text overlay:** Standard slide-textbox. **DECISION POINT 10.** *(No fail branch. The advice you leave Opechancanough reframes the epilogue card you receive.)*
 
 **Body text:**
-> He is waiting. He will outlive me. What he does to the English over the next twenty years will be my voice as much as his.
-> I can tell him: keep the peace I bought. Trade. Wait. Let the English break themselves on their own crops and their own quarrels.
-> I can tell him: strike, when the time is right and the muskets are ours and the villages are ready. Hit them once, hard, on a single morning. Not before.
-> I can tell him: this is your country now. You will know what I cannot know from this mat. Decide for yourself.
+> What he does to the English over the next twenty years will be my voice as much as his.
+> I can tell him to keep the peace I bought and let the English break themselves. I can tell him to strike, but only when ready — one morning, hard. Or I can tell him this is his country now, and he will know what I cannot.
 > What do I tell him?
 
 **Buttons:**
@@ -908,10 +833,8 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> I tell him to keep the peace.
-> Four years after my death, my brother does not. On a single morning in March, his runners reach every English plantation along the James at the same hour. About three hundred and forty-seven settlers die before noon.
-> He does not listen to me. He listens to the next twenty burned villages. I would have done the same in his place. I told him otherwise because I was dying and it was the kinder thing to say.
-> The confederation I built does not survive thirty more years.
+> I tell him to keep the peace. Four years after my death, on a single morning in March, his runners reach every English plantation on the James at the same hour. About three hundred and forty-seven settlers die before noon.
+> He does not listen to me. He listens to the next twenty burned villages. I would have done the same in his place. The confederation I built does not survive thirty more years.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 36
@@ -926,9 +849,7 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> I tell him: strike when the time is right. Not before.
-> Four years after my death, he does. On a single morning in March, his runners reach every English plantation along the James at the same hour. About three hundred and forty-seven settlers die before noon. A coordinated strike, planned for years.
-> He waited as I told him. He chose the morning. He chose the targets.
+> I tell him: strike when the time is right. Four years after my death he does — every English plantation on the James at the same dawn hour, three hundred and forty-seven dead before noon.
 > The English answer is not measured. The confederation I built does not survive thirty more years. The strike was right. The math was always going to be wrong.
 
 **Buttons:**
@@ -944,10 +865,8 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> I tell him: this is your country now.
-> Four years after my death, he chooses. On a single morning in March, his runners reach every English plantation along the James at the same hour. About three hundred and forty-seven settlers die before noon. A coordinated strike, planned for years.
-> I do not know if I would have done the same. I am not in his seat. The man on the mat does not get to second-guess the man on the platform.
-> The confederation I built does not survive thirty more years. He decided. I cannot tell you he was wrong.
+> I tell him: this is your country now. Four years after my death he chooses — every English plantation on the James at the same dawn hour, three hundred and forty-seven dead before noon.
+> I do not know if I would have done the same. The man on the mat does not get to second-guess the man on the platform. He decided. I cannot tell you he was wrong.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 36
@@ -962,9 +881,9 @@
 **Slide text overlay:** Standard slide-textbox. This is the dignified epilogue card per the hand-off rule.
 
 **Body text:**
-> The English keep coming. They bring iron. They bring muskets. They bring sicknesses my people have no medicine for.
-> I made decisions. Smith made decisions. Rolfe made decisions. The Virginia Company in London made decisions. None of us alone could have stopped what the math of those decisions added up to.
-> Either side would have done the same to the other if we could have. We did what we could. The land remembers all of us.
+> The English keep coming. They bring iron, muskets, sicknesses my people have no medicine for.
+> I made decisions. Smith made decisions. Rolfe made decisions. None of us alone could have stopped what the math added up to.
+> Either side would have done the same to the other if we could have. The land remembers all of us.
 
 **Buttons:**
 - `[→ SEE WHAT REALLY HAPPENED]` — opens a brief historical-context page (engine handles)

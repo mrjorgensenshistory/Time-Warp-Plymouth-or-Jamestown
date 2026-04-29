@@ -17,9 +17,9 @@
 **Slide text overlay:** Slide-textbox (white fill, 2px black border, Share Tech).
 
 **Body text:**
-> My name is John Smith. I am twenty-seven years old and I have killed men in Hungary for pay.
-> The river in front of me has no name on any English map. The Virginia Company says there is gold up it. The Virginia Company says a great many things.
-> I have crossed the Atlantic in the bottom of a ship called the *Susan Constant*, in chains for most of the voyage, accused of mutiny. Today they unlock me. Today we go ashore.
+> My name is John Smith. I am twenty-seven, and I have killed men in Hungary for pay.
+> The Virginia Company says there is gold up this river. The Virginia Company says a great many things.
+> I crossed the Atlantic in chains, accused of mutiny. Today they unlock me. Today we go ashore.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 2
@@ -34,9 +34,9 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> I am not a gentleman. Half the men on this boat are gentlemen, and they will tell you so within five minutes of meeting them.
-> The Virginia Company has a sealed box of orders. We are to find gold. We are to find a passage to the Pacific. We are to find the lost colonists of Roanoke.
-> I do not expect to find any of it. I expect to find ground that grows food and a place to put a wall.
+> Half the men on this boat are gentlemen, and they will tell you so within five minutes.
+> The Company's sealed orders: find gold, find a passage to the Pacific, find the lost colonists of Roanoke.
+> I expect to find none of it. I expect to find ground that grows food and a place to put a wall.
 
 **Buttons:**
 - `[GO ASHORE →]` — advances to Slide 3
@@ -51,7 +51,7 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> We name the place James Towne, after our king. We pick a peninsula on a river. The water is brackish, the ground is low, and the air hums with insects. The gentlemen are pleased because the trees give shade.
+> We name it James Towne, after our king. The water is brackish, the ground is low, the air hums with insects. The gentlemen like the shade.
 > I do not say what I think of the site. Not yet.
 > By summer half of us are sick. By autumn many of us are dead.
 
@@ -68,9 +68,9 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> Of the hundred and four men who landed with me, more than half are gentlemen. They came for gold. They did not come to chop wood, or to dig latrines, or to plant corn.
-> A gentleman in England does not work with his hands. A gentleman in Virginia, it turns out, also does not work with his hands.
-> I am not a gentleman. I am beginning to think this is the only thing that will save us.
+> Of the hundred and four men who landed, more than half are gentlemen. They came for gold, not to chop wood or plant corn.
+> A gentleman in England does not work with his hands. A gentleman in Virginia, it turns out, also does not.
+> I am not a gentleman. I am beginning to think that is the only thing that will save us.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 5 (DECISION 1)
@@ -86,8 +86,8 @@
 
 **Body text:**
 > The first time I see a Powhatan warrior up close, he is the better-armed man.
-> There are perhaps thirty tribes under one chief in this country. His name is Wahunsenacawh. The English call him Powhatan, after the river. He has been chief here longer than I have been alive.
-> Three of his men step out of the trees in front of me. Their bows are not drawn. My musket is not lit. The next move is mine.
+> Thirty tribes here answer to one chief — Wahunsenacawh. The English call him Powhatan. He has been chief longer than I have been alive.
+> Three of his men step from the trees. Their bows are not drawn. My musket is not lit. The next move is mine.
 
 **Buttons:**
 - `[APPROACH WITH MUSKET LEVELED — SHOW STRENGTH FIRST →]` — advances to Slide GAMEOVER E (Bobby Boucher arrow volley)
@@ -104,9 +104,9 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> Some weeks later I am hunting with two men in winter. Powhatan warriors take us. My two men are killed. I am not.
-> They bring me before the chief himself. He is older than I am, and harder. He looks at me the way a farmer looks at a horse before he decides whether to buy it or to shoot it.
-> A girl of about ten stands at his side. They tell me later she is his favorite daughter. They tell me her name is Pocahontas.
+> Weeks later I am hunting in winter with two men. Powhatan warriors take us. My two men are killed. I am not.
+> They bring me before the chief. He looks at me the way a farmer looks at a horse before he decides to buy it or shoot it.
+> A girl of about ten stands beside him. They tell me her name is Pocahontas.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 7 (DECISION 2)
@@ -121,8 +121,8 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> They lay my head on a stone. Two warriors raise clubs above me. The chief's young daughter steps between them and me. The clubs come down on nothing.
-> Years from now, in a London writing room, I will have to decide what kind of story this was. Three different stories will fit what I saw. Each one will mean something different. Each one will sell a different number of books.
+> They lay my head on a stone. Two warriors raise clubs. The chief's daughter steps between us. The clubs come down on nothing.
+> Years from now, in London, I will have to decide what kind of story this was. Three stories fit what I saw — and each sells a different number of books.
 
 **Buttons:**
 - `[WRITE IT AS A RESCUE — SHE SAVED MY LIFE →]` — advances to Slide 8 (soft, flavors next slide as the popular legend)
@@ -139,8 +139,8 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> Whatever happened in that longhouse, they send me back to the fort alive. I do not know exactly why. I have my guesses.
-> The colony I return to is worse than the one I left. The gentlemen are dying of fever and of hunger. The president is sick. The store of corn is short.
+> Whatever happened in that longhouse, they send me back to the fort alive. I have my guesses why.
+> The colony is worse than I left it. Gentlemen dying of fever and hunger. The president is sick. The corn is short.
 > No one is in charge. Someone needs to be.
 
 **Buttons:**
@@ -156,9 +156,9 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> September, 1608. The council elects me president of the colony. The gentlemen are not happy about it. They are also out of options.
-> I can take the job and run this place like a soldier runs a camp — work or starve, no exceptions, no titles at the table.
-> Or I can take the job and try to keep the gentlemen comfortable. They are the men with the company connections in London. Cross them and they will bury me when the next ship arrives.
+> September, 1608. The council elects me president. The gentlemen are not happy about it. They are out of options.
+> I can run this place like a soldier runs a camp — work or starve, no exceptions, no titles at the table.
+> Or I can keep the gentlemen comfortable. They have the Company connections in London. Cross them and the next ship buries me.
 
 **Buttons:**
 - `[RUN IT LIKE A CAMP — "HE WHO WILL NOT WORK SHALL NOT EAT" →]` — advances to Slide 10
@@ -174,8 +174,8 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> I write a single rule on the wall of the council house. Six words. *He that will not work shall not eat.*
-> I do not exempt the gentlemen. I do not exempt myself. I work the wall with my own hands so they cannot pretend they are above it.
+> I write one rule on the council house wall. *He that will not work shall not eat.*
+> No exemptions — not the gentlemen, not me. I work the wall with my own hands.
 > They hate me for it. They eat because of it.
 
 **Buttons:**
@@ -191,9 +191,9 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> Our corn does not grow. The ground we picked is bad ground. The Powhatan corn grows fine — they have farmed this country for generations and they know which fields are which.
-> I have three things in my pack. Copper, which they prize above almost any English good. Iron tools, which would change how their men hunt and how their women work. And a Virginia Company letter that styles me as ambassador of King James and demands tribute from the chief.
-> One of these opens the door. One of these is too valuable. One of these starts a war today.
+> Our corn will not grow — bad ground. Powhatan corn grows fine; they have farmed this country for generations.
+> Three things in my pack: copper they prize, iron tools that would change how they hunt and work, and a Company letter demanding tribute in King James's name.
+> One opens the door. One is too valuable. One starts a war today.
 
 **Buttons:**
 - `[TRADE COPPER — THE SAFE CURRENCY →]` — advances to Slide 12
@@ -210,10 +210,9 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> Even after I open the trade with copper, it is not enough. Powhatan has stopped sending us food on his own. He has decided to let us learn what hungry feels like.
-> I can keep trying to trade fairly. I have a few iron tools left, a little copper. They will not buy enough corn to feed us through winter, but they will buy some.
-> Or I can march my men into a Powhatan village with muskets out and take the corn at gunpoint. Some villages will trade rather than fight. Some will fight. Either way we eat.
-> Refuse to do either, and we die in the snow with our pride intact.
+> Copper is not enough. Powhatan has decided to let us learn what hungry feels like.
+> I can keep trading fair — it will not buy enough corn for winter. Or I can march in with muskets out and take it. Some villages will trade, some will fight. Either way we eat.
+> Refuse both, and we die in the snow with our pride intact.
 
 **Buttons:**
 - `[TAKE IT AT GUNPOINT WHEN I HAVE TO →]` — advances to Slide 13 (DECISION 6)
@@ -229,9 +228,9 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> I have decided we are going to take the corn. The next decision is how.
-> A dawn strike with all my men in line, muskets up, walking straight at the longhouses — surprise, but they wake to fight us. A nightfall move, slow and quiet, take the corn cribs without facing the warriors at all — but my men do not see well in the dark and a musket misfires loud. A small party at midday under a flag of parley, corn at gunpoint without the rest of the village ever knowing — the riskiest if it goes wrong, the cleanest if it goes right.
-> A bad call here puts my men in a longhouse fire I cannot pull them out of.
+> We are going to take the corn. The next decision is how.
+> Dawn strike — full column, muskets up, surprise but they wake fighting. Nightfall — quiet, but my men do not see well in the dark and a misfire ends us. Midday parley with a small party — riskiest if it goes wrong, cleanest if it goes right.
+> A bad call puts my men in a longhouse fire I cannot pull them out of.
 
 **Buttons:**
 - `[STRIKE AT DAWN — FULL COLUMN, MUSKETS UP →]` — advances to Slide 14 (soft — works, harder feelings)
@@ -248,9 +247,9 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> However we got the corn, the colony eats. Pocahontas comes to the fort sometimes, on her father's errands. She is older now. She has English words. She is curious about us in a way most of her people are not.
-> She is not in love with me. I will read books in two hundred years' time that say she was. They are wrong. She is a chief's daughter doing a chief's daughter's work — keeping a channel open between two peoples who would otherwise only speak through musket fire.
-> I write her down later as a girl who saved my life. I do not write down that she was, mostly, a diplomat.
+> The colony eats. Pocahontas comes to the fort on her father's errands. She has English words now, and curiosity most of her people don't share.
+> She is not in love with me. Books two hundred years from now will say she was. They are wrong. She is a chief's daughter keeping a channel open between two peoples who would otherwise only speak through musket fire.
+> I write her down later as the girl who saved my life. I do not write down that she was, mostly, a diplomat.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 15 (DECISION 7)
@@ -265,9 +264,9 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> Powhatan invites me to his capital. He says it is a feast. He says to come unarmed. He says his daughter sends her greetings.
+> Powhatan invites me to his capital. A feast, he says. Come unarmed, he says. His daughter sends her greetings.
 > I have to decide what kind of invitation this is.
-> I can go armed and ready, expecting an ambush. I can go unarmed and trusting, the way he asked. The wrong choice ends me either way.
+> Go armed expecting ambush, or go unarmed as he asked. The wrong choice ends me either way.
 
 **Buttons:**
 - `[GO ARMED — TRUST NOTHING →]` — advances to Slide 16 (DECISION 8)
@@ -283,9 +282,9 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> I go to the feast with my men armed and watchful. I do not eat much. I do not sleep at all.
-> In the night Pocahontas finds me. She tells me her father means to kill me before morning. She has crossed the woods alone to say so.
-> Three things I can do with what she has just told me. Believe her and run. Demand she prove it before I move my men. Turn her warning around and ambush them first.
+> I go armed and watchful. I do not eat much. I do not sleep at all.
+> In the night Pocahontas finds me. Her father means to kill me before morning. She crossed the woods alone to say so.
+> Believe her and run. Demand proof first. Or turn the warning around and ambush them.
 
 **Buttons:**
 - `[TRUST HER — WAKE THE MEN AND SLIP OUT →]` — advances to Slide 17
@@ -302,9 +301,9 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> We slip back to our boat before the sun is up. No one shoots at us. No one needs to — the message has been delivered.
-> The chief and I are no longer pretending. From this morning forward we are at war, even if neither of us has called it that yet.
-> I sail back to Jamestown alive. I owe the morning to a girl whose name I will write into a legend.
+> We slip back to our boat before sunup. No one shoots — the message has been delivered.
+> The chief and I are no longer pretending. From this morning we are at war, even unnamed.
+> I owe the morning to a girl whose name I will write into a legend.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 18 (DECISION 9)
@@ -319,9 +318,9 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> October, 1609. I am in a small boat on the river, returning from another trading run.
-> A leather bag of loose gunpowder sits near my leg. A match-cord burns low somewhere behind me. The afternoon is hot, and I am tired enough to fall asleep on top of the bag.
-> I can leave it where it is and trust the cord. I can have the men pole us to the bank and move the bag into a storage hut. I can throw the whole bag into the river and lose the powder but keep my leg.
+> October, 1609. I am on the river, returning from a trading run.
+> A leather bag of loose gunpowder sits near my leg. A match-cord burns low behind me. I am tired enough to fall asleep on top of the bag.
+> Leave it and trust the cord. Pole to the bank and move it. Or throw the whole bag in the river — lose the powder, keep the leg.
 
 **Buttons:**
 - `[LEAVE IT — I'M TOO TIRED TO MOVE →]` — advances to Slide GAMEOVER L (Yzma — slept on a powder bag, killed instantly)
@@ -338,7 +337,7 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> The powder takes a piece of my thigh with it. I wake on fire and roll into the river to put myself out. I do not remember swimming back to the boat. They tell me I did.
+> The powder takes a piece of my thigh with it. I wake on fire and roll into the river to put myself out.
 > The barber-surgeon at the fort is not a real surgeon. The wound goes bad. The fever climbs.
 > There is no doctor on this continent who can fix what is wrong with me.
 
@@ -355,9 +354,9 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> A ship is leaving for England this week. The captain says there is room for me in the surgeon's cabin. The barber-surgeon here says I will live, but only if I sail now.
-> If I sail, I leave the colony with no president, no enforcer, and a crowd of gentlemen who hate me. They will gut my rules within a month.
-> If I stay, I keep the colony in line. Probably long enough to die of the wound.
+> A ship leaves for England this week. The barber-surgeon says I live only if I sail now.
+> Sail, and the colony loses its president — the gentlemen will gut my rules in a month.
+> Stay, and I keep them in line. Probably long enough to die of the wound.
 
 **Buttons:**
 - `[SAIL FOR ENGLAND — LIVE →]` — advances to Slide 21
@@ -373,9 +372,9 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> I sail for England in October of 1609. I am thirty years old. I have been in Virginia two and a half years.
-> I do not know it yet, but I will never see this coast again. I will live another twenty-two years. I will write books. I will draw maps that English captains will use for forty years after my death. I will not return.
-> The colony I leave behind is about to find out what a winter without me looks like.
+> I sail for England in October 1609. I am thirty. I have been in Virginia two and a half years.
+> I do not know it yet, but I will never see this coast again. I will write books and draw maps that English captains use for forty years.
+> The colony I leave is about to find out what a winter without me looks like.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 22 (DECISION 11)
@@ -390,8 +389,8 @@
 **Slide text overlay:** Slide-textbox. The voice shifts here — Smith narrates from after the fact, from London, telling you what happened in his absence. The "I" is still Smith, but he is reporting, not living.
 
 **Body text:**
-> They tell me later what happened that winter. Without my rule, the gentlemen stopped working. The Powhatan stopped sending corn. Within weeks the storehouse was empty. The colonists ate the horses. Then the dogs. Then the leather of their own boots. Then worse. Of the five hundred who were alive when I sailed, sixty are alive when spring comes.
-> I am the man who wrote that down for the histories. The next page is mine to fill.
+> They tell me later what happened. Without my rule, the gentlemen stopped working. Powhatan stopped sending corn. The storehouse emptied. They ate the horses, then the dogs, then their boots. Then worse. Of five hundred alive when I sailed, sixty saw spring.
+> I am the man who wrote that down. The next page is mine to fill.
 
 **Buttons:**
 - `[TAKE RESPONSIBILITY — I LEFT THEM →]` — advances to Slide 23 (soft — flavors next slide as confession)
