@@ -119,7 +119,8 @@
 > **HEADLINE: WRONG LEVERRRRR!**
 >
 > I send the warriors before the English finish unloading. They have a swivel-gun on the longboat I did not see — three of my men go down before we close.
-> The first thing the English ever write home about my confederation is that we attack on sight. Every captain that comes after lands with his musket cocked. I moved before I looked.
+> The first thing the English ever write home about my confederation is that we attack on sight. Every captain that comes after lands with his musket cocked, and the Virginia Company uses my ambush to argue for soldiers, not traders.
+> A chief who fights before he counts is a chief who dies young. Real history: the Spanish Ajacán mission of 1570 was wiped out by my uncle in a first-day attack. Spain came back ten years later and burned the village that did it. Empires answer first-day attacks. I knew that yesterday.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 1
@@ -151,6 +152,8 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
+> My scouts watched for two weeks. They counted a hundred men, two cannon, and not enough corn for a month.
+> The delegation comes back with their letter — the English call us the King's subjects. We send it back to the river.
 > They pick the worst ground in the country — brackish water, mosquitoes, ground that floods.
 > I do not say this out loud. A chief who explains his enemies' mistakes to them is not a chief for long.
 
@@ -188,8 +191,9 @@
 **Body text:**
 > **HEADLINE: WRONG LEVERRRRR!**
 >
-> I burn the fort and kill most of them. Then more ships come, and more — soldiers from the wars in Ireland, with cannon.
-> My confederation breaks in two seasons instead of two generations. I moved too soon.
+> I burn the fort and kill most of them in the marsh before the second summer ends. The smoke is not done rising before the question of what comes next is already answered in London.
+> The Virginia Company hears its colony was destroyed and sends three times the men — soldiers fresh from the Irish wars, with cannon, with armor, with orders not to trade. They burn from the salt water to the falls.
+> My confederation breaks in two seasons instead of two generations. Real history: when colonies failed, the English crown sent soldiers, not traders — that is what happened to Ireland in the same decade, and what would happen here whether I struck or not. Striking only chose the year.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 1
@@ -205,8 +209,9 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> I tell my werowances to wait. The swamp does some of the work — most of them die that summer — but not all.
-> A supply ship comes from England in the fall with food and more men. I waited too long to take their measure.
+> The werowances wanted blood. I told them the swamp would do it for us — or, if my men closed the trade routes, that hunger would.
+> The swamp does some of the work. Most of them die that summer, but not all.
+> A supply ship comes from England in the fall with food and more men. Waiting and refusing were the same answer to a question the English already knew how to answer — they sent another ship.
 
 **Buttons:**
 - `[CONTINUE →]` — rejoins main path at Slide 10
@@ -256,8 +261,9 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> I trade corn for muskets. Within a year the werowances who hold the most stop sending tribute — they have their own thunder. The Pamunkey arm against the Chickahominy.
-> The English watch my confederation come apart on a weapon they sold us. Wealth holds men together. Weapons split them apart. I knew that yesterday.
+> I trade corn for muskets and iron axes for political leverage. Within a year the werowances who hold the most stop sending tribute — they have their own thunder. The Pamunkey arm against the Chickahominy.
+> By 1612 my confederation is twenty tribes. By 1620 it is twelve. The English watch us shoot each other with the muskets they sold us and do not lift a finger.
+> A chief who hands his sub-chiefs the means to kill him has stopped being a chief. Real history: tribes that traded for European weapons in the 17th century — Iroquois, Huron, Pequot — routinely turned them on each other before fighting the Europeans. The English knew this and counted on it. Wealth holds men together. Weapons split them apart. I knew that yesterday.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 1
@@ -308,8 +314,9 @@
 **Slide text overlay:** Standard slide-textbox. Calm, factual, no scolding.
 
 **Body text:**
-> I have his body returned to the fort. The English do not negotiate after that — the next ship brings soldiers, not traders, and they burn the closest village in the spring.
-> My confederation does not hold past the next year. The cost is paid by the children of the men in this room.
+> I have his body returned to the fort. The English do not negotiate after that. They write home that the local chief murders captives, and the next ship brings soldiers, not traders.
+> By the spring they have burned the closest village. By the next winter they have a fort at the falls and a fort at the salt water and a chain between them. The corn we did not sell them they take at gunpoint.
+> A dead captain is the cheapest casus belli an empire can buy. Real history: in 1622 my brother Opechancanough killed three hundred and forty-seven settlers — and the English answered by burning Powhatan country for the next ten years. Killing one man in 1608 would have brought the same answer earlier and worse. The cost is paid by the children of the men in this room.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 1
@@ -325,8 +332,9 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> I send a boot and a price to the fort. The English pay slowly and badly, and when Smith goes back he tells the story his way — that he was held by a chief who wanted muskets.
-> The next ship from London brings a charter and a governor. A captain is not cargo. I treated him like cargo, and the English answer was to treat me like a problem.
+> I send a boot and a price to the fort. The English pay slowly and badly. When Smith goes back he tells the story his way — that he was held by a savage chief who demanded muskets and powder for the life of an English officer.
+> The Virginia Company prints the story in London. The next ship brings a royal charter, a governor with a sword, and orders to stop trading with me as a sovereign. I have made myself a kidnapper in a country that hangs kidnappers.
+> A captain is not cargo. Real history: the English distinguished between adoption (which their captives sometimes accepted, like Smith and later Mary Rowlandson) and ransom (which they treated as piracy). Adoption made you family. Ransom made you a criminal. I had the choice and I picked the one that put a price on the war.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 1
@@ -374,7 +382,8 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> The fort is hungry. Smith comes back to my villages, not as a guest — with soldiers and muskets, demanding corn at gunpoint.
+> Months pass. The fort grows hungry, and my son the werowance forgets which one of us adopted the other.
+> Smith comes back to my villages, not as a guest — with soldiers and muskets, demanding corn at gunpoint.
 > The first time he asks. The second time he takes. The third time he burns a store-house. My son the werowance. My tributary.
 
 **Buttons:**
@@ -398,7 +407,7 @@
 - `[FEED THEM ON MY TERMS. SET A LIMIT. →]` — advances to Slide 18 (off-ramp; rejoins main)
 - `[STOP FEEDING THEM. LET THE WINTER WORK. →]` — advances to Slide 19 (main path; the Starving Time, factual)
 - `[BURN OUR OWN CACHES. LEAVE THEM NOTHING. →]` — advances to **Slide 17-FAIL-A** (gameover, terminal dignified — strategic failure / scorched-earth on your own people)
-- `[FEED THEM EVERYTHING. APPEASE. →]` — advances to **Slide 17-FAIL-B** (gameover, comedic universal — appeasement / "Both is good" indecision fail)
+- `[KEEP FEEDING THEM. WHATEVER THEY ASK. →]` — advances to **Slide 17-FAIL-B** (gameover, comedic universal — appeasement / "Both is good" indecision fail)
 
 ---
 
@@ -410,8 +419,9 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> I order every cache burned. The English do not eat my corn that winter. Neither do my people.
-> The fort is resupplied from England in the spring; my villages are not. A chief who burns his own people's food has confused his enemy with his country.
+> I order every cache from the salt water to the falls burned. The English do not eat my corn that winter. Neither do my people.
+> The fort is resupplied from England in the spring with three ships of biscuit and salted beef; my villages have nothing but what the deer leave. The werowances who lost children that winter do not forgive me. The Pamunkey stop sending tribute. The Chickahominy declare themselves a separate nation.
+> A chief who burns his own people's food has confused his enemy with his country. Real history: scorched-earth works for an empire with a supply line and against a people without one. The Russians burned Moscow against Napoleon because they had a continent behind them. I have one growing season and the same river the English do. The supply line was theirs.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 1
@@ -429,8 +439,9 @@
 **Body text:**
 > **HEADLINE: BOTH? BOTH IS GOOD. (No, it isn't.)**
 >
-> I send the English everything they ask for. They ask for more. I send that too. What we have left is not enough.
-> My children go hungry that winter. The English children do not. A chief who feeds the strangers before his own people is not a chief for long.
+> I tell my werowances to keep feeding them — whatever the English ask, send. They ask every month. They ask more every month. By the third winter the corn we send the fort is corn we did not store for ourselves.
+> My children go hungry that winter. The English children do not. The werowances who watched their own families starve come to my platform with copper laid down — the gesture for deposing a chief — and I am no longer paramount.
+> A chief who feeds the strangers before his own people is not a chief for long. Real history: appeasement bought the English the same time it bought Britain in 1938 — none. The colonies that received the most tribute were the ones that demanded the most land next, and the chiefs who paid it were the ones their own councils replaced.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 1
@@ -479,8 +490,9 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> I should have known. England does not let a colony die. The new governor, De La Warr, wants the river, the corn, the land.
-> They burn the village at Paspahegh and take the werowance's wife and children to the boats. The children do not arrive at the fort. This is the war I wanted to avoid.
+> I should have known. England does not let a colony die. Whether the fort starved or only went hungry on a fixed ration, the answer from London was the same — more ships, harder men.
+> The English do not starve. They build instead. Within two years they have three new forts on rivers I never ceded.
+> The new governor, De La Warr, wants the river, the corn, the land. They burn the village at Paspahegh and take the werowance's wife and children to the boats. The children do not arrive at the fort. This is the war I wanted to avoid.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -514,8 +526,9 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> Every village hits an English settlement at dawn the same morning. We kill many — not enough. The fort holds, and the reprisal burns from the falls to the salt water.
-> My brother Opechancanough would have planned this for ten years. I planned it in two weeks because I was angry. The right strike at the wrong time is the wrong strike.
+> Every village hits an English settlement at dawn the same morning. We kill many — not enough. The fort at Jamestown is built of squared timber and Irish-war veterans, and it holds. The runners I sent to the outlying tribes did not all arrive in time, and the strike comes in waves instead of a single blow.
+> The reprisal burns from the falls to the salt water. By winter Opechancanough is dead in a raid he should have led twelve years from now. There is no leader left who can hold the confederation together.
+> My brother Opechancanough would have planned this for ten years. I planned it in two weeks because I was angry. Real history: in 1622 Opechancanough did exactly this strike with a decade of preparation, killed three hundred and forty-seven settlers in a morning, and STILL lost the war that followed — because the English had a continent of reinforcements and we had one growing season. Striking unprepared in 1610 only chose how fast it ended. The right strike at the wrong time is the wrong strike.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 1
@@ -548,6 +561,7 @@
 
 **Body text:**
 > Three years of war. They burn villages, we burn boats. They have iron and gunpowder; we have the woods and the rivers and patience.
+> From the falls we burn their boats when they come past. The river does not belong to whoever sails it — it belongs to whoever holds the bank.
 > Neither side wins outright. Neither side stops. A war that nobody wins is the most expensive kind.
 
 **Buttons:**
@@ -598,8 +612,9 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> I refuse them. A daughter is not a prisoner-trade. The war goes on. She falls ill at the fort the second winter she is held.
-> A runner brings me word that she is dead. I refused because chiefs do not show weakness. The cost was not paid by me. Not every right answer is a right answer.
+> I refuse them. A daughter is not a prisoner-trade, and a chief who pays ransom for one child sets a price on every child in the country.
+> The war goes on. The English move her from fort to fort, and at Henrico she falls ill the second winter she is held. A runner brings me word that she is dead at seventeen.
+> Without the marriage there is no Peace of Pocahontas. The First Anglo-Powhatan War continues to 1618 instead of ending in 1614, and four more years of villages burn while I sit on my platform refusing to look weak. Real history: Pocahontas's marriage to Rolfe in 1614 ended the war and bought eight years of peace before Opechancanough's 1622 uprising. Refusing the negotiation would have erased that peace from the record. I refused because chiefs do not show weakness. The cost was not paid by me. Not every right answer is a right answer.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 1
@@ -647,7 +662,8 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> A runner comes. My daughter has decided to stay at the fort — taken the English religion, taken the name Rebecca, and means to marry a planter named Rolfe.
+> The runner comes back with her answer. Whether I paid the ransom in full or kept the English hungry through the winter, the message is the same.
+> My daughter has decided to stay at the fort — taken the English religion, taken the name Rebecca, and means to marry a planter named Rolfe.
 > The Englishman has asked, through her, for my blessing on the marriage.
 
 **Buttons:**
@@ -682,8 +698,9 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> I refuse. She marries him anyway — the English do not need my permission. The marriage that should have bought five years of quiet buys nothing.
-> I held my pride and lost the peace. A chief's pride is the most expensive thing in the country.
+> I refuse. She marries him anyway — the English do not need my permission, and Matoaka herself sends word that she has chosen. The marriage that should have bought five years of quiet buys nothing, because I would not put my name on the document.
+> The war drags on past 1614. Two more years of raids, two more burned villages, and the English settle the land between the falls and the salt water without a treaty stopping them. By 1617 they are growing tobacco on ground that was my hunting country, and the legal claim they cite is that the chief refused to negotiate at all.
+> I called it captivity. The English called it courtship. The peace went to the side that controlled the words. Real history: pride-based refusals to negotiate cost Indigenous nations across the Americas — the Aztec at Tenochtitlán refused Cortés's first envoys; the Inca refused Pizarro's. The empires read the silence as a free hand. A chief's pride is the most expensive thing in the country.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 1
@@ -732,6 +749,7 @@
 
 **Body text:**
 > Two years after the wedding she sails to England with Rolfe and a son I have never met. The English want to show her to their queen.
+> The prisoners I bargained for came home in the spring. The line at the falls — written in the harder peace — was crossed by English plows the same year. A line on paper is only as strong as the men willing to die at it.
 > I stand on the bank and watch the ship until it is gone. I will not see her again.
 
 **Buttons:**
@@ -781,8 +799,9 @@
 **Slide text overlay:** Standard slide-textbox.
 
 **Body text:**
-> I lead the strike myself. I am sixty-eight years old; the English have a soldier with a musket who is twenty-two.
-> I do not see the second day of the campaign. My werowances fight over the succession in the field while the English regroup. A chief should know when to be the chief and when to be the ancestor.
+> I lead the strike myself. I am sixty-eight years old. The English have a soldier with a musket who is twenty-two, and the campaign begins before my succession is settled.
+> A musket ball finds me before noon on the second day. My werowances scatter to fight over the platform while the English regroup behind their walls. The strike I led to prove I was still the chief is the strike that proves I was not.
+> Custom is not weakness. Real history: the smoothest Indigenous successions in the 17th century — the Iroquois Confederacy, the Creek Confederacy — were the ones that followed clan law strictly even under European pressure. The fragmenting ones were those whose chiefs broke custom for one last campaign. A chief should know when to be the chief and when to be the ancestor.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 1

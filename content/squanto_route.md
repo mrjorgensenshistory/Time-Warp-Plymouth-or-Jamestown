@@ -1,6 +1,6 @@
 # Squanto (Tisquantum) Route — Time Warp: Plymouth or Jamestown
 
-> 38 slides. **11 decision points.** 9 gameovers (3 minor / Yzma-eligible early-route, 6 terminal / period-art-only).
+> 38 slides. **11 decision points.** 14 gameovers (3 minor / Yzma-eligible early-route: A1, B, D — and 11 terminal / period-art-only: A2, C, E, F, G, H, I, J, K, L, M).
 > Voice: strict first-person, present-tense. Sparse. He does not waste words.
 > Tone: dignified survivor. NOT a magical guide. NOT a noble savage. NOT a tragic victim. A grown man who has lost everyone and chose to be useful.
 > Music bed: wood flute solo + light hand drum + occasional acoustic guitar (per §3). Hand-drum is light and patient — never "war drum." Volume drops 6dB on gameover slides.
@@ -102,9 +102,7 @@
 **Headline (Bangers, restrained):** "I shouted. They ran. The chain still found me."
 
 **Body text:**
-> Three of my uncles hear me and run. Three out of twenty-six is not nothing.
-> Hunt's men hear me too. They do not bring me to Spain quietly.
-> A man who cannot reach Spain cannot reach back from Spain.
+> I shout the warning. Three of my uncles run. The Englishmen drag me into the hold. They count my body as zero — the manifest does not list me. My uncles will tell my mother I tried.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 4 (decision 1)
@@ -154,7 +152,10 @@
 **Headline:** "WRONG LEVERRRRR!"
 
 **Body text:**
-> Twenty-six men against muskets in the dark. The ship reaches Spain without me.
+> The grate is open six feet above us. We rush. The sailors above are waiting — they have done this run before.
+> Two muskets fire down into the hold. The grate slams. The lock turns.
+> The ship reaches Málaga without me. The friars never see my face on the block.
+> Real history: English slaving ships of the period kept armed crew above the holds at every grate-opening for exactly this reason. Successful below-decks revolts on Atlantic crossings were almost unheard of.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 6 (decision 2)
@@ -224,7 +225,10 @@
 **Headline:** "WRONG LEVERRRRR!"
 
 **Body text:**
-> A man in chains running toward a man in chains, across a market full of pikes. The math does not work.
+> I break for my cousin across the square. A pike comes down across my shoulders before I reach him.
+> The friar lowers his cross and steps back into the crowd. The Spanish guards do not return a runner to the auction block — runners go to the galleys.
+> My cousin is sold to a household in Seville. I am sold to an oar.
+> Real history: Spanish authorities in the 1610s distinguished between captives the Church could claim and captives marked as escape risks. A break for it removed the Church's leverage entirely.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 8 (decision 3)
@@ -315,7 +319,8 @@
 **Timeline bar:** New tick: `1615–19 — Spain, then London. I learn English.`
 
 **Body text:**
-> London is wet. Three ships could carry me west.
+> The friars buy my passage as far as Bordeaux. From Bordeaux a fishing crew takes me on as a galley boy bound for La Rochelle and the Channel. I land in London, wet, in the second year of King James.
+> Three ships could carry me west.
 > The first leaves in three days, captained by a man who has not crossed before. The second leaves in a year — better food, slower hands.
 > The third is not a ship: a merchant named Slany who wants a guide to my coast. He will pay me in lessons, in time.
 
@@ -352,7 +357,10 @@
 **Timeline bar:** Holds.
 
 **Body text:**
-> I learn English the way I learned Spanish — by needing it. Slany pays me to draw the New England coast on his ledger pages.
+> I learn English the way I learned Spanish — by needing it.
+> If I came in with no patron — `solo_route` — I work alone in the counting-house at first, sleeping in a back room, drawing the New England coast on Slany's ledger pages until he trusts the hand.
+> If I came in under the friars' reference — `friar_route` — Slany pays me a wage; I sleep in his attic for a year before he agrees to let me cross.
+> If I waited for the year-long contract — `year_contract=true` — I keep my own purse, but I do not see the Atlantic again until the season turns.
 > When I came across the sea I had one tongue. Now I have three. They will all be useful. I do not yet know how.
 
 **Buttons:**
@@ -367,7 +375,8 @@
 **Timeline bar:** Holds.
 
 **Body text:**
-> I work passage on a fishing ship to Newfoundland. A captain named Dermer is sailing south along the coast to trade and map.
+> I work passage on a Bristol fishing ship to Newfoundland. The crossing takes nine weeks. The cod we salt are bigger than the ones at Patuxet.
+> A captain named Dermer is sailing south along the coast to trade and map.
 > I tell him I will guide him, if he carries me to Patuxet. He agrees.
 > We sail south. The trees are the right trees. The bay is the right bay.
 
@@ -402,6 +411,7 @@
 > The houses will not stand forever. Rain will take the bark. Snow will take the frames.
 > I can search inland for survivors. I can burn it, salt the ground the way our dead are honored. I can walk away.
 > The grief is mine and the grief is alone.
+> Whatever I do here, I do it alone. There is no one left to help me.
 
 **Buttons:**
 - `[SEARCH FOR SURVIVORS.]` — advances to Slide 16 (canonical — leads him to Massasoit)
@@ -419,9 +429,9 @@
 **Headline (Bangers, restrained):** "I burned the houses. The ships came anyway."
 
 **Body text:**
-> The bark burns easily. The frames come down by morning. I leave nothing for strangers to walk into.
-> The Mayflower comes the next winter and anchors anyway. The strangers do not need a house — they build on the ash.
-> A man who burns a path behind him is still a man on a road.
+> I burn the longhouses. The smoke rises. The English settle anyway — they build on the ash.
+> The Narragansett scouts who come south to investigate the fire decide my territory is undefended. Two of my surviving cousins are taken north as captives.
+> Real history: scorched-earth strategies in 17th-century New England often invited rival tribes more than they deterred Europeans.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 15 (decision 7)
@@ -555,8 +565,9 @@
 
 **Body text:**
 > The houses burn. The strangers die in the snow.
-> By the next spring, two more English ships round the cape. By the spring after, three. They do not come slower because the first ones died. They come faster, with more men, and angrier ones.
-> Massasoit needs the man who knows their tongue. I am that man. I was that man. I am no longer here to be that man.
+> By the next spring two English ships round the cape carrying word of the killing. By the spring after, three more come with soldiers.
+> Massasoit is blamed. The Narragansett, untouched by the plague, watch the Wampanoag stand alone against angry Englishmen and do not lift a hand.
+> Real history: when Algonquian nations attacked English settlements directly — as in Virginia in 1622 — the English did not retreat. They returned in greater force, often within a single shipping season, and treated the attack as license for total war.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 21 (decision 8)
@@ -573,7 +584,7 @@
 **Body text:**
 > Samoset has already walked into their stockade once and said *welcome* in their tongue. He is alive. They did not shoot him.
 > I can step out of the trees the way he did, in English, today. I can wait a week and watch what they do with him. I can send him in twice more, and only let them know about me when they ask.
-> The first move teaches them who I am. I will only get one first move.
+> The alewife are running. The seed must go in within weeks. The first move teaches them who I am. I will only get one first move.
 
 **Buttons:**
 - `[STEP OUT NOW. ENGLISH IMMEDIATELY.]` — advances to Slide 23 (canonical historical move — Samoset brings him in mid-March 1621)
@@ -591,9 +602,9 @@
 **Headline (Bangers, restrained):** "I waited. The corn did not."
 
 **Body text:**
-> Another week. Another week of watching. The alewife run came and went. The planting moon came and went. Samoset went home for the spring.
-> By the time I stepped out of the trees, the Pilgrims had already eaten the last of the wheat seed they brought from England. They were planting nothing.
-> A man who waits to be sure is sometimes a man who waits the season out.
+> I waited. The alewife stopped running. The seed waited too long.
+> Plymouth's first harvest is half what it should have been. They eat through it by January. By March, eight more die.
+> Real history: the Pilgrims were on the edge of starvation in their first three years; one bad spring planting was the difference between survival and famine.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 22 (decision 9)
@@ -611,6 +622,8 @@
 > I walk out of the trees alone. The sentries lift their muskets. I lift one hand.
 > I say, in English: *Welcome.*
 > They do not know what to do with that word coming out of my mouth. I do not blame them.
+>
+> *(If `samoset_only=true`):* Samoset speaks the English I taught him. Bradford's trust comes one bullet shorter than if I had stepped out myself.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 24 (decision)
@@ -645,9 +658,10 @@
 **Headline (Bangers, restrained):** "They died. More came."
 
 **Body text:**
-> The wheat does not grow. The Pilgrims starve through their second winter the way they starved through their first.
-> Their company in London does not stop sending ships. They send replacements. Hungrier ones, in worse weather, with more guns and less patience.
-> A man who refuses to teach is not a man who stopped the strangers. He is only a man who let the gentle ones die first.
+> The wheat does not grow. Half the survivors of the first winter die in the second.
+> Their company in London does not stop sending ships. They send replacements — soldiers this time, not families. The next captain to step onto Patuxet sand is Miles Standish with twenty muskets and orders to take corn from any village that has it.
+> Massasoit cannot refuse them. The Narragansett can. War comes a decade early.
+> Real history: Plymouth's relationship with the Wampanoag stayed peaceful largely because the Pilgrims survived. A starving English colony historically turned to raiding — see Jamestown 1609 — and raiding was what broke alliances.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 24 (decision 10)
@@ -700,10 +714,10 @@
 **Headline (Bangers, restrained):** "I made myself the only bridge. He noticed."
 
 **Body text:**
-> I told the Pilgrims that Massasoit was plotting against them. I thought a frightened English camp would lean on me harder. I would be the only man they would believe.
-> Massasoit heard. Massasoit asked for me. The Pilgrims, under their treaty, had to give me up.
-> Bradford stalled. Another ship from England was sighted that morning, and in the noise of new sails the request was set aside. Real history. Even forgiven, a bridge that has been caught lying is a bridge nobody crosses twice.
-> I lived. I was not the same man on the path between the two camps.
+> I tell Bradford that Massasoit is plotting against the English. It almost works. Massasoit hears, sends Hobbamock, and demands my head from Bradford.
+> Bradford stalls — the English need me alive to teach them another season. Massasoit does not press it. He does not need to.
+> From this morning every village south of Plymouth knows I have made myself the only bridge — and that I will burn the bridge for my own use.
+> Real history: in March 1623 Squanto did exactly this and almost paid for it. Bradford's stalling is documented. The trust the Wampanoag had in me ended that month.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 26 (decision 11)
@@ -737,6 +751,7 @@
 > Massasoit hears the muskets. He thinks the English may be under attack. He brings ninety warriors, in case.
 > When he sees no battle, only food, he sends his men to hunt. They come back with five deer.
 > We eat for three days. I sit between the two languages. I had no village left. They were what I had.
+> The three days of feasting end. The English go inside their walls. We go inside ours. Winter comes.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 29
@@ -785,6 +800,8 @@
 > The English call it Indian fever. They do not know what it is. Neither do I. It bleeds from my nose; my body burns; my strength leaves.
 > Bradford does not leave the camp. He sits up with me through the night. He writes in his book that he weeps.
 > I tell him the words to say to my Wampanoag friends. He writes those down too.
+>
+> *(If `taught_everything=true`):* I have taught them everything I knew. There is no language left between us they cannot translate.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 32 (terminal card)
@@ -918,4 +935,4 @@
 
 ---
 
-*End of Squanto route. Slide count: 38. Decision points: 11 (Slides 4, 6, 8, 9, 10, 11, 15, 21, 22, 24, 26). Gameovers: 13 total — 3 minor/Yzma-eligible (Slides 4-fight, 6-now, 8-cousin) and 10 terminal/period-art (Slides 4-warning, 8-refuse, 9-baptism, 10-stay, 11-first-ship, 15-burn, 15-walk, 21-burn-houses, 22-watch, 24-nothing, 26-plot). Wait — count check: terminal = A2, C, E, F, G, H, I, J, K, L, M = 11 terminal. Total gameovers = 14 (3 Yzma + 11 terminal). Headline on the spec block above is the corrected count. Soft branches with no gameover (do not kill the run, only shade Slide 36 review): Slide 9 "pretend," Slide 10 mule-vs-solo, Slide 11 wait-vs-Slany, Slide 22 samoset-only, Slide 24 corn-only-vs-everything, Slide 26 both-sides. Terminal endgame card (Slide 32) follows §4 dignity rule: period-art portrait, flute tail, no cherry, no meme cast.*
+*End of Squanto route. Slide count: 38. Decision points: 11 (Slides 4, 6, 8, 9, 10, 11, 15, 21, 22, 24, 26). Gameovers: 14 total — 3 minor/Yzma-eligible (A1 Slide 4-fight, B Slide 6-now, D Slide 8-cousin) and 11 terminal/period-art (A2 Slide 4-warning, C Slide 8-refuse, E Slide 9-baptism, F Slide 10-stay, G Slide 11-first-ship, H Slide 15-burn, I Slide 15-walk, J Slide 21-burn-houses, K Slide 22-watch, L Slide 24-nothing, M Slide 26-plot). Soft branches with no gameover (do not kill the run, only shade Slide 36 review): Slide 9 "pretend," Slide 10 mule-vs-solo, Slide 11 wait-vs-Slany, Slide 22 samoset-only, Slide 24 corn-only-vs-everything, Slide 26 both-sides. Terminal endgame card (Slide 32) follows §4 dignity rule: period-art portrait, flute tail, no cherry, no meme cast.*

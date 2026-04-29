@@ -121,6 +121,7 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
+> He decides. They drag me to a flat stone in the center of the longhouse.
 > They lay my head on a stone. Two warriors raise clubs. The chief's daughter steps between us. The clubs come down on nothing.
 > Years from now, in London, I will have to decide what kind of story this was. Three stories fit what I saw — and each sells a different number of books.
 
@@ -174,6 +175,7 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
+> The gentlemen tell me where I can put my rule. I write it on the wall anyway. By the third skipped supper they pick up the axes.
 > I write one rule on the council house wall. *He that will not work shall not eat.*
 > No exemptions — not the gentlemen, not me. I work the wall with my own hands.
 > They hate me for it. They eat because of it.
@@ -373,6 +375,7 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
+> I give the council my last orders. The gentlemen do not hide their relief. The stretcher carries me up the gangway.
 > I sail for England in October 1609. I am thirty. I have been in Virginia two and a half years.
 > I do not know it yet, but I will never see this coast again. I will write books and draw maps that English captains use for forty years.
 > The colony I leave is about to find out what a winter without me looks like.
@@ -500,7 +503,8 @@
 
 **Body text:**
 > I let the gentlemen run things. They eat first. They stop pretending to work. The men with axes mutiny inside a month, the men with muskets pick a side, and somewhere in the middle of the brawl I take a knife between the ribs from someone whose name I never bothered to learn.
-> The colony does not last the winter without a president. There is no second chance from a knife in the dark.
+> Without a president to enforce the work, the storehouse empties before Christmas. The laborers desert into the woods. The gentlemen who dreamed of gold die in the same fever pits the workers dug for them. By spring there is no Jamestown to relieve.
+> This nearly happened — historical fact: the Jamestown council before Smith was so fractured by class fights that two presidents were deposed in a single year. Smith's "work or starve" rule, harsh as it was, is what held the colony together long enough for resupply to find them.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 9 (DECISION 3)
@@ -519,8 +523,8 @@
 
 **Body text:**
 > I keep my honor. I refuse to march on a Powhatan village. I trade what little we have and send polite letters to the chief.
-> The chief, who has decided to wait us out, sends back nothing. By February the storehouse is empty. By March we are eating shoe leather. By April most of us are not eating anything at all.
-> A clean conscience is a poor blanket in a Virginia winter.
+> The chief, who has decided to wait us out, sends back nothing. By January we are through the seed grain. By February the storehouse is empty. By March we are eating shoe leather. Of the five hundred at the fort, four hundred are dead by spring. The Virginia Company writes off the colony. England's first permanent settlement fails — and Plymouth, twenty years later, has no English foothold to draw on.
+> This nearly happened — historical fact: the Starving Time of 1609–10 killed roughly 80% of Jamestown after Smith left. Smith's gunpoint corn raids in 1608 are the only reason there was anyone left for the Mayflower generation to inherit a colony from.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 12 (DECISION 5)
@@ -540,7 +544,8 @@
 **Body text:**
 > I go to the feast unarmed because the chief asked me to and because I have been telling myself a love story about his daughter that is not true.
 > The warriors are waiting in the longhouse. The girl is not in the room. I do not even reach the table.
-> Pocahontas is not a bodyguard. She is a diplomat with her own people to protect.
+> With the president dead, the fort has no one to enforce the work rule. The gentlemen revert. Powhatan, having tested the English and found them weak, presses the advantage — the corn cuts off, the trade stops, the war begins fourteen years before its real date.
+> This nearly happened — historical fact: Powhatan really did invite Smith to Werowocomoco in January 1609 with quiet plans to kill him, and Pocahontas really did warn him in the night. Smith trusting the warning, not the invitation, is what kept Jamestown alive into 1610.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 15 (DECISION 7)
@@ -560,7 +565,8 @@
 **Body text:**
 > I refuse the ship. I tell myself the colony needs me more than my leg does.
 > The wound goes bad inside two weeks. The barber-surgeon runs out of clean linen and clean ideas at the same hour. I die in November of a thigh that should have healed in London.
-> A dead president cannot enforce a single rule.
+> The Starving Time still comes — but worse. The maps I would have drawn are never drawn. The books I would have written, the ones that name New England and guide forty years of English captains to the right shore, are never written. The Pilgrims in 1620 land on a coast no Englishman has charted. No one in London ever learns my version of the rescue story, and Pocahontas dies in obscurity in 1617 with no legend attached.
+> This nearly happened — historical fact: a sepsis infection from a black-powder burn in 1609 was almost certainly fatal without European-grade care. Smith only survived because he sailed; the gunpowder accident is what ended his American career, not the Powhatan.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 20 (DECISION 10)
@@ -579,7 +585,8 @@
 
 **Body text:**
 > I bring the musket up because that is how I greet armed men in Hungary. The three warriors in the clearing read the move the way any soldier reads it. Their bows come up faster than my match-cord catches.
-> I am the first English captain to die in Virginia. The colony does not even hear about it for a week. They will think I deserted.
+> Powhatan reads the message exactly as it was sent — the English came to make war, not to settle. He pulls the trade. The fort, with no farmer among them, eats through their ship's biscuit by Christmas. By spring there is no English presence on the Chesapeake. The Virginia Company invests in the West Indies instead.
+> This nearly happened — historical fact: a matchlock takes thirty seconds to fire, a Powhatan war bow under two. The early Jamestown survival depended entirely on Powhatan choosing trade over war in the first weeks. Aiming a gun first would have flipped that choice instantly.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 5 (DECISION 1)
@@ -599,7 +606,8 @@
 **Body text:**
 > I crouch in the brush and let them pass. Smart, I tell myself. Cautious, I tell myself.
 > A Powhatan scout is better at this than I am. He circles the way a hunter circles a deer. By the time I hear him I am already on my back with his hand on my throat.
-> A captain who hides from his own first contact is a captain who never gets a second one.
+> The fort never gets the diplomatic opening I was supposed to provide. The gentlemen, with no soldier-leader, treat every Powhatan visitor as a thief. The corn deals never happen. The first winter — 1607–08 — kills sixty-six of the hundred and four landed. There is no second year.
+> This nearly happened — historical fact: of the original 104 Jamestown colonists, 38 were alive at the first resupply in January 1608. Smith's willingness to walk out and meet the Powhatan face-to-face is what opened the trade that fed those 38. Hiding meant the colony died on schedule.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 5 (DECISION 1)
@@ -619,7 +627,8 @@
 **Body text:**
 > I trade away iron axes and iron knives for corn. The villages eat for a season. So do we.
 > Then the Powhatan men hunt deer with iron tips and field-dress them in half the time. Their warriors carry iron heads on their war clubs. The next time my men march out to take corn at gunpoint, the bows that meet us are tipped with our own metal.
-> The fort falls inside a week. I sold them the war they used to end us.
+> The fort falls inside a week. I sold them the war they used to end us. Powhatan, now better-armed than any chief on the coast, drives every English ship out of the Chesapeake for a generation.
+> This nearly happened — historical fact: the English Crown explicitly forbade trading iron weapons or tools to Native nations for exactly this reason; the Dutch in New Netherland broke the rule in the 1640s and lost Kieft's War as a direct result. Smith trading copper instead of iron is what kept the technology gap intact long enough for Jamestown to grow.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 11 (DECISION 4)
@@ -639,7 +648,8 @@
 **Body text:**
 > I read the chief the Virginia Company's letter. King James styles himself overlord of all Virginia. The chief is to send tribute.
 > Wahunsenacawh has been chief here longer than I have been alive. He listens. He does not laugh. He sends his answer back in the form of three hundred warriors at the fort gates that same week.
-> The 1622 uprising happens fourteen years early because I read the wrong page out loud. The fort does not survive the month.
+> The 1622 uprising happens fourteen years early because I read the wrong page out loud. The fort does not survive the month. The Virginia Company, with no surviving colony to point to, sells its charter. The English do not return to the Chesapeake until the 1630s, and when they do, every chief from the Patuxent to the James already knows what tribute means.
+> This nearly happened — historical fact: in 1622 Wahunsenacawh's brother Opechancanough launched a coordinated assault that killed 347 colonists in one morning — a quarter of Virginia's English population. That attack came after fourteen more years of broken English promises. Demanding tribute in 1608, when the colony numbered fewer than 200, would have produced the same massacre with no survivors.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 11 (DECISION 4)
@@ -659,7 +669,8 @@
 **Body text:**
 > I move my men in at midnight. The longhouses are dark, the corn cribs are quiet, and one of my soldiers trips over a tether and his musket goes off at his hip. Loud, in the trees, at night.
 > The whole village wakes at once. My men cannot see what is firing back at them. By the time I get them turned around for the retreat, half are face-down in the corn.
-> Soldiers do not raid by night. There is a reason for that, and I just paid for it.
+> The fort goes into winter with no corn and no captain. Powhatan, having proven the English cannot fight at night, presses every village to break the trade. The Starving Time comes a full year early.
+> This nearly happened — historical fact: a 17th-century matchlock musket required a lit slow-match held inches from loose powder — every soldier in the column was a walking lantern. European armies had banned night assaults by infantry for exactly this reason. Smith's daylight raids worked because the Powhatan could see who was coming and decide to trade rather than fight.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 13 (DECISION 6)
@@ -679,7 +690,8 @@
 **Body text:**
 > Pocahontas tells me her father means to kill me before morning. I tell her I need more than her word. I tell her to bring me a sign, a proof, anything I can show my officers.
 > She says she does not have time. I say I do not move my men on a girl's say-so.
-> Dawn comes faster than the proof does. Her father's warriors come faster than the dawn.
+> Dawn comes faster than the proof does. Her father's warriors come faster than the dawn. With me dead at Werowocomoco, the diplomatic channel that ran through Pocahontas closes for good. Her father, having killed an English captain, knows the next ship that lands brings reprisal — so he strikes the fort first.
+> This nearly happened — historical fact: Pocahontas's nighttime warning at Werowocomoco in January 1609 is recorded in Smith's own *Generall Historie* and was independently confirmed by survivor accounts. A Powhatan girl crossing winter woods alone risked her own life to deliver it. Treating her word as worth less than a man's would have been the last mistake of Smith's life.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 16 (DECISION 8)
@@ -699,7 +711,8 @@
 **Body text:**
 > I take the warning and I turn it into a knife. We move on the chief's longhouse first. We are seven men. The longhouse holds forty.
 > I get the chief in my musket sights for one second before the fight closes around me. He lives. I do not.
-> A warning is a doorway out. I tried to use it as a door in.
+> Wahunsenacawh, having now been attacked in his own house by men he invited under truce, declares total war. Every Powhatan town from the Pamunkey to the Nansemond closes its corn. Pocahontas, exposed as the source of the warning, is sent away from her father's court — the diplomatic bridge between the two peoples burns down with her.
+> This nearly happened — historical fact: Powhatan controlled thirty tribes and could field roughly 3,200 warriors. Jamestown in early 1609 had perhaps 200 fighting men, and Smith's seven-man parties depended entirely on the surprise of musket noise, not on numbers. Trying to ambush the paramount chief in his own capital was suicide on a calendar.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 16 (DECISION 8)
@@ -719,7 +732,8 @@
 **Body text:**
 > I am too tired to move the bag. I tell myself the cord is far enough. I close my eyes for one minute on a Virginia river in October.
 > The cord is not far enough. The bag is open. Most of me ends up in the water and most of the boat ends up in the trees.
-> A spark and a leather bag of powder do not negotiate with how tired the captain is.
+> No one fishes me out in time. The fort loses its president on the river instead of in his own bed, with no chance to leave orders, no chance to sail for England, no books to write later. The maps that name New England are never drawn. The Pilgrims, eleven years from now, sail toward an unmapped coast.
+> This nearly happened — historical fact: the actual gunpowder accident in October 1609 left Smith with a thigh wound severe enough to require evacuation but not instantly fatal. A loose open bag of black powder beside a lit slow-match was the most common cause of soldier death in the 17th century, killing more matchlock troops than enemy fire did. Smith was lucky the bag was closed.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 18 (DECISION 9)
