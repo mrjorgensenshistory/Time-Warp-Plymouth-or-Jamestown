@@ -104,9 +104,9 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> Weeks later I am hunting in winter with two men. Powhatan warriors take us. My two men are killed. I am not.
-> They bring me before the chief. He looks at me the way a farmer looks at a horse before he decides to buy it or shoot it.
-> A girl of about ten stands beside him. They tell me her name is Pocahontas.
+> That first meeting ends without blood. We trade looks, not blows. They walk back into the trees. I walk back to the fort.
+> Months later, hunting in the winter woods with two of my men, Powhatan warriors take us. My two men are killed. I am not. They bring me before the chief.
+> He looks at me the way a farmer looks at a horse before he decides to buy it or shoot it. A girl of about ten stands beside him. They tell me her name is Pocahontas.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 7 (DECISION 2)
@@ -139,8 +139,8 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> Whatever happened in that longhouse, they send me back to the fort alive. I have my guesses why.
-> The colony is worse than I left it. Gentlemen dying of fever and hunger. The president is sick. The corn is short.
+> Years from now, the story I just chose to tell will spread or it will not. Pocahontas may have saved my life. It may have been a ritual I misread. It may have been nothing at all and I held my pen still. Historians two centuries from now will still argue.
+> What is not up for argument is what I find when I walk back through the gate. The colony is worse than I left it. Gentlemen dying of fever and hunger. The president is sick. The corn is short.
 > No one is in charge. Someone needs to be.
 
 **Buttons:**
@@ -210,7 +210,7 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> Copper is not enough. Powhatan has decided to let us learn what hungry feels like.
+> I trade the copper. They take it politely. The corn they give back is not enough to last the month. Powhatan has decided to let us learn what hungry feels like.
 > I can keep trading fair — it will not buy enough corn for winter. Or I can march in with muskets out and take it. Some villages will trade, some will fight. Either way we eat.
 > Refuse both, and we die in the snow with our pride intact.
 
@@ -247,7 +247,8 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> The colony eats. Pocahontas comes to the fort on her father's errands. She has English words now, and curiosity most of her people don't share.
+> Whichever way I took the corn — muskets up at dawn, or a small party under parley — the colony eats. The villages remember which one I chose. So do I.
+> Pocahontas comes to the fort on her father's errands. She has English words now, and curiosity most of her people don't share.
 > She is not in love with me. Books two hundred years from now will say she was. They are wrong. She is a chief's daughter keeping a channel open between two peoples who would otherwise only speak through musket fire.
 > I write her down later as the girl who saved my life. I do not write down that she was, mostly, a diplomat.
 
@@ -337,7 +338,7 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> The powder takes a piece of my thigh with it. I wake on fire and roll into the river to put myself out.
+> Whatever I did with the bag — moved it too late, or threw it in the river and lost the powder we needed — the spark found enough of it. The powder takes a piece of my thigh with it. I wake on fire and roll into the river to put myself out.
 > The barber-surgeon at the fort is not a real surgeon. The wound goes bad. The fever climbs.
 > There is no doctor on this continent who can fix what is wrong with me.
 

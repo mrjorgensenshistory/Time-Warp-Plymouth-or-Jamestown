@@ -736,7 +736,7 @@
 
 **Buttons:**
 - `[STAY AT THE PLANTATION. DEFEND THE HOUSE.]` — advances to GAMEOVER M
-- `[FLEE TO THE FORT WITH THE FAMILY.]` — advances to Slide 44
+- `[FLEE TO THE FORT WITH THE FAMILY.]` — advances to Slide 45
 - `[RIDE OUT AND FIGHT BACK WITH THE MILITIA.]` — advances to GAMEOVER N
 
 ---

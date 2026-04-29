@@ -19,7 +19,7 @@ html, body { height: 100%; width: 100%; overflow: hidden; background: #0a0a1a; c
   transition: opacity 700ms ease;
   pointer-events: none;
   background-size: cover;
-  background-position: center;
+  background-position: center; /* true center — works for both portraits and ships */
   background-color: #1a1a28;
 }
 .slide.active { opacity: 1; pointer-events: auto; }
@@ -34,7 +34,7 @@ html, body { height: 100%; width: 100%; overflow: hidden; background: #0a0a1a; c
   background: radial-gradient(ellipse at 50% 30%, var(--accent) 0%, #0a0a1a 70%);
 }
 
-/* Right-side panel — wraps card + buttons in a flex column so they always stack */
+/* Right-side panel — wraps card + buttons in a flex column, stacked from top */
 .panel {
   position: absolute;
   top: 2vh;
@@ -45,43 +45,43 @@ html, body { height: 100%; width: 100%; overflow: hidden; background: #0a0a1a; c
   z-index: 5;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: flex-start; /* card + buttons hug the top, no empty gap */
   gap: 1.5vh;
   pointer-events: none;
 }
 .panel > * { pointer-events: auto; }
 
-/* Text card: now lives inside .panel, top of column */
+/* Text card: sizes to content (flex 0 0 auto), more transparent */
 .card {
   position: relative;
   z-index: 5;
   width: 100%;
-  background: rgba(255,255,255,0.78);
-  border: 2px solid #000;
+  background: rgba(255,255,255,0.55);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border: 2px solid rgba(0,0,0,0.85);
   border-radius: 8px;
-  padding: 1.2vh 1.6vw;
-  box-shadow: 0 6px 24px rgba(0,0,0,0.6);
+  padding: 1.1vh 1.5vw;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.55);
   font-family: 'Bangers', 'Arial Black', sans-serif;
   color: #000;
   line-height: 1.3;
   letter-spacing: 0.5px;
   text-align: left;
-  flex: 1 1 auto;
-  min-height: 0;
-  overflow: hidden;
+  flex: 0 0 auto;
 }
 .card h2 {
-  font-size: clamp(0.9rem, 1.6vw, 1.2rem);
-  margin-bottom: 0.5vh;
+  font-size: clamp(1rem, 1.8vw, 1.35rem);
+  margin-bottom: 0.6vh;
   color: #000;
   letter-spacing: 1px;
   text-align: center;
   border-bottom: 1px solid rgba(0,0,0,0.2);
-  padding-bottom: 0.4vh;
+  padding-bottom: 0.5vh;
 }
 .card .body p {
-  font-size: clamp(0.72rem, 1.05vw, 0.95rem);
-  margin-bottom: 0.35vh;
+  font-size: clamp(0.95rem, 1.45vw, 1.25rem);
+  margin-bottom: 0.5vh;
   opacity: 0;
   transform: translateY(8px);
   transition: opacity 600ms ease, transform 600ms ease;
@@ -105,13 +105,15 @@ html, body { height: 100%; width: 100%; overflow: hidden; background: #0a0a1a; c
 .buttons.shown { opacity: 1; }
 
 button.choice {
-  background: rgba(255,255,255,0.85);
+  background: rgba(255,255,255,0.6);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
   color: #000;
-  border: 2px solid #000;
+  border: 2px solid rgba(0,0,0,0.85);
   border-radius: 6px;
-  padding: 0.9vh 1.2vw;
+  padding: 1.1vh 1.4vw;
   font-family: 'Bangers', sans-serif;
-  font-size: clamp(0.78rem, 1.15vw, 1rem);
+  font-size: clamp(0.95rem, 1.35vw, 1.2rem);
   cursor: pointer;
   transition: all 150ms ease;
   min-width: 0;
@@ -119,6 +121,11 @@ button.choice {
   text-align: center;
   box-shadow: 0 4px 12px rgba(0,0,0,0.4);
   line-height: 1.2;
+}
+button.choice:hover {
+  background: rgba(255,255,255,0.92);
+  border-color: #000;
+  transform: scale(1.02);
 }
 button.choice:hover { background: #fff; transform: scale(1.03); }
 
@@ -343,6 +350,9 @@ function renderSlide(slide) {
     if (bgImg) {
       div.classList.add('has-image');
       div.style.backgroundImage = `url('${bgImg}')`;
+      if (slide.bg_position) {
+        div.style.backgroundPosition = slide.bg_position;
+      }
     }
   }
 

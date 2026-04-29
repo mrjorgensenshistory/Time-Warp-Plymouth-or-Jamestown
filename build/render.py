@@ -59,21 +59,21 @@ CHARACTERS = {
             "slide_2": "images/smith/ships_at_sea.jpg",
             "slide_3": "images/smith/jamestown_zuniga_1608.jpg",
             "slide_4": "images/smith/jamestown_zuniga_1608.jpg",
-            "slide_5": "images/smith/powhatan_chief.jpg",
-            "slide_6": "images/smith/powhatan_chief.jpg",
-            "slide_7": "images/smith/pocahontas_saves_smith.jpg",
+            "slide_5": "images/smith/first_contact.jpg",        # Decision 1: First Contact
+            "slide_6": "images/smith/smith_armed.jpg",          # Captured (Smith taken)
+            "slide_7": "images/smith/pocahontas_saves_smith.jpg", # The Rescue
             "slide_8": "images/smith/jamestown_zuniga_1608.jpg",
             "slide_9": "images/smith/portrait_smith.jpg",
             "slide_10": "images/smith/portrait_smith.jpg",
-            "slide_11": "images/smith/powhatan_chief.jpg",
-            "slide_12": "images/smith/powhatan_chief.jpg",
-            "slide_13": "images/smith/storm_chaos.jpg",
+            "slide_11": "images/smith/first_contact.jpg",        # Opening trade
+            "slide_12": "images/smith/smith_armed.jpg",          # How Do I Get Corn (taking)
+            "slide_13": "images/smith/smith_armed.jpg",          # When Do We Strike
             "slide_14": "images/smith/pocahontas_saves_smith.jpg",
-            "slide_15": "images/smith/powhatan_chief.jpg",
-            "slide_16": "images/smith/storm_chaos.jpg",
+            "slide_15": "images/smith/first_contact.jpg",        # Trust Powhatan — diplomacy scene
+            "slide_16": "images/smith/powhatan_village.jpg",     # Warning in the Dark
             "slide_17": "images/smith/ships_at_sea.jpg",
-            "slide_18": "images/smith/storm_chaos.jpg",
-            "slide_19": "images/smith/storm_chaos.jpg",
+            "slide_18": "images/smith/storm_chaos.jpg",          # Powder Bag
+            "slide_19": "images/smith/storm_chaos.jpg",          # The Burn
             "slide_20": "images/smith/ships_at_sea.jpg",
             "slide_21": "images/smith/ships_at_sea.jpg",
             "slide_22": "images/smith/starving_time_burial.jpg",
@@ -95,8 +95,8 @@ CHARACTERS = {
         # Per-slide period art for Rolfe (45 slides covered)
         "slide_images": {
             "slide_1": "images/rolfe/ship_at_sea.jpg",
-            "slide_2": "images/rolfe/storm_at_sea.jpg",
-            "slide_3": "images/rolfe/storm_at_sea.jpg",
+            "slide_2": "images/rolfe/ship_at_sea.jpg",
+            "slide_3": "images/rolfe/ship_at_sea.jpg",
             "slide_4": "images/rolfe/ship_at_sea.jpg",
             "slide_7": "images/rolfe/jamestown_setting.jpg",
             "slide_8": "images/rolfe/jamestown_setting.jpg",
@@ -135,6 +135,43 @@ CHARACTERS = {
         "side": "jamestown",
         "hub_href": "index.html?back=1",
         "default_bg": "images/hub/jamestown_powhatan.jpg",
+        "slide_images": {
+            "slide_1": "images/hub/jamestown_powhatan.jpg",
+            "slide_2": "images/powhatan/powhatan_smith_map.jpg",
+            "slide_3": "images/powhatan/coronation_powhatan.jpg",
+            "slide_4": "images/powhatan/jamestown_ships.jpg",
+            "slide_5": "images/powhatan/jamestown_ships.jpg",
+            "slide_6": "images/powhatan/jamestown_ships.jpg",
+            "slide_7": "images/powhatan/jamestown_ships.jpg",
+            "slide_8": "images/powhatan/powhatan_smith_map.jpg",
+            "slide_9": "images/powhatan/jamestown_ships.jpg",
+            "slide_10": "images/powhatan/algonquin_village_debry.jpg",
+            "slide_11": "images/powhatan/algonquin_village_debry.jpg",
+            "slide_12": "images/powhatan/smith_taking_pamunkey.jpg",
+            "slide_13": "images/powhatan/powhatan_smith_map.jpg",
+            "slide_14": "images/powhatan/abduction_pocahontas.jpg",
+            "slide_15": "images/powhatan/smith_taking_pamunkey.jpg",
+            "slide_16": "images/powhatan/algonquin_village_debry.jpg",
+            "slide_17": "images/powhatan/powhatan_smith_map.jpg",
+            "slide_18": "images/powhatan/algonquin_village_debry.jpg",
+            "slide_19": "images/powhatan/jamestown_ships.jpg",
+            "slide_20": "images/powhatan/massacre_1622_merian.jpg",
+            "slide_21": "images/powhatan/powhatan_smith_map.jpg",
+            "slide_22": "images/powhatan/algonquin_village_debry.jpg",
+            "slide_23": "images/powhatan/massacre_1622_merian.jpg",
+            "slide_24": "images/powhatan/abduction_pocahontas.jpg",
+            "slide_25": "images/powhatan/powhatan_smith_map.jpg",
+            "slide_26": "images/powhatan/abduction_pocahontas.jpg",
+            "slide_27": "images/rolfe/pocahontas_van_de_passe.jpg",
+            "slide_28": "images/powhatan/marriage_pocahontas.jpg",
+            "slide_29": "images/powhatan/marriage_pocahontas.jpg",
+            "slide_30": "images/rolfe/pocahontas_van_de_passe.jpg",
+            "slide_31": "images/rolfe/pocahontas_van_de_passe.jpg",
+            "slide_32": "images/powhatan/coronation_powhatan.jpg",
+            "slide_33": "images/powhatan/coronation_powhatan.jpg",
+            "slide_34": "images/powhatan/coronation_powhatan.jpg",
+            "slide_36": "images/powhatan/powhatan_smith_map.jpg",
+        },
     },
     "bradford_route": {
         "title": "William Bradford — Plymouth",
@@ -144,6 +181,44 @@ CHARACTERS = {
         "side": "plymouth",
         "hub_href": "index.html?back=1",
         "default_bg": "images/hub/plymouth_bradford.jpg",
+        "slide_images": {
+            "slide_1": "images/hub/plymouth_bradford.jpg",
+            "slide_2": "images/hub/plymouth_bradford.jpg",
+            "slide_3": "images/plymouth_shared/landing_pilgrims_bacon.jpg",
+            "slide_4": "images/hub/plymouth_pilgrims.jpg",
+            "slide_5": "images/hub/plymouth_pilgrims.jpg",
+            "slide_6": "images/hub/plymouth_pilgrims.jpg",
+            "slide_7": "images/hub/plymouth_pilgrims.jpg",
+            "slide_8": "images/bradford/mayflower_at_sea.jpg",
+            "slide_9": "images/bradford/mayflower_at_sea.jpg",
+            "slide_10": "images/bradford/mayflower_at_sea.jpg",
+            "slide_11": "images/bradford/mayflower_at_sea.jpg",
+            "slide_12": "images/bradford/mayflower_at_sea.jpg",
+            "slide_13": "images/plymouth_shared/landing_pilgrims_bacon.jpg",
+            "slide_14": "images/plymouth_shared/mayflower_compact_period.jpg",
+            "slide_15": "images/plymouth_shared/mayflower_compact_period.jpg",
+            "slide_16": "images/plymouth_shared/mayflower_compact_period.jpg",
+            "slide_17": "images/plymouth_shared/landing_pilgrims_bacon.jpg",
+            "slide_18": "images/bradford/bradford_portrait.jpg",
+            "slide_19": "images/bradford/bradford_portrait.jpg",
+            "slide_20": "images/plymouth_shared/samoset_interview.jpg",
+            "slide_21": "images/plymouth_shared/samoset_interview.jpg",
+            "slide_22": "images/bradford/squanto_teaching_corn.jpg",
+            "slide_23": "images/bradford/squanto_teaching_corn.jpg",
+            "slide_24": "images/bradford/squanto_teaching_corn.jpg",
+            "slide_25": "images/hub/plymouth_massasoit.jpg",
+            "slide_26": "images/plymouth_shared/thanksgiving_brownscombe.jpg",
+            "slide_27": "images/bradford/squanto_teaching_corn.jpg",
+            "slide_28": "images/bradford/squanto_teaching_corn.jpg",
+            "slide_29": "images/bradford/squanto_teaching_corn.jpg",
+            "slide_30": "images/bradford/bradford_portrait.jpg",
+            "slide_31": "images/bradford/bradford_portrait.jpg",
+            "slide_32": "images/bradford/bradford_portrait.jpg",
+            "slide_33": "images/bradford/bradford_portrait.jpg",
+            "slide_34": "images/bradford/bradford_portrait.jpg",
+            "slide_36": "images/bradford/bradford_portrait.jpg",
+            "slide_38": "images/bradford/bradford_portrait.jpg",
+        },
     },
     "squanto_route": {
         "title": "Squanto — Plymouth",
@@ -153,6 +228,41 @@ CHARACTERS = {
         "side": "plymouth",
         "hub_href": "index.html?back=1",
         "default_bg": "images/hub/plymouth_squanto.png",
+        "slide_images": {
+            "slide_1": "images/squanto/secoton-village.jpg",
+            "slide_2": "images/squanto/champlain-plymouth-1605.jpg",
+            "slide_3": "images/squanto/weymouth-captain.jpg",
+            "slide_4": "images/squanto/weymouth-captain.jpg",
+            "slide_5": "images/squanto/weymouth-captain.jpg",
+            "slide_6": "images/squanto/malaga-1572.jpg",
+            "slide_7": "images/squanto/malaga-1572.jpg",
+            "slide_8": "images/squanto/malaga-1572.jpg",
+            "slide_9": "images/squanto/malaga-1572.jpg",
+            "slide_10": "images/squanto/malaga-1572.jpg",
+            "slide_11": "images/squanto/champlain-plymouth-1605.jpg",
+            "slide_12": "images/squanto/new-england-smith-1614.jpg",
+            "slide_13": "images/squanto/champlain-plymouth-1605.jpg",
+            "slide_14": "images/squanto/pomeiock-town.jpg",
+            "slide_15": "images/squanto/pomeiock-town.jpg",
+            "slide_16": "images/squanto/pomeiock-town.jpg",
+            "slide_17": "images/hub/plymouth_massasoit.jpg",
+            "slide_18": "images/squanto/secoton-village.jpg",
+            "slide_19": "images/bradford/mayflower_at_sea.jpg",
+            "slide_20": "images/bradford/mayflower_at_sea.jpg",
+            "slide_21": "images/hub/plymouth_massasoit.jpg",
+            "slide_22": "images/plymouth_shared/samoset_interview.jpg",
+            "slide_23": "images/plymouth_shared/samoset_interview.jpg",
+            "slide_24": "images/hub/plymouth_squanto.png",
+            "slide_25": "images/hub/plymouth_squanto.png",
+            "slide_26": "images/hub/plymouth_massasoit.jpg",
+            "slide_27": "images/hub/plymouth_squanto.png",
+            "slide_28": "images/plymouth_shared/thanksgiving_brownscombe.jpg",
+            "slide_29": "images/squanto/champlain-plymouth-1605.jpg",
+            "slide_30": "images/squanto/champlain-plymouth-1605.jpg",
+            "slide_31": "images/squanto/squanto-billington-1922.jpg",
+            "slide_32": "images/squanto/squanto-billington-1922.jpg",
+            "slide_33": "images/squanto/new-england-smith-1614.jpg",
+        },
     },
     "massasoit_route": {
         "title": "Massasoit — Plymouth",
@@ -162,6 +272,36 @@ CHARACTERS = {
         "side": "plymouth",
         "hub_href": "index.html?back=1",
         "default_bg": "images/hub/plymouth_massasoit.jpg",
+        "slide_images": {
+            "slide_1": "images/massasoit/massasoit-relief.jpg",
+            "slide_2": "images/squanto/secoton-village.jpg",
+            "slide_3": "images/bradford/mayflower_at_sea.jpg",
+            "slide_4": "images/hub/plymouth_squanto.png",
+            "slide_5": "images/massasoit/carver-massasoit.jpg",
+            "slide_6": "images/massasoit/massasoit-warriors.jpg",
+            "slide_7": "images/massasoit/carver-massasoit.jpg",
+            "slide_8": "images/massasoit/carver-massasoit.jpg",
+            "slide_9": "images/massasoit/carver-massasoit.jpg",
+            "slide_10": "images/massasoit/massasoit-warriors.jpg",
+            "slide_11": "images/massasoit/carver-massasoit.jpg",
+            "slide_12": "images/massasoit/carver-massasoit.jpg",
+            "slide_13": "images/hub/plymouth_massasoit.jpg",
+            "slide_14": "images/plymouth_shared/thanksgiving_brownscombe.jpg",
+            "slide_15": "images/hub/plymouth_squanto.png",
+            "slide_16": "images/squanto/secoton-village.jpg",
+            "slide_17": "images/massasoit/mystic-massacre.jpg",
+            "slide_18": "images/massasoit/mystic-massacre.jpg",
+            "slide_19": "images/massasoit/indian-history-1919.jpg",
+            "slide_20": "images/massasoit/indian-history-1919.jpg",
+            "slide_21": "images/massasoit/carver-massasoit.jpg",
+            "slide_22": "images/massasoit/carver-massasoit.jpg",
+            "slide_23": "images/massasoit/philip-church-1827.jpg",
+            "slide_24": "images/massasoit/philip-appleton.jpg",
+            "slide_25": "images/massasoit/philip-appleton.jpg",
+            "slide_27": "images/massasoit/massasoit-relief.jpg",
+            "slide_28": "images/massasoit/philip-revere.jpg",
+            "slide_29": "images/massasoit/massasoit-relief.jpg",
+        },
     },
 }
 
@@ -270,7 +410,13 @@ def parse_slide_block(block_text, slide_index_in_file, gameover_alias_map=None):
         slide_id = f"slide_gameover_{letter}"
         is_gameover = True
         gameover_letter = letter
-        title = "WRONG LEVERRRR!"
+        # KEEP the writer's specific title (e.g., "I Saved the Cargo") rather than
+        # overriding to "WRONG LEVERRRR!" — the big red GAME OVER banner already
+        # plays the universal stinger role. Each gameover gets its own descriptive name.
+        # Strip the writer's own dash-prefixed "GAMEOVER X — " or quote markers if present
+        title = re.sub(r'^(?:GAMEOVER\s+\w+\s*[—–-]\s*)?["“]?(.+?)["”]?$', r'\1', title).strip()
+        if not title:
+            title = "WRONG LEVERRRR!"
     else:
         slide_id = f"slide_{raw_id_norm}"
         # FAIL pattern in slide ID (Powhatan: 6_fail, 13_fail_a)
@@ -289,7 +435,14 @@ def parse_slide_block(block_text, slide_index_in_file, gameover_alias_map=None):
                 gameover_letter = title_go_match.group(1).lower()
             else:
                 gameover_letter = raw_id_norm
-            title = "WRONG LEVERRRR!"
+            # Strip "GAMEOVER X" prefix from title if present, but KEEP the descriptive part
+            title = re.sub(r'^GAMEOVER\s+\w+\s*[—–-]\s*', '', title, flags=re.IGNORECASE).strip()
+            # Strip parenthetical "(gameover, ...)" annotations
+            title = re.sub(r'\s*\([^)]*gameover[^)]*\)\s*$', '', title, flags=re.IGNORECASE).strip()
+            # Strip surrounding quotes
+            title = title.strip('"“”').strip()
+            if not title:
+                title = "WRONG LEVERRRR!"
         # Bradford/Massasoit: slide IDs like 3a, 6a, 8a where title says "DECISION", "Off-Ramp",
         # or contains gameover-like content. Don't auto-flag these as gameovers anymore — let
         # the title content (or the writer's explicit decision marker) decide.
@@ -480,20 +633,25 @@ def resolve_next_targets(slides):
                 else:
                     btn["target"] = "HOME"
 
-    # Pass 4: gameover slides should never have HOME as their first/only button
-    # if they have a "TRY AGAIN" button that should target a real slide. The parser
-    # may have failed to catch the Try Again target — in that case set the first
-    # button to point back to the previous decision slide if we can find one.
-    for i, s in enumerate(slides):
+    # Pass 4: gameover Try Again buttons → restart at slide_1 (per Time Warp engine rule)
+    # Per memory feedback_timewarp_building.md: "Try Again buttons: ALWAYS go to slide_0
+    # (the very beginning), never the next slide." Use slide_1 as the canonical start.
+    first_story_id = next((s["id"] for s in slides if s["type"] != "gameover"), "slide_1")
+    for s in slides:
         if s["type"] != "gameover":
             continue
-        # If the gameover has only "HOME" buttons, try to back-link to nearest preceding decision
-        if all(btn["target"] == "HOME" for btn in s["buttons"]):
-            for j in range(i - 1, -1, -1):
-                if slides[j]["type"] == "decision" or len(slides[j]["buttons"]) >= 2:
-                    # Insert a "Try Again" button back to that decision
-                    s["buttons"].insert(0, {"text": "↺ Try Again", "target": slides[j]["id"]})
-                    break
+        # Find Try Again button (first non-HOME button) and retarget to start
+        had_retry = False
+        for btn in s["buttons"]:
+            if btn["target"] != "HOME":
+                btn["target"] = first_story_id
+                # Make button text say "↺ Try Again" if it's just a Continue
+                if "again" not in btn["text"].lower() and "try" not in btn["text"].lower():
+                    btn["text"] = "↺ Try Again"
+                had_retry = True
+        # If no non-HOME button existed, prepend a Try Again
+        if not had_retry:
+            s["buttons"].insert(0, {"text": "↺ Try Again", "target": first_story_id})
 
     # Pass 5: decision slides with NO button leading forward (all buttons → gameover or HOME)
     # are dead ends in narrative flow. Auto-redirect the FIRST gameover-targeted button
@@ -551,7 +709,7 @@ html, body { height: 100%; width: 100%; overflow: hidden; background: #0a0a1a; c
   transition: opacity 700ms ease;
   pointer-events: none;
   background-size: cover;
-  background-position: center;
+  background-position: center; /* true center — works for both portraits and ships */
   background-color: #1a1a28;
 }
 .slide.active { opacity: 1; pointer-events: auto; }
@@ -566,7 +724,7 @@ html, body { height: 100%; width: 100%; overflow: hidden; background: #0a0a1a; c
   background: radial-gradient(ellipse at 50% 30%, var(--accent) 0%, #0a0a1a 70%);
 }
 
-/* Right-side panel — wraps card + buttons in a flex column so they always stack */
+/* Right-side panel — wraps card + buttons in a flex column, stacked from top */
 .panel {
   position: absolute;
   top: 2vh;
@@ -577,43 +735,43 @@ html, body { height: 100%; width: 100%; overflow: hidden; background: #0a0a1a; c
   z-index: 5;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: flex-start; /* card + buttons hug the top, no empty gap */
   gap: 1.5vh;
   pointer-events: none;
 }
 .panel > * { pointer-events: auto; }
 
-/* Text card: now lives inside .panel, top of column */
+/* Text card: sizes to content (flex 0 0 auto), more transparent */
 .card {
   position: relative;
   z-index: 5;
   width: 100%;
-  background: rgba(255,255,255,0.78);
-  border: 2px solid #000;
+  background: rgba(255,255,255,0.55);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border: 2px solid rgba(0,0,0,0.85);
   border-radius: 8px;
-  padding: 1.2vh 1.6vw;
-  box-shadow: 0 6px 24px rgba(0,0,0,0.6);
+  padding: 1.1vh 1.5vw;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.55);
   font-family: 'Bangers', 'Arial Black', sans-serif;
   color: #000;
   line-height: 1.3;
   letter-spacing: 0.5px;
   text-align: left;
-  flex: 1 1 auto;
-  min-height: 0;
-  overflow: hidden;
+  flex: 0 0 auto;
 }
 .card h2 {
-  font-size: clamp(0.9rem, 1.6vw, 1.2rem);
-  margin-bottom: 0.5vh;
+  font-size: clamp(1rem, 1.8vw, 1.35rem);
+  margin-bottom: 0.6vh;
   color: #000;
   letter-spacing: 1px;
   text-align: center;
   border-bottom: 1px solid rgba(0,0,0,0.2);
-  padding-bottom: 0.4vh;
+  padding-bottom: 0.5vh;
 }
 .card .body p {
-  font-size: clamp(0.72rem, 1.05vw, 0.95rem);
-  margin-bottom: 0.35vh;
+  font-size: clamp(0.95rem, 1.45vw, 1.25rem);
+  margin-bottom: 0.5vh;
   opacity: 0;
   transform: translateY(8px);
   transition: opacity 600ms ease, transform 600ms ease;
@@ -637,13 +795,15 @@ html, body { height: 100%; width: 100%; overflow: hidden; background: #0a0a1a; c
 .buttons.shown { opacity: 1; }
 
 button.choice {
-  background: rgba(255,255,255,0.85);
+  background: rgba(255,255,255,0.6);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
   color: #000;
-  border: 2px solid #000;
+  border: 2px solid rgba(0,0,0,0.85);
   border-radius: 6px;
-  padding: 0.9vh 1.2vw;
+  padding: 1.1vh 1.4vw;
   font-family: 'Bangers', sans-serif;
-  font-size: clamp(0.78rem, 1.15vw, 1rem);
+  font-size: clamp(0.95rem, 1.35vw, 1.2rem);
   cursor: pointer;
   transition: all 150ms ease;
   min-width: 0;
@@ -651,6 +811,11 @@ button.choice {
   text-align: center;
   box-shadow: 0 4px 12px rgba(0,0,0,0.4);
   line-height: 1.2;
+}
+button.choice:hover {
+  background: rgba(255,255,255,0.92);
+  border-color: #000;
+  transform: scale(1.02);
 }
 button.choice:hover { background: #fff; transform: scale(1.03); }
 
@@ -869,6 +1034,9 @@ function renderSlide(slide) {
     if (bgImg) {
       div.classList.add('has-image');
       div.style.backgroundImage = `url('${bgImg}')`;
+      if (slide.bg_position) {
+        div.style.backgroundPosition = slide.bg_position;
+      }
     }
   }
 

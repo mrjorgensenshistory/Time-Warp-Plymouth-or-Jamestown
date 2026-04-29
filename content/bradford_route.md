@@ -152,7 +152,7 @@
 **Slide text overlay:** Cutscene card centered at top:55%.
 
 **Body text (small, beneath headline):**
-> The new archbishop is William Laud. The heat has not died down — it has been waiting.
+> Bancroft's pursuivants and the High Commission have been hunting Separatists for two years. The heat has not died down — it has been waiting for me to come home.
 > Brewster is arrested at the dock; I am arrested at my mother's gate. No Mayflower. No Plymouth.
 
 **Buttons:**
