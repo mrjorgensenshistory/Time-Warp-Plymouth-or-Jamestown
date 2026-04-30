@@ -55,30 +55,37 @@ CHARACTERS = {
         "default_bg": "images/smith/portrait_smith.jpg",
         # Per-slide period art covering all 27 narrative slides
         "slide_images": {
+            # Cold open + departure
             "slide_1": "images/smith/portrait_smith.jpg",
             "slide_2": "images/smith/ships_at_sea.jpg",
             "slide_3": "images/smith/jamestown_zuniga_1608.jpg",
-            "slide_4": "images/smith/jamestown_zuniga_1608.jpg",
-            "slide_5": "images/smith/first_contact.jpg",        # Decision 1: First Contact
-            "slide_6": "images/smith/smith_armed.jpg",          # Captured (Smith taken)
-            "slide_7": "images/smith/pocahontas_saves_smith.jpg", # The Rescue
-            "slide_8": "images/smith/jamestown_zuniga_1608.jpg",
+            "slide_4": "images/powhatan/english_ships_fleet.jpg",  # gentlemen disembarking
+            # First contact + capture (borrow Powhatan/Native scenes)
+            "slide_5": "images/smith/first_contact.jpg",
+            "slide_6": "images/powhatan/smith_captured_vaughan.jpg",
+            "slide_7": "images/smith/pocahontas_saves_smith.jpg",
+            "slide_8": "images/powhatan/smith_before_powhatan.jpg",
+            # Leadership
             "slide_9": "images/smith/portrait_smith.jpg",
-            "slide_10": "images/smith/portrait_smith.jpg",
-            "slide_11": "images/smith/first_contact.jpg",        # Opening trade
-            "slide_12": "images/smith/smith_armed.jpg",          # How Do I Get Corn (taking)
-            "slide_13": "images/smith/smith_armed.jpg",          # When Do We Strike
+            "slide_10": "images/powhatan/herowans_wife_white.jpg",  # gentlemen put to work
+            # Trade + raids
+            "slide_11": "images/powhatan/cooking_fish_white.jpg",
+            "slide_12": "images/powhatan/indians_fishing_white.jpg",
+            "slide_13": "images/smith/smith_armed.jpg",
             "slide_14": "images/smith/pocahontas_saves_smith.jpg",
-            "slide_15": "images/smith/first_contact.jpg",        # Trust Powhatan — diplomacy scene
-            "slide_16": "images/smith/powhatan_village.jpg",     # Warning in the Dark
-            "slide_17": "images/smith/ships_at_sea.jpg",
-            "slide_18": "images/smith/storm_chaos.jpg",          # Powder Bag
-            "slide_19": "images/smith/storm_chaos.jpg",          # The Burn
+            "slide_15": "images/smith/first_contact.jpg",
+            "slide_16": "images/powhatan/praying_around_fire.jpg",  # Warning in the Dark
+            "slide_17": "images/powhatan/how_they_build_boats.jpg",  # slipping out by morning
+            # Powder accident
+            "slide_18": "images/smith/storm_chaos.jpg",
+            "slide_19": "images/smith/storm_chaos.jpg",
+            # Return to England
             "slide_20": "images/smith/ships_at_sea.jpg",
             "slide_21": "images/smith/ships_at_sea.jpg",
+            # Starving Time epilogue
             "slide_22": "images/smith/starving_time_burial.jpg",
             "slide_23": "images/smith/starving_time_burial.jpg",
-            "slide_24": "images/smith/pocahontas_saves_smith.jpg",
+            "slide_24": "images/powhatan/pocahontas_van_de_passe.jpg",  # Pocahontas at court
             "slide_25": "images/smith/portrait_smith.jpg",
             "slide_26": "images/smith/portrait_smith.jpg",
             "slide_27": "images/smith/portrait_smith.jpg",
@@ -92,38 +99,45 @@ CHARACTERS = {
         "side": "jamestown",
         "hub_href": "index.html?back=1",
         "default_bg": "images/hub/jamestown_rolfe.jpg",
-        # Per-slide period art for Rolfe (45 slides covered)
+        # Expanded variety pulling from Powhatan's Jamestown-side image pool
         "slide_images": {
+            # Sea Venture, Bermuda
             "slide_1": "images/rolfe/ship_at_sea.jpg",
             "slide_2": "images/rolfe/ship_at_sea.jpg",
             "slide_3": "images/rolfe/ship_at_sea.jpg",
             "slide_4": "images/rolfe/ship_at_sea.jpg",
+            # Jamestown post-Starving-Time
             "slide_7": "images/rolfe/jamestown_setting.jpg",
-            "slide_8": "images/rolfe/jamestown_setting.jpg",
+            "slide_8": "images/smith/starving_time_burial.jpg",
             "slide_9": "images/rolfe/jamestown_setting.jpg",
             "slide_11": "images/rolfe/ship_at_sea.jpg",
-            "slide_13": "images/rolfe/jamestown_setting.jpg",
+            # Tobacco era
+            "slide_13": "images/powhatan/cooking_fish_white.jpg",  # local tobacco scene
             "slide_14": "images/rolfe/tobacco_rolfe_1874.jpg",
             "slide_15": "images/rolfe/tobacco_rolfe_1874.jpg",
             "slide_18": "images/rolfe/tobacco_rolfe_1874.jpg",
             "slide_19": "images/rolfe/jamestown_setting.jpg",
+            # Pocahontas era
             "slide_20": "images/rolfe/pocahontas_van_de_passe.jpg",
-            "slide_21": "images/rolfe/pocahontas_baptism.jpg",
+            "slide_21": "images/powhatan/abduction_pocahontas.jpg",  # Pocahontas captured
             "slide_23": "images/rolfe/pocahontas_baptism.jpg",
-            "slide_25": "images/rolfe/pocahontas_baptism.jpg",
+            "slide_25": "images/powhatan/marriage_pocahontas.jpg",  # the wedding itself
             "slide_26": "images/rolfe/portrait_marriage.jpg",
             "slide_29": "images/rolfe/ship_at_sea.jpg",
+            # England trip + Pocahontas death
             "slide_30": "images/rolfe/pocahontas_van_de_passe.jpg",
             "slide_31": "images/rolfe/pocahontas_van_de_passe.jpg",
             "slide_33": "images/rolfe/ship_at_sea.jpg",
+            # Plantation era + 1619
             "slide_34": "images/rolfe/tobacco_rolfe_1874.jpg",
             "slide_35": "images/rolfe/jamestown_setting.jpg",
             "slide_36": "images/rolfe/tobacco_rolfe_1874.jpg",
             "slide_37": "images/rolfe/jamestown_setting.jpg",
-            "slide_39": "images/rolfe/jamestown_setting.jpg",
+            "slide_39": "images/powhatan/herowans_wife_white.jpg",  # House of Burgesses scene
             "slide_40": "images/rolfe/tobacco_rolfe_1874.jpg",
+            # 1622 uprising + death
             "slide_41": "images/rolfe/jamestown_setting.jpg",
-            "slide_42": "images/rolfe/storm_at_sea.jpg",
+            "slide_42": "images/powhatan/massacre_1622_merian.jpg",  # actual 1622 uprising
             "slide_45": "images/rolfe/portrait_marriage.jpg",
         },
     },
