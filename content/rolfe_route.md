@@ -17,9 +17,9 @@
 **Slide text overlay:** Parchment ship's-log card, `IM Fell English` baked into the PNG.
 
 **Body text:**
-> My name is John Rolfe. I am twenty-four years old. I am sailing for Virginia.
+> My name is John Rolfe. I am twenty-four. I am sailing for Virginia.
 > My wife is with me. Our daughter is six months old.
-> The Virginia Company has paid our passage. I have read every book on tobacco I could find in London.
+> The Virginia Company paid our passage. I have read every book on tobacco I could find.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 2
@@ -34,7 +34,8 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> Eight weeks out from Plymouth, a hurricane hits. It lasts four days. The captain runs the ship aground on a reef in Bermuda to keep her from sinking.
+> Eight weeks out from Plymouth, a hurricane hits. It lasts four days.
+> The captain runs the ship aground on a Bermuda reef to keep her from sinking.
 > We are alive. The ship is broken in pieces on the rocks.
 
 **Buttons:**
@@ -50,8 +51,9 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> The ship will not last another tide. One boat, one hour of daylight. We cannot save everything in the hold.
-> The Company's cargo, the chapel silver, and the women's chests — I have to choose. The captain wants my answer.
+> The ship will not last another tide. One boat, one hour of daylight.
+> The Company's cargo, the chapel silver, the women's chests — I have to choose.
+> The captain wants my answer.
 
 **Buttons:**
 - `[SAVE THE CARGO. THE COMPANY PAID FOR IT.]` — advances to GAMEOVER F
@@ -68,10 +70,10 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> The women's chests come ashore. The men remember who chose them first. It does not save my own family.
-> Bermuda is empty of people. We build a smaller boat from the wreck of the larger one.
+> The women's chests come ashore. The men remember who chose first. It does not save my own family.
+> Bermuda is empty. We build a smaller boat from the wreck of the larger one.
 > My daughter dies first. Fever takes her in a week. We bury her under the palmettos.
-> My wife dies in the spring. I am a widower at twenty-five and I have not yet seen Virginia.
+> My wife dies in the spring. I am a widower at twenty-five. I have not yet seen Virginia.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 5
@@ -86,9 +88,10 @@
 **Slide text overlay:** None — full-bleed cutscene.
 
 **Body text (small caption, Share Tech):**
-> I order the men to row for the bolts of cloth and the iron tools. Three women drown reaching for the chests. The Sea Venture survivors split into factions on Bermuda within weeks.
-> The mutiny histories of 1609-10 are real — Sir Thomas Gates barely held the castaways together. Lose the moral authority of saving women and children first, and the camp fractures. Two of the actual Bermuda mutineers were executed; a fractured camp would have killed more.
-> Real history: the Sea Venture survivors became Shakespeare's *Tempest* because they kept their humanity intact. Choose cargo, and there is no Deliverance, no Patience, no rescue voyage to Jamestown.
+> I row for the cloth and iron tools. Three women drown reaching for the chests.
+> The survivors split into factions on Bermuda within weeks.
+> Sir Thomas Gates barely held the castaways together. Two real mutineers were executed.
+> Real history: the Sea Venture survivors inspired Shakespeare's *Tempest*. Choose cargo, and there is no Deliverance, no rescue voyage to Jamestown.
 
 **Buttons (centered top:55%):**
 - `[TRY AGAIN →]` — returns to Slide 3
@@ -104,9 +107,10 @@
 **Slide text overlay:** None — full-bleed.
 
 **Body text (small caption, Share Tech):**
-> I order the chapel silver hauled to shore first. Two children's trunks do not make it. The Reverend Bucke says nothing; the mothers say everything.
-> By the time the Deliverance reaches Jamestown ten months later, my reputation is fixed. The Virginia Company does not give plantation grants to men the colonists distrust. I am posted to an outlying fort and never plant a seed.
-> Real history: the early Virginia colony ran on social capital as much as gunpowder. Reputation, in a fort of sixty starving men, decided who got land, who got tools, and who got buried first.
+> I haul the chapel silver to shore first. Two children's trunks do not make it.
+> By the time we reach Jamestown ten months later, my reputation is fixed.
+> The Company does not give plantation grants to men colonists distrust. I never plant a seed.
+> Real history: early Virginia ran on social capital as much as gunpowder. Reputation decided who got land and who got buried first.
 
 **Buttons (centered top:55%):**
 - `[TRY AGAIN →]` — returns to Slide 3
@@ -122,9 +126,9 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> Ten months later, we finish the smaller boat and sail north.
-> We sail the last six hundred miles to Virginia.
-> Jamestown is a starved fort on a swamp. Of the five hundred colonists who lived here last autumn, sixty are still breathing.
+> Ten months later we finish the smaller boat and sail the last six hundred miles to Virginia.
+> Jamestown is a starved fort on a swamp.
+> Of the five hundred colonists who lived here last autumn, sixty are still breathing.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 8
@@ -139,9 +143,9 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> They call it the Starving Time. Eighty out of every hundred dead between October and March.
+> They call it the Starving Time. Eighty of every hundred dead between October and March.
 > They ate the horses first. Then the dogs. Then the rats. Then the leather of their own boots.
-> What they did at the end of that winter is why no one in this fort looks me in the eye.
+> What they did at the end of that winter is why no one looks me in the eye.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 9
@@ -156,8 +160,10 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> The governor offers me a plot of land if I stay. The trader offers corn for my tools and passage to England. The sailor can put me on De La Warr's ship if I go quietly.
-> One of these answers builds a colony. Two of them get me home.
+> The governor offers me land if I stay.
+> The trader offers corn for my tools and passage to England.
+> The sailor can put me on De La Warr's ship if I go quietly.
+> One answer builds a colony. Two get me home.
 
 **Buttons:**
 - `[STAY WITH THE COLONY. KEEP THE TOOLS.]` — advances to Slide 10
@@ -174,9 +180,10 @@
 **Slide text overlay:** None — full-bleed.
 
 **Body text (small caption, Share Tech):**
-> I trade my tools for corn and a berth back to England in autumn 1610. The Virginia colony enters the Starving Time's second winter without iron implements — no hoes, no axes, no plows.
-> Tools were the bottleneck, not seed. England's smiths could not resupply the colony fast enough; existing iron in the fort had to be hoarded. Without my crate, fifty more men die that winter.
-> Real history: no other planter in Jamestown knew the Spanish tobacco trade. The cross-breed that saved Virginia required someone who had read Spanish horticultural texts in London. That window — 1610 to 1612 — closes if I leave, and the colony is dissolved before another such planter arrives.
+> I trade my tools for corn and a berth back to England in autumn 1610.
+> The colony enters the next winter without iron — no hoes, no axes, no plows.
+> Without my crate, fifty more men die. The 1610–1612 window for tobacco closes.
+> Real history: no other Jamestown planter knew the Spanish tobacco trade. The cross-breed that saved Virginia required someone who had read Spanish horticultural texts.
 
 **Buttons (centered top:55%):**
 - `[TRY AGAIN →]` — returns to Slide 9
@@ -192,9 +199,10 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> I take the land grant. The tools stay with me. Two weeks later the new governor announces the colony is finished anyway.
-> The new governor orders the colony abandoned. We board the ship and sail downriver toward home.
-> Three miles before the bay, a ship comes the other way. It is Lord De La Warr with three hundred fresh men and a hold full of food. He turns us around.
+> I take the land grant. Two weeks later the new governor orders the colony abandoned.
+> We board the ship and sail downriver toward home.
+> Three miles before the bay, a ship comes the other way. Lord De La Warr — three hundred fresh men, food.
+> He turns us around.
 
 **Buttons:**
 - `[GO HOME — VIRGINIA IS A GRAVEYARD]` — advances to GAMEOVER A
@@ -210,9 +218,10 @@
 **Slide text overlay:** None — full-bleed cutscene.
 
 **Body text (small caption under the GIF, Share Tech):**
-> I refuse to turn around. We sail past De La Warr's relief fleet and keep going east. Virginia is abandoned in the summer of 1610.
-> Without an English foothold on the Chesapeake, the Spanish — already raiding from Florida — claim the bay within a decade. The cash-crop tobacco economy is never invented here. The first elected assembly in English America never meets.
-> Real history: De La Warr's relief in June 1610 was the single thread that kept Virginia alive. Pull it, and English North America starts a generation later, somewhere else, under a different flag.
+> I refuse to turn around. We sail past De La Warr's fleet and keep going east.
+> Virginia is abandoned in summer 1610. The Spanish claim the bay within a decade.
+> The cash-crop tobacco economy is never invented. The first elected assembly never meets.
+> Real history: De La Warr's June 1610 relief was the single thread that kept Virginia alive. Pull it, and English North America starts a generation later under a different flag.
 
 **Buttons (centered top:55%):**
 - `[TRY AGAIN →]` — returns to Slide 11
@@ -228,10 +237,10 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> We turn back with De La Warr. The fort is fed. A year passes. I walk the riverbank with a satchel and look at the dirt.
-> The Company expects gold. There is no gold here, no silver, no Aztec cities to plunder.
+> We turn back with De La Warr. The fort is fed. A year passes.
+> The Company expects gold. There is no gold here, no silver, no Aztec cities.
 > What there is, is land. Black soil along the river bottoms.
-> I am a planter. I look at this dirt and I see something the Company cannot see yet.
+> I am a planter. I see something the Company cannot see yet.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 14
@@ -246,8 +255,9 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> The Powhatan have grown tobacco for centuries. Captain Smith shipped some back to London. The merchants tasted it once and refused a second crate.
-> The local strain is harsh. Englishmen will not pay for it. The Company is angry. The colony is broke.
+> The Powhatan have grown tobacco for centuries. Captain Smith shipped some to London.
+> The merchants tasted it once and refused a second crate.
+> The local strain is harsh. Englishmen will not pay. The Company is angry. The colony is broke.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 15
@@ -262,9 +272,10 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> A merchant tells me about Trinidad. The Spanish grow a sweet tobacco there. London merchants will buy it as fast as it comes off the docks.
-> Spain protects the seeds — it is a hanging offense to smuggle them. A sailor will get me a packet for twenty shillings.
-> The Company would rather I plant wheat or barley. The Powhatan strain is legal. The Spanish seeds are the gamble.
+> A merchant tells me about Trinidad. The Spanish grow a sweet tobacco there.
+> London merchants will buy it as fast as it comes off the docks.
+> Spain protects the seeds — smuggling them is a hanging offense. A sailor will sell a packet for twenty shillings.
+> The Company would rather I plant wheat. The Spanish seeds are the gamble.
 
 **Buttons:**
 - `[BUY THE SPANISH SEEDS. PLANT IN SECRET.]` — advances to Slide 17
@@ -281,9 +292,10 @@
 **Slide text overlay:** None — full-bleed.
 
 **Body text (small caption, Share Tech):**
-> I plant the wheat and barley I learned at home. The Tidewater summer is too hot and humid for English grain — the wheat rusts, the barley rots, the deer take the rest.
-> The Powhatan grew maize for a reason: it is the only cereal that thrives in this soil and climate. English crops failed across the early Chesapeake — Maryland, Virginia, Carolina all learned this lesson the hard way.
-> Real history: subsistence farming kept colonies alive, but only an export crop kept investors paying. Without tobacco, the Virginia Company's 1624 dissolution comes a decade earlier. The colony reverts to a fishing-and-trading outpost, never a settlement society.
+> I plant the wheat and barley I learned at home. The Tidewater summer is too hot for English grain.
+> The wheat rusts, the barley rots, the deer take the rest.
+> The Powhatan grew maize because it is the only cereal that thrives in this soil.
+> Real history: only an export crop kept investors paying. Without tobacco, the Company dissolves a decade early. The colony never becomes a settlement society.
 
 **Buttons (centered top:55%):**
 - `[TRY AGAIN →]` — returns to Slide 15
@@ -299,9 +311,10 @@
 **Slide text overlay:** None — full-bleed.
 
 **Body text (small caption, Share Tech):**
-> I plant the local *Nicotiana rustica*. The leaves are harsh — too bitter for English palates. London merchants refuse the second shipment, just as they refused John Smith's barrel in 1609.
-> Without a sweet, marketable strain, the Virginia Company's investors pull out. The colony has no export, no revenue, no reason for England to keep paying passage.
-> Real history: it was specifically the *Nicotiana tabacum* seed I smuggled from Trinidad — crossbred with the local plant — that saved Virginia. Legal compliance without innovation kills the colony by 1616.
+> I plant the local *Nicotiana rustica*. The leaves are too bitter for English palates.
+> London merchants refuse the second shipment, just as they refused Smith's barrel in 1609.
+> Without a marketable strain, investors pull out. The colony has no export, no reason for passage.
+> Real history: the *Nicotiana tabacum* seed smuggled from Trinidad — crossbred with the local plant — saved Virginia. Legal compliance without innovation kills the colony by 1616.
 
 **Buttons:**
 - `[TRY AGAIN →]` — returns to Slide 15
@@ -317,9 +330,13 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> I plant the Spanish seeds and crossbreed them with the local strain — local plants are hardier in this soil; Spanish leaves are sweeter on the tongue.
+> I plant the Spanish seeds and crossbreed with the local strain.
+> Local plants are hardier in this soil. Spanish leaves are sweeter on the tongue.
 > The first harvest comes in. It smells like sugar and pine.
-> I send a single barrel back to England on the next ship and I wait.
+> I send a single barrel back to England and I wait.
+
+**KEY TERMS:**
+- **Cash Crop** — A crop grown for sale and export, not for the farmer's own food. Rolfe's sweet Virginia tobacco (1612) became Jamestown's cash crop and saved the colony.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 19
@@ -334,9 +351,9 @@
 **Slide text overlay:** Parchment ship's-log card with the letter visible.
 
 **Body text:**
-> The reply comes back the next year. London paid three shillings a pound. They want every leaf we can grow.
-> The Company is sending more ships, more men, more seed.
-> I have saved the colony. I am twenty-nine years old. I am still a widower.
+> The reply comes the next year. London paid three shillings a pound.
+> They want every leaf we can grow. The Company is sending more ships, more men, more seed.
+> I have saved the colony. I am twenty-nine. I am still a widower.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 20
@@ -351,8 +368,9 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> Her name is Matoaka. The English call her Pocahontas. She is the daughter of the chief of the Powhatan Confederacy.
-> Last year the colonists kidnapped her as a bargaining chip against her father. They have taught her English and baptized her Rebecca.
+> Her name is Matoaka. The English call her Pocahontas. She is the chief's daughter.
+> Last year the colonists kidnapped her as a bargaining chip against her father.
+> They taught her English and baptized her Rebecca.
 > I have spoken with her three times. She knows exactly what has been done to her.
 
 **Buttons:**
@@ -368,8 +386,9 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> I am twenty-eight. She is nineteen. The minister and the governor are both asking me what my intentions are.
-> I can court her as a wife, asking her permission at each step. I can present a marriage as pure diplomacy. I can refuse and leave her at Henrico.
+> I am twenty-eight. She is nineteen. The governor is asking my intentions.
+> I can court her as a wife, asking her permission at each step.
+> I can present a marriage as pure diplomacy. Or refuse and leave her at Henrico.
 > Only one of these is true.
 
 **Buttons:**
@@ -387,9 +406,10 @@
 **Slide text overlay:** None — full-bleed.
 
 **Body text (small caption, Share Tech):**
-> I refused. Pocahontas stayed in English captivity, unmarried, at Henrico. Without the marriage, the First Anglo-Powhatan War — running since 1610 — never ended.
-> The English burn through three more years of corn-raids before Powhatan finally accepts a hostile peace. The colony loses tobacco productivity for two seasons. I die in a stockade fight in 1616.
-> Real history: the 1614 marriage produced 8 years of peace — the only peaceful interval in Jamestown's first 30 years. That window is when the cash-crop economy actually rooted. Skip the marriage, skip the window.
+> I refused. Pocahontas stayed in captivity at Henrico, unmarried.
+> Without the marriage, the First Anglo-Powhatan War never ended.
+> Three more years of corn-raids. I die in a stockade fight in 1616.
+> Real history: the 1614 marriage produced 8 years of peace — the only peaceful interval in Jamestown's first 30 years. Skip the marriage, skip the window when tobacco rooted.
 
 **Buttons (centered top:55%):**
 - `[TRY AGAIN →]` — returns to Slide 21
@@ -407,8 +427,9 @@
 **Body text:**
 > She has said yes.
 > I am writing the governor to ask permission to marry her.
-> I tell him this is a peace settlement — a marriage between our peoples will end the wars on the river.
-> That is half the truth. The other half is that I have come to know her, and I love her, and I do not know which half is bigger.
+> I tell him this is a peace settlement — a marriage that will end the wars on the river.
+> That is half the truth. The other half is that I love her.
+> I do not know which half is bigger.
 
 **Buttons:**
 - `[BE HONEST. WRITE BOTH HALVES OF THE TRUTH.]` — advances to Slide 25
@@ -424,9 +445,10 @@
 **Slide text overlay:** None — full-bleed.
 
 **Body text (small caption, Share Tech):**
-> I write the marriage as cold strategy. Powhatan diplomacy reads people closely — within a year the chief sees his daughter is being displayed, not loved. He withdraws the peace.
-> The First Anglo-Powhatan War resumes. The tobacco harvest is interrupted by raids two seasons running. I die in a stockade fight in 1617.
-> Real history: the 1614 marriage worked precisely because both sides believed it was real. Diplomatic marriages without genuine commitment failed across the colonial period — Powhatan, like every leader, watched how his kin were actually treated.
+> I write the marriage as cold strategy.
+> Within a year the chief sees his daughter is being displayed, not loved. He withdraws the peace.
+> The war resumes. Raids interrupt the tobacco harvest. I die in a stockade fight in 1617.
+> Real history: the 1614 marriage worked because both sides believed it was real. Diplomatic marriages without genuine commitment failed across the colonial period.
 
 **Buttons:**
 - `[TRY AGAIN →]` — returns to Slide 23
@@ -442,9 +464,9 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> We are married in April. She wears a white dress and her own woven belt. Her uncle stands witness for her side.
-> The wars on the river stop. The tobacco harvest doubles. They call it the Peace of Pocahontas.
-> Our son is born the next year. We name him Thomas.
+> We are married in April. She wears a white dress and her own woven belt.
+> Her uncle stands witness. The wars on the river stop. The tobacco harvest doubles.
+> They call it the Peace of Pocahontas. Our son is born the next year. We name him Thomas.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 26
@@ -460,9 +482,9 @@
 
 **Body text:**
 > Thomas is one. The crop is in its third doubled year. A letter arrives from London.
-> The Company wants my wife in London — proof to the investors that the colony is civilized.
-> She will go if I go. She wants Thomas to see the country his father came from.
-> I can present her at court, keep her private, or refuse the trip entirely.
+> The Company wants my wife in London — proof the colony is civilized.
+> She will go if I go. She wants Thomas to see his father's country.
+> Present her at court, keep her private, or refuse the trip.
 
 **Buttons:**
 - `[GO. PRESENT HER AT COURT WITH THE COMPANY.]` — advances to Slide 28
@@ -479,9 +501,10 @@
 **Slide text overlay:** None — full-bleed.
 
 **Body text (small caption, Share Tech):**
-> I write back to the Company that we will not be coming. The investors take it personally — they had already printed the broadsides advertising "the Indian Princess in London." The shareholders pull their money.
-> The 1616 stock subscription was the Company's last major capital raise. Without Pocahontas's court appearance, there is no Sandys reform of 1618, no Headright system, no Great Migration. The colony survives but does not grow.
-> Real history: refusing a politically required appearance broke careers throughout the early modern period. The Company strips my contract within the year. I die in 1622 with debts I cannot pay, and Pocahontas dies of an English fever brought home by a returning sailor — the disease environment reached Virginia regardless.
+> I refuse the trip. The investors had already printed broadsides advertising "the Indian Princess in London."
+> Shareholders pull their money. The 1616 stock subscription collapses.
+> No Sandys reforms, no Headright system, no Great Migration. The colony survives but does not grow.
+> Real history: the Company strips my contract. I die in 1622 with debts. Pocahontas dies of an English fever brought home by a sailor anyway.
 
 **Buttons (centered top:55%):**
 - `[TRY AGAIN →]` — returns to Slide 26
@@ -497,9 +520,10 @@
 **Slide text overlay:** None — full-bleed.
 
 **Body text (small caption, Share Tech):**
-> We sail to England. I refuse the Company's court presentation and keep Pocahontas in the Norfolk countryside. The investors funded the voyage specifically for the propaganda — without it, the 1616 stock subscription collapses.
-> The Virginia Company depended on London publicity to attract new investors and settlers. Pocahontas's court appearance — meeting King James, sitting for the Van de Passe portrait — was the marketing campaign that funded the next wave of colonists.
-> Real history: deny the Company its show, and the 1618 Great Migration of 4,000 settlers does not happen. The colony stalls at a few hundred souls. Pocahontas dies of pneumonia in Norfolk all the same — the English disease environment killed her, not the parade.
+> We sail to England. I keep Pocahontas in Norfolk and refuse the Company's court presentation.
+> The investors funded the voyage for the propaganda. Without it, the 1616 subscription collapses.
+> Pocahontas's court appearance was the marketing that funded the next wave of colonists.
+> Real history: without the show, the 1618 Great Migration of 4,000 settlers never happens. Pocahontas dies of pneumonia anyway — the English disease killed her, not the parade.
 
 **Buttons (centered top:55%):**
 - `[TRY AGAIN →]` — returns to Slide 26
@@ -516,7 +540,8 @@
 
 **Body text:**
 > We sail. The Company has its parade.
-> We board the ship. I look back at the fort once. I do not know it is the last time I will see her.
+> I look back at the fort once.
+> I do not know it is the last time I will see her.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 30
@@ -531,9 +556,10 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> London is loud and dirty and cold. The court treats my wife like a curiosity from a traveling fair.
-> She charms King James. She speaks better English than half the lords. She watches them watching her.
-> One night she tells me she misses the river. I tell her we will sail home in the spring. She nods. She does not say anything else.
+> London is loud and dirty. The court treats my wife like a curiosity from a fair.
+> She charms King James. She speaks better English than half the lords.
+> She watches them watching her.
+> One night she tells me she misses the river. I tell her we will sail home in the spring. She nods.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 31
@@ -548,9 +574,10 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> She falls ill the morning we are meant to board the ship. The captain holds the tide for two days. By the third day she is gone.
-> Pocahontas — Matoaka — Rebecca — is buried in the churchyard at Gravesend. She is twenty-one years old.
-> Thomas is two. His grandmother in England wants to keep him. The Virginia ship will not wait another week.
+> She falls ill the morning we are meant to board. The captain holds the tide two days.
+> By the third day she is gone.
+> Pocahontas — Matoaka — Rebecca — is buried at Gravesend. She is twenty-one.
+> Thomas is two. His grandmother wants to keep him. The Virginia ship will not wait.
 
 **Buttons:**
 - `[LEAVE THOMAS WITH HIS GRANDMOTHER. SAIL HOME.]` — advances to Slide 33
@@ -566,9 +593,10 @@
 **Slide text overlay:** None — full-bleed.
 
 **Body text (small caption, Share Tech):**
-> I stay in England with Thomas. I take a clerk's job in London. The Virginia Company's charter requires resident planters — my plantation is reassigned within a year.
-> Without my hand on the cross-bred tobacco, the strain drifts. Other planters guard their own seed lines. The export quality dips for a decade.
-> Real history: I died in 1622 anyway, in Virginia, at thirty-seven. Staying in England would have spared me the uprising — but Thomas Rolfe's eventual return to Virginia in 1635 (which seeded a documented Powhatan-English bloodline) requires a father with land to inherit. Stay in England, and that bridge closes.
+> I stay in England with Thomas. I take a clerk's job. My plantation is reassigned.
+> Without my hand on the tobacco, the strain drifts. Export quality dips for a decade.
+> Real history: I died at thirty-seven in 1622 anyway. Staying spares me the uprising.
+> But Thomas's eventual return to Virginia in 1635 — which seeded a documented Powhatan-English bloodline — needs a father with land to inherit. Stay, and that bridge closes.
 
 **Buttons:**
 - `[TRY AGAIN →]` — returns to Slide 31
@@ -584,9 +612,10 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> I leave Thomas with his grandmother in Plymouth, England. He will be raised by his grandfather's people. I tell him I will come back for him. I do not know if I am lying.
+> I leave Thomas with his grandmother in Plymouth, England.
+> I tell him I will come back. I do not know if I am lying.
 > The voyage takes seven weeks. I do not write in my log for any of it.
-> When the river opens up in front of me again I find I have nothing to say.
+> When the river opens in front of me again I have nothing to say.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 34
@@ -601,9 +630,13 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> Tobacco needs hands. More hands than the colony has.
-> The Company sends indentured servants from England — young men who sign seven-year contracts in exchange for passage. They work the leaves. Many of them die before their contract ends.
-> The harvest doubles every year. London cannot get enough of it. The Company writes to me asking how soon we can triple again.
+> Tobacco needs hands. More than the colony has.
+> The Company sends indentured servants — young men who sign seven-year contracts for passage.
+> They work the leaves. Many die before their contract ends.
+> The harvest doubles every year. The Company writes asking how soon we can triple.
+
+**KEY TERMS:**
+- **Headright System** — Virginia gave 50 acres of land to anyone who paid for a settler's passage. This rewarded big landowners and built the tobacco-plantation economy.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 35
@@ -618,9 +651,10 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> A Dutch warship pulls into the harbor in August. The captain has captured a Portuguese slave ship at sea. He needs to sell his cargo for food and water before he sails north.
-> He calls them "twenty and odd Negroes." That is the phrase I write in my own letter to the Company. I do not yet have another phrase for it.
-> The ship's master and the colony's wealthier planters meet him at the dock. They pay in tobacco. The Africans are walked into the colony.
+> A Dutch warship pulls in. The captain captured a Portuguese slave ship at sea.
+> He needs to sell his cargo for food and water before sailing north.
+> He calls them "twenty and odd Negroes." That is the phrase I write to the Company. I have no other.
+> The wealthier planters pay in tobacco. The Africans are walked into the colony.
 
 **Buttons:**
 - `[STAY SILENT. RECORD THE TRANSACTION IN MY LETTER.]` — advances to Slide 36
@@ -637,9 +671,10 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> Other men sign for them. I do not. I write the letter and keep my own ledger clean — for now.
-> The colony writes the Africans into its labor records as if they are indentured like the English servants. Some of them work off a term and are released. Most are not. The records become less and less clear over the next ten years. By the time the law catches up to the practice, the practice has set.
-> Tobacco needs hands. England cannot send enough. The Africans are not arriving by Company plan — but the Company keeps the system that demanded them.
+> Other men sign for them. I do not. I keep my ledger clean — for now.
+> The colony writes the Africans into its records as indentured like the English servants.
+> Some work off a term and are released. Most are not. By the time the law catches up, the practice has set.
+> Tobacco needs hands. England cannot send enough.
 > I count the bundles. I keep my hands working.
 
 **Buttons:**
@@ -655,9 +690,11 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> I sign for three of them. The Virginia statute treats them as indentured at this date. The clerk writes their names — Antonio, Isabella, John — in the same column as the English servants from the last ship.
-> Some of the men who buy alongside me will hold their workers past the end of any term. Some will not. The law is not yet decided. The practice is what becomes the law.
-> I plant the next crop. The bundles ship out faster than they did last year.
+> I sign for three. The statute treats them as indentured at this date.
+> The clerk writes their names — Antonio, Isabella, John — beside the English servants.
+> Some men who buy alongside me will hold their workers past any term. Some will not.
+> The law is not yet decided. The practice becomes the law.
+> I plant the next crop. The bundles ship faster than last year.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 38
@@ -672,9 +709,11 @@
 **Slide text overlay:** None — full-bleed.
 
 **Body text (small caption, Share Tech):**
-> I spoke out alone, on the dock, with no allies and no plan. The Virginia Company has me on a returning ship within the month.
-> The system that demanded enslaved labor needed organized resistance — abolition movements, legislation, decades of moral pressure. One man's outrage in 1619 changes nothing.
-> Real history: the slavery economy in Virginia took 200 years to dismantle. Speaking truth without a coalition is courage; it is not a strategy.
+> I spoke out alone on the dock, no allies, no plan.
+> The Company has me on a returning ship within the month.
+> The system needed organized resistance — abolition, legislation, decades of moral pressure.
+> One man's outrage in 1619 changes nothing.
+> Real history: Virginia slavery took 200 years to dismantle. Truth without a coalition is courage, not strategy.
 
 **Buttons:**
 - `[TRY AGAIN →]` — returns to Slide 35
@@ -690,9 +729,14 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> The same summer the Dutch ship lands, twenty-two of us meet in the church and form the first elected assembly in any English colony in the new world.
-> We pass laws on tobacco prices. On drunkenness. On church attendance. On servant contracts.
-> We do not pass any law on the twenty Africans. We do not yet know what to call what we have done. The silence in the records is its own kind of answer.
+> The same summer the Dutch ship lands, twenty-two of us form the first elected assembly in English America.
+> We pass laws on tobacco prices, drunkenness, church attendance, servant contracts.
+> We do not pass any law on the twenty Africans. We do not yet know what to call what we have done.
+> The silence in the records is its own answer.
+
+**KEY TERMS:**
+- **House of Burgesses** — The first elected legislative assembly in the English colonies, founded in Jamestown in July 1619. Only landowning men could vote. The seed of representative government in what becomes the United States.
+- **1619 — Two Histories** — In August 1619, the first 20+ enslaved Africans arrived in Virginia aboard the *White Lion*. The same year and place that gave us the House of Burgesses also began African chattel slavery in English North America.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 40
@@ -707,9 +751,10 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> The years pass. I marry a third time — Jane Pierce, an English woman from Virginia. We have a daughter. I name her Elizabeth.
-> The plantation grows. The labor force grows with it. Ships from England come weekly now.
-> Up north, I hear, another colony has landed at a place called Plymouth. They are religious people. They are not after profit. I do not know any of them. I send my regards through a passing trader and never hear back.
+> The years pass. I marry a third time — Jane Pierce. We have a daughter, Elizabeth.
+> The plantation grows. The labor force grows with it. Ships from England come weekly.
+> Up north, another colony has landed at Plymouth. They are religious people, not after profit.
+> I send my regards through a passing trader and never hear back.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 41
@@ -725,9 +770,10 @@
 
 **Body text:**
 > Three quiet years. Then a quiet morning.
-> Pocahontas's uncle Opechancanough is the chief now. Her father died four years ago. The peace died with him.
-> The new chief has watched the English fields creep upriver every season. He has watched his people get sick from English diseases. He has watched the tobacco take the soil his people used to plant in.
-> On a quiet morning in March, his warriors walk into every English settlement at once. Three hundred and forty-seven of us are killed in a single day.
+> Pocahontas's uncle Opechancanough is chief now. Her father died four years ago.
+> He has watched the English fields creep upriver, his people sicken, his soil swallowed by tobacco.
+> His warriors walk into every English settlement at once.
+> Three hundred and forty-seven of us are killed in a single day.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 42
@@ -742,9 +788,10 @@
 **Slide text overlay:** Parchment ship's-log card.
 
 **Body text:**
-> The neighbor tells me the closest fort is four miles upriver. The closest enemy is half a mile down the road. There are five able-bodied men on this plantation including me.
-> Jane is asking me what we do. Elizabeth is two years old.
-> I can stay and defend the house. I can run for the fort with the family and abandon the plantation. I can ride out and try to fight back alongside the militia downriver.
+> Closest fort is four miles upriver. Closest enemy is half a mile down the road.
+> Five able-bodied men on this plantation, including me.
+> Jane is asking what we do. Elizabeth is two years old.
+> Stay and defend. Run for the fort. Or ride out with the militia.
 
 **Buttons:**
 - `[STAY AT THE PLANTATION. DEFEND THE HOUSE.]` — advances to GAMEOVER M
@@ -761,9 +808,11 @@
 **Slide text overlay:** None — full-bleed.
 
 **Body text (small caption, Share Tech):**
-> I bar the doors. I load every gun in the house. The five of us stand a watch through the night. The Powhatan warriors arrive at dawn — but they know our fenceline. They have eaten at our table. Five men cannot hold five hundred yards.
-> The 1622 uprising killed 347 English in a single morning — about a third of the colony. The plantations that survived were the ones inside palisaded forts or with running-distance to one. Isolated houses on the upriver fringe — like mine — were the easiest targets and lost the highest percentage.
-> Real history: of the named planters who chose to stand at their plantations rather than retreat, almost none survived. Opechancanough's plan worked because the English had spread themselves too thin chasing tobacco land. The chronicle ends in my own kitchen.
+> I bar the doors. The five of us stand watch.
+> The warriors arrive at dawn. They know our fenceline. They have eaten at our table.
+> Five men cannot hold five hundred yards.
+> The 1622 uprising killed 347 English in a morning. Isolated houses lost the highest percentage.
+> Real history: planters who stood at their plantations almost never survived. The English had spread too thin chasing tobacco land.
 
 **Buttons (centered top:55%):**
 - `[TRY AGAIN →]` — returns to Slide 42
@@ -779,9 +828,11 @@
 **Slide text overlay:** None — full-bleed.
 
 **Body text (small caption, Share Tech):**
-> I leave Jane and Elizabeth with the overseer and ride downriver to find the militia. The road closes behind me within the mile — Opechancanough planned the uprising as a coordinated strike, not a running battle.
-> The English militia system in 1622 had no central command, no warning network, no rally point. By the time I reached the next plantation it was already burning. Jane reaches the fort with Elizabeth; I am cut off and killed on the road.
-> Real history: the 1622 colonists who survived did so by moving toward fortified positions immediately, not by trying to fight back. Counter-attacks that day were uniformly fatal. Organized English retaliation took weeks — too late for the men who rode out alone on the first morning.
+> I leave Jane and Elizabeth with the overseer and ride for the militia.
+> The road closes behind me within a mile. Opechancanough planned a coordinated strike.
+> The militia had no central command, no warning network, no rally point.
+> Jane reaches the fort. I am cut off and killed on the road.
+> Real history: 1622 survivors moved to fortified positions immediately. Counter-attacks that day were uniformly fatal.
 
 **Buttons (centered top:55%):**
 - `[TRY AGAIN →]` — returns to Slide 42
@@ -797,10 +848,11 @@
 **Slide text overlay:** Parchment ship's-log card. Final card of the route.
 
 **Body text:**
-> We make the fort by nightfall. Most of my neighbors do not. Three hundred and forty-seven English are dead by morning across the colony. The plantation can be rebuilt; the people cannot.
-> The records do not agree on whether the uprising kills me directly or whether I die of fever a few weeks before. Either way, the chronicle ends here.
-> I leave behind a son in England, a daughter in Virginia, a third wife in mourning, and a plantation that will outlast all of us by two hundred and fifty years.
-> The cash crop I planted will feed the colony, then the country, then a war over who is forced to grow it. I did not plan that part. I planted the seeds. The leaves came up sweeter than the local kind. The rest is the consequence.
+> We make the fort by nightfall. Most of my neighbors do not.
+> Three hundred and forty-seven English are dead by morning. The records disagree on whether the uprising kills me or fever a few weeks before.
+> I leave a son in England, a daughter in Virginia, a third wife in mourning, and a plantation that will outlast all of us by 250 years.
+> The cash crop I planted will feed the colony, then the country, then a war over who is forced to grow it.
+> I planted the seeds. The leaves came up sweeter. The rest is the consequence.
 
 **Buttons (centered top:55%):**
 - `[→ SEE WHAT REALLY HAPPENED]` — opens epilogue / "what really happened" page (factual end-card)

@@ -59,15 +59,15 @@ CHARACTERS = {
             "slide_1": "images/smith/portrait_smith.jpg",
             "slide_2": "images/smith/ships_at_sea.jpg",
             "slide_3": "images/smith/jamestown_zuniga_1608.jpg",
-            "slide_4": "images/powhatan/english_ships_fleet.jpg",  # gentlemen disembarking
+            "slide_4": "images/smith/jamestown_ships_replica.jpg",  # gentlemen disembarking
             # First contact + capture (borrow Powhatan/Native scenes)
             "slide_5": "images/smith/first_contact.jpg",
             "slide_6": "images/powhatan/smith_captured_vaughan.jpg",
             "slide_7": "images/smith/pocahontas_saves_smith.jpg",
             "slide_8": "images/powhatan/smith_before_powhatan.jpg",
-            # Leadership
-            "slide_9": "images/smith/portrait_smith.jpg",
-            "slide_10": "images/powhatan/herowans_wife_white.jpg",  # gentlemen put to work
+            # Leadership at the fort
+            "slide_9": "images/smith/jamestown_fort_interior.jpg",
+            "slide_10": "images/smith/jamestown_barracks_reconstruction.jpg",  # gentlemen put to work
             # Trade + raids
             "slide_11": "images/powhatan/cooking_fish_white.jpg",
             "slide_12": "images/powhatan/indians_fishing_white.jpg",
@@ -78,16 +78,16 @@ CHARACTERS = {
             "slide_17": "images/powhatan/how_they_build_boats.jpg",  # slipping out by morning
             # Powder accident
             "slide_18": "images/smith/storm_chaos.jpg",
-            "slide_19": "images/smith/storm_chaos.jpg",
+            "slide_19": "images/smith/jamestown_barracks_reconstruction.jpg",  # back at the fort, wounded
             # Return to England
             "slide_20": "images/smith/ships_at_sea.jpg",
             "slide_21": "images/smith/ships_at_sea.jpg",
             # Starving Time epilogue
             "slide_22": "images/smith/starving_time_burial.jpg",
-            "slide_23": "images/smith/starving_time_burial.jpg",
+            "slide_23": "images/smith/jamestown_recreated_house.jpg",  # the colony itself, stripped bare
             "slide_24": "images/powhatan/pocahontas_van_de_passe.jpg",  # Pocahontas at court
-            "slide_25": "images/smith/portrait_smith.jpg",
-            "slide_26": "images/smith/portrait_smith.jpg",
+            "slide_25": "images/smith/jamestown_fort_interior.jpg",
+            "slide_26": "images/smith/jamestown_recreated_house.jpg",
             "slide_27": "images/smith/portrait_smith.jpg",
         },
     },
@@ -325,6 +325,49 @@ CHARACTERS = {
             "slide_38": "images/squanto/pomeiock-village-bry.jpg",
         },
     },
+    "chilton_route": {
+        "title": "Mary Chilton — Plymouth",
+        "color": "#4a3a5a",  # dusky violet — survivor/matriarch register
+        "audio": "audio/chilton/chilton_main.mp3",
+        "html": "chilton.html",
+        "side": "plymouth",
+        "hub_href": "index.html?back=1",
+        "default_bg": "images/chilton/chilton-stepping-ashore.png",
+        "slide_images": {
+            # Mayflower / arrival (1620, age 13)
+            "slide_1": "images/chilton/chilton-stepping-ashore.png",
+            "slide_2": "images/bradford/embarkation_pilgrims_weir.jpg",
+            "slide_3": "images/bradford/mayflower_at_sea.jpg",
+            "slide_4": "images/bradford/mayflower_in_plymouth_harbor_halsall.jpg",
+            "slide_5": "images/chilton/chilton-stepping-ashore.png",
+            # First winter — both parents die
+            "slide_6": "images/plymouth_shared/landing_pilgrims_bacon.jpg",
+            "slide_7": "images/plymouth_shared/landing_pilgrims_bacon.jpg",
+            "slide_8": "images/bradford/bradford_portrait.jpg",  # taken in
+            # 1621 first year + Squanto + Thanksgiving
+            "slide_9": "images/bradford/squanto_teaching_corn.jpg",
+            "slide_10": "images/plymouth_shared/thanksgiving_brownscombe.jpg",
+            "slide_11": "images/plymouth_shared/samoset_interview.jpg",
+            # Marriage 1624
+            "slide_12": "images/bradford/of_plymouth_plantation_manuscript.jpg",
+            "slide_13": "images/chilton/pilgrim-maiden-statue.jpg",
+            # Family / household 1620s-50s
+            "slide_14": "images/bradford/of_plymouth_plantation_manuscript.jpg",
+            "slide_15": "images/bradford/squanto_teaching_corn.jpg",
+            # Move to Boston 1650s
+            "slide_16": "images/bradford/king_james_i_decritz.jpg",
+            "slide_17": "images/bradford/of_plymouth_plantation_manuscript.jpg",
+            # King Philip's War 1675 (age 68)
+            "slide_18": "images/massasoit/night-attack-waldron.jpg",
+            "slide_19": "images/massasoit/philip-revere.jpg",
+            "slide_20": "images/massasoit/mystic-massacre-19c.jpg",
+            # 1679 will + Jane bequest
+            "slide_21": "images/bradford/of_plymouth_plantation_manuscript.jpg",
+            "slide_22": "images/chilton/pilgrim-maiden-statue.jpg",
+            # Epilogue
+            "slide_23": "images/chilton/chilton-stepping-ashore.png",
+        },
+    },
     "massasoit_route": {
         "title": "Massasoit — Plymouth",
         "color": "#3e3a2e",
@@ -542,6 +585,20 @@ def parse_slide_block(block_text, slide_index_in_file, gameover_alias_map=None):
         # Strip writer's organizational prefixes from displayed title
         title = re.sub(r"^DECISION\s+\d+:?\s*", "", title, flags=re.IGNORECASE)
         title = re.sub(r"\s*\(Decision\s+\d+\)\s*$", "", title, flags=re.IGNORECASE)
+        # Strip writer-only stage directions in titles:
+        #   "The Mayflower Compact (REVEAL — locked organ chord)"     → "The Mayflower Compact"
+        #   "Stacking Review (TENTATIVE — flag for QC per §1.6)"      → "Stacking Review"
+        #   "First Winter (locked wind-howl)"                         → "First Winter"
+        #   "Slide X — Title (in-world chronicle)"                    → "Title"
+        title = re.sub(
+            r"\s*\((?:[^)]*?(?:reveal|locked|tentative|flag for qc|in-world|stage|wip|todo|placeholder|note|reserved|chronicle|player's|baked into|dynamic|locked SFX)[^)]*?)\)\s*",
+            "",
+            title,
+            flags=re.IGNORECASE,
+        ).strip()
+        # Strip "*(reserved — ...)*" italic placeholder titles entirely
+        if re.match(r"^\*?\(reserved.*\)\*?$", title, re.IGNORECASE):
+            title = ""
         # Hide stage-direction titles ("Title / Cold Open", "Cold Open", etc.)
         if re.match(r"^(title\s*/?\s*cold\s+open|cold\s+open|title)$", title, re.IGNORECASE):
             title = ""
@@ -551,8 +608,10 @@ def parse_slide_block(block_text, slide_index_in_file, gameover_alias_map=None):
         gameover_alias_map[gameover_letter] = slide_id
         gameover_alias_map[f"slide_gameover_{gameover_letter}"] = slide_id
 
-    # Body text — paragraphs starting with `> `
-    body_section = re.search(r"\*\*Body text:\*\*\s*\n((?:>\s.*\n?)+)", block_text)
+    # Body text — paragraphs starting with `> `.
+    # Accept "**Body text:**" or "**Body text (anything, even with * in it):**" —
+    # Bradford writer used "**Body text (baked into parchment — lines marked * are dynamic...):**"
+    body_section = re.search(r"\*\*Body text[^\n]*?:\*\*\s*\n((?:>\s.*\n?)+)", block_text)
     body_paragraphs = []
     if body_section:
         for line in body_section.group(1).split("\n"):
@@ -560,9 +619,72 @@ def parse_slide_block(block_text, slide_index_in_file, gameover_alias_map=None):
             if line.startswith(">"):
                 body_paragraphs.append(line.lstrip("> ").strip())
 
-    # Image brief — used as image alt / aria description, not displayed
+    # Conditional-branch text cleanup. Writers left stage directions like:
+    #   *(If Slide 5 = "jump"):* I jump. The boys say afterward...
+    #   *(If Slide 5 = "wait"):* I wait. Goodwife Brewster steps off first...
+    # The engine doesn't branch on prior choices yet, so we keep only the FIRST
+    # variant in each conditional run and strip the leading marker. This avoids
+    # the "both paragraphs stacked" bug. TODO: real prior-choice branching engine.
+    cleaned = []
+    skipping_after_first = False
+    cond_re = re.compile(r"^\*?\(?\s*[Ii]f\s+Slide\s+\w+\s*=\s*[\"“].*?[\"”]\s*\)?\*?\s*:?\s*\*?", re.UNICODE)
+    for p in body_paragraphs:
+        m = cond_re.match(p)
+        if m:
+            stripped = p[m.end():].lstrip(":*").strip()
+            if skipping_after_first:
+                continue  # drop sibling variants of the same conditional run
+            cleaned.append(stripped)
+            skipping_after_first = True
+        else:
+            cleaned.append(p)
+            skipping_after_first = False
+    body_paragraphs = cleaned
+
+    # Image brief — used as image alt / aria description, not displayed.
+    # Strip any conditional-branch bullet lines so writer notes don't leak via view-source.
     image_match = re.search(r"\*\*Image brief:\*\*\s*(.+?)(?:\n\*\*|\Z)", block_text, re.DOTALL)
     image_brief = image_match.group(1).strip() if image_match else ""
+    image_brief = re.sub(
+        r"^\s*[-*]?\s*\*?\(?\s*[Ii]f\s+Slide\s+\w+\s*=\s*[\"“].*?[\"”]\s*\)?\*?\s*:?.*$",
+        "",
+        image_brief,
+        flags=re.MULTILINE,
+    )
+    # Also strip writer build-flag bullets
+    image_brief = re.sub(
+        r"^\s*[-*]\s*\(.*(?:render flag|build engine|alternate path).*\)\s*$",
+        "",
+        image_brief,
+        flags=re.MULTILINE | re.IGNORECASE,
+    )
+    image_brief = re.sub(r"\n{2,}", "\n", image_brief).strip()
+
+    # KEY TERM glossary chips — render as gold-bordered callouts after body text.
+    # Pattern (one per line, can repeat):
+    #   **KEY TERM:** **Mayflower Compact** — short definition the student needs to know.
+    # OR multi-term block:
+    #   **KEY TERMS:**
+    #   - **Sachem** — Wampanoag word for chief.
+    #   - **Wetu** — domed bark-and-mat house.
+    key_terms = []
+    # Inline single-line form
+    for m in re.finditer(
+        r"\*\*KEY TERM:?\*\*\s*\*\*(.+?)\*\*\s*[—–-]\s*(.+?)(?:\n|$)",
+        block_text,
+    ):
+        key_terms.append({"name": m.group(1).strip(), "def": m.group(2).strip()})
+    # Block form
+    block_match = re.search(
+        r"\*\*KEY TERMS:?\*\*\s*\n((?:\s*[-*]\s+\*\*.+?\*\*\s*[—–-]\s+.+\n?)+)",
+        block_text,
+    )
+    if block_match:
+        for line in block_match.group(1).split("\n"):
+            line = line.strip()
+            mm = re.match(r"[-*]\s+\*\*(.+?)\*\*\s*[—–-]\s+(.+)$", line)
+            if mm:
+                key_terms.append({"name": mm.group(1).strip(), "def": mm.group(2).strip()})
 
     # Timeline bar — extract years mentioned and detect pulsing/active states
     timeline_match = re.search(r"\*\*Timeline bar:\*\*\s*(.+?)(?:\n\*\*|\Z)", block_text, re.DOTALL)
@@ -619,6 +741,7 @@ def parse_slide_block(block_text, slide_index_in_file, gameover_alias_map=None):
         "type": slide_type,
         "title": title,
         "body": body_paragraphs,
+        "key_terms": key_terms,
         "buttons": buttons,
         "image_brief": image_brief,
         "timeline": {"active": active_years, "pulsing": pulsing_years},
@@ -639,6 +762,13 @@ def parse_markdown(md_path):
             continue
         slide = parse_slide_block(block, i, gameover_alias_map)
         if slide:
+            # Skip "reserved / unused" placeholder slides where the writer parked a slot
+            # but never wrote content (massasoit slide_7, slide_9 — title was wrapped in
+            # *(reserved — gameover continuation slot, unused)* italics).
+            title_blank = not (slide.get("title") or "").strip().strip("*")
+            body_blank = not slide.get("body")
+            if title_blank and body_blank and slide["type"] != "gameover":
+                continue
             slides.append(slide)
     # After all slides parsed, resolve any button targets that reference gameover aliases
     all_ids = {s["id"] for s in slides}
@@ -860,6 +990,44 @@ html, body { height: 100%; width: 100%; overflow: hidden; background: #0a0a1a; c
 }
 .card .body p.shown { opacity: 1; transform: translateY(0); }
 .card .body p:last-child { margin-bottom: 0; }
+
+/* KEY TERM glossary chip — gold-bordered callout for vocabulary words students need to know */
+.card .keyterms {
+  margin-top: 1.2vh;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8vh;
+}
+.card .keyterm {
+  background: rgba(255, 244, 200, 0.92);
+  border-left: 5px solid #d4af37;
+  border-radius: 4px;
+  padding: 0.9vh 1.1vw;
+  font-family: 'IM Fell English', serif;
+  font-size: clamp(0.85rem, 1.25vw, 1.05rem);
+  color: #2a1f0a;
+  line-height: 1.45;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 600ms ease, transform 600ms ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+}
+.card .keyterm.shown { opacity: 1; transform: translateY(0); }
+.card .keyterm .kt-label {
+  display: inline-block;
+  font-family: 'Bangers', sans-serif;
+  font-size: 0.8em;
+  letter-spacing: 2px;
+  color: #8b6a14;
+  margin-right: 6px;
+  vertical-align: 1px;
+}
+.card .keyterm .kt-name {
+  font-family: 'IM Fell English SC', serif;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #5a3a0a;
+}
 
 /* Buttons: bottom of the right-side panel column */
 .buttons {
@@ -1084,6 +1252,7 @@ button.choice:hover { background: #fff; transform: scale(1.03); }
 <div class="credits">Music: __MUSIC_CREDIT__ · Mr. Jorgensen 2026</div>
 
 <audio id="bg-music" loop preload="auto"><source src="__AUDIO_SRC__" type="audio/mpeg"></audio>
+<audio id="bg-sfx" loop preload="auto"></audio>
 
 <div class="stage" id="stage"></div>
 
@@ -1116,9 +1285,25 @@ function renderSlide(slide) {
     if (bgImg) {
       div.classList.add('has-image');
       div.style.backgroundImage = `url('${bgImg}')`;
-      if (slide.bg_position) {
-        div.style.backgroundPosition = slide.bg_position;
+      // Smart bg-position based on image content type:
+      //   portraits (face at top of image) → top-bias
+      //   ships / hulls / fleets → bottom-bias
+      //   maps / landscapes → center
+      //   Per-slide override via slide.bg_position takes precedence
+      let pos = slide.bg_position;
+      if (!pos) {
+        const fn = bgImg.toLowerCase();
+        if (/portrait|chief|king|herowans_wife|smith\.jpg|bradford_|massasoit-relief|powhatan_|pocahontas_van_de_passe|squanto-billington|raleigh|metacom|appleton|de_critz|de_passe|chilton-stepping|pilgrim-maiden|maiden-statue|statue/.test(fn)) {
+          pos = 'center 32%'; // top-bias for portrait/figure faces (pushed down so faces sit in visible band)
+        } else if (/ships|mayflower|fleet|halsall|caravel|sea_venture|delfshaven/.test(fn)) {
+          pos = 'center 70%'; // bottom-bias for ship hulls
+        } else if (/burial|fire|stove|hearth/.test(fn)) {
+          pos = 'center 60%';
+        } else {
+          pos = 'center 45%'; // slight top-bias default — most paintings have action in upper half
+        }
       }
+      div.style.backgroundPosition = pos;
     }
   }
 
@@ -1149,6 +1334,22 @@ function renderSlide(slide) {
     body.appendChild(para);
   });
   card.appendChild(body);
+
+  // KEY TERM glossary chips — gold-bordered callouts. Reveal staggered after body.
+  if (slide.key_terms && slide.key_terms.length) {
+    const ktWrap = document.createElement('div');
+    ktWrap.className = 'keyterms';
+    slide.key_terms.forEach(kt => {
+      const chip = document.createElement('div');
+      chip.className = 'keyterm';
+      chip.innerHTML =
+        `<span class="kt-label">KEY TERM</span> ` +
+        `<span class="kt-name">${kt.name}</span> — ${kt.def}`;
+      ktWrap.appendChild(chip);
+    });
+    card.appendChild(ktWrap);
+  }
+
   panel.appendChild(card);
 
   const btnWrap = document.createElement('div');
@@ -1185,9 +1386,15 @@ function updateTimeline(state) {
 
 function revealCard(slideEl) {
   const paras = slideEl.querySelectorAll('.card .body p');
+  const chips = slideEl.querySelectorAll('.card .keyterm');
   const buttons = slideEl.querySelector('.panel > .buttons');
   paras.forEach((p, i) => setTimeout(() => p.classList.add('shown'), 250 + i * 600));
-  if (buttons) setTimeout(() => buttons.classList.add('shown'), 250 + paras.length * 600 + 200);
+  const afterBody = 250 + paras.length * 600;
+  chips.forEach((c, i) => setTimeout(() => c.classList.add('shown'), afterBody + 200 + i * 400));
+  if (buttons) {
+    const tail = afterBody + 200 + chips.length * 400 + 200;
+    setTimeout(() => buttons.classList.add('shown'), tail);
+  }
 }
 
 function showSlide(idx) {
@@ -1197,12 +1404,56 @@ function showSlide(idx) {
   let el = document.getElementById(slide.id);
   if (!el) el = renderSlide(slide);
   el.querySelectorAll('.card .body p').forEach(p => p.classList.remove('shown'));
+  el.querySelectorAll('.card .keyterm').forEach(c => c.classList.remove('shown'));
   const bw = el.querySelector('.panel > .buttons');
   if (bw) bw.classList.remove('shown');
   el.classList.add('active');
   updateTimeline(slide.timeline || {});
   counter.textContent = `${idx + 1} / ${SLIDES.length}`;
+  applySlideSFX(slide);
   setTimeout(() => revealCard(el), 200);
+}
+
+// Per-slide ambient SFX layer (sailing/storm/forest/battle/etc.)
+// Each slide can specify slide.sfx → URL of an MP3 to loop quietly under
+// the music bed. Switching slides crossfades to the new SFX or stops if none.
+const bgSfx = document.getElementById('bg-sfx');
+let currentSfxSrc = null;
+function applySlideSFX(slide) {
+  if (!bgSfx) return;
+  const wantedSrc = slide.sfx || null;
+  if (wantedSrc === currentSfxSrc) return; // already playing this SFX
+
+  // Fade out current SFX
+  if (!bgSfx.paused && bgSfx.volume > 0) {
+    const startVol = bgSfx.volume;
+    const fadeOut = setInterval(() => {
+      bgSfx.volume = Math.max(0, bgSfx.volume - 0.05);
+      if (bgSfx.volume <= 0) {
+        clearInterval(fadeOut);
+        bgSfx.pause();
+        // Then start new SFX if any
+        if (wantedSrc) startSfx(wantedSrc);
+      }
+    }, 50);
+  } else if (wantedSrc) {
+    startSfx(wantedSrc);
+  }
+  currentSfxSrc = wantedSrc;
+}
+function startSfx(src) {
+  if (!bgSfx) return;
+  bgSfx.src = src;
+  bgSfx.loop = true;
+  bgSfx.volume = 0;
+  bgSfx.play().then(() => {
+    let v = 0;
+    const fadeIn = setInterval(() => {
+      v += 0.025;
+      if (v >= 0.32) { bgSfx.volume = 0.32; clearInterval(fadeIn); }
+      else bgSfx.volume = v;
+    }, 80);
+  }).catch(() => {});
 }
 
 function goToSlide(target) {
@@ -1255,6 +1506,12 @@ def render_route(md_name, config):
     for s in slides:
         if s["id"] in slide_images:
             s["image"] = slide_images[s["id"]]
+
+    # Apply per-slide ambient SFX overrides from config
+    slide_sfx = config.get("slide_sfx", {})
+    for s in slides:
+        if s["id"] in slide_sfx:
+            s["sfx"] = slide_sfx[s["id"]]
 
     # History ticks (always visible)
     history_html = ""

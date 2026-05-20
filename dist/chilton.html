@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mary Chilton — Plymouth — Time Warp: Plymouth or Jamestown</title>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=IM+Fell+English&family=IM+Fell+English+SC&family=Share+Tech&display=swap" rel="stylesheet">
+<style>
+:root {
+  --accent: #4a3a5a;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { height: 100%; width: 100%; overflow: hidden; background: #0a0a1a; color: #fff; font-family: 'Bangers', sans-serif; }
+.stage { position: absolute; inset: 0; overflow: hidden; }
+
+.slide {
+  position: absolute; inset: 0;
+  opacity: 0;
+  transition: opacity 700ms ease;
+  pointer-events: none;
+  background-size: cover;
+  background-position: center; /* true center — works for both portraits and ships */
+  background-color: #1a1a28;
+}
+.slide.active { opacity: 1; pointer-events: auto; }
+.slide.has-image::after {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0.15) 40%, rgba(0,0,0,0.55) 100%);
+  z-index: 1; pointer-events: none;
+}
+
+/* Default no-image gradient using accent color */
+.slide:not(.has-image) {
+  background: radial-gradient(ellipse at 50% 30%, var(--accent) 0%, #0a0a1a 70%);
+}
+
+/* Right-side panel — wraps card + buttons in a flex column, stacked from top */
+.panel {
+  position: absolute;
+  top: 2vh;
+  right: 2vw;
+  bottom: 76px; /* clear timeline */
+  width: 42%;
+  max-width: 480px;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* card + buttons hug the top, no empty gap */
+  gap: 1.5vh;
+  pointer-events: none;
+}
+.panel > * { pointer-events: auto; }
+
+/* Text card: sizes to content (flex 0 0 auto), more transparent */
+.card {
+  position: relative;
+  z-index: 5;
+  width: 100%;
+  background: rgba(255,255,255,0.55);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border: 2px solid rgba(0,0,0,0.85);
+  border-radius: 8px;
+  padding: 1.1vh 1.5vw;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.55);
+  font-family: 'Bangers', 'Arial Black', sans-serif;
+  color: #000;
+  line-height: 1.3;
+  letter-spacing: 0.5px;
+  text-align: left;
+  flex: 0 0 auto;
+}
+.card h2 {
+  font-size: clamp(1rem, 1.8vw, 1.35rem);
+  margin-bottom: 0.6vh;
+  color: #000;
+  letter-spacing: 1px;
+  text-align: center;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  padding-bottom: 0.5vh;
+}
+.card .body p {
+  font-size: clamp(0.95rem, 1.45vw, 1.25rem);
+  margin-bottom: 0.5vh;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 600ms ease, transform 600ms ease;
+}
+.card .body p.shown { opacity: 1; transform: translateY(0); }
+.card .body p:last-child { margin-bottom: 0; }
+
+/* KEY TERM glossary chip — gold-bordered callout for vocabulary words students need to know */
+.card .keyterms {
+  margin-top: 1.2vh;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8vh;
+}
+.card .keyterm {
+  background: rgba(255, 244, 200, 0.92);
+  border-left: 5px solid #d4af37;
+  border-radius: 4px;
+  padding: 0.9vh 1.1vw;
+  font-family: 'IM Fell English', serif;
+  font-size: clamp(0.85rem, 1.25vw, 1.05rem);
+  color: #2a1f0a;
+  line-height: 1.45;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 600ms ease, transform 600ms ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+}
+.card .keyterm.shown { opacity: 1; transform: translateY(0); }
+.card .keyterm .kt-label {
+  display: inline-block;
+  font-family: 'Bangers', sans-serif;
+  font-size: 0.8em;
+  letter-spacing: 2px;
+  color: #8b6a14;
+  margin-right: 6px;
+  vertical-align: 1px;
+}
+.card .keyterm .kt-name {
+  font-family: 'IM Fell English SC', serif;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #5a3a0a;
+}
+
+/* Buttons: bottom of the right-side panel column */
+.buttons {
+  position: relative;
+  z-index: 11;
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  align-items: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  opacity: 0;
+  transition: opacity 600ms ease;
+}
+.buttons.shown { opacity: 1; }
+
+button.choice {
+  background: rgba(255,255,255,0.6);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  color: #000;
+  border: 2px solid rgba(0,0,0,0.85);
+  border-radius: 6px;
+  padding: 1.1vh 1.4vw;
+  font-family: 'Bangers', sans-serif;
+  font-size: clamp(0.95rem, 1.35vw, 1.2rem);
+  cursor: pointer;
+  transition: all 150ms ease;
+  min-width: 0;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  line-height: 1.2;
+}
+button.choice:hover {
+  background: rgba(255,255,255,0.92);
+  border-color: #000;
+  transform: scale(1.02);
+}
+button.choice:hover { background: #fff; transform: scale(1.03); }
+
+/* === GAMEOVER STYLING — dramatic, immersive, period-respectful === */
+.slide.gameover-slide {
+  background-image: none !important;
+  background:
+    radial-gradient(ellipse at 50% 40%, rgba(180,30,30,0.28) 0%, transparent 60%),
+    linear-gradient(180deg, #2a0808 0%, #0a0204 100%) !important;
+  animation: screenShake 0.6s ease;
+}
+.slide.gameover-slide::after { background: rgba(0,0,0,0.45) !important; }
+@keyframes screenShake {
+  0%,100% { transform: translate(0,0); }
+  10%,30%,50%,70%,90% { transform: translate(-6px,2px); }
+  20%,40%,60%,80% { transform: translate(6px,-2px); }
+}
+/* Big bold "GAMEOVER" banner above the card */
+.slide.gameover-slide::before {
+  content: 'GAME OVER';
+  position: absolute;
+  top: 4vh; left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Bangers', sans-serif;
+  font-size: clamp(2.4rem, 6.5vw, 5rem);
+  letter-spacing: 8px;
+  color: #ff2222;
+  text-shadow: 4px 4px 0 #000, 6px 6px 18px rgba(180,30,30,0.7), 0 0 30px rgba(255,40,40,0.5);
+  z-index: 6;
+  animation: pulse-red 1.6s ease-in-out infinite;
+  pointer-events: none;
+}
+@keyframes pulse-red {
+  0%,100% { text-shadow: 4px 4px 0 #000, 6px 6px 18px rgba(180,30,30,0.7), 0 0 30px rgba(255,40,40,0.5); }
+  50% { text-shadow: 4px 4px 0 #000, 6px 6px 18px rgba(180,30,30,0.9), 0 0 60px rgba(255,80,80,0.9); }
+}
+.slide.gameover-slide .panel {
+  /* Center the gameover panel under the GAME OVER banner */
+  top: 16vh;
+  right: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  max-width: 700px;
+  bottom: 100px;
+  align-items: center;
+  text-align: center;
+}
+.slide.gameover-slide .card {
+  background: rgba(20,5,5,0.85);
+  border-color: #6a0000;
+  border-width: 3px;
+  color: #fff8e0;
+  text-align: center;
+  width: 100%;
+}
+.slide.gameover-slide .card h2 {
+  color: #ff5555;
+  font-size: clamp(1.6rem, 3.5vw, 2.6rem);
+  letter-spacing: 3px;
+  animation: shake 0.5s ease;
+  text-shadow: 2px 2px 0 #6a0000;
+}
+.slide.gameover-slide .card .body p {
+  color: #fff8e0;
+  font-size: clamp(1rem, 1.7vw, 1.4rem);
+}
+@keyframes shake {
+  0%,100%{transform:translateX(0);}
+  20%{transform:translateX(-12px);}
+  40%{transform:translateX(12px);}
+  60%{transform:translateX(-6px);}
+  80%{transform:translateX(6px);}
+}
+.slide.gameover-slide button.choice {
+  background: rgba(204,0,0,0.85);
+  color: #fff;
+  border-color: #6a0000;
+  border-width: 3px;
+  text-shadow: 1px 1px 0 #000;
+}
+.slide.gameover-slide button.choice:hover {
+  background: rgba(255,51,51,0.95);
+  border-color: #ff8888;
+}
+.fullscreen-gif {
+  position: absolute;
+  top: 60%; left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  max-width: 70vw; max-height: 55vh;
+  border: 4px solid #6a0000;
+  border-radius: 8px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.9), 0 0 40px rgba(255,40,40,0.3);
+}
+
+/* Timeline bar */
+.timeline {
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  height: 64px;
+  background: linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.8) 100%);
+  border-top: 2px solid var(--accent);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+}
+.timeline-track {
+  position: relative;
+  width: min(1100px, 90%);
+  height: 2px;
+  background: #6a5a44;
+}
+.tick {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+.tick.revealed { visibility: visible; opacity: 1; }
+.tick .dot {
+  width: 14px; height: 14px;
+  border-radius: 50%;
+  background: #4a3a28;
+  border: 2px solid #6a5a44;
+  margin: 0 auto;
+}
+.tick .label {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 11px;
+  margin-top: 6px;
+  white-space: nowrap;
+  color: #f4d166;
+  opacity: 0.85;
+}
+.tick.history .dot {
+  background: #8a7a64;
+  border-color: #8a7a64;
+  width: 10px; height: 10px;
+}
+.tick.history .label { color: #8a7a64; opacity: 0.7; font-size: 10px; }
+.tick.active .dot {
+  background: #d4af37;
+  border-color: #f4d166;
+  box-shadow: 0 0 12px rgba(212,175,55,0.7);
+}
+.tick.pulsing .dot { animation: pulse 1.4s ease-in-out infinite; }
+@keyframes pulse {
+  0%,100%{box-shadow:0 0 8px rgba(212,175,55,0.5);}
+  50%{box-shadow:0 0 22px rgba(212,175,55,1.0);}
+}
+
+.header-tag {
+  position: fixed; top: 12px; left: 16px;
+  font-family: 'Bangers', sans-serif;
+  font-size: 14px;
+  color: rgba(255,255,255,0.5);
+  letter-spacing: 2px;
+  z-index: 11;
+}
+.counter {
+  position: fixed; top: 12px; right: 16px;
+  font-family: 'Share Tech', monospace;
+  font-size: 12px;
+  color: rgba(255,255,255,0.4);
+  z-index: 11;
+}
+.credits {
+  position: fixed; bottom: 70px; left: 10px;
+  font-size: 0.6rem; color: #888;
+  z-index: 11;
+}
+</style>
+</head>
+<body>
+
+<div class="header-tag">MARY CHILTON — PLYMOUTH</div>
+<div class="counter" id="counter"></div>
+<div class="credits">Music: Kevin MacLeod / incompetech.com (CC-BY 4.0) · Mr. Jorgensen 2026</div>
+
+<audio id="bg-music" loop preload="auto"><source src="audio/chilton/chilton_main.mp3" type="audio/mpeg"></audio>
+<audio id="bg-sfx" loop preload="auto"></audio>
+
+<div class="stage" id="stage"></div>
+
+<div class="timeline">
+  <div class="timeline-track" id="timeline-track">
+    <div class="tick history revealed" data-year="1492" style="left: 4%;"><div class="dot"></div><div class="label">1492 — Columbus</div></div>
+    <div class="tick history revealed" data-year="1513" style="left: 11%;"><div class="dot"></div><div class="label">1513 — Florida found</div></div>
+    <div class="tick history revealed" data-year="1521" style="left: 18%;"><div class="dot"></div><div class="label">1521 — Aztecs fall</div></div>
+    <div class="tick history revealed" data-year="1533" style="left: 25%;"><div class="dot"></div><div class="label">1533 — Incas fall</div></div>
+    <div class="tick history revealed" data-year="1565" style="left: 32%;"><div class="dot"></div><div class="label">1565 — St. Augustine</div></div>
+    <div class="tick" data-year="1587" style="left: 40.0%;"><div class="dot"></div><div class="label">1587</div></div>
+    <div class="tick" data-year="1590" style="left: 41.5%;"><div class="dot"></div><div class="label">1590</div></div>
+    <div class="tick" data-year="1607" style="left: 49.7%;"><div class="dot"></div><div class="label">1607</div></div>
+    <div class="tick" data-year="1608" style="left: 50.2%;"><div class="dot"></div><div class="label">1608</div></div>
+    <div class="tick" data-year="1620" style="left: 56.1%;"><div class="dot"></div><div class="label">1620</div></div>
+    <div class="tick" data-year="1621" style="left: 56.5%;"><div class="dot"></div><div class="label">1621</div></div>
+    <div class="tick" data-year="1622" style="left: 57.0%;"><div class="dot"></div><div class="label">1622</div></div>
+    <div class="tick" data-year="1624" style="left: 58.0%;"><div class="dot"></div><div class="label">1624</div></div>
+    <div class="tick" data-year="1626" style="left: 59.0%;"><div class="dot"></div><div class="label">1626</div></div>
+    <div class="tick" data-year="1630" style="left: 60.9%;"><div class="dot"></div><div class="label">1630</div></div>
+    <div class="tick" data-year="1637" style="left: 64.3%;"><div class="dot"></div><div class="label">1637</div></div>
+    <div class="tick" data-year="1640" style="left: 65.8%;"><div class="dot"></div><div class="label">1640</div></div>
+    <div class="tick" data-year="1650" style="left: 70.7%;"><div class="dot"></div><div class="label">1650</div></div>
+    <div class="tick" data-year="1660" style="left: 75.5%;"><div class="dot"></div><div class="label">1660</div></div>
+    <div class="tick" data-year="1670" style="left: 80.4%;"><div class="dot"></div><div class="label">1670</div></div>
+    <div class="tick" data-year="1675" style="left: 82.8%;"><div class="dot"></div><div class="label">1675</div></div>
+    <div class="tick" data-year="1676" style="left: 83.3%;"><div class="dot"></div><div class="label">1676</div></div>
+    <div class="tick" data-year="1679" style="left: 84.8%;"><div class="dot"></div><div class="label">1679</div></div>
+    <div class="tick" data-year="1700" style="left: 95.0%;"><div class="dot"></div><div class="label">1700</div></div>
+  </div>
+</div>
+
+<script>
+const SLIDES = [{"id": "slide_1", "type": "story", "title": "", "body": ["My name is Mary Chilton. I am thirteen years old. My father is a tailor, and a Separatist, and a man who would rather sail than pray as the King's church commands.", "Tonight he tells me we are going to a place called Plymouth — not the one in England. The one across the sea, that does not exist yet because we are going to build it.", "I do not know yet that he will not see his fourteenth winter."], "key_terms": [], "buttons": [{"text": "CONTINUE", "target": "slide_2"}], "image_brief": "A young English girl, about thirteen, in a dark wool gown and white linen coif, standing at the rail of a small wooden ship at dusk. The horizon is gray Atlantic; the ship behind her is the Mayflower under shortened sail. Her hands are on the rail. She is not crying. She is looking. Period-art aesthetic, Wikimedia 19th-century history-painting style, restrained color.", "timeline": {"active": ["1492", "1513", "1521", "1533", "1565", "1607"], "pulsing": ["1587", "1590"]}, "gif": null, "image": "images/chilton/chilton-stepping-ashore.png"}, {"id": "slide_2", "type": "decision", "title": "Are You Afraid?", "body": ["My father asks me, the way he asks me everything since we left Leiden — gently, like I am old enough to answer.", "Am I afraid?", "", "*What do I tell him?*"], "key_terms": [], "buttons": [{"text": "YES, FATHER. I AM AFRAID.", "target": "slide_3"}, {"text": "NO, FATHER. I HAVE READ THE BOOK OF JOB.", "target": "slide_3"}, {"text": "I AM NOT AFRAID OF THE SEA. I AM AFRAID OF THE WINTER ON THE OTHER SIDE.", "target": "slide_3"}], "image_brief": "Below-decks of the Mayflower at night. Tallow-candle light. Mary's mother Susanna sits on a sea-chest, mending a stocking by the bad light. Her father James, gaunt-cheeked, looks at Mary across the small space. Other Separatist families crowd the cabin behind them. The wood is wet.", "timeline": {"active": ["1608", "1620", "1620"], "pulsing": []}, "gif": null, "image": "images/bradford/embarkation_pilgrims_weir.jpg"}, {"id": "slide_3", "type": "story", "title": "Holland, Remembered", "body": ["I was born in Kent, but my memory begins in Leiden. My father took us to Holland because the Dutch let us pray as we wanted.", "Twelve years there. I learned two languages and a Dutch stitch finer than any in England.", "Then the elders said our children were forgetting English. We had to leave again — not back home, but to a place that is not yet a place."], "key_terms": [], "buttons": [{"text": "CONTINUE", "target": "slide_4"}], "image_brief": "A flashback panel — the same girl, younger (around ten), sitting on a stone step in a Dutch street in Leiden. Tall narrow brick houses, a canal in the background, a windmill far off. She is mending a sleeve with her mother's needle. Period-art aesthetic, warm afternoon light. The mood is memory, not present.", "timeline": {"active": ["1608", "1620"], "pulsing": []}, "gif": null, "image": "images/bradford/mayflower_at_sea.jpg"}, {"id": "slide_4", "type": "story", "title": "Sixty-Five Days at Sea", "body": ["Sixty-five days. I count them by the lump of cheese my mother allows me each morning, smaller as the days go on.", "A boy is born in a storm — Oceanus Hopkins, named for the water. One man is washed overboard and caught by a rope. Another dies and is given to the sea.", "I do not get sick. My father has stopped eating his cheese and gives it to me. I pretend not to see."], "key_terms": [], "buttons": [{"text": "CONTINUE", "target": "slide_5"}], "image_brief": "The Mayflower mid-Atlantic, a heavy gray sky above and heaving green water below. The ship is small in the frame. The composition emphasizes scale — one wooden box on an enormous ocean. Period-art seapiece, Wikimedia 19th-century style.", "timeline": {"active": ["1620"], "pulsing": []}, "gif": null, "image": "images/bradford/mayflower_in_plymouth_harbor_halsall.jpg"}, {"id": "slide_5", "type": "decision", "title": "First Off the Boat?", "body": ["We anchor at Cape Cod, far north of where our patent says we should be. The men argue, then sign a Compact in the cabin — I hear the quill scratching through the boards.", "Weeks later they find the better harbor, the one they will call Plymouth. The shallop loads to go ashore. The women whisper that no English woman has yet stepped on the rock.", "", "The boys say I should not. I am thirteen. I will get cold. My mother will scold.", "", "*What do I do?*"], "key_terms": [], "buttons": [{"text": "JUMP. BE FIRST OFF THE BOAT.", "target": "slide_6"}, {"text": "WAIT. LET A GROWN WOMAN GO FIRST.", "target": "slide_6"}, {"text": "SWIM. THE WATER IS NOT FAR.", "target": "slide_7"}], "image_brief": "Cape Cod Bay, late November. The Mayflower at anchor offshore. A small shallop being loaded at her side. Snow on the dunes in the distance. Mary at the rail, her father below ordering a chest, her mother behind her with a hand on her shoulder. Other passengers crowd the deck. The mood is half-relief, half-dread — the land is real, and the land is empty, and it is freezing.", "timeline": {"active": ["1620"], "pulsing": []}, "gif": null, "image": "images/chilton/chilton-stepping-ashore.png"}, {"id": "slide_6", "type": "story", "title": "Plymouth Rock (and the Compact, Heard Through Boards)", "body": ["The shallop grinds against a flat shore-stone. I step off — early, if not first. The boys will tell that story different ways for the rest of my life. The stone under my shoe is the coldest thing I have ever stood on.", "Before they let us off, forty-one of the men signed a paper in the cabin. They called it a Compact. I am thirteen. I do not yet understand what they have done."], "key_terms": [{"name": "Mayflower Compact", "def": "Signed Nov 11, 1620 by 41 men. They agreed to obey laws they would together make — the first written self-government on this coast."}, {"name": "Saints & Strangers", "def": "*Saints* = Separatists (Pilgrims). *Strangers* = everyone else (tradesmen, soldiers like Standish). The Compact bound BOTH — the seed of American self-government."}], "buttons": [{"text": "CONTINUE", "target": "slide_8"}], "image_brief": "Mary at the bow of the shallop as it grounds on a flat shore-stone. Her shoes still on the boat, one foot lifting toward the rock. Other passengers behind her, a man with a musket already on the shore scanning the trees. Bare winter forest in the middle distance, a dusting of snow. Period-art aesthetic, sober, no triumph in the composition — this is arrival, not victory.", "timeline": {"active": ["1620", "1620"], "pulsing": []}, "gif": null, "image": "images/plymouth_shared/landing_pilgrims_bacon.jpg"}, {"id": "slide_7", "type": "gameover", "title": "GAMEOVER A: I Swam for Shore", "body": ["I jump into the water. Twenty yards to shore. My dress goes black with cold before I know my legs are wet.", "I make it. I am soaked through, and the chests are still on the ship. There is no fire on the land yet.", "By the second night the cough has started. By the seventh the pneumonia has me. I do not see Christmas.", "*Real history: in November 1620, getting wet in Cape Cod Bay was a death sentence. Wool stays wet, fires weren't yet built ashore, and the surgeon had nothing for pneumonia. Most colonists soaked in those first weeks died within ten days. Bradford writes about this directly.*"], "key_terms": [], "buttons": [{"text": "TRY AGAIN", "target": "slide_1"}, {"text": "CHOOSE ANOTHER ROUTE", "target": "HOME"}], "image_brief": "Bobby Boucher tackle GIF, full-bleed cutscene. (Per §4 mapping — physical-confrontation / outmuscled fail; cold November sea is the tackle.)", "timeline": {"active": [], "pulsing": []}, "gif": "https://media.tenor.com/mcS-PaTlDawAAAAM/pull-the-lever-wrong-lever.gif", "image": "images/plymouth_shared/landing_pilgrims_bacon.jpg"}, {"id": "slide_8", "type": "story", "title": "The First Houses", "body": ["The men go ashore at dawn and work until the dark. The houses go up slowly because the men are getting sick.", "My father coughs at night. He says it is the salt air. My mother says it is not the salt air. They do not say what it is in front of me.", "I gather kindling because that is the work a thirteen-year-old girl can do that does not require a tool a man has not finished making."], "key_terms": [], "buttons": [{"text": "CONTINUE", "target": "slide_9"}], "image_brief": "A clearing in winter forest. Half-built single-room timber houses with thatched roofs, four or five of them, set on a slope leading to the water. Snow on the ground. Men sawing planks. Women carrying water from a stream. Children — Mary among them — gathering kindling. Smoke from one chimney. The mood is purposeful, cold, tired.", "timeline": {"active": [], "pulsing": []}, "gif": null, "image": "images/bradford/bradford_portrait.jpg"}, {"id": "slide_9", "type": "story", "title": "Winter 1620–21: The Sickness", "body": ["I told my father I was afraid of the winter, not the sea. I should not have been right.", "", "My father dies the first week of January, the eighth Mayflower passenger to die in Plymouth. My mother dies before March.", "They call it the General Sickness — scurvy, pneumonia, and whatever the cold makes in a body that spent sixty-five days at sea.", "Half the passengers die that winter. Fifty out of one hundred and two. I am thirteen. I am orphaned in a wilderness.", "I do not cry the way I thought I would. I help wash my mother's body because there is no one else who will do it."], "key_terms": [], "buttons": [{"text": "CONTINUE", "target": "slide_9b"}], "image_brief": "Inside a small Plymouth house at night. A pallet on the floor. James Chilton, gaunt, lies under a wool blanket. Susanna kneels beside him with a cup. Mary sits at the foot of the pallet, knees drawn up, watching her father's chest rise and fall. A single candle. Snow visible through the window.", "timeline": {"active": ["1620"], "pulsing": []}, "gif": null, "image": "images/bradford/squanto_teaching_corn.jpg"}, {"id": "slide_9b", "type": "story", "title": "We Were Not Alone", "body": ["I am not alone. That is the part the books leave out.", "By February, only six or seven of us can still stand. Six or seven, to care for all the rest.", "Elder Brewster carries broth. Captain Standish — a Stranger, his wife already buried — washes the sick. They tend people who are not their family. I am thirteen, and I can still stand. So I carry water too.", "When four die in one night and the ground is frozen too hard to bury them, we sing. Psalm 23. Low, so the woods won't count our voices.", "We suffer together. We praise God together. Half of us go into the ground. The other half goes on — bound to each other by a winter no king ordered and no king ended."], "key_terms": [{"name": "General Sickness", "def": "The Plymouth name for the illness that killed half the colony in winter 1620–21 (scurvy, pneumonia, exposure)."}, {"name": "Communal Care", "def": "The few healthy Pilgrims nursed the sick — Saints AND Strangers — even those not their own family. The Compact was being *lived*, not just signed."}, {"name": "Psalm-Singing", "def": "Pilgrims sang Psalm 23 over the sick and dying. Praising God in suffering, not in spite of it."}], "buttons": [{"text": "CONTINUE", "target": "slide_10"}], "image_brief": "Interior of a single Plymouth common-house, lit by hearth and tallow candles. Six or seven pallets on the floor with sick bodies under wool blankets — adults and children both. Two figures move between them: Elder Brewster carrying a wooden bowl of broth, and a healthy boy Mary's age helping him steady a head to drink. Mary herself kneels at one pallet wringing a cloth into a basin. A Bible lies open on a stool, a candle bent over it. Standish stands by the door in a buff coat, hat off, head bowed in prayer over a man's body wrapped in a blanket. The mood is not despair — it is *labor*. Period-engraving aesthetic, soft warm light, no triumph and no horror, just the work of survival held together by faith.", "timeline": {"active": ["1620"], "pulsing": []}, "gif": null}, {"id": "slide_10", "type": "decision", "title": "Who Takes You In?", "body": ["The colony will not let an orphan girl live alone. There is no orphanage, no judge — the living take in the children of the dead.", "Captain Standish lost his wife Rose; his house is brisk and has muskets. Elder Brewster has buried his children and would teach me the Book.", "Goodwife Carver, the first governor's widow, needs hands in her kitchen. Goodwife Tilley, a widow with daughters my age, has asked for me by name.", "", "*What do I do?*"], "key_terms": [], "buttons": [{"text": "STANDISH'S HOUSE. THE MUSKETS. THE HARDEST ROOF.", "target": "slide_12"}, {"text": "BREWSTER'S HOUSE. THE BOOK. THE QUIETEST ROOF.", "target": "slide_12"}, {"text": "GOODWIFE CARVER. THE KITCHEN. WORK FOR MY KEEP.", "target": "slide_12"}, {"text": "GOODWIFE TILLEY. THE GIRLS MY AGE.", "target": "slide_12"}, {"text": "REFUSE ALL OF THEM. I CAN MIND MY OWN HOUSE.", "target": "slide_11"}], "image_brief": "A small Plymouth common — three or four houses around a packed-dirt square. Mary in her dark gown, hair pulled back under the coif, standing at the center. Three women approach from different doorways. Captain Myles Standish, in a buff coat, watches from a fourth doorway. Each adult has a hand half-extended toward her. The mood: this is a real choice, not a comfortable one.", "timeline": {"active": ["1621"], "pulsing": []}, "gif": null, "image": "images/plymouth_shared/thanksgiving_brownscombe.jpg"}, {"id": "slide_11", "type": "gameover", "title": "GAMEOVER B: I Refused a Household", "body": ["I tell the elders I can keep my own house. They let me try — they have fifty graves to dig and no time to argue with a stubborn child.", "By June my firewood is gone. By August I am in the Carver kitchen anyway, on harder terms than if I had walked in willingly.", "By next winter the wasting cough takes me. The colony buries me near my father.", "*Real history: in 1621 Plymouth, an unmarried girl without a household had no protection and no legal standing. Every woman lived inside a household — birth family, foster, or marriage. Orphan girls who refused a placement almost universally died within two years. Mary Chilton's foster placement is what allowed her to reach seventeen alive.*"], "key_terms": [], "buttons": [{"text": "TRY AGAIN", "target": "slide_1"}, {"text": "CHOOSE ANOTHER ROUTE", "target": "HOME"}], "image_brief": "Charlie Brown \"AAUGH!\" cutscene, full-bleed. (Per §4 mapping — Plymouth-side embarrassment / plan-falls-through fail; Charlie Brown is reserved for Plymouth side.)", "timeline": {"active": [], "pulsing": []}, "gif": "https://media.tenor.com/mcS-PaTlDawAAAAM/pull-the-lever-wrong-lever.gif", "image": "images/plymouth_shared/samoset_interview.jpg"}, {"id": "slide_12", "type": "story", "title": "A New Roof", "body": ["The widow's house is not my mother's house. It is a roof.", "I sleep in a loft above the kitchen. I knead the bread before dawn. I learn whose grief sounds like which footstep on the boards above. I do not cry for my mother in the kitchen. I cry for her in the loft, where only the rafters hear it.", "I am alive. Half the people who came on the Mayflower are not. I do not know yet what to do with being alive when so many people I loved are not."], "key_terms": [], "buttons": [{"text": "CONTINUE", "target": "slide_13"}], "image_brief": "Inside the foster household — a single-room Plymouth house with a hearth at one end, a sleeping loft above, a long board-table in the middle. Mary at the table with two other girls, kneading bread. The widow of the household at the hearth, stirring a pot. The mood is steady, ordinary, alive. Late afternoon light through one small window.", "timeline": {"active": ["1621"], "pulsing": []}, "gif": null, "image": "images/bradford/of_plymouth_plantation_manuscript.jpg"}, {"id": "slide_13", "type": "decision", "title": "The First Harvest", "body": ["The harvest comes in — not large, but enough to live on. Massasoit comes with ninety of his men. They bring five deer.", "Three days of shared food. Three days when no one negotiates and no one fights — we just eat.", "The widow needs hands at the cookfires. The Wampanoag children — I did not expect children — stare at me as I stare at them.", "", "*What do I do?*"], "key_terms": [], "buttons": [{"text": "STAY AT THE COOKFIRE. THE ADULTS NEED HANDS.", "target": "slide_14"}, {"text": "CARRY BOWLS BETWEEN THE TABLES. BE USEFUL EVERYWHERE.", "target": "slide_14"}, {"text": "SIT WITH THE WAMPANOAG CHILDREN. TRY TO LEARN A WORD.", "target": "slide_14"}], "image_brief": "Autumn 1621. A long outdoor table on rough trestles, set up on the Plymouth common. Pilgrim families gathering. Beyond the table, ninety Wampanoag men arriving in a loose column with five deer slung on poles. Smoke from cookfires. Children — Mary among them, fourteen now — running between adults with bowls and platters. Warm late-afternoon golden light. Painted-engraving aesthetic, NOT the kindergarten-coloring-book version.", "timeline": {"active": ["1621"], "pulsing": []}, "gif": null, "image": "images/chilton/pilgrim-maiden-statue.jpg"}, {"id": "slide_14", "type": "story", "title": "Three Days at the Long Table", "body": ["I tend the fire under the kettles for three days. The widow says I did the work of two grown women, and I sleep better that week than I have since my father died.", "", "I run bowls between the tables for three days until my arms ache. A Wampanoag boy laughs when I drop a turnip; I laugh too, and that is the closest thing to a friend I have made since Holland.", "", "I sit with the Wampanoag children for an hour. I learn one word — *nippe*, water — and they learn one of mine, *bread*. Years later, this hour will be the part of the feast I remember most.", "", "Then they leave. We have not yet starved or frozen. That is what we have to be grateful for."], "key_terms": [], "buttons": [{"text": "CONTINUE", "target": "slide_15"}], "image_brief": "A close-in panel of the long table, food in the middle — corn, venison, fowl, some pumpkin. English and Wampanoag faces along both sides. Mary in the frame, a wooden bowl in her hands. The light is golden, the mood unhurried. This is the warmest slide in the route.", "timeline": {"active": [], "pulsing": []}, "gif": null, "image": "images/bradford/of_plymouth_plantation_manuscript.jpg"}, {"id": "slide_15", "type": "decision", "title": "What Work Do You Take?", "body": ["Two years pass. We do not starve, but we do not feast. Squanto teaches us to plant corn with a fish in each hill, and the corn comes up.", "The widow asks what work I will take on. In Plymouth, what a girl chooses at fifteen is often what a woman does at fifty.", "", "*What do I do?*"], "key_terms": [], "buttons": [{"text": "CORN. THE FIELDS. THE WORK THAT FEEDS US.", "target": "slide_17"}, {"text": "THE LOOM. WEAVING. WORK A WIDOW CAN DO ALONE.", "target": "slide_17"}, {"text": "THE FISH. THE DRYING RACKS. THE TRADE GOOD.", "target": "slide_17"}, {"text": "I WILL SPEAK FOR THE WOMEN OF THIS COLONY IN COUNCIL.", "target": "slide_16"}], "image_brief": "Plymouth in summer 1623. A field of corn, half-grown, with women and children working between the rows. Beyond the field, a stretch of shore with drying racks for fish. Inside the village, a doorway where a loom is set up. Mary at fifteen, hair pulled back, sleeves rolled, looking at all three.", "timeline": {"active": ["1622"], "pulsing": []}, "gif": null, "image": "images/bradford/squanto_teaching_corn.jpg"}, {"id": "slide_16", "type": "gameover", "title": "GAMEOVER C: I Demanded a Voice", "body": ["I tell the widow I will speak for the women of the colony in council. I am fifteen and stubborn, and I have not yet learned what the colony does to women who stand up in meetings.", "The first time I rise, the men do not shout — they simply do not call on me. The second time, the elders ask my widow if the orphan girl is well. The third time, I am told the rod awaits me.", "I am not Anne Hutchinson, not yet a famous heretic. I am a fifteen-year-old orphan, and the colony decides I am unsettled and marries me off to a man twice my age. The marriage is unhappy. I do not live to see thirty.", "*Real history: women in 17th-century Plymouth had zero formal political voice. The Mayflower Compact established a male-only franchise. Anne Hutchinson was banished from Massachusetts Bay in 1638. Mary Dyer was hanged in Boston in 1660. A fifteen-year-old orphan demanding a vote would have been \"settled\" by early marriage — the colony's standard remedy for unsettled women.*"], "key_terms": [], "buttons": [{"text": "TRY AGAIN", "target": "slide_1"}, {"text": "CHOOSE ANOTHER ROUTE", "target": "HOME"}], "image_brief": "Period-art still — a Plymouth meetinghouse interior. Men on benches. A young woman standing alone in the aisle. The men are not shouting. They are simply not looking at her. The composition is cold, formal. (Tone: somber, not played for laughs — the historical precedent here is Anne Hutchinson 1638, banished. Light meme cast still acceptable but restrained.)", "timeline": {"active": [], "pulsing": []}, "gif": "https://media.tenor.com/mcS-PaTlDawAAAAM/pull-the-lever-wrong-lever.gif", "image": "images/bradford/king_james_i_decritz.jpg"}, {"id": "slide_17", "type": "decision", "title": "John Winslow Asks", "body": ["John Winslow comes to the widow's door in the spring of my seventeenth year.", "He is the younger brother of Edward Winslow, one of the colony's leading men. John is plain — a small farm, a steady man, not exciting and not unkind.", "He asks if I will marry him.", "Seventeen is old here; most girls marry at fifteen. The widow has fed me three winters past when she did not have to, and her cupboard is not deep.", "", "*What do I tell him?*"], "key_terms": [], "buttons": [{"text": "YES. MARRY HIM NOW. SECURITY. A HOUSEHOLD. CHILDREN.", "target": "slide_19"}, {"text": "NOT YET. I WANT MY OWN YEARS FIRST. ASK ME AT TWENTY.", "target": "slide_19"}, {"text": "NO. NOT HIM. NOT ANYONE. I WILL NOT MARRY.", "target": "slide_18"}], "image_brief": "A doorway of the widow's house. A young man in his early twenties — John Winslow, plain wool coat, rough hands of a sailor turned farmer — stands hat-in-hand. The widow stands behind Mary, one hand on her shoulder, neither pushing nor restraining. Mary is seventeen, taller than at the start of the route, the same coif but the gown is one she has made herself. Spring light, a hint of new green outside.", "timeline": {"active": ["1624"], "pulsing": []}, "gif": null, "image": "images/bradford/of_plymouth_plantation_manuscript.jpg"}, {"id": "slide_18", "type": "gameover", "title": "GAMEOVER D: I Refused All Suitors", "body": ["I refuse John Winslow. I refuse the next man, and the one after that. I tell the widow I will earn my own keep.", "Her daughters marry. Her cupboard tightens. I move to a smaller house, then a corner of a kitchen, then a bed in a barn.", "By twenty-three I am the colony's spinster. By twenty-four the cough takes hold. I die in a barn loft of the same lung-fever that took my father.", "Integrity is a real thing. So is a pantry. The colony cannot afford a woman who chooses one without the other.", "*Real history: in 1620s Plymouth, an orphan woman without a husband had no economic standing. Households required a man for legal contracts, land allotments, and trade. Single women over twenty lived as dependents and had no claim on food beyond charity. Refusing every match in 1624 was, statistically, a death sentence by twenty-five.*"], "key_terms": [], "buttons": [{"text": "TRY AGAIN", "target": "slide_1"}, {"text": "CHOOSE ANOTHER ROUTE", "target": "HOME"}], "image_brief": "Period-art still — a small Plymouth cottage in winter, candle in one window, snow on the ground, no smoke from the chimney. Composition lonely, restrained. Tone: somber, dignified. (Charlie Brown is too comic for this fail — it's a slow-failure path, dignity territory.)", "timeline": {"active": [], "pulsing": []}, "gif": "https://media.tenor.com/mcS-PaTlDawAAAAM/pull-the-lever-wrong-lever.gif", "image": "images/massasoit/night-attack-waldron.jpg"}, {"id": "slide_19", "type": "story", "title": "Married", "body": ["I marry him in my seventeenth year. It is not a love-match — it is the math of two people who have buried more than they have left.", "", "He waits. I marry him in my twentieth year, in the spring gown I kept folded three winters. He says afterward the wait was the proudest thing he ever did.", "", "The marriage is steady. He is not a man of letters, but he finishes what he starts.", "Plymouth's first generation is settling. The colony is no longer in danger of starving — it is in danger of growing."], "key_terms": [], "buttons": [{"text": "CONTINUE", "target": "slide_20"}], "image_brief": "A small wedding scene at the Plymouth meetinghouse — civil, not church. Mary in a dark blue gown (her best, kept since Holland), John Winslow in his plain coat. Elder Brewster officiating. A small gathering — the widow, John's brother Edward, a handful of neighbors. Late spring light through the meetinghouse window. The mood is quiet, real, not romanticized.", "timeline": {"active": ["1624"], "pulsing": []}, "gif": null, "image": "images/massasoit/philip-revere.jpg"}, {"id": "slide_20", "type": "story", "title": "The Long Years (1625–1650)", "body": ["Twenty-five years. Ten children. Two I bury; eight live, marry, and give me grandchildren before I am fifty.", "Massachusetts Bay people land north of us in 1630 — twenty thousand in ten years. Plymouth becomes the older, smaller cousin. The Pequot War comes in 1637; we send no men.", "John farms. I weave. I make a stew my grandchildren will remember. My hair goes gray earlier than my mother's did.", "The years are not exciting. They are the years that produced everything I am remembered for — which is almost nothing, except that I lived."], "key_terms": [], "buttons": [{"text": "CONTINUE", "target": "slide_21"}], "image_brief": "A montage panel — the same Winslow household across twenty-five years. Mary at twenty in the doorway with one baby on her hip; Mary at thirty in the kitchen with three children at the table; Mary at forty mending by the hearth with two of her grown daughters beside her; Mary at forty-five at a small grave outside the village. Period-art aesthetic, sepia-warm transitions. The mood: this is what a long marriage looked like.", "timeline": {"active": ["1626", "1630", "1637", "1640", "1650"], "pulsing": []}, "gif": null, "image": "images/massasoit/mystic-massacre-19c.jpg"}, {"id": "slide_21", "type": "decision", "title": "Plymouth or Boston?", "body": ["Boston grows bigger every year. The trade is there, the merchants are there. John's brother Edward died in '55 on a mission for Cromwell, and what was left of his standing has shifted north.", "Our sons urge the move. Our daughters' husbands are already there. Plymouth is where I buried my parents. Boston is where my grandchildren will be born.", "", "*What do we do?*"], "key_terms": [], "buttons": [{"text": "STAY IN PLYMOUTH. THE GRAVES ARE HERE.", "target": "slide_23"}, {"text": "MOVE TO BOSTON. CAREFULLY. KEEP THE PLYMOUTH HOUSE.", "target": "slide_23"}, {"text": "MOVE TO BOSTON. SELL EVERYTHING. CHASE THE WEALTH.", "target": "slide_22"}], "image_brief": "A road. To the south, behind Mary's shoulder, a glimpse of Plymouth — small, weathered, the houses she knows by heart. To the north, in the middle distance, Boston: a larger town, masts of trading ships in the harbor, smoke from many chimneys. Mary in her mid-forties, John beside her, three of their grown children behind them with carts. Decision moment, not a transition.", "timeline": {"active": ["1650"], "pulsing": []}, "gif": null, "image": "images/bradford/of_plymouth_plantation_manuscript.jpg"}, {"id": "slide_22", "type": "gameover", "title": "GAMEOVER E: Boston, Sold Down", "body": ["We sell everything in Plymouth and move to Boston. We invest in a shipping share with a man John's brother once knew — not a thief, just not as steady as the brother said.", "The first voyage is fine. The second loses two ships in a Caribbean storm. The third never sails. By 1665 we rent two rooms over a chandler's shop, and our children quietly send us bread.", "John dies in '70 of a winter illness good firewood would have prevented. I live nine more years in those rooms, on the kindness of grandchildren I had hoped to leave something to.", "The will I write at the end has nothing in it.", "*Real history: 17th-century Boston ate small investors. Plymouth families who moved cautiously — keeping a foothold, marrying children into Boston households first — often prospered. Those who liquidated and chased single ventures often lost everything. The real Winslows did prosper in Boston, partly on Edward Winslow's lingering network. Mary Chilton Winslow died there in 1679 with property to bequeath — including, as the route is about to show, an enslaved girl named Jane.*"], "key_terms": [], "buttons": [{"text": "TRY AGAIN", "target": "slide_1"}, {"text": "CHOOSE ANOTHER ROUTE", "target": "HOME"}], "image_brief": "A Boston dockside in the 1650s — counting houses, ship's chandlers, a busy quay. Mary in a finer gown than she wore in Plymouth, John beside her, but their faces are tight and their hands are empty. Behind them, a foreclosed warehouse with a notice nailed to the door. (Tone: a misjudgment fail, comic-adjacent. Tulio & Miguel \"you got conned\" energy fits.)", "timeline": {"active": [], "pulsing": []}, "gif": "https://media.tenor.com/mcS-PaTlDawAAAAM/pull-the-lever-wrong-lever.gif", "image": "images/chilton/pilgrim-maiden-statue.jpg"}, {"id": "slide_23", "type": "story", "title": "Boston, the Long View", "body": ["We stay. Grandchildren come down in the summers. John dies in 1670. I am sixty-three, a widow in a town now half empty of the people I crossed the Atlantic with.", "", "We move to Boston slowly — keeping a foothold in Plymouth, marrying our daughters into Boston merchant families one by one. By the time we settle, we are not chasing wealth; we are settling into it. John dies in 1670.", "", "Either way, I am old. I am one of the last Mayflower passengers still alive. People come to ask me what I remember. I tell them less than they want and more than I want to say."], "key_terms": [], "buttons": [{"text": "CONTINUE", "target": "slide_24"}], "image_brief": "Mary at sixty, in a Boston parlor — a real chair, not a bench; a real window, glazed. A gray cat on a cushion. A grown daughter pouring tea from a pewter pot. The clothes are heavier and finer than anything Mary wore in Plymouth. The composition is comfortable but not opulent — a comfortable old woman in a comfortable old town.", "timeline": {"active": ["1660", "1670", "1670"], "pulsing": []}, "gif": null, "image": "images/chilton/chilton-stepping-ashore.png"}, {"id": "slide_24", "type": "decision", "title": "King Philip's War", "body": ["I am sixty-eight when the war comes.", "Massasoit's son Metacom — King Philip, the English call him — leads a war against the colonies. The frontier towns burn. Refugees stream past my house every day with whatever they could carry.", "I think of the Wampanoag boy who laughed at the long table fifty-four years ago. He is old now, if he is alive. His grandsons may be the men carrying the torches.", "", "A family stops at my door — a mother, three children, a wounded cousin.", "", "*What do I do?*"], "key_terms": [], "buttons": [{"text": "CLOSE THE DOOR. TWO ROOMS, AN OLD WOMAN, NO STORES.", "target": "slide_25"}, {"text": "TAKE THEM IN. ALL OF THEM. AND THE NEXT FAMILY TOO.", "target": "slide_25b"}, {"text": "TAKE THE CHILDREN. SEND THE ADULTS TO THE MEETINGHOUSE.", "target": "slide_26"}, {"text": "CALL MY GRANDSONS. ORGANIZE THE STREET. EVERY HOUSE TAKES ONE.", "target": "slide_26"}], "image_brief": "A street outside Mary's house. Refugees streaming past — English colonial families from frontier towns, carts piled with belongings, children walking. In the middle distance, smoke on the horizon. Mary on her doorstep, sixty-eight years old, leaning on a stick. A young woman beside her — a granddaughter — looking to her for what to do.", "timeline": {"active": ["1675"], "pulsing": []}, "gif": null}, {"id": "slide_25", "type": "gameover", "title": "GAMEOVER F: I Closed the Door", "body": ["I tell the family I am sorry. I am sixty-eight, with two rooms and no stores. I cannot be responsible.", "The family moves on. The wounded cousin dies in the next street. The mother's name turns up the next year in the indentured-servant rolls — seven years of her labor, to feed her remaining children.", "Word gets back to my grandchildren. They do not say anything. They do not have to.", "I die four years later. The will I write is correct in every legal particular — and it is the will of a woman who, the year the war came to her door, kept her door closed.", "*Real history: King Philip's War (1675–78) displaced thousands of English colonists. Boston's response was household-by-household — nearly every prosperous home took in someone for a season. Families who closed their doors in '75 and '76 were quietly excluded from post-war trade networks for a generation.*"], "key_terms": [], "buttons": [{"text": "TRY AGAIN", "target": "slide_1"}, {"text": "CHOOSE ANOTHER ROUTE", "target": "HOME"}], "image_brief": "Period-art still — a Boston street at dusk, snow beginning, a closed door, a single oil lamp in the window. (Tone: regret, dignity. No meme cast — this is the matriarch's failure, she is old, the comic register would be cruel.)", "timeline": {"active": [], "pulsing": []}, "gif": "https://media.tenor.com/mcS-PaTlDawAAAAM/pull-the-lever-wrong-lever.gif"}, {"id": "slide_25b", "type": "gameover", "title": "GAMEOVER G: I Took In Everyone", "body": ["I take in the family. And the next. And the one after that. By the third night there are fourteen people in my two rooms. By the seventh, my winter's bread is gone.", "The wounded cousin's fever spreads to the children. Three die in my parlor. My granddaughter falls sick. The town's refugee committee comes and redistributes everyone, taking my granddaughter to a healthier house where she recovers without me.", "Generosity without arithmetic is not generosity. It is a longer disaster.", "*Real history: Boston's 1675 refugee network ran on triage — selectmen knew which households had beds and grain, and assigned refugees accordingly. Households that \"took everyone\" without coordinating broke the system and produced higher mortality, not lower.*"], "key_terms": [], "buttons": [{"text": "TRY AGAIN", "target": "slide_1"}, {"text": "CHOOSE ANOTHER ROUTE", "target": "HOME"}], "image_brief": "Period-art still — Mary's two-room Boston house at night, the doorway open to a street still streaming with people, a half-dozen refugees already in the parlor, food running out, a granddaughter at the empty bread-bin. (Tone: mid-comic — Charlie Brown \"AAUGH!\" or Yzma is fine here. This is generous misjudgment, not moral failure.)", "timeline": {"active": [], "pulsing": []}, "gif": "https://media.tenor.com/mcS-PaTlDawAAAAM/pull-the-lever-wrong-lever.gif"}, {"id": "slide_26", "type": "story", "title": "The War Ends, the Town Holds", "body": ["Metacom is killed in the summer of 1676. His head is set on a pike at the Plymouth gate for twenty-five years. His wife and son are sold into slavery in Barbados — the start of a new, colder math.", "About three thousand Wampanoag and Narragansett are dead. About six hundred English. Plymouth is half what it was.", "I am sixty-nine, tired the way a woman is tired when she has outlived a war that was not, in any honest accounting, hers."], "key_terms": [], "buttons": [{"text": "CONTINUE", "target": "slide_27"}], "image_brief": "A spring scene, 1676 or '77. Mary on the same doorstep, but the street is quieter — refugees mostly returned home or absorbed. A column of English militia passing in the background, returning from the southern campaigns. A single Wampanoag captive walking with them, head down. Mary's face: not relieved. Not satisfied. Old.", "timeline": {"active": ["1676"], "pulsing": []}, "gif": null}, {"id": "slide_27", "type": "decision", "title": "The Will", "body": ["I am seventy-two. The doctor has told me what I already know — I will not see another spring. The attorney is here for my will.", "Eight grown children. A chest, a parlor, two beds, a little silver — the Boston accumulations of fifty-five years.", "And one more thing. Her name is Jane. She is twelve. She came into this house three years ago as a debt-payment from a Boston merchant. She sleeps by the hearth. She has never been beaten in this house. She has also never been free.", "Under the colony's law, she is my property — the way the chest is my property, the way the silver is my property.", "", "The attorney waits. *What do I do?*"], "key_terms": [], "buttons": [{"text": "\"JANE IS TO BE FREED UPON MY DEATH, WITH A SUM SUFFICIENT TO ESTABLISH HER IN A TRADE.\"", "target": "slide_29"}, {"text": "\"JANE IS TO BE FREED UPON MY DEATH. NO BEQUEST. SHE IS YOUNG; SHE WILL FIND HER OWN WAY.\"", "target": "slide_29"}, {"text": "\"JANE IS TO PASS TO MY DAUGHTER SUSANNA, WHO WILL CARE FOR HER.\"", "target": "slide_28"}], "image_brief": "Mary at a table in her parlor. A single candle. A Boston attorney at her elbow with a quill, taking down dictation. On the floor, sleeping by the hearth, a young Black girl about twelve — Jane. Mary's hand is on the table; she has not yet said the next sentence. The candle catches her face. This is the slide the route has been building toward.", "timeline": {"active": ["1679"], "pulsing": []}, "gif": null}, {"id": "slide_28", "type": "gameover", "title": "GAMEOVER H: Jane Was Inherited", "body": ["I tell the attorney that Jane is to pass to my daughter Susanna, who will care for her.", "Susanna is not cruel. But when Susanna dies in 1697, her children inherit Jane along with the parlor furniture. By 1727, three Winslow households down the line still own Jane or her daughter or her granddaughter. The clause in my will becomes a small, quiet chain of bondage.", "I told myself I was being merciful. The bequest of a person was, in 1679 Boston, an ordinary line in an ordinary will. My daughter understood it. The attorney understood it. I understood it.", "Plymouth had no plantations. Plymouth had no slave ships at its dock. Plymouth had wills like mine. That is how slavery reached the north — not by armies, not by markets, but by families like mine, line by line, will by will.", "*Real history: Mary Chilton Winslow's actual 1679 will, preserved in Suffolk County probate records, contains a bequest of an enslaved person named Jane. New England slavery persisted for over 150 years partly through bequest clauses like this. Massachusetts did not abolish slavery until 1783, by judicial decision in the Quock Walker case.*"], "key_terms": [], "buttons": [{"text": "TRY AGAIN", "target": "slide_1"}, {"text": "CHOOSE ANOTHER ROUTE", "target": "HOME"}], "image_brief": "Period-art still — a Boston parlor a generation later, around 1700. A different family at the table. Jane, now in her thirties, in the corner with a tray. She is older, her face is set, her eyes are forward. She is still in the same house, or one like it. The composition is plain, daylight, no drama. (Tone: dignity. NO meme cast. NO Rickroll. This is the route's most morally weighty card and the one that requires the deepest stillness.)", "timeline": {"active": ["1700"], "pulsing": []}, "gif": "https://media.tenor.com/mcS-PaTlDawAAAAM/pull-the-lever-wrong-lever.gif"}, {"id": "slide_29", "type": "story", "title": "The Last Page", "body": ["I freed Jane and gave her a sum to start a trade. My children received less. She left the next month for a Roxbury household where she would be paid a wage. The Boston records do not follow a freed Black girl in 1679 the way they follow the will of a white widow.", "", "I freed Jane, but I left her nothing. I told myself she was young, that she would find her way. She is one line in my will and then no lines anywhere. The not-knowing is the thing, on the last page of my life, I cannot account for.", "", "I was thirteen when I crossed the Atlantic. I am seventy-two now. Half the people on the boat died that first winter — my father, my mother, the widow who took me in.", "I held a household. I raised eight children. I buried two. I made bread my grandchildren remember. I made one will, and the will is the page that will outlive me.", "The boat brought us. The winter killed half of us. The Wampanoag fed us, and then the math broke for them the way it almost broke for us.", "I close my eyes. The Atlantic is in the other room."], "key_terms": [], "buttons": [{"text": "→ SEE WHAT REALLY HAPPENED", "target": "slide_30"}, {"text": "→ CHOOSE ANOTHER ROUTE", "target": "HOME"}], "image_brief": "Mary in her bed, a week or two later. The candle out. A daughter at her side, holding her hand. Through the window, a Boston dawn. The composition is restful — this is not a tragic deathbed; it is a long life ending. Period-art aesthetic.", "timeline": {"active": ["1679"], "pulsing": []}, "gif": null}, {"id": "slide_30", "type": "story", "title": "Epilogue: What Really Happened", "body": ["The historical Mary Chilton was thirteen years old on the Mayflower. Both her parents died the first winter. She was fostered into another Pilgrim household. Family tradition — recorded by descendants in the 18th and 19th centuries — names her as the first European woman to step ashore at Plymouth Rock; we cannot prove or disprove it, but the story is old enough to be worth telling.", "She married John Winslow, the younger brother of Edward Winslow, in 1624 at age seventeen. They had ten children; eight survived. The family moved to Boston in the 1650s. John died in 1670. Mary died in Boston in 1679 and was buried in King's Chapel Burying Ground, where her stone can still be visited.", "Her will, preserved in Suffolk County probate records, includes a bequest of an enslaved girl named Jane. This is not invented. Plymouth and Massachusetts Bay had small-scale household slavery throughout the 17th and 18th centuries — fewer enslaved Africans than Virginia by orders of magnitude, but the institution was real, and it was perpetuated, generation by generation, by clauses like the one in Mary Chilton's will.", "John Rolfe's route, on the Jamestown side of this game, covers 1619 — the year the first enslaved Africans were brought to Virginia. Mary Chilton's route covers the parallel beat for Plymouth, just smaller and quieter and sixty years later. Both are real. Both are American. Both are how the country learned the habits it would have to fight, two centuries later, to break.", "Mary Chilton was an orphan, a survivor, a mother, a widow, a matriarch — and a slaveholder, in the last and quietest of her roles. She was all of these things at once. So was the colony she came over on."], "key_terms": [], "buttons": [{"text": "→ SEE MY CHRONICLE", "target": "slide_31"}, {"text": "→ CHOOSE ANOTHER ROUTE", "target": "HOME"}], "image_brief": "Period-art portrait composition — a 19th-century history-painting of a Mayflower-passenger memorial, or a Wikimedia engraving of Plymouth Rock with no figures. Spare, dignified. A faded background of the New England coast.", "timeline": {"active": ["1607", "1608", "1620", "1620", "1620", "1620", "1620", "1621", "1621", "1622", "1624", "1626", "1650", "1650", "1670", "1675", "1679"], "pulsing": []}, "gif": null}, {"id": "slide_31", "type": "story", "title": "Stacking Review", "body": ["I crossed an ocean at thirteen. I buried my parents at thirteen. I was fed by a widow, married by twenty, mother of ten by forty, widow myself by sixty-three.", "I ate at a long table with the Wampanoag in autumn 1621. I lived to see their grandsons fight a war against my grandsons in 1675.", "I wrote one will. The will held a chest, a parlor, eight children's portions — and a girl named Jane.", "The Mayflower was not the end of the story. It was the first sentence. The last sentence is the will."], "key_terms": [], "buttons": [{"text": "→ CHOOSE ANOTHER ROUTE", "target": "HOME"}], "image_brief": "A vertical stack of small panels showing the player's journey — each panel a small period-art thumbnail of one decision: (1) the cabin at sea, (2) Plymouth Rock, (3) the foster doorway, (4) the long table 1621, (5) the loom or the cookfire, (6) John Winslow at the door, (7) the Boston road, (8) the refugee street, (9) the will at the candle. Beneath the stack, the timeline bar runs the length of the slide, all ticks solid. Background: a dim painted New England coast at twilight, restful.", "timeline": {"active": [], "pulsing": []}, "gif": null}];
+const HUB_HREF = "index.html?back=1";
+const DEFAULT_BG = "images/chilton/chilton-stepping-ashore.png";
+
+const stage = document.getElementById('stage');
+const counter = document.getElementById('counter');
+
+function renderSlide(slide) {
+  const div = document.createElement('div');
+  let cls = 'slide';
+  if (slide.type === 'gameover') cls += ' gameover-slide';
+  div.className = cls;
+  div.id = slide.id;
+
+  // Image priority: per-slide explicit image > DEFAULT_BG (character portrait) > gradient
+  // Gameovers skip bg image entirely (they have their own dark bg + GIF center)
+  if (slide.type !== 'gameover') {
+    const bgImg = slide.image || DEFAULT_BG;
+    if (bgImg) {
+      div.classList.add('has-image');
+      div.style.backgroundImage = `url('${bgImg}')`;
+      // Smart bg-position based on image content type:
+      //   portraits (face at top of image) → top-bias
+      //   ships / hulls / fleets → bottom-bias
+      //   maps / landscapes → center
+      //   Per-slide override via slide.bg_position takes precedence
+      let pos = slide.bg_position;
+      if (!pos) {
+        const fn = bgImg.toLowerCase();
+        if (/portrait|chief|king|herowans_wife|smith\.jpg|bradford_|massasoit-relief|powhatan_|pocahontas_van_de_passe|squanto-billington|raleigh|metacom|appleton|de_critz|de_passe|chilton-stepping|pilgrim-maiden|maiden-statue|statue/.test(fn)) {
+          pos = 'center 32%'; // top-bias for portrait/figure faces (pushed down so faces sit in visible band)
+        } else if (/ships|mayflower|fleet|halsall|caravel|sea_venture|delfshaven/.test(fn)) {
+          pos = 'center 70%'; // bottom-bias for ship hulls
+        } else if (/burial|fire|stove|hearth/.test(fn)) {
+          pos = 'center 60%';
+        } else {
+          pos = 'center 45%'; // slight top-bias default — most paintings have action in upper half
+        }
+      }
+      div.style.backgroundPosition = pos;
+    }
+  }
+
+  if (slide.gif) {
+    const gifImg = document.createElement('img');
+    gifImg.className = 'fullscreen-gif';
+    gifImg.src = slide.gif;
+    gifImg.alt = 'gameover';
+    div.appendChild(gifImg);
+  }
+
+  // Right-side panel wraps card + buttons in a flex column so they never overlap
+  const panel = document.createElement('div');
+  panel.className = 'panel';
+
+  const card = document.createElement('div');
+  card.className = 'card';
+  if (slide.title && slide.title.trim()) {
+    const h2 = document.createElement('h2');
+    h2.textContent = slide.title;
+    card.appendChild(h2);
+  }
+  const body = document.createElement('div');
+  body.className = 'body';
+  slide.body.forEach(p => {
+    const para = document.createElement('p');
+    para.innerHTML = p;
+    body.appendChild(para);
+  });
+  card.appendChild(body);
+
+  // KEY TERM glossary chips — gold-bordered callouts. Reveal staggered after body.
+  if (slide.key_terms && slide.key_terms.length) {
+    const ktWrap = document.createElement('div');
+    ktWrap.className = 'keyterms';
+    slide.key_terms.forEach(kt => {
+      const chip = document.createElement('div');
+      chip.className = 'keyterm';
+      chip.innerHTML =
+        `<span class="kt-label">KEY TERM</span> ` +
+        `<span class="kt-name">${kt.name}</span> — ${kt.def}`;
+      ktWrap.appendChild(chip);
+    });
+    card.appendChild(ktWrap);
+  }
+
+  panel.appendChild(card);
+
+  const btnWrap = document.createElement('div');
+  btnWrap.className = 'buttons';
+  slide.buttons.forEach(b => {
+    const btn = document.createElement('button');
+    btn.className = 'choice';
+    btn.textContent = b.text;
+    btn.addEventListener('click', () => goToSlide(b.target));
+    btnWrap.appendChild(btn);
+  });
+  panel.appendChild(btnWrap);
+
+  div.appendChild(panel);
+
+  stage.appendChild(div);
+  return div;
+}
+
+function updateTimeline(state) {
+  document.querySelectorAll('.tick').forEach(tick => {
+    const year = tick.dataset.year;
+    const isHistory = tick.classList.contains('history');
+    tick.classList.remove('active', 'pulsing');
+    if (!isHistory) tick.classList.remove('revealed');
+    if (state.active && state.active.includes(year)) {
+      tick.classList.add('active', 'revealed');
+    }
+    if (state.pulsing && state.pulsing.includes(year)) {
+      tick.classList.add('active', 'pulsing', 'revealed');
+    }
+  });
+}
+
+function revealCard(slideEl) {
+  const paras = slideEl.querySelectorAll('.card .body p');
+  const chips = slideEl.querySelectorAll('.card .keyterm');
+  const buttons = slideEl.querySelector('.panel > .buttons');
+  paras.forEach((p, i) => setTimeout(() => p.classList.add('shown'), 250 + i * 600));
+  const afterBody = 250 + paras.length * 600;
+  chips.forEach((c, i) => setTimeout(() => c.classList.add('shown'), afterBody + 200 + i * 400));
+  if (buttons) {
+    const tail = afterBody + 200 + chips.length * 400 + 200;
+    setTimeout(() => buttons.classList.add('shown'), tail);
+  }
+}
+
+function showSlide(idx) {
+  document.querySelectorAll('.slide').forEach(s => s.classList.remove('active'));
+  const slide = SLIDES[idx];
+  if (!slide) return;
+  let el = document.getElementById(slide.id);
+  if (!el) el = renderSlide(slide);
+  el.querySelectorAll('.card .body p').forEach(p => p.classList.remove('shown'));
+  el.querySelectorAll('.card .keyterm').forEach(c => c.classList.remove('shown'));
+  const bw = el.querySelector('.panel > .buttons');
+  if (bw) bw.classList.remove('shown');
+  el.classList.add('active');
+  updateTimeline(slide.timeline || {});
+  counter.textContent = `${idx + 1} / ${SLIDES.length}`;
+  applySlideSFX(slide);
+  setTimeout(() => revealCard(el), 200);
+}
+
+// Per-slide ambient SFX layer (sailing/storm/forest/battle/etc.)
+// Each slide can specify slide.sfx → URL of an MP3 to loop quietly under
+// the music bed. Switching slides crossfades to the new SFX or stops if none.
+const bgSfx = document.getElementById('bg-sfx');
+let currentSfxSrc = null;
+function applySlideSFX(slide) {
+  if (!bgSfx) return;
+  const wantedSrc = slide.sfx || null;
+  if (wantedSrc === currentSfxSrc) return; // already playing this SFX
+
+  // Fade out current SFX
+  if (!bgSfx.paused && bgSfx.volume > 0) {
+    const startVol = bgSfx.volume;
+    const fadeOut = setInterval(() => {
+      bgSfx.volume = Math.max(0, bgSfx.volume - 0.05);
+      if (bgSfx.volume <= 0) {
+        clearInterval(fadeOut);
+        bgSfx.pause();
+        // Then start new SFX if any
+        if (wantedSrc) startSfx(wantedSrc);
+      }
+    }, 50);
+  } else if (wantedSrc) {
+    startSfx(wantedSrc);
+  }
+  currentSfxSrc = wantedSrc;
+}
+function startSfx(src) {
+  if (!bgSfx) return;
+  bgSfx.src = src;
+  bgSfx.loop = true;
+  bgSfx.volume = 0;
+  bgSfx.play().then(() => {
+    let v = 0;
+    const fadeIn = setInterval(() => {
+      v += 0.025;
+      if (v >= 0.32) { bgSfx.volume = 0.32; clearInterval(fadeIn); }
+      else bgSfx.volume = v;
+    }, 80);
+  }).catch(() => {});
+}
+
+function goToSlide(target) {
+  if (target === 'HOME') { window.location.href = HUB_HREF; return; }
+  const idx = SLIDES.findIndex(s => s.id === target);
+  if (idx === -1) return;
+  showSlide(idx);
+}
+
+// Audio unlock + fade-in
+const bgMusic = document.getElementById('bg-music');
+let audioStarted = false;
+function startMusic() {
+  if (audioStarted || !bgMusic) return;
+  audioStarted = true;
+  bgMusic.volume = 0;
+  bgMusic.play().then(() => {
+    let v = 0;
+    const fade = setInterval(() => {
+      v += 0.03;
+      if (v >= 0.45) { bgMusic.volume = 0.45; clearInterval(fade); }
+      else bgMusic.volume = v;
+    }, 100);
+  }).catch(() => {});
+}
+document.addEventListener('click', startMusic, { once: true });
+document.addEventListener('keydown', startMusic, { once: true });
+
+showSlide(0);
+</script>
+</body>
+</html>

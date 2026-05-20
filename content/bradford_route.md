@@ -35,6 +35,9 @@
 > The King's bishops say only they may decide how God is worshipped. We Separatists believe the Bible alone tells us how — and so we have separated from the King's church.
 > The penalty for this in England is prison. Or worse.
 
+**KEY TERMS:**
+- **Separatists** — English Protestants who wanted to separate from the Church of England entirely, not just reform it. Illegal under King James I. The Pilgrims were Separatists.
+
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 3
 
@@ -67,10 +70,10 @@
 **Slide text overlay:** Cutscene card centered at top:55%.
 
 **Body text (small, beneath headline):**
-> I stay. I keep my head down through harvest. I tell myself the inheritance matters.
-> The King's pursuivants come for Brewster within the year, then for the rest of us. The Court of High Commission fines me into ruin and locks me up in York Castle for six months.
-> No Mayflower. No Plymouth. No Compact. England forgets the boy who chose his fields over his faith.
-> Real history: Separatists who stayed in England under James I were systematically prosecuted — fined, imprisoned, some executed. The Scrooby congregation that escaped to Holland in 1607–08 only made it out by bribing a Dutch captain in the dead of night. The ones who stayed lost everything anyway.
+> I stay. I tell myself the inheritance matters.
+> The King's pursuivants come for Brewster within the year, then for me. The High Commission fines me into ruin and locks me in York Castle.
+> No Mayflower. No Plymouth. No Compact.
+> Real history: Separatists who stayed in England under James I were prosecuted — fined, jailed, sometimes executed. The Scrooby congregation that escaped to Holland in 1607–08 only made it by bribing a Dutch captain at night.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 3
@@ -86,9 +89,9 @@
 **Slide text overlay:** Slide-textbox card.
 
 **Body text:**
-> Holland lets us worship as we please, and for that I will be grateful all my life. I learn the wool trade and live among Dutchmen who do not care which English bishop I refuse.
-> Spring 1612 — I marry Dorothy May, a fellow exile's daughter. Three years later we have a son, John. He plays in Dutch streets and answers his Dutch nurse first when she calls.
-> The Dutch are kind. The Dutch are also slowly, quietly, taking my children away from me.
+> Holland lets us worship as we please. I learn the wool trade among Dutchmen who do not care which bishop I refuse.
+> Spring 1612 — I marry Dorothy May. Three years later we have a son, John, who answers his Dutch nurse before he answers me.
+> The Dutch are kind. They are also quietly taking my children away from me.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 5
@@ -138,10 +141,10 @@
 **Slide text overlay:** Cutscene card centered at top:55%.
 
 **Body text (small, beneath headline):**
-> We pack the wagons for Amsterdam. The English congregation there welcomes us at first.
-> Within a year our elders are quarreling with theirs over communion practice, over leadership, over whether John Smyth's followers were ever truly saved. Our Scrooby congregation is folded into someone else's argument and stops being our own.
-> By 1612 the Amsterdam church has split three ways. Brewster goes home to die. I marry into a Dutch family and never see England's flag again.
-> Real history: the Ancient Brethren congregation at Amsterdam fractured repeatedly between 1608 and 1620 over baptism and church discipline. Pilgrim leaders specifically chose Leiden in 1609 to *avoid* this — a smaller Dutch town where they could keep their identity intact. Joining the Amsterdam church was the path most Separatist refugees took, and almost none of those congregations survived a generation.
+> We pack the wagons for Amsterdam. The English congregation welcomes us at first.
+> Within a year their elders quarrel with ours over communion and leadership. Our Scrooby congregation is folded into someone else's argument.
+> By 1612 the Amsterdam church has split three ways. Brewster goes home to die. I never see England's flag again.
+> Real history: the Amsterdam congregation fractured repeatedly between 1608 and 1620 over baptism and church discipline. Pilgrim leaders chose Leiden in 1609 specifically to avoid this — almost no Separatist congregation that joined Amsterdam survived a generation.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 6
@@ -158,9 +161,9 @@
 
 **Body text (small, beneath headline):**
 > We slip back across the Channel in twos and threes. I tell myself the heat has died down.
-> Bancroft's pursuivants and the High Commission have been hunting Separatists for two years. The heat has not died down — it has been waiting for me to come home.
-> Brewster is arrested at the dock; I am arrested at my mother's gate. The press at Leiden — the one Brewster will use to print Puritan tracts — never gets built.
-> Real history: Archbishop Richard Bancroft's 1604 Canons made Separatist worship a prosecutable offense, and the High Commission tracked exiled Pilgrims for years. Brewster himself spent 1619 hiding from English agents in Leiden after his secret press was discovered. Pilgrims who returned to England before the political climate changed in the 1640s were almost always caught.
+> It has not. The High Commission has been hunting Separatists for two years.
+> Brewster is arrested at the dock; I am arrested at my mother's gate. The Leiden press never gets built.
+> Real history: Archbishop Bancroft's 1604 Canons made Separatist worship prosecutable, and the High Commission tracked exiled Pilgrims for years. Brewster himself spent 1619 hiding from English agents in Leiden — Pilgrims who returned were almost always caught.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 6
@@ -176,8 +179,8 @@
 **Slide text overlay:** Slide-textbox card.
 
 **Body text:**
-> It is 1619. Eleven years of saving and pleading have brought us to this table — the Adventurers' parlor in London.
-> We will go to the New World. The Virginia Company has granted us a charter near the mouth of the Hudson, but we must pay our way by going into debt to London merchants — the Adventurers — for seven years.
+> It is 1619. Eleven years of saving have brought us to the Adventurers' parlor in London.
+> The Virginia Company grants us a charter near the Hudson. We must pay our way by going into debt to London merchants for seven years.
 > The terms are hard. The terms are the only terms there are.
 
 **Buttons:**
@@ -212,10 +215,10 @@
 **Slide text overlay:** Cutscene card centered at top:55%.
 
 **Body text (small, beneath headline):**
-> I refuse the Strangers. We charter a second ship ourselves — the Speedwell — to keep Saints separate from Strangers across the ocean.
-> She leaks. Twice we put back to Dartmouth and Plymouth. By the third return our money is gone, the season is gone, and the Atlantic is closed for winter.
-> Half our families lose heart and go home to Leiden. The Adventurers cancel our charter and lend it to a different group.
-> Real history: the actual Speedwell did leak, and the Pilgrims really did transfer to the Mayflower alone. Refusing to share a ship with the Strangers would have doubled the cost the Adventurers had to recoup, and there is no evidence the Adventurers would have funded a Saints-only voyage. The Pilgrims survived because they accepted the mixed manifest — not despite it.
+> I refuse the Strangers. We charter the Speedwell to keep Saints separate.
+> She leaks. Twice we put back to port. By the third return our money is gone and the Atlantic is closed for winter.
+> Half our families go home to Leiden. The Adventurers cancel our charter.
+> Real history: the Speedwell really did leak, and the Pilgrims transferred to the Mayflower alone. There is no evidence the Adventurers would have funded a Saints-only voyage — the Pilgrims survived because they accepted the mixed manifest.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 8
@@ -231,10 +234,10 @@
 **Slide text overlay:** Cutscene card centered at top:55%.
 
 **Body text (small, beneath headline):**
-> I tell the Adventurers we will sail next year — better terms, better season, better company.
-> By spring 1620 the Adventurers have lost patience and given our charter to a different congregation. By 1621 the Massachusetts Bay men begin organizing their own fleet. By 1657 our generation is dead and Plymouth is absorbed by larger colonies — except there is no Plymouth.
+> I tell the Adventurers we will sail next year — better terms, better season.
+> By spring 1620 they have given our charter to a different congregation. By 1657 our generation is dead, and there is no Plymouth.
 > We are still in Leiden, still arguing terms. The world sails without us.
-> Real history: religious dissenter movements that wait for perfect conditions never sail. The Pilgrims were not the only English Separatists, just the only ones who actually moved. Other Separatist congregations — Smyth's, Robinson's Amsterdam rivals, the Ancient Brethren — debated, delayed, and dissolved. The Pilgrims sailed in 1620 with bad terms because the alternative was no terms at all.
+> Real history: religious dissenter movements that wait for perfect conditions never sail. Other Separatist congregations debated and dissolved — the Pilgrims sailed in 1620 with bad terms because the alternative was no terms at all.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 8
@@ -250,8 +253,8 @@
 **Slide text overlay:** Slide-textbox card.
 
 **Body text:**
-> Summer 1620 — the Speedwell leaks twice. We transfer to the Mayflower alone. Half our company stays behind; the rest crowd onto a hundred-foot ship that was built for wine.
-> September, 1620. We board the Mayflower at Plymouth, England — one hundred two passengers, Saints and Strangers mixed, half of us women and children.
+> Summer 1620 — the Speedwell leaks twice. We transfer to the Mayflower alone, a hundred-foot ship built for wine.
+> September, 1620. We board at Plymouth, England — one hundred two passengers, Saints and Strangers mixed, half of us women and children.
 > We are families. That, I think, is the difference that will matter most.
 
 **Buttons:**
@@ -318,10 +321,10 @@
 **Slide text overlay:** Cutscene card centered at top:55%.
 
 **Body text (small, beneath headline):**
-> I order Captain Jones south to the Hudson — the charter says Virginia, and a chronicler keeps his word.
-> We run straight into the Pollock Rip off Monomoy. The Mayflower grounds at low tide; the keel breaks before sunrise. The November wind drives her broadside onto the bar.
-> Half drown in the surf. The rest stagger ashore on Cape Cod with no provisions, no shelter, and the worst winter the coast has seen in a decade. No Plymouth.
-> Real history: Captain Jones turned the Mayflower back from the Pollock Rip in November 1620 because he saw firsthand how dangerous it was — historians believe pushing through would have wrecked the ship. The "illegal" landing at Cape Cod was navigationally necessary, and the Mayflower Compact was invented precisely to handle the legal problem of being outside the Virginia Company's jurisdiction.
+> I order Captain Jones south to the Hudson. The charter says Virginia.
+> We run straight into the Pollock Rip. The keel breaks before sunrise.
+> Half drown in the surf. The rest stagger ashore with no provisions and no shelter. No Plymouth.
+> Real history: Captain Jones turned back from the Pollock Rip in November 1620 because pushing through would have wrecked the ship. The Cape Cod landing was navigationally necessary — and the Mayflower Compact was invented to handle the legal problem of being outside Virginia jurisdiction.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 12
@@ -337,9 +340,9 @@
 **Slide text overlay:** Cutscene card centered at top:55%.
 
 **Body text (small, beneath headline):**
-> I let the Strangers rush the quarterdeck. Captain Jones is shoved against the rail, three crewmen are knifed in the scuffle, and the rest will not work the ship for us.
-> The Mayflower turns home, manned half by mutineers and half by Saints who never wanted a fight. We arrive in England in chains and stand trial in Plymouth's home port for piracy on the high seas.
-> Real history: Captain Christopher Jones was a hired master under the Virginia Company's authority. Mutiny against him on a chartered crossing would have been prosecuted as piracy — capital crime under James I. The Compact existed precisely to prevent this kind of breakdown, by binding Strangers and Saints to a civil order before anyone stepped ashore.
+> I let the Strangers rush the quarterdeck. Captain Jones is shoved against the rail, three crewmen knifed.
+> The Mayflower turns home, manned half by mutineers. We arrive in England in chains and stand trial for piracy.
+> Real history: Captain Jones was a hired master under Virginia Company authority — mutiny on a chartered crossing was a capital crime under James I. The Compact existed precisely to prevent this, by binding Strangers and Saints to a civil order before anyone stepped ashore.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 12
@@ -390,10 +393,10 @@
 **Slide text overlay:** Cutscene card centered at top:55%.
 
 **Body text (small, beneath headline):**
-> I order the Saints onto the beach first, muskets ready. The Strangers wade ashore behind us and find armed men between them and the supplies.
-> Muskets fire on the sand before the second day is out. Saints lose four men. Strangers lose seven. The wounded freeze in their blankets that first week.
-> Half the colony is killed by the other half before winter arrives. There is no Compact. There is no Plymouth.
-> Real history: every English colonization attempt that began with internal armed conflict — Roanoke, the early Jamestown factions, the Popham Colony in Maine — failed within two years. The thing that distinguished Plymouth was the Compact's pre-landing agreement to civil order. Without it, the math of fifty Saints versus forty-one armed Strangers in a frozen wilderness ends one way.
+> I order the Saints onto the beach first, muskets ready. The Strangers wade ashore and find armed men between them and the supplies.
+> Muskets fire on the sand before the second day. The wounded freeze in their blankets that first week.
+> Half the colony is killed by the other half before winter. No Compact. No Plymouth.
+> Real history: every English colony that began in armed conflict — Roanoke, early Jamestown factions, Popham — failed within two years. Plymouth survived because the Compact bound Strangers and Saints before anyone stepped ashore.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 14
@@ -409,10 +412,10 @@
 **Slide text overlay:** Cutscene card centered at top:55%.
 
 **Body text (small, beneath headline):**
-> I order the Mayflower home. The Strangers cheer. The Saints kneel and weep. Brewster will not look at me.
-> Twelve years in Holland for nothing. We arrive at Plymouth, England in February 1621, the colony abandoned, the charter forfeit, the Adventurers ruined.
-> History writes us off as the second Roanoke. England tries again with someone else — the Massachusetts Bay men, ten years later, with three times our money and none of our story.
-> Real history: every failed English colony before Plymouth — Roanoke, Sagadahoc, the first Jamestown winters — turned back or starved within two years. The Pilgrims succeeded partly because they refused to retreat. Bradford himself wrote that giving up the New World "would not be a sufficient excuse before God." Turning the ship around in November 1620 ends the entire Pilgrim story.
+> I order the Mayflower home. The Saints kneel and weep. Brewster will not look at me.
+> Twelve years in Holland for nothing. We arrive in England in February 1621, the colony abandoned.
+> History writes us off as the second Roanoke.
+> Real history: every failed English colony before Plymouth — Roanoke, Sagadahoc, early Jamestown — turned back or starved within two years. Bradford wrote that giving up the New World "would not be a sufficient excuse before God." Turning the ship around ends the entire Pilgrim story.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 14
@@ -448,10 +451,10 @@
 **Slide text overlay:** Cutscene card centered at top:55%.
 
 **Body text (small, beneath headline):**
-> I write the Compact for Saints alone. Brewster signs. Carver signs. I sign. Forty-one Strangers stand at the rail and watch.
-> They walk off the ship the next morning as forty-one little kings, exactly as Hopkins promised. They build their own huts on the far side of the brook and answer to no one.
-> By spring, half the colony is being governed by Saints, half is being governed by no one, and the half being governed by no one is shooting at the half that is.
-> Real history: the Compact's genius was that it bound Strangers as well as Saints. Excluding the Strangers would have left them legally free of any colonial authority — which is exactly what Hopkins threatened on Slide 13. The Compact's first signers were a deliberate mix: Saints, Strangers, servants, all sworn to the same body politic. That mix is the foundation American historians point to as the seed of representative self-government. Strip the Strangers from the page and you strip the precedent from history.
+> I write the Compact for Saints alone. Forty-one Strangers stand at the rail and watch.
+> They walk off the ship the next morning as forty-one little kings, exactly as Hopkins promised. They build huts across the brook and answer to no one.
+> By spring, half the colony is shooting at the other half.
+> Real history: the Compact's genius was binding Strangers as well as Saints. Its first signers were a deliberate mix — Saints, Strangers, servants, all sworn to the same body politic. Strip the Strangers from the page and you strip the precedent from history.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 15
@@ -476,6 +479,11 @@
 > *(BROAD path closing line):* Hopkins signs first.
 > *(NEGOTIATED path closing line):* Hopkins signs grudgingly, third from last.
 
+**KEY TERMS:**
+- **Mayflower Compact** — A short written agreement signed November 11, 1620, by 41 male passengers in the Mayflower's cabin. It bound everyone aboard — Saints AND Strangers — to obey laws they would together make. It is the first written framework for self-government written on what becomes United States soil.
+- **Civil Body Politic** — The phrase from the Compact meaning *a community that governs itself by its own consent*, not by a king's command. This idea — that legitimate government comes from the people who agree to be governed — runs straight through the Declaration of Independence (1776) and the U.S. Constitution (1787).
+- **Self-Government** — The idea that a community can make its own laws and elect its own leaders without a king. The Compact is the first practical test of this idea on this coast.
+
 **Buttons:**
 - `[STEP ASHORE →]` — advances to Slide 17
 
@@ -489,9 +497,9 @@
 **Slide text overlay:** Slide-textbox card.
 
 **Body text:**
-> We came ashore in December. We had no shelter. We had no fresh food. We had the cold of New England and the lungs of men and women who had lived twelve years in lowland Holland.
+> We came ashore in December with no shelter and no fresh food. Our lungs had spent twelve years in lowland Holland.
 > By the time the snow melts, fifty-two of the one hundred two of us are in the ground. Half the ship.
-> Dorothy is one of them. She falls from the deck of the Mayflower in the harbor while I am ashore looking for a place to build. They tell me it was an accident. I have never written down what I think it was.
+> Dorothy is one of them. She falls from the deck of the Mayflower while I am ashore. They tell me it was an accident — I have never written what I think it was.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 18
@@ -526,10 +534,10 @@
 **Slide text overlay:** Cutscene card centered at top:55%.
 
 **Body text (small, beneath headline):**
-> I leave Dorothy's name on the supply roster. I tell myself I will deal with it after the spring planting.
-> Three weeks later a Stranger sees her ration drawn but never delivered. He asks where her share is going.
-> By April, Plymouth's whisper is that the man who would be governor is a liar before God. They elect Isaac Allerton instead. He governs three years badly, embezzles the Adventurers' debt, and is voted out in disgrace — and by then I am no longer the chronicler anyone trusts to tell it straight.
-> Real history: Bradford's authority at Plymouth came from his reputation as a truthful chronicler. Pilgrim governance was rooted in the Reformed Protestant idea that civil leaders had to be morally above reproach — a lie about a household death, in a community of one hundred souls, would have ended his political career inside a year. He recorded Dorothy's death plainly because that was the only way he could keep governing.
+> I leave Dorothy's name on the supply roster. I tell myself I will deal with it after spring planting.
+> Three weeks later a Stranger sees her ration drawn but never delivered.
+> By April, Plymouth's whisper is that the man who would be governor is a liar before God. They elect Isaac Allerton instead — and by then no one trusts the chronicler to tell it straight.
+> Real history: Bradford's authority came from his reputation as a truthful chronicler. A lie about a household death, in a community of one hundred souls, would have ended his political career inside a year.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 18
@@ -563,10 +571,10 @@
 **Slide text overlay:** Cutscene card centered at top:55%.
 
 **Body text (small, beneath headline):**
-> I open the chest. The children eat. The colony breathes. We are alive in March.
-> April comes. There is nothing to plant. May comes. There is nothing to plant. We send Standish and four men to barter for more corn from the Wampanoag, but Squanto has not yet come and we cannot find their villages, and what we do find is empty cache pits already stripped by winter.
+> I open the chest. The children eat. We are alive in March.
+> April comes. There is nothing to plant. May comes. There is nothing to plant.
 > By the next winter, the ones who survived the first winter are in the same ground as the ones who didn't.
-> Real history: the seed corn the Pilgrims took from a Wampanoag cache on Cape Cod in November 1620 was the foundation of the 1621 harvest. Without spring planting in mound-and-fish style, no English colony in New England survived — Sagadahoc starved in 1608 for exactly this reason. Eating the seed stock is the single decision that ends every northeastern colonization attempt. Bradford's restraint that February is what makes Plymouth different from the colonies that didn't last.
+> Real history: the seed corn taken from a Wampanoag cache in November 1620 was the foundation of the 1621 harvest. Without spring planting in mound-and-fish style, no English colony in New England survived — Sagadahoc starved in 1608 for exactly this reason.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 19
@@ -582,10 +590,10 @@
 **Slide text overlay:** Slide-textbox card.
 
 **Body text:**
-> March, 1621. The snow is going. Half of us are dead. The other half are weak.
-> A man walks out of the trees. Tall. Calm. Alone. He raises a hand.
+> March, 1621. Half of us are dead. The other half are weak.
+> A man walks out of the trees, calm and alone. He raises a hand.
 > He says — in English — *"Welcome, Englishmen."*
-> His name is Samoset. He is Abenaki, from further north. He learned our language from English fishermen on the Maine coast. He has come to see who we are.
+> His name is Samoset, an Abenaki from further north. He learned our language from English fishermen on the Maine coast.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 21
@@ -600,8 +608,9 @@
 **Slide text overlay:** Slide-textbox card. Decision point.
 
 **Body text:**
-> Samoset says there is another man — Tisquantum, called Squanto — who speaks our language even better than he does. Squanto's people lived where we are now standing. Until the sickness took them.
-> Samoset says he can bring Squanto. He says he can bring the sachem of the Wampanoag, a man named Massasoit, to meet us.
+> Samoset says there is another man — Tisquantum, called Squanto — who speaks our language even better. Squanto's people lived where we now stand, until the sickness took them.
+> Samoset can bring Squanto. He can bring Massasoit, sachem of the Wampanoag.
+>
 > What do I do?
 
 **Buttons:**
@@ -619,10 +628,11 @@
 **Slide text overlay:** Cutscene card centered at top:55%.
 
 **Body text (small, beneath headline):**
-> Standish ties Samoset's hands. I tell myself the French held Indian hostages and lived. The French had also been trading on this coast for eighty years.
-> Word travels fast in the woods. Squanto never comes. Massasoit never comes. The Wampanoag close their trading paths to us. The Narragansett to the west — Massasoit's rivals, who outnumber us forty to one — do come, in the fall, with arrows and burned arrows wrapped in snake-skin.
-> The half of us still alive in March are not alive in November. No corn lessons. No alliance. No Thanksgiving. No chronicle.
-> Real history: Samoset's peaceful approach in March 1621 was unprecedented and not repeatable. Massasoit's decision to ally with the Pilgrims was his own — driven by the Wampanoag's losses to the 1616–19 epidemic and his fear of the larger Narragansett confederation. Seizing Samoset would have signaled to every nation in southern New England that the English were untrustworthy and weak. Pilgrim survival depended entirely on the alliance, and the alliance depended entirely on the first encounter going well.
+> Standish ties Samoset's hands. I tell myself the French held Indian hostages and lived.
+> Word travels fast in the woods. Squanto never comes. Massasoit never comes.
+> The Narragansett — who outnumber us forty to one — come in the fall with arrows wrapped in snake-skin.
+> No corn lessons. No alliance. No Thanksgiving. No chronicle.
+> Real history: Massasoit's alliance with the Pilgrims was driven by Wampanoag losses to the 1616–19 epidemic and fear of the Narragansett. Seizing Samoset would have signaled to every nation in New England that the English were untrustworthy.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 21
@@ -638,10 +648,11 @@
 **Slide text overlay:** Cutscene card centered at top:55%.
 
 **Body text (small, beneath headline):**
-> I send Samoset away. He nods, raises a hand, and walks back into the trees. He does not come back. Neither does Squanto. Neither does Massasoit.
-> April brings nothing but more graves. We try to plant English wheat in the cleared ground; the kernels rot. We try to fish without nets; the runs miss us. Without Squanto's instruction, our seed corn goes into furrows the wrong way and the deer eat what survives.
+> I send Samoset away. He raises a hand and walks back into the trees.
+> Neither he nor Squanto nor Massasoit comes back. April brings only more graves.
+> We try to plant English wheat; the kernels rot. The deer eat what survives.
 > We do not last to August.
-> Real history: Squanto's knowledge of the New England landscape — where to plant, where to fish, when the eels ran, how the corn-bean-squash mounds worked — was specific to this exact stretch of coast. No European in 1621 had this knowledge; trial-and-error agriculture in a five-month growing season meant starvation. The Pilgrims' acceptance of Native instruction was practical survival, not generosity, and turning Samoset away closed the only door to that knowledge.
+> Real history: Squanto's knowledge of this exact coast — where to plant, when the eels ran, how corn-bean-squash mounds worked — was the only thing keeping the colony alive. Turning Samoset away closed the only door to that knowledge.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 21
@@ -657,9 +668,9 @@
 **Slide text overlay:** Slide-textbox card.
 
 **Body text:**
-> Squanto's English is better than mine in places. He learned it in London. I will hear his story another day, and it is not mine to tell on this slide.
-> What I know now is this: his village stood on the same ground we are building on. His people are gone — a sickness, four years before we landed. He has no home to walk back to.
-> He looks at our half-buried huts and our gaunt children and our muskets. He says: *"I will show you how to plant."*
+> Squanto's English is better than mine in places. He learned it in London.
+> His village stood on the same ground we are building on. His people are gone — a sickness, four years before we landed.
+> He looks at our half-buried huts and our gaunt children. He says: *"I will show you how to plant."*
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 23
@@ -696,9 +707,9 @@
 
 **Body text (small, beneath headline):**
 > I refuse Squanto's help. I tell Brewster the Lord will provide. Brewster does not answer.
-> We plant English wheat in New England soil with no fish underneath. The kernels rot. The stalks come up sickly where they come up at all. The deer eat what survives. The crows eat what the deer leave.
-> By the second winter, the half of us still standing in March are not standing in November. The colony fails by Christmas 1622.
-> Real history: every English colonization attempt in the Northeast that refused Native agricultural knowledge starved within two years — Sagadahoc in 1608, multiple early Jamestown winters before Pocahontas's intervention, the Popham Colony. The Pilgrims survived because Bradford and Brewster recognized that Squanto's knowledge was the price of survival, and that English farming methods would not work on this soil in this climate without modification. Refusing him is refusing the colony's only path forward.
+> We plant English wheat with no fish underneath. The kernels rot. The deer eat what survives.
+> By the second winter, the half of us standing in March are not standing in November. The colony fails by Christmas 1622.
+> Real history: every English colony in the Northeast that refused Native agriculture starved within two years — Sagadahoc, early Jamestown, Popham. English farming methods did not work on this soil without modification.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 23
@@ -714,8 +725,8 @@
 **Slide text overlay:** Slide-textbox card.
 
 **Body text:**
-> Squanto shows us how the Wampanoag plant. A small mound. Four kernels of corn. One dead fish underneath, to feed the soil. Beans climb the corn stalks. Squash spreads at the base.
-> He shows us where the eels run in the creek. He shows us which clams to take and which to leave. He shows us the hollow tree where the bees nest.
+> Squanto kneels in a fresh mound. Four kernels of corn, one dead fish underneath, beans climbing the stalks, squash spreading at the base.
+> He shows us where the eels run, which clams to take, the hollow tree where the bees nest.
 > Without him, by his own count, we would all be dead before midsummer.
 
 **Buttons:**
@@ -731,9 +742,9 @@
 **Slide text overlay:** Slide-textbox card.
 
 **Body text:**
-> Massasoit comes with sixty men. I come with what is left of mine. We sit across a board.
-> Squanto speaks for both sides. We agree, in six plain points: neither will harm the other. If one is attacked, the other will help. We will leave our weapons behind when we visit each other's towns.
-> I sign. Massasoit makes his mark. The treaty will hold for as long as he lives. I will write that down later, and it will be true.
+> Massasoit comes with sixty men. I come with what is left of mine.
+> Squanto speaks for both sides. We agree in six plain points: neither will harm the other; if one is attacked, the other will help; we leave our weapons behind when we visit.
+> I sign. Massasoit makes his mark. The treaty will hold as long as he lives.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 26
@@ -785,9 +796,10 @@
 **Slide text overlay:** Cutscene card centered at top:55%.
 
 **Body text (small, beneath headline):**
-> I order English wheat and barley sown in straight English furrows. Squanto's mound-and-fish method is set aside as heathen.
-> The wheat comes up sickly. The barley comes up worse. The deer eat what survives because we have not learned to read this land yet.
-> Real history: the colonists who succeeded in New England were the ones who copied Wampanoag agriculture — corn-bean-squash mounds with fish fertilizer — not the ones who imported Yorkshire farming whole. By 1623 the colonies that refused to adapt either starved or were absorbed. The second winter takes the rest of our elders. Bradford writes very little in 1623.
+> I order English wheat in straight furrows. Squanto's mound-and-fish method is set aside as heathen.
+> The wheat comes up sickly. The deer eat what survives.
+> The second winter takes the rest of our elders. Bradford writes very little in 1623.
+> Real history: New England colonies that succeeded copied Wampanoag agriculture — corn-bean-squash mounds with fish fertilizer. By 1623, those that refused to adapt starved or were absorbed.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 27
@@ -804,8 +816,8 @@
 
 **Body text:**
 > November, 1622. Squanto and I are on a diplomatic trip down the Cape. He falls ill on the second day.
-> The bleeding from his nose is the sign, he says. The Wampanoag call it Indian fever. I will write later that I think it was a sickness our ships brought from Europe — the kind his people had no shield against.
-> He asks me to pray for him. I do. He asks me to send small gifts to his English friends as remembrances. I do. He dies on the third day.
+> The bleeding from his nose is the sign, he says. I will write later that I think it was a sickness our ships brought from Europe — the kind his people had no shield against.
+> He asks me to pray for him. I do. He asks me to send small gifts to his English friends as remembrances. He dies on the third day.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 29
@@ -841,10 +853,9 @@
 
 **Body text:**
 > I visit Squanto's grave at the cape every spring.
-> The colony elects me governor in the spring of 1621, after John Carver dies. They elect me anyway, despite my refusal. They elect me again. And again. And again.
-> Thirty times in thirty-six years they hand me the chair. I do not always want it. I always take it.
-> I write everything down. The laws we pass. The harvests we count. The dead we bury. The Wampanoag we trade with. The English ships that come and the ones that do not.
-> In 1630 I will watch the Massachusetts Bay fleet arrive — twenty thousand settlers, ten times what we are. Plymouth becomes a footnote in their wake.
+> The colony elects me governor in 1621 after John Carver dies. Thirty times in thirty-six years they hand me the chair.
+> I record the laws, the harvests, the dead, the Wampanoag we trade with, the English ships that come.
+> In 1630 the Massachusetts Bay fleet arrives — twenty thousand settlers, ten times what we are. Plymouth becomes a footnote in their wake.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 31
@@ -860,8 +871,8 @@
 
 **Body text:**
 > Our soil is rocky. Our growing season is short. Our coast is full of fish.
-> We will not grow rich here. We will not need plantations. We will not need the kind of labor that fills the holds of ships out of Africa.
-> The colonies further south will grow another way. That is their story. Ours is a town of small farms and small workshops and a meetinghouse in the middle.
+> We will not grow rich here. We will not need plantations or the kind of labor that fills the holds of ships out of Africa.
+> The colonies further south will grow another way. Ours is a town of small farms, small workshops, and a meetinghouse in the middle.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 32
@@ -876,9 +887,12 @@
 **Slide text overlay:** Slide-textbox card.
 
 **Body text:**
-> Ten years after we landed, a much larger English colony plants itself just north of us. Massachusetts Bay. Boston. Salem. They come with charters and money and ships and thousands of settlers in a single fleet.
-> We are a small town beside their great one. The new colony is also Puritan, but they are not Separatists — they meant to reform the Church of England from inside it. Different theology. Same God.
+> Ten years after we landed, a much larger English colony plants itself north of us. Massachusetts Bay. Boston. Salem.
+> We are a small town beside their great one. They are Puritan but not Separatists — they meant to reform the Church of England from inside it.
 > Our story will get folded into theirs. I do not mind. I want the story to be told.
+
+**KEY TERMS:**
+- **Pilgrims vs. Puritans** — Both were strict English Protestants. PILGRIMS (1620, Plymouth) wanted to separate from the Church of England entirely. PURITANS (1630, Massachusetts Bay) wanted to "purify" it from inside. Different colonies, different goals.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 33
@@ -893,9 +907,12 @@
 **Slide text overlay:** Slide-textbox card.
 
 **Body text:**
-> I have been writing it since the year we landed. I keep writing it for thirty more years. I call it *Of Plymouth Plantation*.
-> I write down Brewster preaching in the Yorkshire barn. I write down the storm that cracked our beam. I write down the Compact. I write down the names of the dead in the first winter. I write down Squanto kneeling in the corn mound.
+> I have been writing it since we landed. I call it *Of Plymouth Plantation*.
+> I write down Brewster in the Yorkshire barn, the storm that cracked our beam, the Compact, the names of the dead, Squanto kneeling in the corn mound.
 > I write because God is watching, and because if I do not write it, no one else will.
+
+**KEY TERMS:**
+- **Of Plymouth Plantation** — Bradford's history of the Plymouth Colony, written 1630–1651. Most of what we know about the first Thanksgiving, the General Sickness, and the Wampanoag alliance comes from this manuscript.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 34

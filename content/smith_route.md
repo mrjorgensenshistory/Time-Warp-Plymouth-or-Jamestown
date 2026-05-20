@@ -17,9 +17,13 @@
 **Slide text overlay:** Slide-textbox (white fill, 2px black border, Share Tech).
 
 **Body text:**
-> My name is John Smith. I am twenty-seven, and I have killed men in Hungary for pay.
-> The Virginia Company says there is gold up this river. The Virginia Company says a great many things.
-> I crossed the Atlantic in chains, accused of mutiny. Today they unlock me. Today we go ashore.
+> My name is John Smith. I am twenty-seven. I have killed men in Hungary for pay.
+> The Virginia Company says there is gold up this river. They say a great many things.
+> I crossed the Atlantic in chains, accused of mutiny. Today they unlock me.
+
+**KEY TERMS:**
+- **Joint-Stock Company** — A business where investors pool money and share profits and losses. The Virginia Company was a joint-stock company chartered by King James I in 1606 — the first English colony funded this way.
+- **Charter** — A legal document from the king granting a company the right to settle land and govern itself within set limits.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 2
@@ -34,9 +38,9 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> Half the men on this boat are gentlemen, and they will tell you so within five minutes.
-> The Company's sealed orders: find gold, find a passage to the Pacific, find the lost colonists of Roanoke.
-> I expect to find none of it. I expect to find ground that grows food and a place to put a wall.
+> Half these men are gentlemen, and they will tell you so within five minutes.
+> The Company's sealed orders: find gold, find a passage to the Pacific, find Roanoke's lost colonists.
+> I expect to find none of it. I want ground that grows food and a place to put a wall.
 
 **Buttons:**
 - `[GO ASHORE →]` — advances to Slide 3
@@ -51,9 +55,9 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> We name it James Towne, after our king. The water is brackish, the ground is low, the air hums with insects. The gentlemen like the shade.
+> We name it James Towne, after our king. The water is brackish. The air hums with insects.
 > I do not say what I think of the site. Not yet.
-> By summer half of us are sick. By autumn many of us are dead.
+> By summer half of us are sick. By autumn many are dead.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 4
@@ -68,9 +72,12 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> Of the hundred and four men who landed, more than half are gentlemen. They came for gold, not to chop wood or plant corn.
-> A gentleman in England does not work with his hands. A gentleman in Virginia, it turns out, also does not.
-> I am not a gentleman. I am beginning to think that is the only thing that will save us.
+> Of the 104 men who landed, more than half are gentlemen. They came for gold, not corn.
+> A gentleman in England does not work with his hands. A gentleman in Virginia does not either.
+> I am not a gentleman. That may be the only thing that saves us.
+
+**KEY TERMS:**
+- **Indentured Servant** — A person who agreed to work 4–7 years in the colonies in exchange for the cost of passage from England. Most early Jamestown laborers were indentured servants, not enslaved people.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 5 (DECISION 1)
@@ -85,9 +92,10 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> The first time I see a Powhatan warrior up close, he is the better-armed man.
-> Thirty tribes here answer to one chief — Wahunsenacawh. The English call him Powhatan. He has been chief longer than I have been alive.
-> Three of his men step from the trees. Their bows are not drawn. My musket is not lit. The next move is mine.
+> The first Powhatan warrior I see up close is the better-armed man.
+> Thirty tribes here answer to one chief — Wahunsenacawh. The English call him Powhatan.
+> Three of his men step from the trees. Their bows are not drawn. My musket is not lit.
+> The next move is mine.
 
 **Buttons:**
 - `[APPROACH WITH MUSKET LEVELED — SHOW STRENGTH FIRST →]` — advances to Slide GAMEOVER E (Bobby Boucher arrow volley)
@@ -104,9 +112,9 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> That first meeting ends without blood. We trade looks, not blows. They walk back into the trees. I walk back to the fort.
-> Months later, hunting in the winter woods with two of my men, Powhatan warriors take us. My two men are killed. I am not. They bring me before the chief.
-> He looks at me the way a farmer looks at a horse before he decides to buy it or shoot it. A girl of about ten stands beside him. They tell me her name is Pocahontas.
+> That meeting ends without blood. They walk back into the trees. I walk back to the fort.
+> Months later, hunting in winter woods, Powhatan warriors take us. My two men are killed. I am not.
+> They bring me before the chief. A girl of about ten stands beside him. Her name is Pocahontas.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 7 (DECISION 2)
@@ -121,9 +129,10 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> He decides. They drag me to a flat stone in the center of the longhouse.
-> They lay my head on a stone. Two warriors raise clubs. The chief's daughter steps between us. The clubs come down on nothing.
-> Years from now, in London, I will have to decide what kind of story this was. Three stories fit what I saw — and each sells a different number of books.
+> He decides. They drag me to a flat stone and lay my head on it.
+> Two warriors raise clubs. The chief's daughter steps between us. The clubs come down on nothing.
+> Years from now in London, I will decide what kind of story this was. Three stories fit what I saw.
+> Each one sells a different number of books.
 
 **Buttons:**
 - `[WRITE IT AS A RESCUE — SHE SAVED MY LIFE →]` — advances to Slide 8 (soft, flavors next slide as the popular legend)
@@ -140,8 +149,9 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> Years from now, the story I just chose to tell will spread or it will not. Pocahontas may have saved my life. It may have been a ritual I misread. It may have been nothing at all and I held my pen still. Historians two centuries from now will still argue.
-> What is not up for argument is what I find when I walk back through the gate. The colony is worse than I left it. Gentlemen dying of fever and hunger. The president is sick. The corn is short.
+> Pocahontas may have saved my life. It may have been a ritual I misread. It may have been nothing.
+> Historians two centuries from now will still argue. I am not sure myself.
+> The colony is worse than I left it. Gentlemen dying of fever. The president is sick. The corn is short.
 > No one is in charge. Someone needs to be.
 
 **Buttons:**
@@ -157,9 +167,9 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> September, 1608. The council elects me president. The gentlemen are not happy about it. They are out of options.
-> I can run this place like a soldier runs a camp — work or starve, no exceptions, no titles at the table.
-> Or I can keep the gentlemen comfortable. They have the Company connections in London. Cross them and the next ship buries me.
+> September, 1608. The council elects me president. They are out of options.
+> I can run this place like a soldier's camp — work or starve, no titles at the table.
+> Or I can keep the gentlemen comfortable. Cross them and the next ship buries me.
 
 **Buttons:**
 - `[RUN IT LIKE A CAMP — "HE WHO WILL NOT WORK SHALL NOT EAT" →]` — advances to Slide 10
@@ -175,8 +185,8 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> The gentlemen tell me where I can put my rule. I write it on the wall anyway. By the third skipped supper they pick up the axes.
 > I write one rule on the council house wall. *He that will not work shall not eat.*
+> The gentlemen tell me where I can put my rule. By the third skipped supper they pick up axes.
 > No exemptions — not the gentlemen, not me. I work the wall with my own hands.
 > They hate me for it. They eat because of it.
 
@@ -193,8 +203,8 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> Our corn will not grow — bad ground. Powhatan corn grows fine; they have farmed this country for generations.
-> Three things in my pack: copper they prize, iron tools that would change how they hunt and work, and a Company letter demanding tribute in King James's name.
+> Our corn will not grow — bad ground. Powhatan corn grows fine; they have farmed here for generations.
+> Three things in my pack: copper they prize, iron tools, and a Company letter demanding tribute.
 > One opens the door. One is too valuable. One starts a war today.
 
 **Buttons:**
@@ -212,8 +222,9 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> I trade the copper. They take it politely. The corn they give back is not enough to last the month. Powhatan has decided to let us learn what hungry feels like.
-> I can keep trading fair — it will not buy enough corn for winter. Or I can march in with muskets out and take it. Some villages will trade, some will fight. Either way we eat.
+> I trade the copper. The corn they give back will not last the month.
+> Powhatan has decided to let us learn what hungry feels like.
+> I can keep trading fair — and starve. Or march in with muskets and take it.
 > Refuse both, and we die in the snow with our pride intact.
 
 **Buttons:**
@@ -230,8 +241,9 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> We are going to take the corn. The next decision is how.
-> Dawn strike — full column, muskets up, surprise but they wake fighting. Nightfall — quiet, but my men do not see well in the dark and a misfire ends us. Midday parley with a small party — riskiest if it goes wrong, cleanest if it goes right.
+> We are going to take the corn. The question is how.
+> Dawn strike — muskets up, but they wake fighting. Nightfall — quiet, but a misfire ends us.
+> Midday parley — riskiest if wrong, cleanest if right.
 > A bad call puts my men in a longhouse fire I cannot pull them out of.
 
 **Buttons:**
@@ -249,10 +261,11 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> Whichever way I took the corn — muskets up at dawn, or a small party under parley — the colony eats. The villages remember which one I chose. So do I.
-> Pocahontas comes to the fort on her father's errands. She has English words now, and curiosity most of her people don't share.
-> She is not in love with me. Books two hundred years from now will say she was. They are wrong. She is a chief's daughter keeping a channel open between two peoples who would otherwise only speak through musket fire.
-> I write her down later as the girl who saved my life. I do not write down that she was, mostly, a diplomat.
+> However I took the corn, the colony eats. The villages remember which way I chose. So do I.
+> Pocahontas comes to the fort on her father's errands. She has English words now.
+> She is not in love with me. Books two hundred years from now will say she was. They are wrong.
+> She is a chief's daughter keeping a channel open between two peoples.
+> I write her down later as the girl who saved my life. I do not write that she was a diplomat.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 15 (DECISION 7)
@@ -267,9 +280,9 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> Powhatan invites me to his capital. A feast, he says. Come unarmed, he says. His daughter sends her greetings.
+> Powhatan invites me to his capital. A feast, he says. Come unarmed. His daughter sends greetings.
 > I have to decide what kind of invitation this is.
-> Go armed expecting ambush, or go unarmed as he asked. The wrong choice ends me either way.
+> Go armed expecting ambush, or go unarmed as he asked. The wrong call ends me either way.
 
 **Buttons:**
 - `[GO ARMED — TRUST NOTHING →]` — advances to Slide 16 (DECISION 8)
@@ -285,9 +298,10 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> I go armed and watchful. I do not eat much. I do not sleep at all.
-> In the night Pocahontas finds me. Her father means to kill me before morning. She crossed the woods alone to say so.
-> Believe her and run. Demand proof first. Or turn the warning around and ambush them.
+> I go armed. I do not eat much. I do not sleep at all.
+> In the night Pocahontas finds me. Her father means to kill me before morning.
+> She crossed the woods alone to say so.
+> Believe her and run. Demand proof first. Or ambush them back.
 
 **Buttons:**
 - `[TRUST HER — WAKE THE MEN AND SLIP OUT →]` — advances to Slide 17
@@ -304,8 +318,8 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> We slip back to our boat before sunup. No one shoots — the message has been delivered.
-> The chief and I are no longer pretending. From this morning we are at war, even unnamed.
+> We slip back to our boat before sunup. No one shoots.
+> The chief and I are no longer pretending. From this morning we are at war, unnamed.
 > I owe the morning to a girl whose name I will write into a legend.
 
 **Buttons:**
@@ -322,8 +336,9 @@
 
 **Body text:**
 > October, 1609. I am on the river, returning from a trading run.
-> A leather bag of loose gunpowder sits near my leg. A match-cord burns low behind me. I am tired enough to fall asleep on top of the bag.
-> Leave it and trust the cord. Pole to the bank and move it. Or throw the whole bag in the river — lose the powder, keep the leg.
+> A leather bag of loose gunpowder sits near my leg. A match-cord burns low behind me.
+> I am tired enough to fall asleep on top of it.
+> Leave it. Pole to the bank and move it. Or throw the bag in the river.
 
 **Buttons:**
 - `[LEAVE IT — I'M TOO TIRED TO MOVE →]` — advances to Slide GAMEOVER L (Yzma — slept on a powder bag, killed instantly)
@@ -340,7 +355,8 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> Whatever I did with the bag — moved it too late, or threw it in the river and lost the powder we needed — the spark found enough of it. The powder takes a piece of my thigh with it. I wake on fire and roll into the river to put myself out.
+> Whatever I did with the bag, the spark found enough of it.
+> The powder takes a piece of my thigh. I wake on fire and roll into the river to put myself out.
 > The barber-surgeon at the fort is not a real surgeon. The wound goes bad. The fever climbs.
 > There is no doctor on this continent who can fix what is wrong with me.
 
@@ -357,9 +373,9 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> A ship leaves for England this week. The barber-surgeon says I live only if I sail now.
+> A ship leaves for England this week. The surgeon says I live only if I sail now.
 > Sail, and the colony loses its president — the gentlemen will gut my rules in a month.
-> Stay, and I keep them in line. Probably long enough to die of the wound.
+> Stay, and I keep them in line. Long enough to die of the wound.
 
 **Buttons:**
 - `[SAIL FOR ENGLAND — LIVE →]` — advances to Slide 21
@@ -375,9 +391,10 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> I give the council my last orders. The gentlemen do not hide their relief. The stretcher carries me up the gangway.
+> I give the council my last orders. The gentlemen do not hide their relief.
 > I sail for England in October 1609. I am thirty. I have been in Virginia two and a half years.
-> I do not know it yet, but I will never see this coast again. I will write books and draw maps that English captains use for forty years.
+> I do not know it yet, but I will never see this coast again.
+> I will write books and draw maps that English captains use for forty years.
 > The colony I leave is about to find out what a winter without me looks like.
 
 **Buttons:**
@@ -393,8 +410,11 @@
 **Slide text overlay:** Slide-textbox. The voice shifts here — Smith narrates from after the fact, from London, telling you what happened in his absence. The "I" is still Smith, but he is reporting, not living.
 
 **Body text:**
-> They tell me later what happened. Without my rule, the gentlemen stopped working. Powhatan stopped sending corn. The storehouse emptied. They ate the horses, then the dogs, then their boots. Then worse. Of five hundred alive when I sailed, sixty saw spring.
-> I am the man who wrote that down. The next page is mine to fill.
+> They tell me later what happened. Without my rule, the gentlemen stopped working.
+> Powhatan stopped sending corn. The storehouse emptied.
+> They ate the horses, then the dogs, then their boots. Then worse.
+> Of five hundred alive when I sailed, sixty saw spring.
+> The next page is mine to fill.
 
 **Buttons:**
 - `[TAKE RESPONSIBILITY — I LEFT THEM →]` — advances to Slide 23 (soft — flavors next slide as confession)
@@ -411,8 +431,9 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> I am not telling you this to be honored. I am telling you because the lesson sits in the gap between the two sides of the picture.
-> A colony of gentlemen will not feed itself. A colony that will not feed itself will eat anything before it admits it was wrong.
+> I am not telling you this to be honored. The lesson sits in the gap between the two pictures.
+> A colony of gentlemen will not feed itself.
+> A colony that will not feed itself will eat anything before it admits it was wrong.
 > I was a hard president. The colony hated me. The colony lived because of me.
 
 **Buttons:**
@@ -429,8 +450,10 @@
 
 **Body text:**
 > She does not stay in Virginia either.
-> The English take her hostage in 1613, to force her father to negotiate. She converts to Christianity. She marries an English planter named John Rolfe. She has a son. She sails to England as a curiosity for the court.
-> She dies at twenty-one, in a town called Gravesend, before her ship can sail home. The Disney film will not tell you that part.
+> The English take her hostage in 1613 to force her father to negotiate. She is baptized Rebecca.
+> She marries an English planter named John Rolfe. She has a son. She sails to England.
+> She dies at twenty-one in a town called Gravesend, before her ship can sail home.
+> The Disney film will not tell you that part.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 25
@@ -446,7 +469,8 @@
 
 **Body text:**
 > I draw maps of the country I will not return to.
-> English captains use my maps for forty years after I die. The name I give to the northern coast — *New England* — sticks. Pilgrims will land on a shore I labeled, on a map I drew, in a place I never went back to.
+> English captains use my maps for forty years. The name I give the northern coast — *New England* — sticks.
+> Pilgrims will land on a shore I labeled, on a map I drew, in a place I never went back to.
 > I outlive my colony. My colony does not outlive me by much.
 
 **Buttons:**
@@ -462,8 +486,9 @@
 **Slide text overlay:** Slide-textbox.
 
 **Body text:**
-> I die in 1631, in London, at fifty-one, with not much money and a great many books to my name.
-> I was a soldier of fortune. I was a blunt man. I took food at gunpoint. I wrote inflated stories and sold them. I kept a hundred men alive through two winters that should have killed every one of us.
+> I die in 1631, in London, at fifty-one. Not much money. A great many books.
+> I was a soldier of fortune. I took food at gunpoint. I wrote inflated stories and sold them.
+> I kept a hundred men alive through two winters that should have killed every one of us.
 > Both things are true. Both things are me.
 
 **Buttons:**
@@ -502,9 +527,10 @@
 **Headline:** **"WRONG LEVERRRRR!"**
 
 **Body text:**
-> I let the gentlemen run things. They eat first. They stop pretending to work. The men with axes mutiny inside a month, the men with muskets pick a side, and somewhere in the middle of the brawl I take a knife between the ribs from someone whose name I never bothered to learn.
-> Without a president to enforce the work, the storehouse empties before Christmas. The laborers desert into the woods. The gentlemen who dreamed of gold die in the same fever pits the workers dug for them. By spring there is no Jamestown to relieve.
-> This nearly happened — historical fact: the Jamestown council before Smith was so fractured by class fights that two presidents were deposed in a single year. Smith's "work or starve" rule, harsh as it was, is what held the colony together long enough for resupply to find them.
+> I let the gentlemen run things. The men with axes mutiny inside a month.
+> Somewhere in the brawl I take a knife between the ribs.
+> The storehouse empties before Christmas. The laborers desert. By spring there is no Jamestown.
+> This nearly happened — historical fact: before Smith, Jamestown deposed two presidents in a single year over class fights. His "work or starve" rule held the colony together until resupply.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 9 (DECISION 3)
@@ -522,9 +548,10 @@
 **Headline:** **"WRONG LEVERRRRR!"**
 
 **Body text:**
-> I keep my honor. I refuse to march on a Powhatan village. I trade what little we have and send polite letters to the chief.
-> The chief, who has decided to wait us out, sends back nothing. By January we are through the seed grain. By February the storehouse is empty. By March we are eating shoe leather. Of the five hundred at the fort, four hundred are dead by spring. The Virginia Company writes off the colony. England's first permanent settlement fails — and Plymouth, twenty years later, has no English foothold to draw on.
-> This nearly happened — historical fact: the Starving Time of 1609–10 killed roughly 80% of Jamestown after Smith left. Smith's gunpoint corn raids in 1608 are the only reason there was anyone left for the Mayflower generation to inherit a colony from.
+> I refuse to march on a Powhatan village. I send polite letters instead.
+> The chief sends back nothing. By February the storehouse is empty. By March we eat shoe leather.
+> Four hundred of five hundred are dead by spring. England's first permanent settlement fails.
+> This nearly happened — historical fact: the Starving Time of 1609–10 killed 80% of Jamestown after Smith left. His gunpoint corn raids in 1608 are why anyone survived for the Mayflower generation.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 12 (DECISION 5)
@@ -542,10 +569,10 @@
 **Headline:** **"WRONG LEVERRRRR!"**
 
 **Body text:**
-> I go to the feast unarmed because the chief asked me to and because I have been telling myself a love story about his daughter that is not true.
-> The warriors are waiting in the longhouse. The girl is not in the room. I do not even reach the table.
-> With the president dead, the fort has no one to enforce the work rule. The gentlemen revert. Powhatan, having tested the English and found them weak, presses the advantage — the corn cuts off, the trade stops, the war begins fourteen years before its real date.
-> This nearly happened — historical fact: Powhatan really did invite Smith to Werowocomoco in January 1609 with quiet plans to kill him, and Pocahontas really did warn him in the night. Smith trusting the warning, not the invitation, is what kept Jamestown alive into 1610.
+> I go unarmed. The warriors are waiting. I do not reach the table.
+> With the president dead, the fort has no one to enforce the work rule.
+> Powhatan presses the advantage. The corn cuts off. War begins fourteen years early.
+> This nearly happened — historical fact: Powhatan invited Smith to Werowocomoco in January 1609 planning to kill him; Pocahontas warned him in the night. Trusting the warning kept Jamestown alive.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 15 (DECISION 7)
@@ -563,10 +590,11 @@
 **Headline:** **"WRONG LEVERRRRR!"**
 
 **Body text:**
-> I refuse the ship. I tell myself the colony needs me more than my leg does.
-> The wound goes bad inside two weeks. The barber-surgeon runs out of clean linen and clean ideas at the same hour. I die in November of a thigh that should have healed in London.
-> The Starving Time still comes — but worse. The maps I would have drawn are never drawn. The books I would have written, the ones that name New England and guide forty years of English captains to the right shore, are never written. The Pilgrims in 1620 land on a coast no Englishman has charted. No one in London ever learns my version of the rescue story, and Pocahontas dies in obscurity in 1617 with no legend attached.
-> This nearly happened — historical fact: a sepsis infection from a black-powder burn in 1609 was almost certainly fatal without European-grade care. Smith only survived because he sailed; the gunpowder accident is what ended his American career, not the Powhatan.
+> I refuse the ship. The colony needs me more than my leg does.
+> The wound goes bad inside two weeks. I die in November of a thigh that should have healed in London.
+> The Starving Time still comes — worse. The maps that name New England are never drawn.
+> The Pilgrims in 1620 land on an uncharted coast. Pocahontas dies in obscurity with no legend.
+> This nearly happened — historical fact: sepsis from a black-powder burn was almost certainly fatal without European care. Smith only survived because he sailed.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 20 (DECISION 10)
@@ -584,9 +612,10 @@
 **Headline:** **"WRONG LEVERRRRR!"**
 
 **Body text:**
-> I bring the musket up because that is how I greet armed men in Hungary. The three warriors in the clearing read the move the way any soldier reads it. Their bows come up faster than my match-cord catches.
-> Powhatan reads the message exactly as it was sent — the English came to make war, not to settle. He pulls the trade. The fort, with no farmer among them, eats through their ship's biscuit by Christmas. By spring there is no English presence on the Chesapeake. The Virginia Company invests in the West Indies instead.
-> This nearly happened — historical fact: a matchlock takes thirty seconds to fire, a Powhatan war bow under two. The early Jamestown survival depended entirely on Powhatan choosing trade over war in the first weeks. Aiming a gun first would have flipped that choice instantly.
+> I bring the musket up. Their bows come up faster than my match-cord catches.
+> Powhatan reads the message — the English came to make war. He pulls the trade.
+> The fort eats through ship's biscuit by Christmas. By spring there is no English Chesapeake.
+> This nearly happened — historical fact: a matchlock takes thirty seconds to fire, a Powhatan war bow under two. Early Jamestown survived only because Powhatan chose trade over war in the first weeks.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 5 (DECISION 1)
@@ -604,10 +633,11 @@
 **Headline:** **"YOU CAN'T STARVE ON COMPANY TIME!"**
 
 **Body text:**
-> I crouch in the brush and let them pass. Smart, I tell myself. Cautious, I tell myself.
-> A Powhatan scout is better at this than I am. He circles the way a hunter circles a deer. By the time I hear him I am already on my back with his hand on my throat.
-> The fort never gets the diplomatic opening I was supposed to provide. The gentlemen, with no soldier-leader, treat every Powhatan visitor as a thief. The corn deals never happen. The first winter — 1607–08 — kills sixty-six of the hundred and four landed. There is no second year.
-> This nearly happened — historical fact: of the original 104 Jamestown colonists, 38 were alive at the first resupply in January 1608. Smith's willingness to walk out and meet the Powhatan face-to-face is what opened the trade that fed those 38. Hiding meant the colony died on schedule.
+> I crouch in the brush. Smart, I tell myself.
+> A Powhatan scout circles me like a hunter. I am on my back with his hand on my throat.
+> The fort never gets the diplomatic opening. The gentlemen treat every visitor as a thief.
+> Winter 1607–08 kills sixty-six of the 104. There is no second year.
+> This nearly happened — historical fact: of the original 104 colonists, only 38 were alive at the January 1608 resupply. Smith meeting the Powhatan face-to-face is what opened the trade that fed them.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 5 (DECISION 1)
@@ -625,10 +655,11 @@
 **Headline:** **"IT'S TOUGH TO BE A GOD..."**
 
 **Body text:**
-> I trade away iron axes and iron knives for corn. The villages eat for a season. So do we.
-> Then the Powhatan men hunt deer with iron tips and field-dress them in half the time. Their warriors carry iron heads on their war clubs. The next time my men march out to take corn at gunpoint, the bows that meet us are tipped with our own metal.
-> The fort falls inside a week. I sold them the war they used to end us. Powhatan, now better-armed than any chief on the coast, drives every English ship out of the Chesapeake for a generation.
-> This nearly happened — historical fact: the English Crown explicitly forbade trading iron weapons or tools to Native nations for exactly this reason; the Dutch in New Netherland broke the rule in the 1640s and lost Kieft's War as a direct result. Smith trading copper instead of iron is what kept the technology gap intact long enough for Jamestown to grow.
+> I trade iron axes and knives for corn. The villages eat. So do we.
+> Then their warriors carry iron heads on their war clubs.
+> The next time my men march out, the bows that meet us are tipped with our own metal.
+> The fort falls inside a week. I sold them the war they used to end us.
+> This nearly happened — historical fact: the English Crown forbade trading iron to Native nations for this reason. The Dutch broke the rule in the 1640s and lost Kieft's War. Copper kept the gap intact.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 11 (DECISION 4)
@@ -646,10 +677,11 @@
 **Headline:** **"WRONG LEVERRRRR!"**
 
 **Body text:**
-> I read the chief the Virginia Company's letter. King James styles himself overlord of all Virginia. The chief is to send tribute.
-> Wahunsenacawh has been chief here longer than I have been alive. He listens. He does not laugh. He sends his answer back in the form of three hundred warriors at the fort gates that same week.
-> The 1622 uprising happens fourteen years early because I read the wrong page out loud. The fort does not survive the month. The Virginia Company, with no surviving colony to point to, sells its charter. The English do not return to the Chesapeake until the 1630s, and when they do, every chief from the Patuxent to the James already knows what tribute means.
-> This nearly happened — historical fact: in 1622 Wahunsenacawh's brother Opechancanough launched a coordinated assault that killed 347 colonists in one morning — a quarter of Virginia's English population. That attack came after fourteen more years of broken English promises. Demanding tribute in 1608, when the colony numbered fewer than 200, would have produced the same massacre with no survivors.
+> I read the chief the Company's letter. King James demands tribute.
+> Wahunsenacawh listens. He does not laugh.
+> He sends three hundred warriors to the fort gates that same week.
+> The 1622 uprising happens fourteen years early. The fort does not survive the month.
+> This nearly happened — historical fact: in 1622 Opechancanough killed 347 colonists in one morning — a quarter of Virginia. Demanding tribute in 1608, with fewer than 200 colonists, would have left no survivors.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 11 (DECISION 4)
@@ -667,10 +699,11 @@
 **Headline:** **"YOU CAN'T STARVE ON COMPANY TIME!"**
 
 **Body text:**
-> I move my men in at midnight. The longhouses are dark, the corn cribs are quiet, and one of my soldiers trips over a tether and his musket goes off at his hip. Loud, in the trees, at night.
-> The whole village wakes at once. My men cannot see what is firing back at them. By the time I get them turned around for the retreat, half are face-down in the corn.
-> The fort goes into winter with no corn and no captain. Powhatan, having proven the English cannot fight at night, presses every village to break the trade. The Starving Time comes a full year early.
-> This nearly happened — historical fact: a 17th-century matchlock musket required a lit slow-match held inches from loose powder — every soldier in the column was a walking lantern. European armies had banned night assaults by infantry for exactly this reason. Smith's daylight raids worked because the Powhatan could see who was coming and decide to trade rather than fight.
+> I move at midnight. A soldier trips and his musket goes off at his hip.
+> The village wakes at once. My men cannot see what is firing at them.
+> Half are face-down in the corn. The fort goes into winter with no captain.
+> The Starving Time comes a full year early.
+> This nearly happened — historical fact: a matchlock required a lit slow-match by loose powder — every soldier was a walking lantern. European armies banned night infantry assaults for this reason.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 13 (DECISION 6)
@@ -688,10 +721,11 @@
 **Headline:** **"IT'S TOUGH TO BE A GOD..."**
 
 **Body text:**
-> Pocahontas tells me her father means to kill me before morning. I tell her I need more than her word. I tell her to bring me a sign, a proof, anything I can show my officers.
-> She says she does not have time. I say I do not move my men on a girl's say-so.
-> Dawn comes faster than the proof does. Her father's warriors come faster than the dawn. With me dead at Werowocomoco, the diplomatic channel that ran through Pocahontas closes for good. Her father, having killed an English captain, knows the next ship that lands brings reprisal — so he strikes the fort first.
-> This nearly happened — historical fact: Pocahontas's nighttime warning at Werowocomoco in January 1609 is recorded in Smith's own *Generall Historie* and was independently confirmed by survivor accounts. A Powhatan girl crossing winter woods alone risked her own life to deliver it. Treating her word as worth less than a man's would have been the last mistake of Smith's life.
+> Pocahontas tells me her father means to kill me. I demand proof.
+> She says she has no time. I say I do not move my men on a girl's word.
+> Dawn comes faster than the proof. Her father's warriors come faster than dawn.
+> The diplomatic channel through Pocahontas closes for good. He strikes the fort next.
+> This nearly happened — historical fact: Pocahontas's January 1609 warning at Werowocomoco is in Smith's *Generall Historie* and survivor accounts. She crossed winter woods alone to deliver it.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 16 (DECISION 8)
@@ -709,10 +743,11 @@
 **Headline:** **"WRONG LEVERRRRR!"**
 
 **Body text:**
-> I take the warning and I turn it into a knife. We move on the chief's longhouse first. We are seven men. The longhouse holds forty.
-> I get the chief in my musket sights for one second before the fight closes around me. He lives. I do not.
-> Wahunsenacawh, having now been attacked in his own house by men he invited under truce, declares total war. Every Powhatan town from the Pamunkey to the Nansemond closes its corn. Pocahontas, exposed as the source of the warning, is sent away from her father's court — the diplomatic bridge between the two peoples burns down with her.
-> This nearly happened — historical fact: Powhatan controlled thirty tribes and could field roughly 3,200 warriors. Jamestown in early 1609 had perhaps 200 fighting men, and Smith's seven-man parties depended entirely on the surprise of musket noise, not on numbers. Trying to ambush the paramount chief in his own capital was suicide on a calendar.
+> I turn the warning into a knife. We move on the chief's longhouse first.
+> We are seven men. The longhouse holds forty.
+> I get the chief in my sights for one second. He lives. I do not.
+> Wahunsenacawh declares total war. Every Powhatan town closes its corn.
+> This nearly happened — historical fact: Powhatan ruled thirty tribes and could field 3,200 warriors. Jamestown had perhaps 200 fighting men. Ambushing the paramount chief in his capital was suicide.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 16 (DECISION 8)
@@ -730,10 +765,11 @@
 **Headline:** **"WRONG LEVERRRRR!"**
 
 **Body text:**
-> I am too tired to move the bag. I tell myself the cord is far enough. I close my eyes for one minute on a Virginia river in October.
-> The cord is not far enough. The bag is open. Most of me ends up in the water and most of the boat ends up in the trees.
-> No one fishes me out in time. The fort loses its president on the river instead of in his own bed, with no chance to leave orders, no chance to sail for England, no books to write later. The maps that name New England are never drawn. The Pilgrims, eleven years from now, sail toward an unmapped coast.
-> This nearly happened — historical fact: the actual gunpowder accident in October 1609 left Smith with a thigh wound severe enough to require evacuation but not instantly fatal. A loose open bag of black powder beside a lit slow-match was the most common cause of soldier death in the 17th century, killing more matchlock troops than enemy fire did. Smith was lucky the bag was closed.
+> I am too tired to move the bag. I close my eyes for one minute.
+> The cord is not far enough. Most of me ends up in the water.
+> No one fishes me out in time. No orders, no England, no books.
+> The maps that name New England are never drawn. The Pilgrims sail toward an unmapped coast.
+> This nearly happened — historical fact: the October 1609 powder accident left Smith with a serious but survivable thigh wound. Loose powder beside a lit match killed more matchlock soldiers than enemy fire.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 18 (DECISION 9)

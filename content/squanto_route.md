@@ -17,9 +17,9 @@
 **Slide text overlay:** White slide-textbox, `Share Tech` body. NOT parchment — parchment is for English ship's-log voice. Squanto's slides use a clean text card.
 
 **Body text:**
-> My name is Tisquantum. The English will write it Squanto, because their mouths cannot find the rest.
-> I am born here. My people are the Patuxet, of the Wampanoag.
-> The English will name this place Plymouth, later, when there is no one left to argue.
+> My name is Tisquantum. The English will write it Squanto.
+> I am Patuxet, of the Wampanoag.
+> They will call this place Plymouth, when no one is left to argue.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 2
@@ -33,9 +33,9 @@
 **Timeline bar:** New tick: `1605 — English ships, first contact.`
 
 **Body text:**
-> The first English come when I am about twenty. The Spanish have been south of here for a hundred years; the French come north for furs.
-> They want fish and beaver pelts. They give iron pots, glass beads, knives.
-> One captain takes a few of us across the sea, briefly, then returns us. It is not yet what they will become.
+> The first English come when I am about twenty.
+> They want fish and beaver pelts. They give pots, beads, knives.
+> One captain takes a few of us across the sea, then returns us. It is not yet what they will become.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 3
@@ -49,7 +49,7 @@
 **Timeline bar:** Holds.
 
 **Body text:**
-> 1614. A captain named Thomas Hunt comes ashore. He says he is here for fish, for trade.
+> 1614. A captain named Thomas Hunt comes ashore. He says he wants fish.
 > Twenty-six of us walk down to his ship. My friends. My cousins.
 > He shakes our hands. Then he puts us in chains.
 
@@ -65,8 +65,8 @@
 **Timeline bar:** New tick illuminates: `1614 — Captured by Thomas Hunt.`
 
 **Body text:**
-> The first chain falls on the man beside me. I have a knife at my belt and three uncles still on the path behind me.
-> I can fight. I can submit and watch. I can shout up the path — *RUN* — and trade my body for the warning.
+> The first chain falls on the man beside me. Three uncles are still on the path behind me.
+> I can fight. I can submit and watch. I can shout — *RUN* — and trade my body for the warning.
 > The decision is one breath wide.
 
 **Buttons:**
@@ -85,7 +85,7 @@
 **Headline:** "WRONG LEVERRRRR!"
 
 **Body text:**
-> A knife against twelve cutlasses. The story ends in the sand, three steps from the canoe that will not save me.
+> A knife against twelve cutlasses. The story ends in the sand, three steps from the canoe.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 4 (decision 1)
@@ -102,7 +102,8 @@
 **Headline (Bangers, restrained):** "I shouted. They ran. The chain still found me."
 
 **Body text:**
-> I shout the warning. Three of my uncles run. The Englishmen drag me into the hold. They count my body as zero — the manifest does not list me. My uncles will tell my mother I tried.
+> I shout. Three uncles run. The Englishmen drag me into the hold.
+> The manifest does not list me. My uncles will tell my mother I tried.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 4 (decision 1)
@@ -117,8 +118,8 @@
 **Timeline bar:** Holds.
 
 **Body text:**
-> The hold is dark. The ship is moving and we cannot see the shore.
-> Some men say we should rush the next time the grate opens. We have nothing but our hands.
+> The hold is dark. The ship is moving. We cannot see the shore.
+> Some say rush the grate. We have only our hands.
 > Some say wait. Learn the shape of the cage.
 
 **Buttons:**
@@ -133,9 +134,9 @@
 **Timeline bar:** Holds.
 
 **Body text:**
-> Six days at sea. The grate opens. The sailor above does not look at us; we are cargo.
+> Six days at sea. The grate opens. The sailor does not look at us. We are cargo.
 > The man beside me whispers: *now.*
-> I think of how far the shore is. I think of my mother, who still believes I am at the cod racks.
+> I think of my mother, who still believes I am at the cod racks.
 
 **Buttons:**
 - `[NOW. WHILE THE GRATE IS OPEN.]` — GAMEOVER B (minor / Yzma-eligible)
@@ -152,10 +153,10 @@
 **Headline:** "WRONG LEVERRRRR!"
 
 **Body text:**
-> The grate is open six feet above us. We rush. The sailors above are waiting — they have done this run before.
-> Two muskets fire down into the hold. The grate slams. The lock turns.
-> The ship reaches Málaga without me. The friars never see my face on the block.
-> Real history: English slaving ships of the period kept armed crew above the holds at every grate-opening for exactly this reason. Successful below-decks revolts on Atlantic crossings were almost unheard of.
+> We rush. The sailors above are waiting — they have done this run before.
+> Two muskets fire down. The grate slams.
+> The ship reaches Málaga without me. The friars never see my face.
+> Real history: English slavers kept armed crew above the holds at every grate-opening. Below-decks revolts almost never succeeded.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 6 (decision 2)
@@ -171,8 +172,8 @@
 
 **Body text:**
 > The ship makes port in Málaga. They sell us in a market. Twenty pounds a man — the price of a horse.
-> Friars in brown robes come to the block. They argue with Hunt's men, angry, in a language I do not yet have.
-> They tell me, in signs: *we will not enslave a baptized soul.* They take me into their house.
+> Friars in brown robes come to the block, arguing with Hunt's men in a tongue I do not yet have.
+> They sign to me: *we will not enslave a baptized soul.* They take me into their house.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 8 (decision)
@@ -186,8 +187,8 @@
 **Timeline bar:** Holds.
 
 **Body text:**
-> The friar at the edge of the crowd lifts a small wooden cross. He is asking, without words, if I will let him buy me.
-> The trader shouts a price. My cousin is being walked away across the square — toward a buyer who is not a friar.
+> A friar at the crowd's edge lifts a wooden cross. He is asking, without words, if I will let him buy me.
+> The trader shouts a price. My cousin is led away — toward a buyer who is not a friar.
 > I have one breath to choose where I look.
 
 **Buttons:**
@@ -206,9 +207,9 @@
 **Headline (Bangers, restrained):** "Pride sold me to the galleys."
 
 **Body text:**
-> If you will not look up, the friar cannot buy you. A galley captain can.
-> The galley does not return men to their coast. The galley is where men's stories end at the oars.
-> A man who refuses every buyer still gets bought. He only loses the one who would have let him go.
+> If I will not look up, the friar cannot buy me. A galley captain can.
+> The galley does not return men. Men's stories end at the oars.
+> A man who refuses every buyer still gets bought.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 8 (decision 3)
@@ -225,10 +226,10 @@
 **Headline:** "WRONG LEVERRRRR!"
 
 **Body text:**
-> I break for my cousin across the square. A pike comes down across my shoulders before I reach him.
-> The friar lowers his cross and steps back into the crowd. The Spanish guards do not return a runner to the auction block — runners go to the galleys.
-> My cousin is sold to a household in Seville. I am sold to an oar.
-> Real history: Spanish authorities in the 1610s distinguished between captives the Church could claim and captives marked as escape risks. A break for it removed the Church's leverage entirely.
+> I break for my cousin. A pike comes down across my shoulders.
+> The friar lowers his cross and steps back. Runners go to the galleys, not the block.
+> My cousin is sold in Seville. I am sold to an oar.
+> Real history: Spanish authorities marked runners as escape risks, removing the Church's leverage to claim them.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 8 (decision 3)
@@ -243,9 +244,9 @@
 **Timeline bar:** Holds.
 
 **Body text:**
-> The friars say I am free in their house. They want to teach me their religion and their language.
+> The friars say I am free in their house. They want to teach me their religion and their tongue.
 > I am thousands of miles from Patuxet. I do not know the way home.
-> They ask three things of me. Each one is a road or a wall.
+> They ask three things of me. Each is a road or a wall.
 
 **Buttons:**
 - `[REFUSE THE BAPTISM. THEY ARE STILL THE PEOPLE WHO BOUGHT ME.]` — GAMEOVER E (terminal / dignified)
@@ -265,9 +266,9 @@
 **Headline (Bangers, restrained):** "I never see Patuxet again."
 
 **Body text:**
-> The friars do not force the lesson. Without their tongue I cannot ask my way to a port, or a ship.
+> The friars do not force the lesson. Without their tongue, I cannot ask my way to a port.
 > The years pass. I am not freed. I am not killed. I am simply not home.
-> A man who refuses every road still arrives nowhere.
+> A man who refuses every road arrives nowhere.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 9 (decision 4)
@@ -282,9 +283,9 @@
 **Timeline bar:** Holds.
 
 **Body text:**
-> The friars offer me a place under their roof for life. They mean it warmly, and they are still the people who bought me.
-> They offer a passage, by mule, to a Spanish port. They cannot promise it sails north.
-> Or I can leave with no patron, and find my own ship out.
+> The friars offer me a place under their roof for life. They mean it warmly. They are still the people who bought me.
+> They offer passage by mule to a Spanish port. They cannot promise it sails north.
+> Or I leave with no patron, and find my own ship.
 
 **Buttons:**
 - `[STAY. THE WARM ROOF IS A ROOF.]` — GAMEOVER F (terminal / dignified)
@@ -303,7 +304,7 @@
 
 **Body text:**
 > The friars are kind. The cell is dry. The years go by quietly.
-> Patuxet is dying without me. I do not know it. The road I did not take grew longer every winter I stayed.
+> Patuxet is dying without me. I do not know it.
 > A bridge that never crosses is just a board.
 
 **Buttons:**
@@ -319,10 +320,11 @@
 **Timeline bar:** New tick: `1615–19 — Spain, then London. I learn English.`
 
 **Body text:**
-> The friars buy my passage as far as Bordeaux. From Bordeaux a fishing crew takes me on as a galley boy bound for La Rochelle and the Channel. I land in London, wet, in the second year of King James.
+> The friars buy my passage to Bordeaux. A fishing crew takes me on, bound for the Channel. I land in London, wet.
 > Three ships could carry me west.
-> The first leaves in three days, captained by a man who has not crossed before. The second leaves in a year — better food, slower hands.
-> The third is not a ship: a merchant named Slany who wants a guide to my coast. He will pay me in lessons, in time.
+> The first leaves in three days, captained by a man who has not crossed before.
+> The second leaves in a year — better food, slower hands.
+> The third is not a ship. A merchant, Slany, wants a guide to my coast. He pays in lessons.
 
 **Buttons:**
 - `[TAKE THE FIRST SHIP. GO NOW.]` — GAMEOVER G (terminal / dignified)
@@ -340,7 +342,7 @@
 **Headline (Bangers, restrained):** "He had not crossed before. Now he never will."
 
 **Body text:**
-> The North Atlantic in winter does not care that the passenger had been in chains and was finally so close.
+> The North Atlantic in winter does not care that I had been in chains and was finally so close.
 > The pinnace breaks up off Newfoundland. There is no shore I know.
 > Some passages are cheap because the passage is cheap.
 
@@ -358,10 +360,10 @@
 
 **Body text:**
 > I learn English the way I learned Spanish — by needing it.
-> If I came in with no patron — `solo_route` — I work alone in the counting-house at first, sleeping in a back room, drawing the New England coast on Slany's ledger pages until he trusts the hand.
-> If I came in under the friars' reference — `friar_route` — Slany pays me a wage; I sleep in his attic for a year before he agrees to let me cross.
-> If I waited for the year-long contract — `year_contract=true` — I keep my own purse, but I do not see the Atlantic again until the season turns.
-> When I came across the sea I had one tongue. Now I have three. They will all be useful. I do not yet know how.
+> If `solo_route` — I sleep in Slany's back room, drawing the coast on his ledger pages until he trusts the hand.
+> If `friar_route` — Slany pays me a wage; I sleep in his attic a year before he lets me cross.
+> If `year_contract=true` — I keep my own purse, but the Atlantic waits a season longer.
+> I came with one tongue. Now I have three. I do not yet know how they will be useful.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 13
@@ -375,8 +377,8 @@
 **Timeline bar:** Holds.
 
 **Body text:**
-> I work passage on a Bristol fishing ship to Newfoundland. The crossing takes nine weeks. The cod we salt are bigger than the ones at Patuxet.
-> A captain named Dermer is sailing south along the coast to trade and map.
+> I work passage on a Bristol ship to Newfoundland. Nine weeks. The cod are bigger than at Patuxet.
+> A captain named Dermer is sailing south to trade and map.
 > I tell him I will guide him, if he carries me to Patuxet. He agrees.
 > We sail south. The trees are the right trees. The bay is the right bay.
 
@@ -392,7 +394,7 @@
 **Timeline bar:** New tick illuminates slowly: `1619 — I return to Patuxet. It is empty.`
 
 **Body text:**
-> I walk up the path I walked as a boy. The houses are still standing. The fish racks are still standing.
+> I walk up the path I walked as a boy. The houses still stand. The fish racks still stand.
 > The people are gone.
 > I know this wind. I do not know this silence.
 
@@ -409,9 +411,9 @@
 
 **Body text:**
 > The houses will not stand forever. Rain will take the bark. Snow will take the frames.
-> I can search inland for survivors. I can burn it, salt the ground the way our dead are honored. I can walk away.
+> I can search inland for survivors. I can burn it, honor the dead. I can walk away.
 > The grief is mine and the grief is alone.
-> Whatever I do here, I do it alone. There is no one left to help me.
+> Whatever I do here, I do alone.
 
 **Buttons:**
 - `[SEARCH FOR SURVIVORS.]` — advances to Slide 16 (canonical — leads him to Massasoit)
@@ -429,9 +431,9 @@
 **Headline (Bangers, restrained):** "I burned the houses. The ships came anyway."
 
 **Body text:**
-> I burn the longhouses. The smoke rises. The English settle anyway — they build on the ash.
-> The Narragansett scouts who come south to investigate the fire decide my territory is undefended. Two of my surviving cousins are taken north as captives.
-> Real history: scorched-earth strategies in 17th-century New England often invited rival tribes more than they deterred Europeans.
+> I burn the longhouses. The English settle anyway — on the ash.
+> Narragansett scouts see the smoke and decide my territory is undefended. Two cousins are taken north as captives.
+> Real history: scorched-earth often invited rival tribes more than it deterred Europeans.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 15 (decision 7)
@@ -448,8 +450,8 @@
 **Headline (Bangers, restrained):** "I walked. The bridge was never built."
 
 **Body text:**
-> I leave Patuxet without ceremony. I walk inland. I do not stop at Pokanoket. I do not give Massasoit my languages.
-> A year later the Mayflower lands. There is no one in the trees who can say *welcome* in their tongue. They survive without me, or they do not.
+> I leave Patuxet without ceremony. I do not stop at Pokanoket. I do not give Massasoit my tongues.
+> A year later the Mayflower lands. No one in the trees can say *welcome* in their language.
 > The story I could have been is somewhere else. The story I am is just a man walking.
 
 **Buttons:**
@@ -465,9 +467,12 @@
 **Timeline bar:** New tick (retroactive — this happened while he was away): `1616–19 — Plague. Patuxet lost.` This tick illuminates dim, then steady. Backdated styling.
 
 **Body text:**
-> The Pokanoket tell me what came. A sickness the English ships carried. Maybe smallpox. Maybe a fever from the rats in the bilge. The healers had no name for it. They had no medicine for it.
+> The Pokanoket tell me what came. A sickness the English ships carried. The healers had no name for it.
 > Nine of every ten Patuxet are gone. Nine of every ten Massachusett. Whole villages, empty.
-> The Wampanoag who survive call it the Great Dying. The English, when they come next year, will call the empty land *a gift from God.*
+> The survivors call it the Great Dying. The English will call the empty land *a gift from God.*
+
+**KEY TERMS:**
+- **The 1616–19 Plague** — A wave of European-introduced disease (likely leptospirosis or smallpox) killed roughly 90% of coastal New England's Native population between 1616–1619. Patuxet was wiped out. This is the empty land the Pilgrims found.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 17
@@ -481,7 +486,7 @@
 **Timeline bar:** No new tick. The 1619 tick still glows.
 
 **Body text:**
-> Massasoit is the sachem of the Wampanoag now. The plague has cut him to a third of his strength. The Narragansett to the west were not hit as hard. They watch his border.
+> Massasoit is sachem now. The plague cut him to a third. The Narragansett were not hit as hard.
 > He listens to my Spanish. He listens to my English. He listens to where I have been.
 > "You are the last Patuxet I know of," he says. "Stay close. We may need a man who has seen the strangers' country."
 
@@ -497,9 +502,9 @@
 **Timeline bar:** Holds.
 
 **Body text:**
-> I live at Pokanoket through the winter. I walk back to Patuxet sometimes. I sleep one night in the empty house I think was my mother's. I leave in the morning.
-> The Wampanoag are not strong enough to fight the Narragansett alone. Massasoit knows it. I know it. We watch the coast.
-> We do not have to wait long.
+> I winter at Pokanoket. I walk back to Patuxet sometimes. I sleep one night in the house I think was my mother's.
+> The Wampanoag cannot fight the Narragansett alone. Massasoit knows. I know.
+> We watch the coast. We do not wait long.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 19
@@ -513,9 +518,9 @@
 **Timeline bar:** New tick: `1620 — Mayflower arrives at Patuxet (now called Plymouth).`
 
 **Body text:**
-> December. A ship comes around the cape and anchors in the bay where my village used to be.
-> They send a boat ashore. They walk through the empty paths. They find the cleared fields and the cleared fishing places and the empty houses still standing.
-> They decide they will winter here. They decide it is theirs.
+> December. A ship rounds the cape and anchors in the bay where my village used to be.
+> They send a boat ashore. They find cleared fields, fishing places, empty houses still standing.
+> They decide to winter here. They decide it is theirs.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 20
@@ -529,8 +534,8 @@
 **Timeline bar:** Holds.
 
 **Body text:**
-> The winter eats them. They are not farmers. Many are sick before they land. They have no fresh food. They have no shelter that holds heat.
-> By spring, half of them are dead. They bury their dead at night and flatten the graves so we will not count them.
+> The winter eats them. They are not farmers. They have no fresh food, no shelter that holds heat.
+> By spring, half are dead. They bury their dead at night and flatten the graves so we will not count them.
 > I count them anyway.
 
 **Buttons:**
@@ -546,8 +551,8 @@
 
 **Body text:**
 > The council argues. The strangers are weak. The Narragansett would have killed them in a week.
-> Some war-leaders say: do the same. Burn the houses. End it now, before more ships come.
-> Massasoit asks me what I have seen of these people, across the sea.
+> Some say: do the same. End it before more ships come.
+> Massasoit asks what I have seen of these people, across the sea.
 
 **Buttons:**
 - `[BURN THE HOUSES. END IT NOW.]` — GAMEOVER J (terminal / dignified)
@@ -565,9 +570,9 @@
 
 **Body text:**
 > The houses burn. The strangers die in the snow.
-> By the next spring two English ships round the cape carrying word of the killing. By the spring after, three more come with soldiers.
-> Massasoit is blamed. The Narragansett, untouched by the plague, watch the Wampanoag stand alone against angry Englishmen and do not lift a hand.
-> Real history: when Algonquian nations attacked English settlements directly — as in Virginia in 1622 — the English did not retreat. They returned in greater force, often within a single shipping season, and treated the attack as license for total war.
+> By next spring, two English ships round the cape with word of the killing. The spring after, three more bring soldiers.
+> Massasoit is blamed. The Narragansett watch the Wampanoag stand alone and do not lift a hand.
+> Real history: when Algonquian nations attacked English settlements — as in Virginia 1622 — the English returned in force, treating it as license for total war.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 21 (decision 8)
@@ -582,9 +587,9 @@
 **Timeline bar:** Holds.
 
 **Body text:**
-> Samoset has already walked into their stockade once and said *welcome* in their tongue. He is alive. They did not shoot him.
-> I can step out of the trees the way he did, in English, today. I can wait a week and watch what they do with him. I can send him in twice more, and only let them know about me when they ask.
-> The alewife are running. The seed must go in within weeks. The first move teaches them who I am. I will only get one first move.
+> Samoset has walked into their stockade and said *welcome* in their tongue. They did not shoot him.
+> I can step out today in English. I can wait a week. I can stay hidden, sending Samoset, until they ask for me.
+> The alewife are running. The seed must go in within weeks. I get one first move.
 
 **Buttons:**
 - `[STEP OUT NOW. ENGLISH IMMEDIATELY.]` — advances to Slide 23 (canonical historical move — Samoset brings him in mid-March 1621)
@@ -603,8 +608,8 @@
 
 **Body text:**
 > I waited. The alewife stopped running. The seed waited too long.
-> Plymouth's first harvest is half what it should have been. They eat through it by January. By March, eight more die.
-> Real history: the Pilgrims were on the edge of starvation in their first three years; one bad spring planting was the difference between survival and famine.
+> Plymouth's first harvest is half what it should have been. By March, eight more die.
+> Real history: the Pilgrims were on the edge of starvation; one bad planting meant famine.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 22 (decision 9)
@@ -619,11 +624,11 @@
 **Timeline bar:** Holds.
 
 **Body text:**
-> I walk out of the trees alone. The sentries lift their muskets. I lift one hand.
+> I walk out alone. The sentries lift muskets. I lift one hand.
 > I say, in English: *Welcome.*
-> They do not know what to do with that word coming out of my mouth. I do not blame them.
+> They do not know what to do with that word from my mouth. I do not blame them.
 >
-> *(If `samoset_only=true`):* Samoset speaks the English I taught him. Bradford's trust comes one bullet shorter than if I had stepped out myself.
+> *(If `samoset_only=true`):* Samoset speaks the English I taught him. Bradford's trust comes one bullet shorter.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 24 (decision)
@@ -637,9 +642,9 @@
 **Timeline bar:** New tick: `1621 — I teach them.`
 
 **Body text:**
-> They have wheat seed from England. The wheat will not grow here. The summer is too short. The soil is wrong.
-> I have corn. I have squash. I have beans. I know the fish to bury under the seed mounds — the alewife, when they run in spring.
-> I can teach them only the corn. I can teach them the corn and the fishing weirs together — they will be fed twice. I can teach them everything I know — the snares, the medicine plants, the places to dig clams, the moons.
+> They have wheat from England. It will not grow here. The summer is too short. The soil is wrong.
+> I have corn, squash, beans. I know the fish to bury under the mounds — alewife, when they run.
+> I can teach them only the corn. Or corn and fishing weirs — fed twice. Or everything — snares, medicine, clams, the moons.
 
 **Buttons:**
 - `[NOTHING. LET THEM PLANT THEIR ENGLISH WHEAT AND STARVE.]` — GAMEOVER L (terminal / dignified)
@@ -658,10 +663,10 @@
 **Headline (Bangers, restrained):** "They died. More came."
 
 **Body text:**
-> The wheat does not grow. Half the survivors of the first winter die in the second.
-> Their company in London does not stop sending ships. They send replacements — soldiers this time, not families. The next captain to step onto Patuxet sand is Miles Standish with twenty muskets and orders to take corn from any village that has it.
-> Massasoit cannot refuse them. The Narragansett can. War comes a decade early.
-> Real history: Plymouth's relationship with the Wampanoag stayed peaceful largely because the Pilgrims survived. A starving English colony historically turned to raiding — see Jamestown 1609 — and raiding was what broke alliances.
+> The wheat does not grow. Half the survivors die the second winter.
+> London sends replacements — soldiers, not families. Miles Standish lands with twenty muskets and orders to take corn.
+> Massasoit cannot refuse. The Narragansett can. War comes a decade early.
+> Real history: Plymouth's peace held because the Pilgrims survived. A starving colony turned to raiding — see Jamestown 1609.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 24 (decision 10)
@@ -676,9 +681,9 @@
 **Timeline bar:** Holds.
 
 **Body text:**
-> A fish. A mound of soil over the fish. Three kernels of corn pushed down into the mound, in a triangle.
-> When the corn comes up, plant a bean at its foot — the bean will climb the corn-stalk. Plant a squash between the mounds — the squash leaves will shade the soil.
-> Three plants in one place. Each one helps the others. Their English farms only know one plant at a time. They are amazed.
+> A fish. A mound of soil over the fish. Three kernels of corn in a triangle.
+> When the corn comes up, plant a bean at its foot. The bean climbs the stalk. A squash between mounds shades the soil.
+> Three plants helping each other. English farms know one plant at a time. They are amazed.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 26
@@ -692,9 +697,9 @@
 **Timeline bar:** Holds.
 
 **Body text:**
-> Massasoit calls me to the forest. He has sent his brother Hobbamock to live among the Pilgrims as well — he does not want only one set of eyes on them, and he does not want only mine.
+> Massasoit calls me to the forest. He has sent Hobbamock to live among the Pilgrims too — he does not want only my eyes on them.
 > "You are useful to them," he says. "Are you still useful to us?"
-> The honest answer matters. He is not asking me to choose; he is asking me to be clear.
+> He is not asking me to choose. He is asking me to be clear.
 
 **Buttons:**
 - `[I SERVE THE WAMPANOAG FIRST. THE ENGLISH ARE A TOOL.]` — advances to Slide 27 (canonical-loyal path; Massasoit's full trust holds; Slide 30 review reads cleanest)
@@ -714,10 +719,10 @@
 **Headline (Bangers, restrained):** "I made myself the only bridge. He noticed."
 
 **Body text:**
-> I tell Bradford that Massasoit is plotting against the English. It almost works. Massasoit hears, sends Hobbamock, and demands my head from Bradford.
-> Bradford stalls — the English need me alive to teach them another season. Massasoit does not press it. He does not need to.
-> From this morning every village south of Plymouth knows I have made myself the only bridge — and that I will burn the bridge for my own use.
-> Real history: in March 1623 Squanto did exactly this and almost paid for it. Bradford's stalling is documented. The trust the Wampanoag had in me ended that month.
+> I tell Bradford that Massasoit is plotting against the English. It almost works.
+> Massasoit hears, sends Hobbamock, demands my head. Bradford stalls — the English need me another season.
+> Every village south of Plymouth knows I made myself the only bridge — and that I will burn it for my own use.
+> Real history: Squanto did exactly this in 1623. The Wampanoag's trust in him ended that month.
 
 **Buttons:**
 - `[TRY AGAIN]` — returns to Slide 26 (decision 11)
@@ -733,7 +738,7 @@
 
 **Body text:**
 > The corn comes in. The beans come in. The squash comes in. There is enough.
-> Half the Pilgrims are alive who would have been dead. Their children are alive who would have been dead.
+> Half the Pilgrims are alive who would have been dead. Their children too.
 > They gather a harvest meal. They fire muskets in celebration. The muskets carry across the trees.
 
 **Buttons:**
@@ -748,10 +753,10 @@
 **Timeline bar:** Holds.
 
 **Body text:**
-> Massasoit hears the muskets. He thinks the English may be under attack. He brings ninety warriors, in case.
-> When he sees no battle, only food, he sends his men to hunt. They come back with five deer.
-> We eat for three days. I sit between the two languages. I had no village left. They were what I had.
-> The three days of feasting end. The English go inside their walls. We go inside ours. Winter comes.
+> Massasoit hears the muskets. He thinks the English are under attack. He brings ninety warriors.
+> Seeing no battle, only food, he sends his men to hunt. They return with five deer.
+> We eat for three days. I sit between the two languages. They were what I had.
+> The feast ends. The English go inside their walls. We go inside ours.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 29
@@ -765,9 +770,10 @@
 **Timeline bar:** Holds.
 
 **Body text:**
-> The peace holds through the winter. There is enough corn now. The Pilgrims build more houses. More ships arrive from England. More mouths.
-> Massasoit watches the ships and says less. The Narragansett watch the ships and say more.
-> I walk between the two camps. I tell each what the other is thinking. Sometimes I tell each a little more than the other is thinking. I am tired. I am useful. The two are the same word, in my life.
+> The peace holds. There is corn now. More ships arrive. More mouths.
+> Massasoit watches and says less. The Narragansett watch and say more.
+> I walk between the two camps. Sometimes I tell each a little more than the other is thinking.
+> I am tired. I am useful. The two are the same word in my life.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 30
@@ -781,9 +787,9 @@
 **Timeline bar:** New tick: `1622 — Diplomatic expedition with Bradford.`
 
 **Body text:**
-> Bradford asks me to guide a trading expedition around the bay. Talk to the smaller bands. Trade for corn before winter.
-> I go. The water is cold. The wind is sharp. We make our circuit.
-> Somewhere on the third day, my head begins to hurt. By night, I cannot keep food.
+> Bradford asks me to guide a trading expedition around the bay. Trade for corn before winter.
+> I go. The water is cold. The wind is sharp.
+> On the third day, my head begins to hurt. By night, I cannot keep food.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 31
@@ -797,11 +803,11 @@
 **Timeline bar:** Holds.
 
 **Body text:**
-> The English call it Indian fever. They do not know what it is. Neither do I. It bleeds from my nose; my body burns; my strength leaves.
-> Bradford does not leave the camp. He sits up with me through the night. He writes in his book that he weeps.
-> I tell him the words to say to my Wampanoag friends. He writes those down too.
+> The English call it Indian fever. Neither of us knows what it is. My nose bleeds. My body burns.
+> Bradford sits up with me through the night. He writes that he weeps.
+> I tell him the words to say to my Wampanoag friends. He writes them down.
 >
-> *(If `taught_everything=true`):* I have taught them everything I knew. There is no language left between us they cannot translate.
+> *(If `taught_everything=true`):* I taught them everything I knew. No language left between us they cannot translate.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 32 (terminal card)
@@ -817,8 +823,8 @@
 **Headline (Bangers, restrained):** "Tisquantum. ~1585 – 1622."
 
 **Body text:**
-> I die at a place called Chatham, on the bay, in the autumn of 1622. Bradford writes that I asked him to pray for me, that I might go to the Englishmen's God in heaven. He writes that I gave my few possessions to my English friends as remembrances of my love.
-> Maybe I said that. Maybe I said it because he wanted to hear it and I had been a translator long enough to know when to give a man the words he needed.
+> I die at Chatham, on the bay, in the autumn of 1622. Bradford writes that I asked him to pray for me, that I might go to the Englishmen's heaven.
+> Maybe I said it. Maybe I said it because he wanted to hear it, and I had been a translator long enough to know when.
 > I taught them. They lived. I did not.
 
 **Buttons:**
@@ -834,9 +840,10 @@
 **Timeline bar:** All ticks visible.
 
 **Body text:**
-> Between 1616 and 1619, an epidemic — most likely leptospirosis, possibly smallpox — killed somewhere between 75% and 90% of the Native peoples of coastal New England. Patuxet, Tisquantum's home village, was wiped out entirely.
-> The disease was carried by earlier European fishing crews. It arrived before most settlers did. The Pilgrims who landed in 1620 settled on emptied land — and called the emptiness providence.
-> The Native peoples of this coast were not one people. The Patuxet, Pokanoket, Nauset, Massachusett, and Narragansett were distinct nations with distinct politics, alliances, and rivalries. The plague hit some harder than others. Massasoit's choice to ally with the Pilgrims was, in part, a calculation against the Narragansett, who had not been hit as hard.
+> Between 1616 and 1619, an epidemic — likely leptospirosis, possibly smallpox — killed 75–90% of coastal New England's Native peoples. Patuxet was wiped out entirely.
+> The disease came on European fishing crews, arriving before most settlers. The Pilgrims of 1620 settled on emptied land — and called the emptiness providence.
+> These were not one people. Patuxet, Pokanoket, Nauset, Massachusett, Narragansett — distinct nations with rivalries.
+> Massasoit allied with the Pilgrims partly as a calculation against the Narragansett, who had not been hit as hard.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 34
@@ -850,9 +857,9 @@
 **Timeline bar:** All ticks visible.
 
 **Body text:**
-> Tisquantum spoke Wampanoag, Spanish, and English. He had crossed the Atlantic four times by the age of thirty-five. He had lived in monasteries, in London merchant houses, and on Newfoundland fishing wharves.
-> He was not a magical guide who appeared from the woods to save the Pilgrims. He was a strategic, multilingual survivor of slavery and plague who chose to be useful because being useful was a way to keep going.
-> Native peoples in the colonial period were not passive. They were diplomats, traders, translators, warriors, and decision-makers. The history that calls them "helpers" or "savages" is shorter than the history they actually lived.
+> Tisquantum spoke Wampanoag, Spanish, and English. He crossed the Atlantic four times by thirty-five. He lived in Spanish monasteries, London merchant houses, Newfoundland fishing wharves.
+> He was not a magical guide. He was a multilingual survivor of slavery and plague who chose to be useful.
+> Native peoples were not passive. They were diplomats, traders, translators, warriors, and decision-makers.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 35
@@ -866,9 +873,9 @@
 **Timeline bar:** All ticks visible.
 
 **Body text:**
-> Massasoit lived another forty years after the first Thanksgiving. He held the alliance with Plymouth until his death around 1661. He watched the English population grow from fifty survivors to twenty thousand colonists.
-> His son Metacom, called King Philip by the English, would lead the war that broke the Wampanoag in 1675 — fifty-three years after Tisquantum's death.
-> Tisquantum did not live to see it. The decision he made to help the strangers was not naïve. It was the right decision for the survivors of 1620. The cost of that decision belonged to the children of his friends, not to him.
+> Massasoit lived another forty years. He held the alliance with Plymouth until his death around 1661, watching the English grow from fifty survivors to twenty thousand colonists.
+> His son Metacom — King Philip — led the war that broke the Wampanoag in 1675, fifty-three years after Tisquantum's death.
+> Tisquantum did not live to see it. His choice to help was not naïve — it was right for 1620. The cost belonged to the children of his friends.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 36
@@ -909,10 +916,10 @@
 **Timeline bar:** All ticks visible.
 
 **Body text:**
-> Squanto's life touched both English colonies. He met the men who would later trade with Jamestown. He saved the men who would build Plymouth.
-> Plymouth and Jamestown were not the same colony. Plymouth came for religious freedom; its people were families; it sat on rocky soil and built fishing villages. Jamestown came for profit; its people were soldiers and planters; it sat on warm rivers and built tobacco plantations.
-> Plymouth's first contact with Native peoples was cooperation. Jamestown's was takeover. Both relationships changed over time. Both ended in war.
-> The difference between them is what you came here to learn. Squanto walked through the middle of it.
+> Squanto's life touched both English colonies. He met men who would trade with Jamestown. He saved the men who built Plymouth.
+> Plymouth came for religious freedom — families, rocky soil, fishing villages. Jamestown came for profit — soldiers, warm rivers, tobacco plantations.
+> Plymouth's first contact was cooperation. Jamestown's was takeover. Both ended in war.
+> The difference is what you came here to learn. Squanto walked through the middle of it.
 
 **Buttons:**
 - `[CONTINUE →]` — advances to Slide 38

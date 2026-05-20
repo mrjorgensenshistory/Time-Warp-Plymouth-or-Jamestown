@@ -32,8 +32,15 @@
 **Slide text overlay:** Bone-white slide-textbox card, Share Tech body. No parchment on this card — parchment is reserved for English ship's-log and Compact slides.
 
 **Body text:**
-> I am Ousamequin — Massasoit, "great chief." Sachem of the Wampanoag confederation. Forty villages answer to me, or did.
-> Three winters ago a sickness came off an English fishing ship. Ten thousand of my people are dead. The bones are still in the houses.
+> I am Ousamequin — Massasoit, "great chief" of the Wampanoag.
+> Forty villages answered to me. Some still do.
+> Three winters ago, sickness came off an English ship.
+> Ten thousand of my people are dead.
+> The bones are still in the houses.
+
+**KEY TERMS:**
+- **Wampanoag** — A confederacy of Algonquian-speaking tribes in southeastern New England. "Wampanoag" means "People of the First Light." Massasoit was their sachem.
+- **Sachem** — Algonquian word for chief. A sachem led one or more villages, chosen for ability and lineage. Not a king — sachems ruled by counsel and consent.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -48,9 +55,11 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> Before the sickness, I had warriors enough to push back any rival on this coast. Now I count what is left.
-> Fewer fighters than the Narragansett. They did not get the sickness. They are stronger than a year ago. I am weaker than in my grandfather's time.
-> A chief who cannot count his men cannot lead his people. The numbers do not improve when I count them again.
+> Before the sickness, my warriors held this coast. Now I count what is left.
+> Fewer fighters than the Narragansett. They escaped the sickness.
+> They are stronger now. I am weaker than in my grandfather's time.
+> A chief who cannot count his men cannot lead.
+> The numbers do not improve when I count them again.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -65,8 +74,11 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> Patuxet is gone. Nemasket is half. Pokanoket — my own — has lost a third. My counselors push me three ways.
-> Mourn a year, owe the dead that much. Or pull every survivor under one roof — re-tribalize. Or send messengers west and find allies before the Narragansett take them.
+> Patuxet is gone. Nemasket is half. Pokanoket has lost a third.
+> My counselors push me three ways.
+> Mourn a year and owe the dead that much.
+> Or pull every survivor under one roof.
+> Or send messengers west before the Narragansett claim them.
 >
 > *What do I do?*
 
@@ -87,11 +99,13 @@
 **Headline:** "I MOURNED WHILE THE MAP CHANGED."
 
 **Body text:**
-> I tell my people we will mourn for a year. We owe the dead that much.
-> While we mourn, my western villages are alone. They have lost half their men to the plague and the other half to grief. The Narragansett, who escaped the sickness, send their sachems west of mine — not as invaders, but as protectors. The villages accept. A village that cannot feed itself does not refuse a strong hand at its door.
-> By the time mourning ends, three western villages answer to Narragansett sachems. The Narragansett did not invade — they were invited by villages that needed protection while my confederation grieved.
-> A chief mourns by leading. The dead understand. The living cannot wait.
-> *Real history: the 1616–19 plague killed an estimated 75–90% of coastal Wampanoag. A year of mourning would have collapsed the political order — the Narragansett, who escaped the plague, became the dominant power in southern New England for two generations because smaller plague-struck tribes had to seek protection somewhere.*
+> I tell my people we will mourn a year. We owe the dead that much.
+> While we mourn, my western villages stand alone.
+> The Narragansett, untouched by the plague, send sachems as protectors.
+> A village that cannot feed itself does not refuse a strong hand.
+> By year's end, three western villages answer to Narragansett sachems.
+> A chief mourns by leading. The living cannot wait.
+> *Real history: the 1616–19 plague killed 75–90% of coastal Wampanoag. A year of mourning would have collapsed the political order — the Narragansett became the dominant power in southern New England for two generations.*
 
 **Buttons:**
 - `[TRY AGAIN ←]` — back to Slide 1
@@ -107,8 +121,10 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> I pull everyone in. One roof per three families. Less food per mouth, more eyes in every direction.
-> It is not what my people wanted. It is what my people needed.
+> I pull everyone in. Three families per roof.
+> Less food per mouth. More eyes in every direction.
+> It is not what my people wanted.
+> It is what my people needed.
 
 **Buttons:**
 - `[CONTINUE →]` — Slide 3
@@ -123,8 +139,11 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> Strangers landed at Patuxet four moons ago — in winter, the way only fools or desperate men travel. Half are already dead; my scouts watched them bury bodies at night.
-> I have not yet shown myself. A chief who shows himself before he counts is a chief who loses his people twice.
+> Strangers landed at Patuxet four moons ago — in winter.
+> Only fools or desperate men travel in winter.
+> Half are already dead. My scouts watched them bury bodies at night.
+> I have not yet shown myself.
+> A chief who shows himself before he counts loses his people twice.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -139,8 +158,11 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> The strangers are weak now. They will not be weak in the spring. The window is closing.
-> I can drive them out tonight while half of them are sick. I can keep watching and let winter finish them. Or I can approach with Squanto and make terms.
+> The strangers are weak now. By spring they will not be.
+> The window is closing.
+> I can burn the palisade tonight while they are sick.
+> I can keep watching and let winter finish them.
+> Or I can approach with Squanto and make terms.
 >
 > *What do I do?*
 
@@ -161,11 +183,13 @@
 **Headline:** "I ENDED IT IN THE WRONG WINTER."
 
 **Body text:**
-> I move at night, before they have shown me anything. My scouts cut the palisade. Half the strangers are too sick to lift a musket. It is over before sunrise.
-> I have answered a question they did not yet ask. The next ship that comes — and the next, and the next — does not come to a fort with a treaty inside it. It comes to a coast where Englishmen were killed in their beds.
-> Plymouth becomes a story that is told in London for forty years. When Massachusetts Bay lands in 1630, it lands with twenty thousand men and an instruction to clear the coast. There is no Wampanoag–English alliance to slow them — only my dead villages and theirs.
-> A chief who strikes before he counts buys himself one easy night and pays for it for a hundred years.
-> *Real history: the historical Massasoit chose to approach Plymouth specifically because his confederation was too weak from the 1616–19 plague to survive a war on two fronts (English to the east, Narragansett to the west). Driving out a sick, half-buried colony in winter would have spared the 1620 Pilgrims but invited the much larger 1630 Puritan migration to land on a coast already at war.*
+> I move at night. My scouts cut the palisade.
+> Half the strangers are too sick to lift a musket. It is over before sunrise.
+> But the next ship comes anyway, and the next.
+> Plymouth becomes a London story told for forty years.
+> When Massachusetts Bay lands in 1630, twenty thousand men come to clear the coast.
+> A chief who strikes before he counts pays for it for a hundred years.
+> *Real history: the historical Massasoit approached Plymouth because his confederation was too weak after the 1616–19 plague to fight two fronts. Driving out the Pilgrims would have invited the larger 1630 Puritan migration onto a coast already at war.*
 
 **Buttons:**
 - `[TRY AGAIN ←]` — back to Slide 1
@@ -181,8 +205,11 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> A man returns to my camp who should be dead — Tisquantum. The English call him Squanto. Stolen from Patuxet years ago, sold in Spain, he learned the strangers' tongue and worked his way home across two oceans.
-> He came back to find his village empty. He tells me the strangers are starving, that he can speak to them, and asks what I want him to say.
+> A man returns to my camp who should be dead — Tisquantum.
+> The English call him Squanto. Stolen from Patuxet years ago, sold in Spain.
+> He learned the strangers' tongue and worked his way home across two oceans.
+> He came back to find his village empty.
+> He says the strangers are starving, and asks what I want him to say.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -197,8 +224,11 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> Squanto is useful. He has also been owned by Englishmen and Spanish friars. I do not yet know whose interests he carries.
-> I can send him as my voice — saying only what I tell him. As a free man — sounding them out and reporting back. Or as my spy inside their fort.
+> Squanto is useful. He has also been owned by Englishmen and Spanish friars.
+> I do not yet know whose interests he carries.
+> I can send him as my voice — saying only what I tell him.
+> Or as a free man, sounding them out and reporting back.
+> Or as my spy inside their fort.
 >
 > *What do I tell him?*
 
@@ -219,11 +249,14 @@
 **Headline:** "I MADE HIM PICK BOTH."
 
 **Body text:**
-> I send Squanto in as my spy. He plays the part too well — better than I bargained for, because a man who has been owned by Englishmen and Spanish friars has already learned that surviving means selling whatever the buyer in front of him will pay for.
-> Within a year both sides have caught him passing the other's secrets. Bradford nearly hangs him. My counselors want him quietly killed for using my name in trades I never authorized. Neither of us trusts him enough to use him, but I cannot kill him without telling Bradford what I asked him to do.
-> I lose my translator before I have a treaty. The English deal directly with my western neighbors — through a Massachusetts man who has no loyalty to me — and the alliance I would have built passes to a sachem who did not have to spy to get it.
-> I asked too much of the only man who could speak both tongues. I broke him before I needed him.
-> *Real history: the historical Squanto did play both sides — in 1622 he tried to manipulate Bradford into attacking Massasoit by inventing a Wampanoag plot. Bradford caught the lie and Massasoit demanded Squanto's life under treaty terms. Bradford refused, the alliance nearly broke, and Squanto died of fever a few months later. A chief who weaponizes his only translator early loses the channel he most needs.*
+> I send Squanto in as my spy. He plays the part too well.
+> A man owned by Englishmen and Spanish friars sells to whoever pays.
+> Within a year both sides catch him passing the other's secrets.
+> Bradford nearly hangs him. My counselors want him quietly killed.
+> I lose my translator before I have a treaty.
+> The English deal with my western neighbors instead.
+> I asked too much of the only man who spoke both tongues.
+> *Real history: in 1622 Squanto tried to manipulate Bradford into attacking Massasoit by inventing a plot. Bradford caught the lie. Massasoit demanded his life under treaty terms; Bradford refused, and Squanto died of fever months later.*
 
 **Buttons:**
 - `[TRY AGAIN ←]` — back to Slide 1
@@ -239,8 +272,10 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> My council is split. Some say drive them into the sea before more ships come. Others say leave them — winter will finish them.
-> The strangers have iron tools and long guns. If they live, they will trade. And the Narragansett are watching from the west.
+> My council is split. Some say drive them into the sea now.
+> Others say leave them — winter will finish them.
+> The strangers have iron tools and long guns. If they live, they will trade.
+> And the Narragansett are watching from the west.
 >
 > *What do I do?*
 
@@ -261,9 +296,11 @@
 **Headline:** "WRONG LEVERRRRR!"
 
 **Body text:**
-> I throw my warriors at the palisade. We win. The strangers die in the surf. But more ships come anyway, and now there is no English settlement to negotiate through.
-> The Narragansett see I have spent my warriors. By 1630, the Wampanoag answer to Narragansett sachems.
-> I spent the small problem to make the big problem worse.
+> I throw my warriors at the palisade. We win.
+> The strangers die in the surf. But more ships come anyway.
+> Now there is no English settlement to negotiate through.
+> The Narragansett see I have spent my warriors.
+> By 1630, the Wampanoag answer to Narragansett sachems.
 
 **Buttons:**
 - `[TRY AGAIN ←]` — back to Slide 1
@@ -285,9 +322,11 @@
 **Headline:** "YOU CAN'T STAY HIDDEN ON COMPANY TIME!"
 
 **Body text:**
-> I do nothing. Winter does not finish them — Squanto helps them anyway. They live. Spring brings more ships, and they make their own deal with the Narragansett.
-> Now the strangers and the Narragansett are friends. The Wampanoag are between them, with no allies and no leverage.
-> A leader who waits for the world to decide is a leader who has already lost.
+> I do nothing. Winter does not finish them — Squanto helps them anyway.
+> They live. Spring brings more ships.
+> They make their own deal with the Narragansett.
+> Now the strangers and the Narragansett are friends.
+> The Wampanoag are between them, with no allies and no leverage.
 
 **Buttons:**
 - `[TRY AGAIN ←]` — back to Slide 1
@@ -307,8 +346,11 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> I walk into the English fort with sixty of my men. No weapons drawn. Four smoked deer slung on poles.
-> You do not begin a treaty with a closed fist if you want it to last. And I want their leader to count my men, and to know I could have brought twice as many.
+> I walk into the English fort with sixty men.
+> No weapons drawn. Four smoked deer on poles.
+> You do not begin a treaty with a closed fist if you want it to last.
+> I want their leader to count my men.
+> And to know I could have brought twice as many.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -323,8 +365,11 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> Their governor is Bradford — younger than I expected, and he has buried half his people this winter.
-> The terms: mutual defense, no harm to each other's people, trade. I could push for more — demand tribute, demand they leave their guns at the door. Or I could sign what is on the table.
+> Their governor is Bradford — younger than I expected.
+> He has buried half his people this winter.
+> The terms: mutual defense, no harm to each other's people, trade.
+> I could demand tribute. I could demand they leave their guns at the door.
+> Or I could sign what is on the table.
 >
 > *What do I do?*
 
@@ -345,8 +390,10 @@
 **Headline:** "WRONG LEVERRRRR!"
 
 **Body text:**
-> I press for tribute. Bradford's face closes. He says he has not crossed an ocean to pay a tax to a man who has not yet decided if they are friends. The talks end.
-> Within a season Plymouth signs with one of my western neighbors instead. I traded a fifty-year alliance for a year of pride.
+> I press for tribute. Bradford's face closes.
+> He has not crossed an ocean to pay tax to a man not yet his friend. The talks end.
+> Within a season Plymouth signs with my western neighbor instead.
+> I traded a fifty-year alliance for a year of pride.
 > A chief negotiates from his weakest point. He does not pretend it is his strongest.
 
 **Buttons:**
@@ -363,8 +410,14 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> We sign. Mutual defense. I have allies with guns against the Narragansett. Bradford has warriors against any tribe that would have pushed his fort into the sea.
-> Neither of us trusts the other yet. The treaty does not require trust. It requires that we both still need each other in the morning.
+> We sign. Mutual defense.
+> I have allies with guns against the Narragansett.
+> Bradford has warriors against any tribe that would push his fort into the sea.
+> Neither of us trusts the other yet. The treaty does not require trust.
+> It requires that we both still need each other in the morning.
+
+**KEY TERMS:**
+- **Wampanoag–Plymouth Treaty (1621)** — Signed March 1621 between Massasoit and Governor John Carver. Mutual defense, mutual non-aggression. Held for 50 years — until King Philip's War in 1675.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -379,8 +432,11 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> Bradford sends a runner. His harvest came in — not large. He invites me to a feast: three days, food shared, no business.
-> Send no one and the alliance reads as cold. Send a small party and I look polite but uncommitted. Send a war-band and I honor the treaty with strength behind it.
+> Bradford sends a runner. His harvest came in, not large.
+> He invites me to a feast: three days, food shared, no business.
+> Send no one and the alliance reads as cold.
+> Send a small party and I look polite but uncommitted.
+> Send a war-band and I honor the treaty with strength behind it.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -414,11 +470,12 @@
 **Headline:** "I LET THE TABLE GO COLD."
 
 **Body text:**
-> I refuse the feast. The alliance is a paper. Food is for friends; we are allies. The distinction matters to me.
-> It does not matter to Bradford. He does not understand a chief who keeps his men back when his treaty partner sets a thin table. He writes in his log that Massasoit "kept his distance" — three words that get copied into the next governor's instructions, and the next.
-> Twenty years later, when the Narragansett come courting Plymouth — bringing food, bringing furs, sitting at the English table — Plymouth listens. The Wampanoag alliance is still on paper. The Narragansett alliance is in the kitchen.
-> A chief signs a paper to start a peace. He shares food to keep it. I knew the math of warriors and never learned the math of bread.
-> *Real history: the 1621 Thanksgiving was not just a meal — it was the ratifying ceremony of the Wampanoag–Plymouth alliance. Massasoit attended with ninety men and brought five deer specifically because diplomatic feasts in both cultures were how alliances became real. Skipping it would have left the treaty technically valid but socially hollow, the kind of agreement that gets renegotiated when a friendlier neighbor offers a better table.*
+> I refuse the feast. Food is for friends; we are allies.
+> Bradford does not understand. He writes that Massasoit "kept his distance."
+> Those three words get copied into the next governor's instructions, and the next.
+> Twenty years later the Narragansett bring food and furs to Plymouth's table. Plymouth listens.
+> A chief signs paper to start a peace. He shares food to keep it.
+> *Real history: the 1621 Thanksgiving was the ratifying ceremony of the Wampanoag–Plymouth alliance. Massasoit attended with ninety men and brought five deer because diplomatic feasts in both cultures were how alliances became real.*
 
 **Buttons:**
 - `[TRY AGAIN ←]` — back to Slide 1
@@ -435,8 +492,10 @@
 
 **Body text:**
 > I send ten men. I do not go myself.
-> They eat with the English for a day, return on the second. Bradford writes about it briefly in his log.
-> The alliance holds. But Plymouth remembers, in years to come, that I did not come to the first feast. The math under the alliance is correct, but the warmth is thin. Trust grows slower this way.
+> They eat with the English a day and return on the second.
+> The alliance holds. But Plymouth remembers I did not come.
+> The math is correct, but the warmth is thin.
+> Trust grows slower this way.
 
 **Buttons:**
 - `[CONTINUE →]` — Slide 15
@@ -451,9 +510,12 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> Their harvest came in. Not large, but enough. Bradford sent men to hunt birds.
-> I came to their feast with ninety of my men. We brought five deer. The English had not asked for the deer. I brought them so that no one would say my warriors arrived at a thin table.
-> Three days we ate. Three days we did not fight, and we did not negotiate. We ate. Their children ran among my men. My men did not flinch. This was the alliance, in the only language that lasts — food shared and weapons set aside.
+> Their harvest came in. Not large, but enough.
+> I came to the feast with ninety men. We brought five deer.
+> No one would say my warriors arrived at a thin table.
+> Three days we ate. We did not fight. We did not negotiate.
+> Their children ran among my men, and my men did not flinch.
+> This was the alliance — food shared and weapons set aside.
 
 **Buttons:**
 - `[CONTINUE →]` — Slide 15
@@ -470,17 +532,20 @@
 **Body text (if Slide 4b = "be my voice"):**
 > The man I sent as my voice is dying tonight.
 >
-> Squanto and I were never simple. He was useful to me when he translated for me, and useful to the English when he translated for them, and sometimes he played the two of us against each other for his own profit.
+> Squanto was never simple. He was useful to me, useful to the English.
+> Sometimes he played us both against each other for his own profit.
 > I considered killing him more than once. I never did.
-> In 1622 he falls ill on a diplomatic trip with Bradford. They call it Indian fever. He dies on the boat. Bradford writes that he asked to be remembered to the English God, which may be true and may be Bradford writing what Bradford wanted to hear.
+> In 1622 he falls ill on a trip with Bradford. They call it Indian fever.
+> He dies on the boat.
 > I lose my translator. The English lose theirs.
 
 **Body text (if Slide 4b = "be a free man"):**
 > The man I let walk free is dying tonight.
 >
-> Squanto and I were never simple. He was useful to me when he translated for me, and useful to the English when he translated for them, and sometimes he played the two of us against each other for his own profit. That was the cost of letting him sound them out on his own legs.
+> Squanto was never simple. He played both sides for his own profit.
+> That was the cost of letting him walk on his own legs.
 > I considered killing him more than once. I never did.
-> In 1622 he falls ill on a diplomatic trip with Bradford. They call it Indian fever. He dies on the boat. Bradford writes that he asked to be remembered to the English God, which may be true and may be Bradford writing what Bradford wanted to hear.
+> In 1622 he falls ill on a trip with Bradford. He dies on the boat.
 > I lose my translator. The English lose theirs.
 
 **Buttons:**
@@ -496,12 +561,12 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> My counselors come to me with a question that should not be asked aloud.
-> Squanto died fast. Healthy men do not die that fast on a calm bay. There are rumors in my own camp — that one of my own men, jealous of Squanto's place between two chiefs, may have given him something at his last meal.
-> Bradford does not know the rumors. He is grieving, in his way, and writing about it.
-> I can investigate. Quietly, but seriously. If a Wampanoag killed Squanto, it changes what I owe the English in honor.
-> I can stay neutral. Squanto is dead. Investigations divide councils. The alliance is the priority.
-> I can use it. I can point Bradford toward the Narragansett — let the English suspicion land on my rivals, not my own house. The English will not know the difference.
+> My counselors come with a question that should not be asked aloud.
+> Squanto died fast. Healthy men do not die that fast on a calm bay.
+> A jealous man in my own camp may have given him something.
+> I can investigate quietly. If a Wampanoag killed him, I owe Bradford honor.
+> I can stay neutral. Investigations divide councils.
+> Or I can point Bradford toward the Narragansett, and let suspicion land on my rivals.
 >
 > *What do I do?*
 
@@ -520,11 +585,13 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> Plymouth was a small thing. Then Massachusetts Bay landed in 1630, north of us. Twenty thousand English in ten years. They keep coming. They do not stop coming.
-> My people are still ten thousand. The plague never gave us our numbers back. The villages I consolidated are still under one roof. Three families per longhouse. The young men marry their cousins because there are no other young women within a day's walk. The land they could be planting sits fallow because there are no hands to plant it.
-> I count again, because that is what a chief does. The strangers' fields press against ours. Their pigs eat my people's corn. Their iron axes clear forests faster than any of my warriors can track a deer through what is left.
-> The alliance still holds. But the math under the alliance is changing every season. From now on the alliance speaks through messengers who know fewer words than Squanto did.
-> My sons are old enough now to sit at the council fire — Wamsutta watching, Metacom asking questions I cannot answer.
+> Plymouth was a small thing. Then Massachusetts Bay landed in 1630.
+> Twenty thousand English in ten years. They do not stop coming.
+> My people are still ten thousand. The plague never gave our numbers back.
+> Their fields press against ours. Their pigs eat our corn.
+> Their iron axes clear forests faster than my warriors can hunt them.
+> The alliance still holds. But the math is changing every season.
+> My sons sit at the council fire now — Wamsutta watching, Metacom asking questions I cannot answer.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -539,12 +606,13 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> The Pequot in the south have refused to make peace with the English. The English have decided to make war. Connecticut, Massachusetts, Plymouth — they are coming for the Pequot together.
-> The Pequot send messengers to me. They say: join us, before the strangers eat us all one tribe at a time.
-> The English send messengers to me. They say: stand with your treaty, or stand against it.
-> The Narragansett, my old rivals, are joining the English. Choosing the winning side, as they always do.
+> The Pequot in the south refused peace. The English have decided to make war.
+> Connecticut, Massachusetts, Plymouth — they are coming for the Pequot together.
+> The Pequot send messengers: join us, before the strangers eat us one tribe at a time.
+> The English send messengers: stand with your treaty, or against it.
+> The Narragansett are joining the English. Choosing the winning side, as always.
 >
-> *(If Slide 15b = "point Bradford at the Narragansett"):* The English remember I steered them toward the Narragansett over Squanto's death. They listen to me harder this season. The leverage is small — a few extra messengers, an extra week of patience — but it is leverage I bought, and I will not waste it.
+> *(If Slide 15b = "point Bradford at the Narragansett"):* The English remember I steered them toward the Narragansett over Squanto's death. They listen harder this season. Small leverage, but leverage I bought.
 >
 > *What do I do?*
 
@@ -565,10 +633,12 @@
 **Headline:** "I CHOSE THE WRONG WAR."
 
 **Body text:**
-> I throw my warriors in with the Pequot. We are not enough. The English burn the Pequot fort at Mystic with the Narragansett standing beside them. Six hundred Pequot die in one night, mostly women and children who could not get out of the burning palisade.
-> The English remember who stood with the Pequot. They remember it for forty years.
+> I throw my warriors in with the Pequot. We are not enough.
+> The English burn the Pequot fort at Mystic. The Narragansett stand beside them.
+> Six hundred Pequot die in one night, mostly women and children.
+> The English remember who stood with the Pequot. For forty years.
 > The Wampanoag are next on the list. My sons inherit a war I started.
-> I broke the treaty I built. I confused a chief's pride with a chief's duty.
+> I confused a chief's pride with a chief's duty.
 
 **Buttons:**
 - `[TRY AGAIN ←]` — back to Slide 1
@@ -584,18 +654,19 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text (neutral path):**
-> I stay out. I send no warriors south. I send no messengers in either direction.
-> The English destroy the Pequot. Six hundred die at Mystic in one night. The Narragansett walk away with English praise and Pequot land.
+> I stay out. I send no warriors. I send no messengers.
+> The English destroy the Pequot. Six hundred die at Mystic in one night.
+> The Narragansett walk away with English praise and Pequot land.
 > I learn three things from watching this fire burn from a distance.
-> One: English military aid is a thing I keep, but only if I do not need it against the English themselves.
-> Two: the Narragansett will always stand with the strongest side.
-> Three: my sons will live in a country where this is now how arguments are settled.
+> The Narragansett will always stand with the strongest side.
+> My sons will live in a country where this is how arguments are settled.
 
 **Body text (aid path — replaces the above when player chose to aid):**
-> I sent twenty men south. They fought beside the English at Mystic. Four did not come home.
-> The English now owe me a debt. Bradford's successors say my name with respect for a season.
-> But I count what it cost. Four warriors I cannot replace, and a memory my sons will carry — that their father's men stood at the burning of a village whose people screamed in a language close to ours.
-> I bought credit. I am not yet sure what the credit will buy.
+> I sent twenty men south. They fought beside the English at Mystic.
+> Four did not come home.
+> The English now owe me a debt. Bradford's successors say my name with respect.
+> But four warriors I cannot replace, and my sons carry the memory.
+> Their father's men stood at the burning of a village whose tongue was close to ours.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -611,12 +682,13 @@
 
 **Body text:**
 > Three winters pass. Then the deeds start coming.
-> The English are running out of land for their children. Their children are many, and ours are few, and the math has not changed.
-> They come to me with papers. They want the meadow at the bend. They want the fishing weir at the river-mouth. They will pay in iron tools, in wampum strings, in muskets.
-> If I sell, my people get tools they need. If I do not sell, the English will settle the land anyway over time, and I will have gotten nothing for it.
-> I could also push back the other direction — demand reparations for the corn their pigs have eaten, the trees their axes have taken without asking, the fishing weirs their boats have broken.
+> The English are running out of land for their children.
+> They come with papers — for the meadow, the fishing weir, the river-mouth.
+> They pay in iron tools, wampum, and muskets.
+> If I refuse, they settle anyway, and I get nothing.
+> Or I demand reparations — for the corn their pigs ate, the trees their axes took.
 >
-> *(If Slide 17 = "aid the English at Mystic"):* The credit I bought at Mystic does not buy back a meadow. The English magistrate who shakes my hand at the door is not the captain whose life my warriors saved. Debts written in smoke are paid in smoke.
+> *(If Slide 17 = "aid the English at Mystic"):* The credit I bought at Mystic does not buy back a meadow. Debts written in smoke are paid in smoke.
 >
 > *What do I do?*
 
@@ -637,11 +709,14 @@
 **Headline:** "I ASKED A COURT THAT DOES NOT HEAR ME."
 
 **Body text:**
-> I demand reparations. I list every pig in every cornfield, every fence-post past the line, every tree taken without my mark.
-> The English court at Plymouth listens. They write down my list. They smile. Then they tell me, politely, that under English law a free-roaming animal is no man's responsibility, and that the line was always *their* line, not mine, because the deed I signed in 1621 used English words.
-> Plymouth doubles its musket muster the next season — not against me, they say, only as a precaution. London never replies to the letter the magistrates promise to send. They settle nothing. They settle more. Within a decade my own warriors are working English fields for English wages because the Wampanoag fields cannot feed us anymore.
-> I have asked for what cannot be given by people who do not believe they took anything. A chief asks for what the other side can give. He does not ask for what the other side will laugh at.
-> *Real history: Native demands for redress in 17th-century New England were almost never honored. Colonial courts treated land deeds as final, even when signed under linguistic confusion or duress, and treated free-roaming livestock damage as a Native problem to fence against. Native plaintiffs occasionally won small judgments; they almost never won structural concessions. Pushing for reparations in the 1640s typically accelerated, rather than slowed, the loss of the land.*
+> I demand reparations. I list every pig, every fence-post, every tree taken.
+> The Plymouth court listens. They write down my list. They smile.
+> Then they say a free-roaming animal is no man's responsibility under English law.
+> The line was always their line, because the deed used English words.
+> Plymouth doubles its musket muster the next season — only as a precaution.
+> Within a decade my warriors work English fields for English wages.
+> I asked for what cannot be given by people who do not believe they took anything.
+> *Real history: Native demands for redress in 17th-century New England were almost never honored. Colonial courts treated deeds as final and free-roaming livestock damage as a Native problem to fence against.*
 
 **Buttons:**
 - `[TRY AGAIN ←]` — back to Slide 1
@@ -657,10 +732,11 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> I refuse. I tell Bradford's successors that the line is the line and the line will not move.
-> The line moves anyway, slowly, one fence post at a time. English farmers cross over and apologize after. Their pigs cross over and do not apologize.
-> But I have not signed away the meadow. I have not put my name on a paper that says my children's children own less than my fathers.
-> The pressure does not go away. I just do not add my mark to it.
+> I refuse. The line is the line. The line will not move.
+> The line moves anyway, one fence post at a time.
+> English farmers cross over and apologize. Their pigs cross over and do not.
+> But I have not signed away the meadow.
+> The pressure does not stop. I just do not add my mark to it.
 
 **Buttons:**
 - `[CONTINUE →]` — Slide 23
@@ -675,10 +751,12 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> I sell, but I sell carefully. I take the tools. I take the muskets. I keep my warriors armed at the same level as the English farmers around them.
-> I walk the borders of every sale once a year with my own feet, so the English remember the line is the line.
-> My people get iron knives that do not break. They get muskets that hunt deer faster than bows. They also become a people who need English iron and English powder more than they need each other.
-> Both endings are true at the same time. A chief lives inside that.
+> I sell, but carefully. I take the tools. I take the muskets.
+> I keep my warriors armed at the level of the English around them.
+> I walk every border once a year, so they remember the line.
+> My people get iron knives that do not break.
+> They also become a people who need English iron more than each other.
+> Both endings are true at once. A chief lives inside that.
 
 **Buttons:**
 - `[CONTINUE →]` — Slide 23
@@ -693,14 +771,16 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> My sons grow up in the shadow of all of this. Wamsutta is the older, steadier one. Metacom is younger and has watched too much.
+> My sons grow up in the shadow of all this.
+> Wamsutta is older, steadier. Metacom is younger and has watched too much.
 > Wamsutta says we should keep our father's treaty.
-> Metacom says the treaty is fifty years old and the English no longer remember why they signed it.
+> Metacom says the treaty is fifty years old and the English have forgotten why they signed it.
 >
-> *(If Slide 20 = "refuse"):* They grew up watching me hold a line that bent every year. Every spring a new fence post, every fall the same conversation, every winter the line still on the map and the meadow not on it.
-> *(If Slide 20 = "sell carefully"):* They grew up watching me trade meadows for muskets. They know what an iron axe costs. They are not yet sure whether the cost was paid by me or by them.
+> *(If Slide 20 = "refuse"):* They grew up watching me hold a line that bent every year.
+> *(If Slide 20 = "sell carefully"):* They grew up watching me trade meadows for muskets. They know what an iron axe costs.
 >
-> They are both right. I tell them: the math is not on our side. Buy time. Buy peace. Pass it to your sons. The longer we hold, the longer we hold.
+> They are both right. I tell them: the math is not on our side.
+> Buy time. Buy peace. Pass it to your sons.
 
 **Buttons:**
 - `[CONTINUE →]`
@@ -715,11 +795,11 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> The English summoned my elder son to Plymouth. They wanted him questioned about land sales he had made without their permission. They held him a week. He came home in a fever. He died in two days.
-> Plymouth held my elder son a week. They had held my men one day, twenty years ago, at a feast they called a thanksgiving. The arithmetic of trust is what we taught them. They are using our lessons.
-> Metacom stands over him and asks me — with his eyes, not his mouth — what I want him to do.
-> The English say it was sickness. The Wampanoag say it was poison. I cannot prove either.
-> My counselors urge me three ways.
+> The English summoned my elder son to Plymouth in 1660.
+> They questioned him about land sales made without their permission.
+> They held him a week. He came home in a fever and died in two days.
+> Metacom stands over him, asking with his eyes what I want him to do.
+> The English say sickness. The Wampanoag say poison. I cannot prove either.
 >
 > *What do I tell Metacom?*
 
@@ -741,11 +821,14 @@
 
 **Body text:**
 > I tell Metacom: avenge your brother. Raise the warriors.
-> He does. Within a season, the war that should have come in 1675 comes in 1660 instead. Metacom is twenty-two and has not yet learned what his father knew about counting men.
-> The English have ten times the population they had in 1621 and four times the muskets. The Praying-Town Wampanoag — converts who would have stayed neutral in 1675 — fight for the English now, because Metacom moved before he had a coalition. The Narragansett, again, walk away with English praise. The Wampanoag confederation is broken in three years instead of three.
-> Metacom is killed at twenty-five. His head is set on a pike at Plymouth. His wife and son are sold into slavery in Barbados. I am buried beside a son who started a war I taught him not to start.
-> I gave my son a war he could not win, and I gave it to him fifteen years before he was ready to lose it. A chief does not start his sons' war for them. A chief teaches his sons when not to start it.
-> *Real history: the historical King Philip's War (1675–78) killed roughly 30% of the English population of New England and broke the Wampanoag, Narragansett, and Nipmuc as independent powers. Even with fifteen extra years of preparation under Massasoit, Metacom barely held a year before the alliance fractured. Starting in 1660 — before Metacom had built the cross-tribal coalition that briefly threatened Plymouth in 1675 — would have collapsed the war in months and ended Wampanoag autonomy a generation early.*
+> He does. The war that should come in 1675 comes in 1660 instead.
+> Metacom is twenty-two and has not yet learned to count men.
+> The English have ten times the population of 1621 and four times the muskets.
+> The Praying-Town Wampanoag fight for the English. The Narragansett walk away with English praise.
+> Metacom is killed at twenty-five. His head goes on a pike at Plymouth.
+> His wife and son are sold into slavery in Barbados.
+> A chief teaches his sons when not to start a war.
+> *Real history: King Philip's War (1675–78) killed 30% of New England's English population and broke the Wampanoag, Narragansett, and Nipmuc as independent powers. Starting in 1660 — before Metacom built his coalition — would have collapsed the war in months.*
 
 **Buttons:**
 - `[TRY AGAIN ←]` — back to Slide 1
@@ -764,8 +847,11 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> I am old. I will not see another spring. My elder son is already gone. Metacom sits beside me where Wamsutta should be sitting, and he wants a final word.
-> I have one decision left to make — what I tell him on this last night. The words I give him will outlive me. They may outlive him too, in the war I see coming and he can already taste.
+> I am old. I will not see another spring.
+> My elder son is already gone. Metacom sits beside me where Wamsutta should sit.
+> I have one decision left — what I tell him on this last night.
+> The words I give him will outlive me.
+> They may outlive him too, in the war he can already taste.
 >
 > *What do I tell my son?*
 
@@ -784,8 +870,11 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> If I tell him the alliance was a lie, I leave my son a war I no longer have the warriors to fight. Metacom will hear what he wants to hear. He will move too soon. The English are stronger than they were in 1621 by ten times. He will not be ready.
-> I do not say this. A chief does not waste his last breath teaching his son to lose faster.
+> If I tell him the alliance was a lie, I leave him a war he cannot win.
+> Metacom will hear what he wants to hear. He will move too soon.
+> The English are ten times stronger than in 1621. He will not be ready.
+> I do not say this.
+> A chief does not waste his last breath teaching his son to lose faster.
 
 **Buttons:**
 - `[CHOOSE AGAIN ←]` — back to Slide 24
@@ -800,8 +889,10 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> If I tell him only "keep the peace," I have lied to him about what I see coming. Metacom is not a child. He has watched the English fields move every year of his life. He will not believe a comfort. He buried his brother three months ago.
-> A chief does not waste his last breath on a story his own son can see through.
+> If I tell him only "keep the peace," I have lied about what I see coming.
+> Metacom is not a child. He has watched English fields move every year.
+> He will not believe a comfort. He buried his brother three months ago.
+> A chief does not waste his last breath on a story his son can see through.
 
 **Buttons:**
 - `[CHOOSE AGAIN ←]` — back to Slide 24
@@ -816,9 +907,12 @@
 **Slide text overlay:** Bone-white card.
 
 **Body text:**
-> I almost said the angry words. I almost said the soft words. My son would have known the difference, and he would have known I was lying — in either direction. So I tell him the truth, because he is old enough to carry it, and because the only counsel a dying chief can give is the one his son cannot see through.
-> I tell him the math will break. The English will keep coming. Our numbers will not return. There will be a season — not in my life, perhaps not even in his — when the alliance will not hold the weight of it.
-> Until that season, hold. Buy every year you can buy. Trade what you must trade. Do not start a war you cannot win for the pride of starting it.
+> I almost said the angry words. I almost said the soft words.
+> Either way, my son would have known I was lying.
+> So I tell him the truth, because he is old enough to carry it.
+> I tell him the math will break. The English will keep coming.
+> There will be a season when the alliance cannot hold the weight.
+> Until then, hold. Buy every year you can. Trade what you must.
 > When the war comes, fight it. But do not bring it early.
 > He listens. Whether he hears me, only the years will tell.
 
@@ -837,11 +931,14 @@
 **Headline:** "FIFTY YEARS OF PEACE."
 
 **Body text:**
-> I will not live to see what comes. My son Metacom is young, and angry, and watches the English ships keep coming.
-> In the year 1675, fourteen years after my death, he will lead a war. The English call it King Philip's War, after the name they gave him.
-> It will fail. The Wampanoag will be broken. Half the English towns of New England will burn before the end. About three thousand of my people, and six hundred of theirs, will die. Metacom will be killed. The English will display his head in Plymouth for twenty-five years.
-> But I will not see it. I keep my eyes on what I built — fifty years of peace. It was the longest peace any of us could buy.
-> Both sides did the math we had to do. The side with more numbers, more guns, and fewer dead from the sicknesses won the math in the end. That is not a story with a hero. That is what survival was.
+> I will not live to see what comes.
+> In 1675, fourteen years after my death, Metacom leads a war.
+> The English call it King Philip's War.
+> It will fail. The Wampanoag will be broken. Half the English towns will burn.
+> Three thousand of my people, and six hundred of theirs, will die.
+> Metacom will be killed. His head will hang in Plymouth for twenty-five years.
+> But I keep my eyes on what I built — fifty years of peace.
+> It was the longest peace any of us could buy.
 
 **Buttons:**
 - `[→ SEE WHAT REALLY HAPPENED]` — Slide 29 (stacking review)
@@ -859,10 +956,13 @@
 **Headline:** "MY CHRONICLE."
 
 **Body text:**
-> The alliance I walked into the English fort to sign held for fifty years.
-> I did not stop the strangers from coming. I could not have stopped the strangers from coming. My people had lost ten thousand to a sickness before the strangers landed at Patuxet, and the math under everything I did was the math of a chief with a smaller army than his neighbors.
-> What I could do, I did. I bought my sons a generation of peace. Then the math broke, the way I always knew it would.
-> Both sides survived the only way either of us knew how — at each other's expense, when we had to, and at each other's table, when we could.
+> The alliance I walked into Plymouth to sign held for fifty years.
+> I could not have stopped the strangers from coming.
+> Ten thousand of my people died before they landed at Patuxet.
+> What I could do, I did. I bought my sons a generation of peace.
+> Then the math broke, the way I always knew it would.
+> Both sides survived the only way either knew how —
+> at each other's expense when we had to, at each other's table when we could.
 
 **Buttons:**
 - `[→ CHOOSE ANOTHER ROUTE]` — HOME (title screen)
