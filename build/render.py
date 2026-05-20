@@ -17,7 +17,7 @@ PROJECT = Path(r"F:\Michael's\ACE\US History\Time-Warp-Plymouth-or-Jamestown")
 CONTENT = PROJECT / "content"
 # Output directly to project root (sibling of audio/) so relative audio paths "audio/X.mp3" work
 # This matches Civil War's deployable structure.
-OUTPUT = PROJECT / "dist"
+OUTPUT = PROJECT / "docs"
 OUTPUT.mkdir(parents=True, exist_ok=True)
 
 # Per-character config — accent color, audio file, display name
