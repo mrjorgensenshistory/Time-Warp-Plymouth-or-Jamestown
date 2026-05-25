@@ -1,17 +1,10 @@
 /**
- * Time Warp Completion Tracker — Google Apps Script backend.
- * v5: Time displayed as m:ss (e.g. "8:42"). Period as number only. Columns reordered.
- *
- * SETUP / UPDATE:
- *  - Paste this entire file into Apps Script editor (Ctrl+A → Delete → Paste).
- *  - Save (Ctrl+S).
- *  - Deploy → Manage deployments → pencil → Version: "New version" → Deploy.
- *  - URL stays the same.
- *  - DELETE EXISTING "Plymouth or Jamestown" tab so new schema applies on next submit.
- *
- * Columns:
- *   A: Period   B: First Name   C: Last Name   D: Status   E: Completions
- *   F: Attempts   G: Restarts   H: Time   I: Game   J: Last Played
+ * Time Warp Completion Tracker v6
+ * Status now distinguishes character-level from game-level completion:
+ *   - "character_complete" event -> Status = "in progress" (with Completions++)
+ *   - "completed" event (from hub when all chars done) -> Status = "completed"
+ *   - "abandoned" event -> Status = "in progress"
+ * Status is sticky: once "completed", never downgraded.
  */
 
 const HEADERS = [
@@ -86,6 +79,18 @@ function findRow(sheet, period, firstName, lastName) {
   return -1;
 }
 
+// Map raw incoming status to a display string.
+//   "completed"          -> game-level completion (all characters done)
+//   "character_complete" -> single character finished -> "in progress"
+//   "abandoned"          -> character abandoned -> "in progress"
+//   anything else        -> passthrough
+function displayStatus(incoming) {
+  if (incoming === "completed") return "completed";
+  if (incoming === "character_complete") return "in progress";
+  if (incoming === "abandoned") return "in progress";
+  return incoming;
+}
+
 function doPost(e) {
   try {
     const data = JSON.parse(e.postData.contents);
@@ -96,25 +101,23 @@ function doPost(e) {
     const period = normalizePeriod(data.period);
     const firstName = data.firstName || "";
     const lastName = data.lastName || "";
-    const status = data.status || "";
+    const rawStatus = data.status || "";
     const restarts = data.restarts == null ? 0 : data.restarts;
     const time = formatTime(data.timeSpent);
     const now = data.timestamp || new Date().toISOString();
     const game = data.game || "";
 
-    const isCompletion = (status === "character_complete" || status === "completed");
+    // Only count as Completion when a character is finished
+    const isCharCompletion = (rawStatus === "character_complete");
+
     const existingRow = findRow(sheet, period, firstName, lastName);
 
     if (existingRow === -1) {
       sheet.appendRow([
         period, firstName, lastName,
-        isCompletion ? "completed" : status,
-        isCompletion ? 1 : 0,
-        1,
-        restarts,
-        time,
-        game,
-        now,
+        displayStatus(rawStatus),
+        isCharCompletion ? 1 : 0,
+        1, restarts, time, game, now,
       ]);
       return jsonOut({ ok: true, action: "insert", tab: tabName });
     }
@@ -125,20 +128,17 @@ function doPost(e) {
     const curCompletions = Number(cur[COL.COMPLETIONS]) || 0;
     const curAttempts = Number(cur[COL.ATTEMPTS]) || 0;
 
-    const newStatus = (curStatus === "completed") ? "completed"
-                    : (isCompletion ? "completed" : status);
-    const newCompletions = curCompletions + (isCompletion ? 1 : 0);
+    // Sticky: once "completed" (game-level), never downgrade.
+    const newDisplay = displayStatus(rawStatus);
+    const newStatus = (curStatus === "completed") ? "completed" : newDisplay;
+    const newCompletions = curCompletions + (isCharCompletion ? 1 : 0);
     const newAttempts = curAttempts + 1;
 
     row.setValues([[
       period, firstName, lastName,
-      newStatus,
-      newCompletions,
-      newAttempts,
-      restarts,
-      time,
-      game || cur[COL.GAME],
-      now,
+      newStatus, newCompletions, newAttempts,
+      restarts, time,
+      game || cur[COL.GAME], now,
     ]]);
 
     return jsonOut({ ok: true, action: "update", row: existingRow, tab: tabName });
@@ -155,6 +155,6 @@ function jsonOut(obj) {
 
 function doGet() {
   return ContentService
-    .createTextOutput("Time Warp tracker v5 (time as m:ss) is live.")
+    .createTextOutput("Time Warp tracker v6 — status reserved for game-level completion.")
     .setMimeType(ContentService.MimeType.TEXT);
 }
