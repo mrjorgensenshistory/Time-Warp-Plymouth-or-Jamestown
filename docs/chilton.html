@@ -504,23 +504,12 @@ function renderSlide(slide) {
     h2.textContent = slide.title;
     card.appendChild(h2);
   }
-  /* === KEY-TERM RENDER PATCHED === */
+  /* === KEY-TERM RENDER PATCHED (body bug fix) === */
   const body = document.createElement('div');
   body.className = 'body';
-  // Auto-bold any key_term name found in body text (word-boundary, case-insensitive).
-  const _boldTerms = (line) => {
-    if (!slide.key_terms) return line;
-    let out = line;
-    slide.key_terms.forEach(kt => {
-      const escaped = kt.name.replace(/[.*+?^${}()|[\]\]/g, '\$&');
-      const re = new RegExp('\b(' + escaped + ')\b', 'gi');
-      out = out.replace(re, '<strong>$1</strong>');
-    });
-    return out;
-  };
   slide.body.forEach(p => {
     const para = document.createElement('p');
-    para.innerHTML = _boldTerms(p);
+    para.innerHTML = p;
     body.appendChild(para);
   });
   card.appendChild(body);
