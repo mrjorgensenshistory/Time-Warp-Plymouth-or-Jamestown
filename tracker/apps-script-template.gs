@@ -1,24 +1,22 @@
 /**
  * Time Warp Completion Tracker — Google Apps Script backend.
- * v4: Reordered columns - Period | First | Last leftmost. Game/Timestamp on right.
- *     Period is just the number (no "Period " prefix) so filter dropdowns are clean.
+ * v5: Time displayed as m:ss (e.g. "8:42"). Period as number only. Columns reordered.
  *
  * SETUP / UPDATE:
  *  - Paste this entire file into Apps Script editor (Ctrl+A → Delete → Paste).
  *  - Save (Ctrl+S).
  *  - Deploy → Manage deployments → pencil → Version: "New version" → Deploy.
  *  - URL stays the same.
- *  - DELETE THE EXISTING "Plymouth or Jamestown" TAB so the new column layout takes effect
- *    (the script will auto-recreate it with the new schema on next submit).
+ *  - DELETE EXISTING "Plymouth or Jamestown" tab so new schema applies on next submit.
  *
- * Column layout (10 columns):
+ * Columns:
  *   A: Period   B: First Name   C: Last Name   D: Status   E: Completions
- *   F: Attempts   G: Restarts   H: Time (min)   I: Game   J: Last Played
+ *   F: Attempts   G: Restarts   H: Time   I: Game   J: Last Played
  */
 
 const HEADERS = [
   "Period", "First Name", "Last Name",
-  "Status", "Completions", "Attempts", "Restarts", "Time (min)",
+  "Status", "Completions", "Attempts", "Restarts", "Time",
   "Game", "Last Played",
 ];
 
@@ -28,6 +26,15 @@ const COL = {
   GAME: 8, TIMESTAMP: 9,
 };
 
+function formatTime(seconds) {
+  if (seconds == null || seconds === "") return "";
+  const total = Math.round(Number(seconds));
+  if (isNaN(total)) return "";
+  const m = Math.floor(total / 60);
+  const s = total % 60;
+  return m + ":" + String(s).padStart(2, "0");
+}
+
 function tabNameForGame(game) {
   if (!game) return "Untitled";
   const base = String(game).split(/\s+[—\-]\s+/)[0].trim();
@@ -35,7 +42,6 @@ function tabNameForGame(game) {
   return safe || "Untitled";
 }
 
-// Strip "Period " prefix so the cell holds just the number (1-7).
 function normalizePeriod(p) {
   if (p == null) return "";
   const m = String(p).match(/(\d+)/);
@@ -52,12 +58,13 @@ function getOrCreateTab(ss, name) {
       .setBackground("#1a1410")
       .setFontColor("#fdf6e3");
     sheet.setFrozenRows(1);
-    sheet.setColumnWidth(1, 70);   // Period (small)
-    sheet.setColumnWidth(2, 110);  // First
-    sheet.setColumnWidth(3, 110);  // Last
-    sheet.setColumnWidth(4, 110);  // Status
-    sheet.setColumnWidth(9, 240);  // Game
-    sheet.setColumnWidth(10, 170); // Last Played
+    sheet.setColumnWidth(1, 70);
+    sheet.setColumnWidth(2, 110);
+    sheet.setColumnWidth(3, 110);
+    sheet.setColumnWidth(4, 110);
+    sheet.setColumnWidth(8, 80);
+    sheet.setColumnWidth(9, 240);
+    sheet.setColumnWidth(10, 170);
   }
   return sheet;
 }
@@ -91,12 +98,11 @@ function doPost(e) {
     const lastName = data.lastName || "";
     const status = data.status || "";
     const restarts = data.restarts == null ? 0 : data.restarts;
-    const timeMin = data.timeSpent == null ? "" : Math.round(data.timeSpent / 60 * 10) / 10;
+    const time = formatTime(data.timeSpent);
     const now = data.timestamp || new Date().toISOString();
     const game = data.game || "";
 
     const isCompletion = (status === "character_complete" || status === "completed");
-
     const existingRow = findRow(sheet, period, firstName, lastName);
 
     if (existingRow === -1) {
@@ -106,7 +112,7 @@ function doPost(e) {
         isCompletion ? 1 : 0,
         1,
         restarts,
-        timeMin,
+        time,
         game,
         now,
       ]);
@@ -130,7 +136,7 @@ function doPost(e) {
       newCompletions,
       newAttempts,
       restarts,
-      timeMin,
+      time,
       game || cur[COL.GAME],
       now,
     ]]);
@@ -149,6 +155,6 @@ function jsonOut(obj) {
 
 function doGet() {
   return ContentService
-    .createTextOutput("Time Warp tracker v4 (reordered columns) is live.")
+    .createTextOutput("Time Warp tracker v5 (time as m:ss) is live.")
     .setMimeType(ContentService.MimeType.TEXT);
 }
