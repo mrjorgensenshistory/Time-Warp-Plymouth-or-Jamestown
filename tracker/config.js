@@ -3,5 +3,5 @@
  * Update by replacing the string and re-deploying the games.
  */
 window.TIMEWARP_CONFIG = {
-  webhookUrl: "https://script.google.com/macros/s/AKfycbyvAn5cN3Yx45LGPXITDuBE6pQcvd3fIcp7r5YHcP05LePyDLkww3KmgHSZWyverOvHTA/exec",
+  webhookUrl: "https://script.google.com/macros/s/AKfycbyFnWe7mqg6A7qcUdN_XYwHeWA7nOY8RpXK7dYl779fp4AKNMfBdc1jAr8tBYLRPolzyg/exec",
 };
